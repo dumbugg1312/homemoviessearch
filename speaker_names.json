@@ -1,11 +1,13 @@
 {
- "S06": "Brendan",
+ "S06": "Brendon",
  "S05": "Melissa",
  "S02": "Eric",
  "S04": "Coach McGuirk",
  "S08": "Lynch",
  "S09": "Shannon",
  "S12": "Paula",
+ "S01": "Paula",
+ "S23": "Paula",
  "S22": "Jason",
  "S78": "Linda",
  "S90": "Perry",
@@ -24,7 +26,7 @@
    "auto": true,
    "votes": 70,
    "runner_up": [
-    "Brendan",
+    "Brendon",
     13
    ]
   },
@@ -57,7 +59,7 @@
    "auto": true,
    "votes": 10,
    "runner_up": [
-    "Brendan",
+    "Brendon",
     2
    ]
   },
@@ -77,11 +79,19 @@
     2
    ]
   },
+  "S01": {
+   "auto": false,
+   "note": "different voice actor, same character as Paula (S12/S23) per user confirmation; voiceprint cosine sim to S12/S23 is low (0.12/0.23) so not auto-clustered"
+  },
+  "S23": {
+   "auto": false,
+   "note": "different voice actor, same character as Paula (S01/S12) per user confirmation; voiceprint cosine sim to S01/S12 is low (0.23/0.17) so not auto-clustered"
+  },
   "S22": {
    "auto": true,
    "votes": 82,
    "runner_up": [
-    "Brendan",
+    "Brendon",
     30
    ]
   },
@@ -123,7 +133,7 @@
    "auto": true,
    "votes": 7,
    "runner_up": [
-    "Brendan",
+    "Brendon",
     3
    ]
   },

@@ -3,116 +3,314 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home Movies — transcript search</title>
+<title>Home Movies transcript search — every line from all 52 episodes</title>
+<meta name="description" content="Search every line of dialogue from all 52 episodes of Home Movies (Adult Swim, 1999–2004). Fan-made archive, transcribed with Whisper, plays right from YouTube.">
+<meta property="og:title" content="Home Movies transcript search">
+<meta property="og:description" content="Every line from all 52 episodes of Home Movies, searchable. Fan-made, transcribed with Whisper, plays via YouTube.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#150a04">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23150a04'/%3E%3Crect x='3' y='9' width='26' height='16' rx='2' fill='%23e3ae28'/%3E%3Ccircle cx='11' cy='17' r='3.6' fill='%23150a04'/%3E%3Ccircle cx='21' cy='17' r='3.6' fill='%23150a04'/%3E%3Crect x='3' y='6' width='26' height='3' rx='1' fill='%23c65e3d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 <style>
-  :root { color-scheme: dark; }
+  :root {
+    color-scheme: dark;
+    --bg:        oklch(16.0% 0.025 55);
+    --bg-elev:   oklch(20.5% 0.025 55);
+    --bg-elev2:  oklch(24.5% 0.025 55);
+    --input-bg:  oklch(13.5% 0.020 55);
+    --border:    oklch(50.0% 0.030 55);
+    --border-soft: oklch(34% 0.025 55);
+    --ink:       oklch(93.0% 0.020 80);
+    --ink-muted: oklch(76.0% 0.025 70);
+    --ink-faint: oklch(66.0% 0.030 70);
+    --gold:      oklch(78.0% 0.150 85);
+    --gold-ink:  oklch(18.0% 0.030 85);
+    --brick:     oklch(64.0% 0.170 35);
+    --s1-bg: oklch(30% 0.06 85);   --s1-tx: oklch(85% 0.09 85);
+    --s2-bg: oklch(28% 0.05 120);  --s2-tx: oklch(85% 0.08 120);
+    --s3-bg: oklch(28% 0.06 40);   --s3-tx: oklch(85% 0.09 40);
+    --s4-bg: oklch(28% 0.05 340);  --s4-tx: oklch(85% 0.08 340);
+    --tap: 40px;
+  }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  }
   body {
-    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: #14161a; color: #e8e6e1; min-height: 100vh;
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--ink); min-height: 100vh;
   }
+  a { color: var(--gold); }
+  ::selection { background: var(--gold); color: var(--gold-ink); }
+
+  *:focus-visible {
+    outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 4px;
+  }
+
+  /* ---------- header / hero ---------- */
   header {
-    padding: 28px 20px 18px; text-align: center; border-bottom: 1px solid #2a2d33;
+    padding: 36px 20px 22px; text-align: center; border-bottom: 1px solid var(--border-soft);
+    background:
+      radial-gradient(ellipse 900px 300px at 50% -80px, oklch(24% 0.03 55 / .6), transparent 70%);
   }
-  h1 { margin: 0 0 4px; font-size: 22px; font-weight: 700; }
-  .sub { color: #8b8f98; font-size: 13px; }
-  .private-note {
-    display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 20px;
-    background: #262a31; color: #9aa0ab; font-size: 11px;
+  .tape-wrap { display: inline-block; position: relative; margin-bottom: 10px; }
+  .tape-label {
+    display: inline-block; background: var(--gold); color: var(--gold-ink);
+    padding: 10px 26px 12px; border-radius: 2px; transform: rotate(-1.6deg);
+    box-shadow: 0 2px 0 oklch(0% 0 0 / .35), 0 10px 22px oklch(0% 0 0 / .45);
+    position: relative;
   }
-  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 80px; }
+  .tape-label::before, .tape-label::after {
+    content: ""; position: absolute; width: 46px; height: 20px;
+    background: oklch(88% 0.01 80 / .22); top: -10px;
+    box-shadow: 0 1px 2px oklch(0% 0 0 / .25);
+  }
+  .tape-label::before { left: -14px; transform: rotate(-40deg); }
+  .tape-label::after { right: -14px; transform: rotate(40deg); }
+  h1 {
+    margin: 0; font-family: "Permanent Marker", cursive; font-weight: 400;
+    font-size: clamp(26px, 6vw, 40px); line-height: 1; letter-spacing: .5px;
+  }
+  .sub {
+    color: var(--ink-muted); font-size: 13.5px; margin-top: 12px; max-width: 480px;
+    margin-left: auto; margin-right: auto;
+  }
+
+  main { max-width: 760px; margin: 0 auto; padding: 22px 16px 60px; }
+
+  /* ---------- search ---------- */
   #search {
-    width: 100%; padding: 14px 16px; font-size: 16px; border-radius: 10px;
-    border: 1px solid #33373f; background: #1c1f24; color: #e8e6e1; outline: none;
+    width: 100%; padding: 13px 16px; font-size: 16px; border-radius: 10px;
+    border: 1px solid var(--border-soft); background: var(--input-bg); color: var(--ink); outline: none;
+    min-height: var(--tap);
   }
-  #search:focus { border-color: #5a7fd6; }
+  #search::placeholder { color: var(--ink-faint); }
+  #search:focus-visible { border-color: var(--gold); }
+
+  .pills {
+    display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 10px;
+  }
+  .pill {
+    padding: 7px 15px; min-height: var(--tap); display: inline-flex; align-items: center;
+    border-radius: 20px; border: 1px solid var(--border-soft); background: var(--bg-elev);
+    color: var(--ink-muted); font-size: 13px; cursor: pointer; transition: border-color .12s, background-color .12s, color .12s;
+  }
+  .pill:hover { border-color: var(--gold); color: var(--ink); }
+  .pill[aria-pressed="true"] {
+    background: var(--gold); color: var(--gold-ink); border-color: var(--gold); font-weight: 700;
+  }
+
   .filters {
-    display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 4px;
+    display: flex; gap: 8px; flex-wrap: wrap; margin: 4px 0 4px;
   }
   .filters select {
-    background: #1c1f24; color: #cfd3da; border: 1px solid #33373f;
-    border-radius: 8px; padding: 6px 10px; font-size: 13px;
+    background: var(--bg-elev); color: var(--ink-muted); border: 1px solid var(--border-soft);
+    border-radius: 8px; padding: 8px 10px; font-size: 13px; min-height: var(--tap); flex: 1 1 200px;
   }
-  #status { color: #7d818a; font-size: 12px; margin: 10px 2px 14px; }
+  @media (max-width: 480px) {
+    .filters { flex-direction: column; }
+    .filters select { width: 100%; flex: 1 1 auto; }
+  }
+
+  #status { color: var(--ink-muted); font-size: 12.5px; margin: 14px 2px 14px; min-height: 1em; }
+
+  /* ---------- landing ---------- */
+  #landing { padding: 8px 2px 6px; }
+  #landing .stats { font-size: 14px; color: var(--ink-muted); margin-bottom: 14px; }
+  #landing .stats b { color: var(--ink); }
+  .dice-btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; min-height: var(--tap);
+    background: var(--brick); color: oklch(97% 0.01 55); border: none; border-radius: 9px;
+    font-size: 13.5px; font-weight: 600; cursor: pointer; transition: filter .12s, transform .12s;
+  }
+  .dice-btn:hover { filter: brightness(1.1); }
+  .dice-btn:active { transform: translateY(1px); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+  .chip {
+    padding: 7px 14px; min-height: var(--tap); display: inline-flex; align-items: center;
+    border-radius: 8px; border: 1px dashed var(--border); background: transparent;
+    color: var(--ink-muted); font-size: 13px; cursor: pointer; transition: border-color .12s, color .12s, background-color .12s;
+  }
+  .chip:hover { border-color: var(--gold); color: var(--ink); background: var(--bg-elev); border-style: solid; }
+  .chips-label { font-size: 11.5px; color: var(--ink-faint); margin-top: 18px; margin-bottom: 0; }
+  #randomSlot { margin-top: 14px; }
+
+  /* ---------- result cards ---------- */
   .result {
-    padding: 12px 14px; margin-bottom: 8px; background: #1a1d22; border: 1px solid #262930;
-    border-radius: 10px; cursor: pointer; transition: border-color .12s;
+    padding: 12px 14px; margin-bottom: 8px; background: var(--bg-elev); border: 1px solid var(--border-soft);
+    border-radius: 10px; cursor: pointer; transition: border-color .12s, background-color .12s;
   }
-  .result:hover { border-color: #454b56; }
+  .result:hover, .result:focus-visible { border-color: var(--gold); background: var(--bg-elev2); }
   .result .meta {
-    display: flex; justify-content: space-between; gap: 10px; font-size: 11px;
-    color: #7d818a; margin-bottom: 5px;
+    display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 12px;
+    color: var(--ink-muted); margin-bottom: 6px; flex-wrap: wrap;
   }
-  .result .ep { color: #9aa7c7; }
-  .result .speaker { font-weight: 600; color: #d7b98e; }
-  .result .text { font-size: 14.5px; line-height: 1.45; color: #e2e0da; }
-  .result mark { background: #4a3d1e; color: #ffd98a; padding: 0 2px; border-radius: 3px; }
-  #empty { text-align: center; color: #6b6f78; padding: 40px 0; font-size: 14px; }
-  .name-panel {
-    margin-top: 20px; padding: 14px; background: #1a1d22; border: 1px solid #262930;
-    border-radius: 10px; font-size: 12px; color: #9aa0ab;
+  .result .meta-left { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .badge {
+    font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 5px; white-space: nowrap;
   }
-  .name-panel summary { cursor: pointer; color: #cfd3da; font-size: 13px; }
-  .voice-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; }
-  .voice-row .vid { width: 34px; color: #7d818a; font-variant-numeric: tabular-nums; }
-  .voice-row input {
-    flex: 1; background: #14161a; border: 1px solid #33373f; border-radius: 6px;
-    color: #e8e6e1; padding: 5px 8px; font-size: 12.5px;
+  .badge.s1 { background: var(--s1-bg); color: var(--s1-tx); }
+  .badge.s2 { background: var(--s2-bg); color: var(--s2-tx); }
+  .badge.s3 { background: var(--s3-bg); color: var(--s3-tx); }
+  .badge.s4 { background: var(--s4-bg); color: var(--s4-tx); }
+  .result .ep-title { color: var(--ink-faint); }
+  .result .time { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+  .result .meta-right { display: flex; align-items: center; gap: 8px; }
+  .result .speaker { color: var(--ink-muted); font-size: 12.5px; }
+  .result .speaker.named { font-weight: 700; color: var(--gold); }
+  .result .text { font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+  .result mark { background: var(--gold); color: var(--gold-ink); padding: 0 2px; border-radius: 3px; }
+
+  .copy-btn {
+    background: none; border: 1px solid var(--border-soft); color: var(--ink-faint); border-radius: 6px;
+    width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: border-color .12s, color .12s; flex: 0 0 auto;
   }
-  .voice-row .stats { width: 90px; color: #5c6067; font-size: 10.5px; text-align: right; }
+  .copy-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .copy-btn svg { width: 15px; height: 15px; }
+  .copy-btn.copied { color: var(--gold); border-color: var(--gold); }
+  .copy-feedback {
+    font-size: 11px; color: var(--gold); margin-left: 4px; opacity: 0; transition: opacity .15s;
+  }
+  .copy-feedback.show { opacity: 1; }
+
+  #noMatches { text-align: center; color: var(--ink-muted); padding: 40px 0; font-size: 14px; }
+
+  #showMoreWrap { text-align: center; margin: 14px 0; }
+  #showMoreBtn {
+    padding: 10px 22px; min-height: var(--tap); background: var(--bg-elev); border: 1px solid var(--border-soft);
+    color: var(--ink); border-radius: 9px; font-size: 13px; cursor: pointer; transition: border-color .12s;
+  }
+  #showMoreBtn:hover { border-color: var(--gold); }
+
+  footer {
+    max-width: 760px; margin: 0 auto; padding: 10px 16px 50px; text-align: center;
+    color: var(--ink-faint); font-size: 12px; line-height: 1.6;
+  }
+
+  /* ---------- modal ---------- */
   #modal {
-    display: none; position: fixed; inset: 0; background: rgba(0,0,0,.75);
+    position: fixed; inset: 0; background: oklch(0% 0 0 / .78);
     align-items: center; justify-content: center; z-index: 10; padding: 20px;
   }
+  #modal[hidden] { display: none; }
   #modal.open { display: flex; }
   #modal .box {
-    background: #1a1d22; border: 1px solid #33373f; border-radius: 12px;
-    padding: 16px; width: 100%; max-width: 560px;
+    background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: 12px;
+    padding: 16px; width: 100%; max-width: 580px; max-height: calc(100vh - 40px); overflow-y: auto;
+    animation: modalIn .18s ease-out;
   }
-  #modal iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 8px; }
-  #modal .box h3 { margin: 10px 0 2px; font-size: 15px; }
-  #modal .box .yt-link { font-size: 12px; color: #7fa3ff; text-decoration: none; }
+  @keyframes modalIn {
+    from { opacity: 0; transform: scale(.96) translateY(6px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  #modal iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 8px; display: block; }
+  #modal .box h3 { margin: 12px 0 2px; font-size: 15px; }
+  #modal .modal-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 6px 0 4px; }
+  #modal .yt-link { font-size: 12.5px; color: var(--gold); text-decoration: none; }
+  #modal .yt-link:hover { text-decoration: underline; }
+  #modalCopy {
+    background: var(--bg-elev2); border: 1px solid var(--border-soft); color: var(--ink-muted);
+    border-radius: 7px; padding: 6px 12px; font-size: 12px; cursor: pointer; min-height: 32px;
+  }
+  #modalCopy:hover { border-color: var(--gold); color: var(--gold); }
+  #modalCopy.copied { color: var(--gold); border-color: var(--gold); }
   #modal .close {
-    float: right; background: none; border: none; color: #9aa0ab; font-size: 20px;
-    cursor: pointer; line-height: 1;
+    float: right; background: none; border: 1px solid var(--border-soft); color: var(--ink-muted); font-size: 16px;
+    cursor: pointer; line-height: 1; width: 32px; height: 32px; border-radius: 8px;
   }
+  #modal .close:hover { border-color: var(--gold); color: var(--gold); }
+  .context { margin-top: 14px; border-top: 1px solid var(--border-soft); padding-top: 10px; }
+  .ctx-line {
+    display: flex; gap: 8px; padding: 6px 8px; border-radius: 7px; cursor: pointer; font-size: 13px;
+    line-height: 1.4; transition: background-color .12s;
+  }
+  .ctx-line:hover { background: var(--bg-elev2); }
+  .ctx-line .ctx-meta { flex: 0 0 auto; width: 100px; color: var(--ink-faint); font-size: 11px; padding-top: 1px; }
+  .ctx-line .ctx-text { color: var(--ink-muted); }
+  .ctx-line.current { background: oklch(30% 0.06 85 / .35); }
+  .ctx-line.current .ctx-text { color: var(--ink); font-weight: 600; }
+  .ctx-line.current .ctx-meta { color: var(--gold); }
 </style>
 </head>
 <body>
 <header>
-  <h1>Home Movies — full series search</h1>
-  <div class="sub">Private local transcript search, built with Whisper</div>
-  <div class="private-note">local only · not hosted or shared</div>
-</header>
-<main>
-  <input id="search" type="text" placeholder="Search dialogue…" autocomplete="off">
-  <div class="filters">
-    <select id="epFilter"><option value="">All episodes</option></select>
-    <select id="speakerFilter"><option value="">All voices</option></select>
+  <div class="tape-wrap">
+    <div class="tape-label">
+      <h1>Home Movies</h1>
+    </div>
   </div>
-  <div id="status"></div>
-  <div id="results"></div>
-  <div id="empty" style="display:none">No matches yet — keep typing, or the batch may still be transcribing.</div>
+  <div class="sub">Search every line from all 52 episodes. Timestamped, playable right here.</div>
+</header>
 
-  <details class="name-panel">
-    <summary>Voice bank — label who's who (saved in your browser)</summary>
-    <div id="voiceList" style="margin-top:10px"></div>
-  </details>
+<main>
+  <input id="search" type="text" placeholder="Search dialogue… (try “soccer” or “guitar”)" autocomplete="off" aria-label="Search dialogue">
+
+  <div class="pills" id="seasonPills" role="group" aria-label="Filter by season">
+    <button class="pill" type="button" data-season="" aria-pressed="true">All seasons</button>
+    <button class="pill" type="button" data-season="1" aria-pressed="false">S1</button>
+    <button class="pill" type="button" data-season="2" aria-pressed="false">S2</button>
+    <button class="pill" type="button" data-season="3" aria-pressed="false">S3</button>
+    <button class="pill" type="button" data-season="4" aria-pressed="false">S4</button>
+  </div>
+
+  <div class="filters">
+    <select id="epFilter" aria-label="Filter by episode"><option value="">All episodes</option></select>
+    <select id="speakerFilter" aria-label="Filter by voice"><option value="">All voices</option></select>
+  </div>
+
+  <div id="status" role="status" aria-live="polite"></div>
+
+  <div id="landing">
+    <div class="stats" id="statsLine"></div>
+    <button class="dice-btn" id="diceBtn" type="button" aria-label="Show a random line">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="13" height="13" rx="2.5" stroke="currentColor" stroke-width="1.4"/>
+        <circle cx="5" cy="5" r="1.1" fill="currentColor"/><circle cx="11" cy="5" r="1.1" fill="currentColor"/>
+        <circle cx="8" cy="8" r="1.1" fill="currentColor"/><circle cx="5" cy="11" r="1.1" fill="currentColor"/><circle cx="11" cy="11" r="1.1" fill="currentColor"/>
+      </svg>
+      Random line
+    </button>
+    <div id="randomSlot"></div>
+    <p class="chips-label">or try one of these</p>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div id="results"></div>
+  <div id="noMatches" hidden>No matches. Try fewer or different words.</div>
+  <div id="showMoreWrap" hidden><button id="showMoreBtn" type="button"></button></div>
 </main>
 
-<div id="modal">
+<footer>
+  Fan-made, unofficial archive of Home Movies (Adult Swim, 1999–2004). Transcribed with Whisper — expect the odd mangled word. Video plays straight from YouTube.
+</footer>
+
+<div id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
   <div class="box">
-    <button class="close" onclick="closeModal()">✕</button>
+    <button class="close" id="modalClose" aria-label="Close">✕</button>
     <div id="modalFrame"></div>
     <h3 id="modalTitle"></h3>
-    <a id="modalLink" class="yt-link" target="_blank" rel="noopener">Open on YouTube ↗</a>
+    <div class="modal-actions">
+      <a id="modalLink" class="yt-link" target="_blank" rel="noopener">Open on YouTube ↗</a>
+      <button id="modalCopy" type="button">Copy link at this moment</button>
+    </div>
+    <div id="modalContext" class="context"></div>
   </div>
 </div>
 
 <script>
 let DATA = null;
+let LINES = null;          // flattened line objects with derived fields
+let EP_MAP = null;         // idx -> episode
 const LS_KEY = "hm_voice_names";
 
+const SUGGESTED_CHIPS = ["soccer", "guitar", "movie", "camera", "wine", "script"];
+
+/* ---------- overrides / naming ---------- */
 function loadOverrides() {
   try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}"); } catch { return {}; }
 }
@@ -124,7 +322,14 @@ function displayName(sid) {
   const v = DATA.voices[sid];
   return (v && v.name) ? v.name : sid;
 }
+function isNamed(sid) {
+  const overrides = loadOverrides();
+  if (overrides[sid]) return true;
+  const v = DATA.voices[sid];
+  return !!(v && v.name);
+}
 
+/* ---------- helpers ---------- */
 function fmtTime(sec) {
   sec = Math.floor(sec);
   const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
@@ -132,18 +337,66 @@ function fmtTime(sec) {
     ? `${h}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`
     : `${m}:${String(s).padStart(2,"0")}`;
 }
+function escapeHtml(s) {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
-function epByIdx(idx) { return DATA.episodes.find(e => e.idx === idx); }
+function highlightAll(text, words) {
+  const escaped = escapeHtml(text);
+  if (!words.length) return escaped;
+  const pattern = words.map(escapeRegex).join("|");
+  const re = new RegExp("(" + pattern + ")", "gi");
+  return escaped.replace(re, "<mark>$1</mark>");
+}
 
-function populateFilters() {
+function watchUrl(seconds) {
+  return `https://www.youtube.com/watch?v=${DATA.video}&t=${Math.floor(seconds)}s`;
+}
+
+async function copyToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      return true;
+    } catch { return false; }
+  }
+}
+
+/* ---------- filters / selects ---------- */
+function populateEpisodeSelect(seasonFilter) {
   const epSel = document.getElementById("epFilter");
-  DATA.episodes.forEach(e => {
-    const o = document.createElement("option");
-    o.value = e.idx;
-    o.textContent = `${e.code} — ${e.title}`;
-    epSel.appendChild(o);
-  });
+  const prev = epSel.value;
+  epSel.innerHTML = '<option value="">All episodes</option>';
+  for (let s = 1; s <= 4; s++) {
+    if (seasonFilter && String(s) !== seasonFilter) continue;
+    const eps = DATA.episodes.filter(e => e.season === s);
+    if (!eps.length) continue;
+    const og = document.createElement("optgroup");
+    og.label = `Season ${s}`;
+    eps.forEach(e => {
+      const o = document.createElement("option");
+      o.value = e.idx;
+      o.textContent = `${e.code} — ${e.title}`;
+      og.appendChild(o);
+    });
+    epSel.appendChild(og);
+  }
+  if ([...epSel.options].some(o => o.value === prev)) epSel.value = prev;
+  else epSel.value = "";
+}
+
+function populateSpeakerSelect() {
   const spSel = document.getElementById("speakerFilter");
+  const prev = spSel.value;
+  spSel.innerHTML = '<option value="">All voices</option>';
   const ids = Object.keys(DATA.voices).sort((a,b) => (DATA.voices[b].n||0) - (DATA.voices[a].n||0));
   ids.forEach(sid => {
     const o = document.createElement("option");
@@ -151,112 +404,296 @@ function populateFilters() {
     o.textContent = displayName(sid);
     spSel.appendChild(o);
   });
+  if ([...spSel.options].some(o => o.value === prev)) spSel.value = prev;
 }
 
-function renderVoicePanel() {
-  const overrides = loadOverrides();
-  const box = document.getElementById("voiceList");
-  box.innerHTML = "";
-  const ids = Object.keys(DATA.voices).sort((a,b) => (DATA.voices[b].n||0) - (DATA.voices[a].n||0));
-  ids.forEach(sid => {
-    const v = DATA.voices[sid];
-    const row = document.createElement("div");
-    row.className = "voice-row";
-    row.innerHTML = `
-      <span class="vid">${sid}</span>
-      <input value="${(overrides[sid] || v.name || "").replace(/"/g,'&quot;')}" placeholder="unnamed voice" data-sid="${sid}">
-      <span class="stats">${v.n||0} lines · ${v.eps||0} ep</span>`;
-    box.appendChild(row);
+/* ---------- state ---------- */
+let currentSeason = "";
+let queryWords = [];
+let currentMatches = [];
+let visibleCount = 100;
+const PAGE_SIZE = 100;
+let searchDebounce = null;
+
+function activeFiltersPresent() {
+  const epFilter = document.getElementById("epFilter").value;
+  const spFilter = document.getElementById("speakerFilter").value;
+  return !!(queryWords.length || currentSeason || epFilter || spFilter);
+}
+
+function matchesFilters(item, epFilter, spFilter) {
+  if (currentSeason && item.season !== Number(currentSeason)) return false;
+  if (epFilter && String(item.epIdx) !== epFilter) return false;
+  if (spFilter && item.sid !== spFilter) return false;
+  if (queryWords.length && !queryWords.every(w => item.textLower.includes(w))) return false;
+  return true;
+}
+
+/* ---------- result card builder ---------- */
+function buildResultCard(item) {
+  const ep = EP_MAP.get(item.epIdx);
+  const div = document.createElement("div");
+  div.className = "result";
+  div.tabIndex = 0;
+  div.setAttribute("role", "button");
+  const badgeHtml = ep ? `<span class="badge s${ep.season}">${ep.code}</span><span class="ep-title">${escapeHtml(ep.title)}</span>` : `ep ${item.epIdx}`;
+  const named = isNamed(item.sid);
+  div.innerHTML = `
+    <div class="meta">
+      <span class="meta-left">${badgeHtml}<span class="time">${fmtTime(item.t)}</span></span>
+      <span class="meta-right">
+        <span class="speaker${named ? " named" : ""}">${escapeHtml(displayName(item.sid))}</span>
+        <button class="copy-btn" type="button" aria-label="Copy link to this moment" data-role="copy">
+          <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M8.5 11.5a3 3 0 0 0 4.24 0l2-2a3 3 0 0 0-4.24-4.24l-1 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M11.5 8.5a3 3 0 0 0-4.24 0l-2 2a3 3 0 0 0 4.24 4.24l1-1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <span class="copy-feedback">Copied</span>
+      </span>
+    </div>
+    <div class="text">${highlightAll(item.text, queryWords)}</div>`;
+
+  const open = () => openModal(item, div);
+  div.addEventListener("click", (e) => {
+    if (e.target.closest('[data-role="copy"]')) return;
+    open();
   });
-  box.querySelectorAll("input").forEach(inp => {
-    inp.addEventListener("change", () => {
-      const o = loadOverrides();
-      if (inp.value.trim()) o[inp.dataset.sid] = inp.value.trim();
-      else delete o[inp.dataset.sid];
-      saveOverrides(o);
-      populateFilters();
-      runSearch();
+  div.addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && !e.target.closest('[data-role="copy"]')) {
+      e.preventDefault(); open();
+    }
+  });
+  const copyBtn = div.querySelector('[data-role="copy"]');
+  copyBtn.addEventListener("click", async (e) => {
+    e.stopPropagation();
+    if (!ep) return;
+    const ok = await copyToClipboard(watchUrl(ep.yt_start + item.t));
+    const fb = div.querySelector(".copy-feedback");
+    if (ok) {
+      copyBtn.classList.add("copied");
+      fb.classList.add("show");
+      setTimeout(() => { copyBtn.classList.remove("copied"); fb.classList.remove("show"); }, 1400);
+    }
+  });
+  return div;
+}
+
+/* ---------- rendering ---------- */
+function renderResults() {
+  const results = document.getElementById("results");
+  const status = document.getElementById("status");
+  const noMatches = document.getElementById("noMatches");
+  const showMoreWrap = document.getElementById("showMoreWrap");
+  const showMoreBtn = document.getElementById("showMoreBtn");
+
+  results.innerHTML = "";
+  const total = currentMatches.length;
+  status.textContent = `${total.toLocaleString()} match${total===1?"":"es"}`;
+  noMatches.hidden = total !== 0;
+
+  const slice = currentMatches.slice(0, visibleCount);
+  const frag = document.createDocumentFragment();
+  slice.forEach(item => frag.appendChild(buildResultCard(item)));
+  results.appendChild(frag);
+
+  if (total > visibleCount) {
+    showMoreWrap.hidden = false;
+    showMoreBtn.textContent = `Show ${Math.min(PAGE_SIZE, total - visibleCount)} more (of ${total.toLocaleString()})`;
+  } else {
+    showMoreWrap.hidden = true;
+  }
+}
+
+function renderLanding() {
+  const stats = document.getElementById("statsLine");
+  const seasons = new Set(DATA.episodes.map(e => e.season)).size;
+  stats.innerHTML = `<b>${DATA.lines.length.toLocaleString()}</b> lines · <b>${DATA.episodes.length}</b> episodes · <b>${seasons}</b> seasons`;
+}
+
+function renderChips() {
+  const box = document.getElementById("chips");
+  box.innerHTML = "";
+  SUGGESTED_CHIPS.forEach(phrase => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.textContent = phrase;
+    b.addEventListener("click", () => {
+      document.getElementById("search").value = phrase;
+      computeAndRender();
+      document.getElementById("search").focus();
+    });
+    box.appendChild(b);
+  });
+}
+
+function computeAndRender() {
+  const q = document.getElementById("search").value.trim();
+  queryWords = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const epFilter = document.getElementById("epFilter").value;
+  const spFilter = document.getElementById("speakerFilter").value;
+
+  const landing = document.getElementById("landing");
+  const status = document.getElementById("status");
+  const results = document.getElementById("results");
+  const noMatches = document.getElementById("noMatches");
+  const showMoreWrap = document.getElementById("showMoreWrap");
+
+  if (!activeFiltersPresent()) {
+    landing.hidden = false;
+    results.innerHTML = "";
+    status.textContent = "";
+    noMatches.hidden = true;
+    showMoreWrap.hidden = true;
+    return;
+  }
+
+  landing.hidden = true;
+  currentMatches = LINES.filter(item => matchesFilters(item, epFilter, spFilter));
+  visibleCount = PAGE_SIZE;
+  renderResults();
+}
+
+function debouncedSearch() {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(computeAndRender, 120);
+}
+
+/* ---------- random line ---------- */
+function showRandomLine() {
+  const item = LINES[Math.floor(Math.random() * LINES.length)];
+  const slot = document.getElementById("randomSlot");
+  slot.innerHTML = "";
+  const savedWords = queryWords;
+  queryWords = [];
+  slot.appendChild(buildResultCard(item));
+  queryWords = savedWords;
+}
+
+/* ---------- season pills ---------- */
+function wireSeasonPills() {
+  const pills = document.querySelectorAll("#seasonPills .pill");
+  pills.forEach(p => {
+    p.addEventListener("click", () => {
+      currentSeason = p.dataset.season;
+      pills.forEach(x => x.setAttribute("aria-pressed", x === p ? "true" : "false"));
+      populateEpisodeSelect(currentSeason);
+      computeAndRender();
     });
   });
 }
 
-function highlight(text, q) {
-  if (!q) return text;
-  const idx = text.toLowerCase().indexOf(q.toLowerCase());
-  if (idx === -1) return text;
-  return text.slice(0, idx) + "<mark>" + text.slice(idx, idx + q.length) + "</mark>" + text.slice(idx + q.length);
-}
+/* ---------- modal ---------- */
+let modalTrigger = null;
+let modalCurrentSeconds = 0;
 
-function runSearch() {
-  const q = document.getElementById("search").value.trim();
-  const epFilter = document.getElementById("epFilter").value;
-  const spFilter = document.getElementById("speakerFilter").value;
-  const results = document.getElementById("results");
-  const status = document.getElementById("status");
-  const empty = document.getElementById("empty");
-  results.innerHTML = "";
-
-  if (!q && !epFilter && !spFilter) {
-    status.textContent = `${DATA.lines.length.toLocaleString()} lines across ${DATA.episodes.length} episodes indexed.`;
-    empty.style.display = "none";
-    return;
-  }
-
-  const ql = q.toLowerCase();
-  let matches = DATA.lines.filter(([idx, t, sid, text]) => {
-    if (epFilter && String(idx) !== epFilter) return false;
-    if (spFilter && sid !== spFilter) return false;
-    if (q && !text.toLowerCase().includes(ql)) return false;
-    return true;
-  });
-
-  status.textContent = `${matches.length.toLocaleString()} match${matches.length===1?"":"es"}`;
-  empty.style.display = matches.length ? "none" : "block";
-  matches = matches.slice(0, 300);
-
-  matches.forEach(([idx, t, sid, text]) => {
-    const ep = epByIdx(idx);
-    const div = document.createElement("div");
-    div.className = "result";
-    div.innerHTML = `
-      <div class="meta">
-        <span class="ep">${ep ? ep.code + " — " + ep.title : "ep " + idx} · ${fmtTime(t)}</span>
-        <span class="speaker">${displayName(sid)}</span>
-      </div>
-      <div class="text">${highlight(text, q)}</div>`;
-    div.addEventListener("click", () => openModal(ep, t));
-    results.appendChild(div);
-  });
-}
-
-function openModal(ep, t) {
-  if (!ep) return;
-  const ytSeconds = Math.floor(ep.yt_start + t);
-  document.getElementById("modalTitle").textContent = `${ep.code} — ${ep.title}`;
-  document.getElementById("modalLink").href = `https://www.youtube.com/watch?v=${DATA.video}&t=${ytSeconds}s`;
+function loadModalIframe(seconds) {
+  modalCurrentSeconds = Math.floor(seconds);
   document.getElementById("modalFrame").innerHTML =
-    `<iframe src="https://www.youtube.com/embed/${DATA.video}?start=${ytSeconds}&autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
-  document.getElementById("modal").classList.add("open");
+    `<iframe src="https://www.youtube.com/embed/${DATA.video}?start=${modalCurrentSeconds}&autoplay=1" allow="autoplay; encrypted-media" allowfullscreen title="Home Movies clip"></iframe>`;
+  document.getElementById("modalLink").href = watchUrl(modalCurrentSeconds);
 }
-function closeModal() {
-  document.getElementById("modal").classList.remove("open");
-  document.getElementById("modalFrame").innerHTML = "";
-}
-document.getElementById("modal").addEventListener("click", e => {
-  if (e.target.id === "modal") closeModal();
-});
 
+function renderModalContext(item) {
+  const box = document.getElementById("modalContext");
+  box.innerHTML = "";
+  const ep = EP_MAP.get(item.epIdx);
+  if (!ep) return;
+  for (let d = -2; d <= 2; d++) {
+    const n = LINES[item.li + d];
+    if (!n || n.epIdx !== item.epIdx) continue;
+    const row = document.createElement("div");
+    row.className = "ctx-line" + (n.li === item.li ? " current" : "");
+    row.innerHTML = `
+      <span class="ctx-meta">${escapeHtml(displayName(n.sid))} · ${fmtTime(n.t)}</span>
+      <span class="ctx-text">${escapeHtml(n.text)}</span>`;
+    row.addEventListener("click", () => loadModalIframe(ep.yt_start + n.t));
+    box.appendChild(row);
+  }
+}
+
+function openModal(item, triggerEl) {
+  const ep = EP_MAP.get(item.epIdx);
+  if (!ep) return;
+  modalTrigger = triggerEl || document.activeElement;
+  document.getElementById("modalTitle").textContent = `${ep.code} — ${ep.title}`;
+  loadModalIframe(ep.yt_start + item.t);
+  renderModalContext(item);
+  const modal = document.getElementById("modal");
+  modal.hidden = false;
+  modal.classList.add("open");
+  document.body.style.overflow = "hidden";
+  document.getElementById("modalClose").focus();
+}
+
+function closeModal() {
+  const modal = document.getElementById("modal");
+  modal.classList.remove("open");
+  modal.hidden = true;
+  document.getElementById("modalFrame").innerHTML = "";
+  document.body.style.overflow = "";
+  if (modalTrigger && typeof modalTrigger.focus === "function") modalTrigger.focus();
+}
+
+/* ---------- init ---------- */
 async function init() {
   const status = document.getElementById("status");
   status.textContent = "Loading transcripts…";
   const res = await fetch("data.json");
   DATA = await res.json();
-  populateFilters();
-  renderVoicePanel();
-  runSearch();
-  document.getElementById("search").addEventListener("input", runSearch);
-  document.getElementById("epFilter").addEventListener("change", runSearch);
-  document.getElementById("speakerFilter").addEventListener("change", runSearch);
+
+  EP_MAP = new Map(DATA.episodes.map(e => [e.idx, e]));
+  LINES = DATA.lines.map((l, i) => ({
+    epIdx: l[0], t: l[1], sid: l[2], text: l[3],
+    textLower: l[3].toLowerCase(),
+    season: (EP_MAP.get(l[0]) || {}).season ?? null,
+    li: i,
+  }));
+
+  populateEpisodeSelect("");
+  populateSpeakerSelect();
+  renderLanding();
+  renderChips();
+  wireSeasonPills();
+  computeAndRender();
+
+  document.getElementById("search").addEventListener("input", debouncedSearch);
+  document.getElementById("epFilter").addEventListener("change", computeAndRender);
+  document.getElementById("speakerFilter").addEventListener("change", computeAndRender);
+  document.getElementById("diceBtn").addEventListener("click", showRandomLine);
+  document.getElementById("showMoreBtn").addEventListener("click", () => {
+    visibleCount += PAGE_SIZE;
+    renderResults();
+  });
+
+  document.getElementById("modalClose").addEventListener("click", closeModal);
+  document.getElementById("modal").addEventListener("click", e => {
+    if (e.target.id === "modal") closeModal();
+  });
+  document.getElementById("modalCopy").addEventListener("click", async () => {
+    const ok = await copyToClipboard(watchUrl(modalCurrentSeconds));
+    const btn = document.getElementById("modalCopy");
+    if (ok) {
+      const original = btn.textContent;
+      btn.textContent = "Copied!"; btn.classList.add("copied");
+      setTimeout(() => { btn.textContent = original; btn.classList.remove("copied"); }, 1400);
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      const modal = document.getElementById("modal");
+      if (!modal.hidden) closeModal();
+      return;
+    }
+    if (e.key === "/") {
+      const tag = (document.activeElement && document.activeElement.tagName) || "";
+      const typing = tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || document.activeElement.isContentEditable;
+      if (!typing) {
+        e.preventDefault();
+        document.getElementById("search").focus();
+      }
+    }
+  });
 }
 init();
 </script>

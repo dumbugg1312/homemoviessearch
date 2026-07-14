@@ -1185,7 +1185,7 @@
   {
    "start": 288.22,
    "end": 288.84,
-   "text": "Brendan?",
+   "text": "Brendon?",
    "speaker": "S04"
   },
   {
@@ -1209,7 +1209,7 @@
   {
    "start": 294.0,
    "end": 295.08,
-   "text": "It's a costume, Brendan.",
+   "text": "It's a costume, Brendon.",
    "speaker": "S04"
   },
   {
@@ -1239,7 +1239,7 @@
   {
    "start": 299.88,
    "end": 301.0,
-   "text": "I'm dying, Brendan.",
+   "text": "I'm dying, Brendon.",
    "speaker": "S04"
   },
   {
@@ -1353,7 +1353,7 @@
   {
    "start": 324.6,
    "end": 326.1,
-   "text": "I guess when you have a heart attack, Brendan,",
+   "text": "I guess when you have a heart attack, Brendon,",
    "speaker": "S04"
   },
   {
@@ -1383,7 +1383,7 @@
   {
    "start": 332.96,
    "end": 334.2,
-   "text": "What are you doing here anyway, Brendan?",
+   "text": "What are you doing here anyway, Brendon?",
    "speaker": "S04"
   },
   {
@@ -2253,7 +2253,7 @@
   {
    "start": 546.42,
    "end": 550.84,
-   "text": "Brendan, I'm so happy you videotaped the whole thing. God, I might cry.",
+   "text": "Brendon, I'm so happy you videotaped the whole thing. God, I might cry.",
    "speaker": "S80"
   },
   {
@@ -2361,7 +2361,7 @@
   {
    "start": 590.2,
    "end": 592.14,
-   "text": "Oh, Brendan, I think it's too late to go trick-or-treating.",
+   "text": "Oh, Brendon, I think it's too late to go trick-or-treating.",
    "speaker": "S23"
   },
   {
@@ -3867,13 +3867,13 @@
   {
    "start": 1009.3,
    "end": 1011.32,
-   "text": "Uh, Brendan, from Rabbit Troop.",
+   "text": "Uh, Brendon, from Rabbit Troop.",
    "speaker": "S06"
   },
   {
    "start": 1011.42,
    "end": 1013.06,
-   "text": "Brendan, Rabbit Troop.",
+   "text": "Brendon, Rabbit Troop.",
    "speaker": "S04"
   },
   {
@@ -4959,7 +4959,7 @@
   {
    "start": 1385.64,
    "end": 1387.78,
-   "text": "I don't know, Brendan, but it's really, really dark.",
+   "text": "I don't know, Brendon, but it's really, really dark.",
    "speaker": "S22"
   },
   {
@@ -4983,7 +4983,7 @@
   {
    "start": 1393.14,
    "end": 1394.04,
-   "text": "Which way, Brendan?",
+   "text": "Which way, Brendon?",
    "speaker": "S22"
   },
   {
@@ -5097,7 +5097,7 @@
   {
    "start": 1415.82,
    "end": 1417.1,
-   "text": "Brendan, try these leaves.",
+   "text": "Brendon, try these leaves.",
    "speaker": "S04"
   },
   {
@@ -5115,7 +5115,7 @@
   {
    "start": 1426.72,
    "end": 1430.04,
-   "text": "Cry walkers, Brendan, all right? It's like a cult.",
+   "text": "Cry walkers, Brendon, all right? It's like a cult.",
    "speaker": "S04"
   },
   {
@@ -5145,7 +5145,7 @@
   {
    "start": 1437.7,
    "end": 1439.42,
-   "text": "Because there are people after me, Brendan.",
+   "text": "Because there are people after me, Brendon.",
    "speaker": "S04"
   },
   {
@@ -5639,7 +5639,7 @@
   {
    "start": 1577.2,
    "end": 1580.98,
-   "text": "Braid the hard unmalleable twine in the . . .",
+   "text": "Braid the hard unmalleable twine in the...",
    "sus": true,
    "speaker": "S06"
   },
@@ -5681,28 +5681,14 @@
   {
    "start": 1588.54,
    "end": 1590.76,
-   "text": "Well you know I'd rather not be around the . . .",
+   "text": "Well you know I'd rather not be around the...",
    "sus": true,
    "speaker": "S05"
   },
   {
    "start": 1590.76,
    "end": 1592.5,
-   "text": "Uh I was saying I was afraid of the . . .",
-   "sus": true,
-   "speaker": "S22"
-  },
-  {
-   "start": 1592.5,
-   "end": 1592.52,
-   "text": "Uh I was saying I was afraid of the . . .",
-   "sus": true,
-   "speaker": "S22"
-  },
-  {
-   "start": 1592.52,
-   "end": 1592.6,
-   "text": "Uh I was saying I was afraid of the . . .",
+   "text": "Uh I was saying I was afraid of the...",
    "sus": true,
    "speaker": "S22"
   },
@@ -5763,7 +5749,7 @@
   {
    "start": 1609.56,
    "end": 1611.02,
-   "text": "And whose wing have we been taken under, Brendan?",
+   "text": "And whose wing have we been taken under, Brendon?",
    "speaker": "S05"
   },
   {
@@ -5811,7 +5797,7 @@
   {
    "start": 1623.28,
    "end": 1631.9,
-   "text": "exactly rabbit ears up rabbit paws in rabbit chill forever gotta be a clean",
+   "text": "Exactly rabbit ears up rabbit paws in rabbit chill forever gotta be a clean",
    "speaker": "S22"
   },
   {
@@ -5823,7 +5809,7 @@
   {
    "start": 1634.94,
    "end": 1640.02,
-   "text": "it's got to be a clean bean at campington falls",
+   "text": "It's got to be a clean bean at campington falls",
    "speaker": "S159"
   },
   {
@@ -6825,7 +6811,7 @@
   {
    "start": 1933.48,
    "end": 1935.22,
-   "text": "See you in a year, .",
+   "text": "See you in a year...",
    "speaker": "S03"
   },
   {
