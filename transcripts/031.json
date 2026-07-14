@@ -1,0 +1,5082 @@
+{
+ "idx": 31,
+ "code": "S3E5",
+ "title": "Four's Company",
+ "season": 3,
+ "episode": 5,
+ "video_url": "https://www.youtube.com/watch?v=f80lFKuG8ms",
+ "yt_start": 40012.0,
+ "duration": 1360.0,
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "speakers": [
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S08",
+  "S106",
+  "S107",
+  "S108",
+  "S109",
+  "S110",
+  "S21",
+  "S22",
+  "S23",
+  "S73"
+ ],
+ "clusters": {
+  "0": {
+   "speaker": "S06",
+   "how": "match",
+   "n_segs": 85,
+   "sim": 0.879
+  },
+  "1": {
+   "speaker": "S03",
+   "how": "match",
+   "n_segs": 11,
+   "sim": 0.637
+  },
+  "2": {
+   "speaker": "S22",
+   "how": "match",
+   "n_segs": 91,
+   "sim": 0.884
+  },
+  "3": {
+   "speaker": "S106",
+   "how": "new",
+   "n_segs": 4,
+   "sim": 0.461
+  },
+  "4": {
+   "speaker": "S23",
+   "how": "match",
+   "n_segs": 42,
+   "sim": 0.909
+  },
+  "5": {
+   "speaker": "S05",
+   "how": "match",
+   "n_segs": 56,
+   "sim": 0.898
+  },
+  "6": {
+   "speaker": "S21",
+   "how": "match",
+   "n_segs": 4,
+   "sim": 0.743
+  },
+  "7": {
+   "speaker": "S107",
+   "how": "new",
+   "n_segs": 7,
+   "sim": 0.437
+  },
+  "8": {
+   "speaker": "S08",
+   "how": "match",
+   "n_segs": 39,
+   "sim": 0.925
+  },
+  "9": {
+   "speaker": "S02",
+   "how": "match",
+   "n_segs": 74,
+   "sim": 0.874
+  },
+  "10": {
+   "speaker": "S04",
+   "how": "match",
+   "n_segs": 133,
+   "sim": 0.917
+  },
+  "11": {
+   "speaker": "S73",
+   "how": "match",
+   "n_segs": 8,
+   "sim": 0.593
+  },
+  "12": {
+   "speaker": "S108",
+   "how": "new",
+   "n_segs": 5,
+   "sim": 0.409
+  },
+  "13": {
+   "speaker": "S109",
+   "how": "new",
+   "n_segs": 5,
+   "sim": 0.419
+  },
+  "14": {
+   "speaker": "S110",
+   "how": "new",
+   "n_segs": 4,
+   "sim": 0.376
+  }
+ },
+ "segments": [
+  {
+   "start": 1.84,
+   "end": 2.32,
+   "text": "The End",
+   "speaker": "S21"
+  },
+  {
+   "start": 2.32,
+   "end": 2.58,
+   "text": "The End",
+   "speaker": "S21"
+  },
+  {
+   "start": 2.58,
+   "end": 15.54,
+   "text": "The End",
+   "speaker": "S21"
+  },
+  {
+   "start": 15.54,
+   "end": 17.98,
+   "text": "Huh? What? Who's there?",
+   "speaker": "S21"
+  },
+  {
+   "start": 18.3,
+   "end": 19.88,
+   "text": "Who's there? Who's there?",
+   "speaker": "S03"
+  },
+  {
+   "start": 20.3,
+   "end": 22.28,
+   "text": "I know someone's here. I've got a gun.",
+   "speaker": "S03"
+  },
+  {
+   "start": 22.48,
+   "end": 23.94,
+   "text": "Well, not a gun, but a pencil.",
+   "speaker": "S03"
+  },
+  {
+   "start": 24.3,
+   "end": 25.32,
+   "text": "Hello, Prescott.",
+   "speaker": "S05"
+  },
+  {
+   "start": 26.12,
+   "end": 27.76,
+   "text": "Stella! No, you're",
+   "speaker": "S03"
+  },
+  {
+   "start": 27.76,
+   "end": 30.6,
+   "text": "I-D-D-D-D-D-D-Dead! I buried you myself!",
+   "speaker": "S03"
+  },
+  {
+   "start": 30.86,
+   "end": 34.3,
+   "text": "Well I guess you didn't hear the latest dirt on me Prescott. I'm back!",
+   "speaker": "S05"
+  },
+  {
+   "start": 34.5,
+   "end": 34.74,
+   "text": "No!",
+   "speaker": "S05"
+  },
+  {
+   "start": 35.54,
+   "end": 37.14,
+   "text": "Prescott! My good man!",
+   "speaker": "S22"
+  },
+  {
+   "start": 37.24,
+   "end": 38.52,
+   "text": "Ah! Wayne!",
+   "speaker": "S21"
+  },
+  {
+   "start": 38.92,
+   "end": 43.04,
+   "text": "Please forgive my stench. I think some fit fit on me.",
+   "speaker": "S22"
+  },
+  {
+   "start": 43.14,
+   "end": 46.92,
+   "text": "No! No you're- I put chains on your legs and I pushed you!",
+   "speaker": "S03"
+  },
+  {
+   "start": 47.06,
+   "end": 49.28,
+   "text": "Off my boat! I want to tank!",
+   "speaker": "S03"
+  },
+  {
+   "start": 49.86,
+   "end": 53.86,
+   "text": "Oh you're absolutely right Prescott. I am dead.",
+   "speaker": "S22"
+  },
+  {
+   "start": 54.2,
+   "end": 56.26,
+   "text": "And now you will be too.",
+   "speaker": "S22"
+  },
+  {
+   "start": 57.22,
+   "end": 61.58,
+   "text": "So, what will it be, old boy, drawing me in a midnight swim?",
+   "speaker": "S22"
+  },
+  {
+   "start": 62.3,
+   "end": 64.88,
+   "text": "If you're not too tight enough.",
+   "speaker": "S22"
+  },
+  {
+   "start": 65.1,
+   "end": 69.02,
+   "text": "Or perhaps you'd rather be pushing up daisies in the garden with me, Prescott.",
+   "speaker": "S05"
+  },
+  {
+   "start": 69.2,
+   "end": 69.5,
+   "text": "No!",
+   "speaker": "S05"
+  },
+  {
+   "start": 71.2,
+   "end": 72.08,
+   "text": "A nightmare.",
+   "speaker": "S06"
+  },
+  {
+   "start": 72.34,
+   "end": 76.4,
+   "text": "Nothing more than some silly, silly, silly, confounded nightmare.",
+   "speaker": "S03"
+  },
+  {
+   "start": 76.64,
+   "end": 78.04,
+   "text": "Those two scandals are dead.",
+   "speaker": "S03"
+  },
+  {
+   "start": 78.44,
+   "end": 78.72,
+   "text": "What the?",
+   "speaker": "S03"
+  },
+  {
+   "start": 79.06,
+   "end": 79.56,
+   "text": "Ah!",
+   "speaker": "S03"
+  },
+  {
+   "start": 79.76,
+   "end": 80.34,
+   "text": "Ah!",
+   "speaker": "S03"
+  },
+  {
+   "start": 84.74,
+   "end": 85.32,
+   "text": "Yes!",
+   "speaker": "S03"
+  },
+  {
+   "start": 86.56,
+   "end": 91.7,
+   "text": "Well, well, Brendan, it's a smart and clever thriller with a nice twist.",
+   "speaker": "S08"
+  },
+  {
+   "start": 91.96,
+   "end": 92.36,
+   "text": "Thank you.",
+   "speaker": "S08"
+  },
+  {
+   "start": 92.6,
+   "end": 95.72,
+   "text": "And I appreciate the visual medium you chose for your report.",
+   "speaker": "S08"
+  },
+  {
+   "start": 95.9,
+   "end": 96.96,
+   "text": "Again, many thanks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 97.22,
+   "end": 100.56,
+   "text": "But what does this have to do with Susan B. Anthony?",
+   "speaker": "S08"
+  },
+  {
+   "start": 100.78,
+   "end": 103.36,
+   "text": "You were supposed to do a report on Susan B. Anthony.",
+   "speaker": "S08"
+  },
+  {
+   "start": 103.72,
+   "end": 105.42,
+   "text": "I was.",
+   "speaker": "S06"
+  },
+  {
+   "start": 105.92,
+   "end": 106.4,
+   "text": "Mm-hmm.",
+   "speaker": "S06"
+  },
+  {
+   "start": 106.84,
+   "end": 107.82,
+   "text": "And what is that?",
+   "speaker": "S08"
+  },
+  {
+   "start": 108.12,
+   "end": 109.18,
+   "text": "That is...",
+   "speaker": "S06"
+  },
+  {
+   "start": 109.18,
+   "end": 110.44,
+   "text": "That is not a report on...",
+   "speaker": "S08"
+  },
+  {
+   "start": 110.44,
+   "end": 111.34,
+   "text": "Not a report on...",
+   "speaker": "S73"
+  },
+  {
+   "start": 111.34,
+   "end": 112.92,
+   "text": "Well, I think you misunderstood the assignment.",
+   "speaker": "S08"
+  },
+  {
+   "start": 113.16,
+   "end": 115.36,
+   "text": "Well, I might have misunderstood the assignment.",
+   "speaker": "S06"
+  },
+  {
+   "start": 115.36,
+   "end": 119.26,
+   "text": "Yes, you did. And I want to report on Susan B. Anthony, mister, by the end of the week.",
+   "speaker": "S08"
+  },
+  {
+   "start": 119.6,
+   "end": 122.18,
+   "text": "Okay. All right. Let me just write it down. What's the guy's name again?",
+   "speaker": "S06"
+  },
+  {
+   "start": 122.36,
+   "end": 124.56,
+   "text": "His name is Susan B. Anthony.",
+   "speaker": "S08"
+  },
+  {
+   "start": 125.14,
+   "end": 127.38,
+   "text": "Hey, what if we show Susan B. Anthony as a hero?",
+   "speaker": "S05"
+  },
+  {
+   "start": 127.58,
+   "end": 128.22,
+   "text": "Mm, nah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 128.64,
+   "end": 133.06,
+   "text": "That's stupid, Melissa. What if we do a scene where Susan B. Anthony comes back from the dead?",
+   "speaker": "S22"
+  },
+  {
+   "start": 133.2,
+   "end": 133.94,
+   "text": "That's stupid.",
+   "speaker": "S05"
+  },
+  {
+   "start": 134.4,
+   "end": 135.24,
+   "text": "That's not stupid.",
+   "speaker": "S22"
+  },
+  {
+   "start": 135.44,
+   "end": 136.14,
+   "text": "Yes, it is.",
+   "speaker": "S05"
+  },
+  {
+   "start": 136.3,
+   "end": 139.02,
+   "text": "Okay, well then she starts eating people.",
+   "speaker": "S22"
+  },
+  {
+   "start": 139.26,
+   "end": 139.92,
+   "text": "Oh, keep talking.",
+   "speaker": "S06"
+  },
+  {
+   "start": 140.16,
+   "end": 142.08,
+   "text": "Brendan, do you think Octavio could be in this scene?",
+   "speaker": "S05"
+  },
+  {
+   "start": 142.08,
+   "end": 146.88,
+   "text": "Mm-mm, no. This is a three-person scene, Melissa. We don't need an extra person, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 146.96,
+   "end": 148.12,
+   "text": "But you said that you'd use him.",
+   "speaker": "S05"
+  },
+  {
+   "start": 148.22,
+   "end": 149.96,
+   "text": "Yeah, but not now, not yet, no.",
+   "speaker": "S06"
+  },
+  {
+   "start": 150.02,
+   "end": 150.62,
+   "text": "Don't you like him?",
+   "speaker": "S05"
+  },
+  {
+   "start": 150.7,
+   "end": 153.5,
+   "text": "I just don't need him. That's, you know, that's all.",
+   "speaker": "S06"
+  },
+  {
+   "start": 153.66,
+   "end": 154.76,
+   "text": "Well, I gotta go now anyway.",
+   "speaker": "S05"
+  },
+  {
+   "start": 155.02,
+   "end": 155.68,
+   "text": "But we're not done.",
+   "speaker": "S06"
+  },
+  {
+   "start": 155.92,
+   "end": 157.86,
+   "text": "I know that Octavio's walking me home.",
+   "speaker": "S05"
+  },
+  {
+   "start": 158.2,
+   "end": 158.6,
+   "text": "Ooh.",
+   "speaker": "S05"
+  },
+  {
+   "start": 160.2,
+   "end": 161.98,
+   "text": "Melissa, what's the matter with your mouth?",
+   "speaker": "S22"
+  },
+  {
+   "start": 162.22,
+   "end": 162.56,
+   "text": "What?",
+   "speaker": "S22"
+  },
+  {
+   "start": 162.88,
+   "end": 163.22,
+   "text": "Yeah.",
+   "speaker": "S22"
+  },
+  {
+   "start": 163.42,
+   "end": 164.22,
+   "text": "I'm smiling.",
+   "speaker": "S05"
+  },
+  {
+   "start": 164.72,
+   "end": 165.78,
+   "text": "Oh, that's gross.",
+   "speaker": "S22"
+  },
+  {
+   "start": 166.16,
+   "end": 168.08,
+   "text": "See you later, guys. Come on, Octavio.",
+   "speaker": "S05"
+  },
+  {
+   "start": 168.56,
+   "end": 170.44,
+   "text": "Melissa, you are magnifique.",
+   "speaker": "S110"
+  },
+  {
+   "start": 170.78,
+   "end": 171.9,
+   "text": "Thank you, Octavio.",
+   "speaker": "S05"
+  },
+  {
+   "start": 172.08,
+   "end": 174.32,
+   "text": "I'm glad someone appreciates me.",
+   "speaker": "S05"
+  },
+  {
+   "start": 174.74,
+   "end": 175.12,
+   "text": "Au revoir.",
+   "speaker": "S05"
+  },
+  {
+   "start": 175.64,
+   "end": 176.38,
+   "text": "Au revoir, guys.",
+   "speaker": "S05"
+  },
+  {
+   "start": 177.36,
+   "end": 178.28,
+   "text": "Ah, jeez.",
+   "speaker": "S73"
+  },
+  {
+   "start": 178.46,
+   "end": 178.9,
+   "text": "What's...",
+   "speaker": "S73"
+  },
+  {
+   "start": 178.9,
+   "end": 179.64,
+   "text": "Yeesh.",
+   "speaker": "S107"
+  },
+  {
+   "start": 179.92,
+   "end": 180.18,
+   "text": "Wow.",
+   "speaker": "S107"
+  },
+  {
+   "start": 180.38,
+   "end": 181.3,
+   "text": "What does she see in here?",
+   "speaker": "S22"
+  },
+  {
+   "start": 181.3,
+   "end": 181.94,
+   "text": "I don't know.",
+   "speaker": "S106"
+  },
+  {
+   "start": 182.26,
+   "end": 183.44,
+   "text": "You are magnificent.",
+   "speaker": "S22"
+  },
+  {
+   "start": 184.06,
+   "end": 184.88,
+   "text": "You are magnificent.",
+   "speaker": "S22"
+  },
+  {
+   "start": 185.96,
+   "end": 186.86,
+   "text": "Au revoir.",
+   "speaker": "S109"
+  },
+  {
+   "start": 187.4,
+   "end": 188.62,
+   "text": "What does that mean?",
+   "speaker": "S22"
+  },
+  {
+   "start": 188.7,
+   "end": 189.14,
+   "text": "I don't know.",
+   "speaker": "S22"
+  },
+  {
+   "start": 189.52,
+   "end": 193.3,
+   "text": "Listen, I know Octavio's only been here in school for a couple of weeks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 193.54,
+   "end": 194.02,
+   "text": "But?",
+   "speaker": "S06"
+  },
+  {
+   "start": 195.52,
+   "end": 196.9,
+   "text": "But I hate him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 197.48,
+   "end": 198.74,
+   "text": "I don't trust him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 198.84,
+   "end": 199.66,
+   "text": "I hear you.",
+   "speaker": "S22"
+  },
+  {
+   "start": 199.82,
+   "end": 200.16,
+   "text": "I hear you.",
+   "speaker": "S22"
+  },
+  {
+   "start": 200.16,
+   "end": 201.28,
+   "text": "Yeah. Brendan, who?",
+   "speaker": "S22"
+  },
+  {
+   "start": 201.5,
+   "end": 201.86,
+   "text": "Who?",
+   "speaker": "S22"
+  },
+  {
+   "start": 202.08,
+   "end": 202.7,
+   "text": "I don't know.",
+   "speaker": "S73"
+  },
+  {
+   "start": 202.82,
+   "end": 203.02,
+   "text": "Who?",
+   "speaker": "S73"
+  },
+  {
+   "start": 203.1,
+   "end": 203.42,
+   "text": "I don't know.",
+   "speaker": "S73"
+  },
+  {
+   "start": 203.56,
+   "end": 206.0,
+   "text": "Who at age eight wears a mock turtleneck?",
+   "speaker": "S22"
+  },
+  {
+   "start": 206.12,
+   "end": 206.74,
+   "text": "I mean, come on.",
+   "speaker": "S22"
+  },
+  {
+   "start": 206.88,
+   "end": 207.02,
+   "text": "Yeah.",
+   "speaker": "S22"
+  },
+  {
+   "start": 207.42,
+   "end": 207.8,
+   "text": "I don't know.",
+   "speaker": "S22"
+  },
+  {
+   "start": 208.02,
+   "end": 209.28,
+   "text": "I mean, where is that guy shop?",
+   "speaker": "S22"
+  },
+  {
+   "start": 211.7,
+   "end": 213.02,
+   "text": "Brendan, we don't have a dog.",
+   "speaker": "S23"
+  },
+  {
+   "start": 213.4,
+   "end": 214.06,
+   "text": "Not yet, Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 214.12,
+   "end": 214.56,
+   "text": "Put it back.",
+   "speaker": "S06"
+  },
+  {
+   "start": 214.84,
+   "end": 215.14,
+   "text": "Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 215.38,
+   "end": 216.94,
+   "text": "Brendan, how long did the hamster last?",
+   "speaker": "S23"
+  },
+  {
+   "start": 217.16,
+   "end": 218.28,
+   "text": "What, old Joe?",
+   "speaker": "S06"
+  },
+  {
+   "start": 218.56,
+   "end": 218.86,
+   "text": "Uh-huh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 219.5,
+   "end": 220.18,
+   "text": "Two weeks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 220.36,
+   "end": 220.48,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 220.92,
+   "end": 221.6,
+   "text": "The guinea pig?",
+   "speaker": "S23"
+  },
+  {
+   "start": 221.72,
+   "end": 222.24,
+   "text": "Regular Joe.",
+   "speaker": "S23"
+  },
+  {
+   "start": 222.5,
+   "end": 222.86,
+   "text": "Four days.",
+   "speaker": "S23"
+  },
+  {
+   "start": 223.08,
+   "end": 223.84,
+   "text": "Try three days.",
+   "speaker": "S23"
+  },
+  {
+   "start": 224.14,
+   "end": 224.5,
+   "text": "Three days.",
+   "speaker": "S23"
+  },
+  {
+   "start": 224.58,
+   "end": 225.06,
+   "text": "The fish?",
+   "speaker": "S23"
+  },
+  {
+   "start": 225.36,
+   "end": 225.92,
+   "text": "Cup of Joe.",
+   "speaker": "S23"
+  },
+  {
+   "start": 226.84,
+   "end": 227.8,
+   "text": "You remember the fish?",
+   "speaker": "S23"
+  },
+  {
+   "start": 227.94,
+   "end": 229.46,
+   "text": "Yeah, it was a 48-hour...",
+   "speaker": "S06"
+  },
+  {
+   "start": 229.46,
+   "end": 230.0,
+   "text": "Uh...",
+   "speaker": "S06"
+  },
+  {
+   "start": 230.0,
+   "end": 231.78,
+   "text": "Brendan, it was dead before we got home.",
+   "speaker": "S23"
+  },
+  {
+   "start": 231.9,
+   "end": 233.46,
+   "text": "That's because I don't know my own strength.",
+   "speaker": "S06"
+  },
+  {
+   "start": 233.72,
+   "end": 235.26,
+   "text": "You see what I'm getting at, Brendan?",
+   "speaker": "S23"
+  },
+  {
+   "start": 235.48,
+   "end": 235.74,
+   "text": "Yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 236.1,
+   "end": 236.86,
+   "text": "I'm out of pets.",
+   "speaker": "S06"
+  },
+  {
+   "start": 237.16,
+   "end": 237.58,
+   "text": "Come on, pets.",
+   "speaker": "S06"
+  },
+  {
+   "start": 237.58,
+   "end": 238.62,
+   "text": "Don't be a wise guy, Brendan.",
+   "speaker": "S23"
+  },
+  {
+   "start": 238.62,
+   "end": 238.72,
+   "text": "Hey, come on.",
+   "speaker": "S23"
+  },
+  {
+   "start": 238.82,
+   "end": 241.2,
+   "text": "Brendan, put the dog stuff back and get your cereal.",
+   "speaker": "S23"
+  },
+  {
+   "start": 241.36,
+   "end": 243.48,
+   "text": "And don't come back with ten boxes of cereal either.",
+   "speaker": "S23"
+  },
+  {
+   "start": 243.48,
+   "end": 244.08,
+   "text": "Just two.",
+   "speaker": "S23"
+  },
+  {
+   "start": 244.22,
+   "end": 244.62,
+   "text": "But...",
+   "speaker": "S23"
+  },
+  {
+   "start": 244.62,
+   "end": 245.5,
+   "text": "How about a cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 245.62,
+   "end": 245.94,
+   "text": "Go.",
+   "speaker": "S06"
+  },
+  {
+   "start": 246.68,
+   "end": 248.66,
+   "text": "Oh, jeez, I am so...",
+   "speaker": "S02"
+  },
+  {
+   "start": 248.66,
+   "end": 249.08,
+   "text": "Paula?",
+   "speaker": "S02"
+  },
+  {
+   "start": 249.56,
+   "end": 250.38,
+   "text": "Eric, hi.",
+   "speaker": "S23"
+  },
+  {
+   "start": 250.7,
+   "end": 252.8,
+   "text": "Hey, you know, we should exchange information.",
+   "speaker": "S02"
+  },
+  {
+   "start": 253.06,
+   "end": 253.24,
+   "text": "Huh?",
+   "speaker": "S02"
+  },
+  {
+   "start": 253.44,
+   "end": 256.18,
+   "text": "You know, I hit your cart, so I should, you know...",
+   "speaker": "S02"
+  },
+  {
+   "start": 256.18,
+   "end": 257.02,
+   "text": "Oh, right, right.",
+   "speaker": "S23"
+  },
+  {
+   "start": 257.04,
+   "end": 257.6,
+   "text": "I get it.",
+   "speaker": "S23"
+  },
+  {
+   "start": 257.9,
+   "end": 258.14,
+   "text": "Yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 258.14,
+   "end": 259.7,
+   "text": "So, how's Melissa?",
+   "speaker": "S23"
+  },
+  {
+   "start": 260.4,
+   "end": 260.94,
+   "text": "She's good.",
+   "speaker": "S23"
+  },
+  {
+   "start": 261.06,
+   "end": 263.38,
+   "text": "I mean, you probably see her more than I do, so...",
+   "speaker": "S02"
+  },
+  {
+   "start": 263.38,
+   "end": 263.7,
+   "text": "Yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 263.86,
+   "end": 264.34,
+   "text": "How is she?",
+   "speaker": "S02"
+  },
+  {
+   "start": 264.5,
+   "end": 265.06,
+   "text": "Oh, she's good.",
+   "speaker": "S02"
+  },
+  {
+   "start": 265.18,
+   "end": 265.6,
+   "text": "She's good.",
+   "speaker": "S02"
+  },
+  {
+   "start": 265.9,
+   "end": 266.86,
+   "text": "Got a little boyfriend.",
+   "speaker": "S23"
+  },
+  {
+   "start": 267.08,
+   "end": 267.82,
+   "text": "Hey, congratulations.",
+   "speaker": "S02"
+  },
+  {
+   "start": 268.14,
+   "end": 268.52,
+   "text": "That's great.",
+   "speaker": "S02"
+  },
+  {
+   "start": 268.76,
+   "end": 269.42,
+   "text": "No, not me.",
+   "speaker": "S23"
+  },
+  {
+   "start": 269.92,
+   "end": 271.22,
+   "text": "Melissa has a little boyfriend.",
+   "speaker": "S23"
+  },
+  {
+   "start": 271.4,
+   "end": 272.26,
+   "text": "Oh, right, right.",
+   "speaker": "S02"
+  },
+  {
+   "start": 272.94,
+   "end": 273.34,
+   "text": "Octavio.",
+   "speaker": "S02"
+  },
+  {
+   "start": 273.52,
+   "end": 274.54,
+   "text": "He seems like a nice kid.",
+   "speaker": "S02"
+  },
+  {
+   "start": 274.78,
+   "end": 275.48,
+   "text": "Yeah, yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 275.68,
+   "end": 276.2,
+   "text": "Nice enough.",
+   "speaker": "S23"
+  },
+  {
+   "start": 276.72,
+   "end": 277.12,
+   "text": "Well.",
+   "speaker": "S23"
+  },
+  {
+   "start": 277.48,
+   "end": 277.82,
+   "text": "So?",
+   "speaker": "S23"
+  },
+  {
+   "start": 278.74,
+   "end": 280.58,
+   "text": "Apparently, you like beans.",
+   "speaker": "S02"
+  },
+  {
+   "start": 281.08,
+   "end": 281.42,
+   "text": "Yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 281.7,
+   "end": 284.52,
+   "text": "Seems as if you have six big cans.",
+   "speaker": "S02"
+  },
+  {
+   "start": 284.7,
+   "end": 285.32,
+   "text": "Yes, sirree.",
+   "speaker": "S23"
+  },
+  {
+   "start": 285.38,
+   "end": 286.16,
+   "text": "Six cans, yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 286.16,
+   "end": 288.28,
+   "text": "I don't think I'll be stopping by your house tonight.",
+   "speaker": "S02"
+  },
+  {
+   "start": 289.66,
+   "end": 290.62,
+   "text": "That's cute.",
+   "speaker": "S23"
+  },
+  {
+   "start": 290.82,
+   "end": 292.0,
+   "text": "Yeah, that's cute, Eric.",
+   "speaker": "S23"
+  },
+  {
+   "start": 292.02,
+   "end": 292.86,
+   "text": "Oh, boy.",
+   "speaker": "S02"
+  },
+  {
+   "start": 292.98,
+   "end": 294.18,
+   "text": "I should get going.",
+   "speaker": "S23"
+  },
+  {
+   "start": 294.42,
+   "end": 294.8,
+   "text": "Okay.",
+   "speaker": "S23"
+  },
+  {
+   "start": 295.32,
+   "end": 298.2,
+   "text": "Well, it's been great talking beans.",
+   "speaker": "S23"
+  },
+  {
+   "start": 298.96,
+   "end": 299.6,
+   "text": "All right.",
+   "speaker": "S23"
+  },
+  {
+   "start": 299.96,
+   "end": 300.4,
+   "text": "Okay.",
+   "speaker": "S23"
+  },
+  {
+   "start": 300.7,
+   "end": 301.74,
+   "text": "Okay, good to see you.",
+   "speaker": "S23"
+  },
+  {
+   "start": 301.92,
+   "end": 302.7,
+   "text": "Nice to see you.",
+   "speaker": "S02"
+  },
+  {
+   "start": 302.76,
+   "end": 303.02,
+   "text": "Okay.",
+   "speaker": "S02"
+  },
+  {
+   "start": 303.38,
+   "end": 303.68,
+   "text": "Bye-bye.",
+   "speaker": "S02"
+  },
+  {
+   "start": 304.86,
+   "end": 306.5,
+   "text": "Paula and Eric.",
+   "speaker": "S08"
+  },
+  {
+   "start": 306.76,
+   "end": 307.24,
+   "text": "Hello.",
+   "speaker": "S08"
+  },
+  {
+   "start": 307.58,
+   "end": 308.48,
+   "text": "Hey, Mr. Lynch.",
+   "speaker": "S02"
+  },
+  {
+   "start": 308.62,
+   "end": 309.32,
+   "text": "Hi, Mr. Lynch.",
+   "speaker": "S23"
+  },
+  {
+   "start": 309.52,
+   "end": 311.26,
+   "text": "Hey, you two should swap information.",
+   "speaker": "S02"
+  },
+  {
+   "start": 312.06,
+   "end": 312.94,
+   "text": "You know what I'm saying?",
+   "speaker": "S02"
+  },
+  {
+   "start": 313.28,
+   "end": 314.72,
+   "text": "He means because we bumped.",
+   "speaker": "S23"
+  },
+  {
+   "start": 316.88,
+   "end": 317.68,
+   "text": "Oops. Hey.",
+   "speaker": "S06"
+  },
+  {
+   "start": 317.86,
+   "end": 319.42,
+   "text": "Hey, Brendan. I didn't know you were shopping today.",
+   "speaker": "S05"
+  },
+  {
+   "start": 319.6,
+   "end": 321.16,
+   "text": "Oh, yeah. I needed a few things.",
+   "speaker": "S06"
+  },
+  {
+   "start": 321.5,
+   "end": 322.76,
+   "text": "Should we exchange information?",
+   "speaker": "S05"
+  },
+  {
+   "start": 323.08,
+   "end": 323.3,
+   "text": "Huh?",
+   "speaker": "S05"
+  },
+  {
+   "start": 323.5,
+   "end": 325.1,
+   "text": "We had an accident with our carts.",
+   "speaker": "S05"
+  },
+  {
+   "start": 325.48,
+   "end": 325.82,
+   "text": "What?",
+   "speaker": "S05"
+  },
+  {
+   "start": 326.36,
+   "end": 327.44,
+   "text": "Like, with driving.",
+   "speaker": "S05"
+  },
+  {
+   "start": 327.46,
+   "end": 330.46,
+   "text": "Like, when you get in an accident, you have to exchange your name.",
+   "speaker": "S05"
+  },
+  {
+   "start": 330.66,
+   "end": 331.46,
+   "text": "Should we do what?",
+   "speaker": "S73"
+  },
+  {
+   "start": 331.9,
+   "end": 333.76,
+   "text": "It's a car accident joke.",
+   "speaker": "S05"
+  },
+  {
+   "start": 334.08,
+   "end": 335.78,
+   "text": "I don't get it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 336.04,
+   "end": 337.78,
+   "text": "My dad always says it. I don't know.",
+   "speaker": "S05"
+  },
+  {
+   "start": 338.82,
+   "end": 342.68,
+   "text": "So, um, you, uh, wow, you like beans, huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 343.18,
+   "end": 343.54,
+   "text": "Yeah.",
+   "speaker": "S08"
+  },
+  {
+   "start": 343.84,
+   "end": 344.16,
+   "text": "Wow.",
+   "speaker": "S08"
+  },
+  {
+   "start": 344.16,
+   "end": 346.56,
+   "text": "Whatever joke you're thinking of, he's already done it.",
+   "speaker": "S23"
+  },
+  {
+   "start": 346.8,
+   "end": 347.06,
+   "text": "Really?",
+   "speaker": "S23"
+  },
+  {
+   "start": 347.3,
+   "end": 347.48,
+   "text": "Yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 348.34,
+   "end": 349.8,
+   "text": "Hey, did you do hilla beans?",
+   "speaker": "S08"
+  },
+  {
+   "start": 350.38,
+   "end": 350.96,
+   "text": "Bean there.",
+   "speaker": "S08"
+  },
+  {
+   "start": 351.12,
+   "end": 352.1,
+   "text": "Bean there, that's good.",
+   "speaker": "S08"
+  },
+  {
+   "start": 353.56,
+   "end": 354.16,
+   "text": "You know what?",
+   "speaker": "S08"
+  },
+  {
+   "start": 354.16,
+   "end": 357.6,
+   "text": "I think if you eat all these beans, you are going to amount to a hill of beans.",
+   "speaker": "S08"
+  },
+  {
+   "start": 362.14,
+   "end": 364.5,
+   "text": "Well, God, you guys are a blast.",
+   "speaker": "S23"
+  },
+  {
+   "start": 364.5,
+   "end": 365.82,
+   "text": "It's a shame I gotta go.",
+   "speaker": "S23"
+  },
+  {
+   "start": 365.98,
+   "end": 367.2,
+   "text": "Some shopping to do.",
+   "speaker": "S23"
+  },
+  {
+   "start": 367.42,
+   "end": 367.96,
+   "text": "Yeah, me too.",
+   "speaker": "S23"
+  },
+  {
+   "start": 368.08,
+   "end": 368.5,
+   "text": "I hear you.",
+   "speaker": "S23"
+  },
+  {
+   "start": 368.68,
+   "end": 369.14,
+   "text": "Okay, then.",
+   "speaker": "S23"
+  },
+  {
+   "start": 369.3,
+   "end": 370.04,
+   "text": "Hey, what do you know?",
+   "speaker": "S04"
+  },
+  {
+   "start": 370.06,
+   "end": 370.68,
+   "text": "You people.",
+   "speaker": "S04"
+  },
+  {
+   "start": 370.84,
+   "end": 371.44,
+   "text": "Oh, boy.",
+   "speaker": "S73"
+  },
+  {
+   "start": 371.58,
+   "end": 371.94,
+   "text": "Hey, McGurk.",
+   "speaker": "S73"
+  },
+  {
+   "start": 371.94,
+   "end": 372.8,
+   "text": "How's everybody doing?",
+   "speaker": "S04"
+  },
+  {
+   "start": 373.1,
+   "end": 373.46,
+   "text": "McGurk.",
+   "speaker": "S04"
+  },
+  {
+   "start": 373.64,
+   "end": 374.0,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 374.16,
+   "end": 375.08,
+   "text": "How are you?",
+   "speaker": "S02"
+  },
+  {
+   "start": 375.22,
+   "end": 376.32,
+   "text": "Apparently we all shop.",
+   "speaker": "S04"
+  },
+  {
+   "start": 376.56,
+   "end": 376.72,
+   "text": "Yep.",
+   "speaker": "S04"
+  },
+  {
+   "start": 376.92,
+   "end": 377.02,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 377.66,
+   "end": 378.06,
+   "text": "All right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 378.4,
+   "end": 379.8,
+   "text": "I got to get moving here.",
+   "speaker": "S23"
+  },
+  {
+   "start": 380.0,
+   "end": 381.16,
+   "text": "What are you going to do with all those beans?",
+   "speaker": "S04"
+  },
+  {
+   "start": 382.24,
+   "end": 383.48,
+   "text": "I'm going to eat them.",
+   "speaker": "S23"
+  },
+  {
+   "start": 384.06,
+   "end": 385.1,
+   "text": "Going to bean town?",
+   "speaker": "S04"
+  },
+  {
+   "start": 388.54,
+   "end": 389.6,
+   "text": "I'm so sorry.",
+   "speaker": "S02"
+  },
+  {
+   "start": 390.16,
+   "end": 390.64,
+   "text": "Hey, Brendan.",
+   "speaker": "S02"
+  },
+  {
+   "start": 390.9,
+   "end": 394.2,
+   "text": "You might as well know now that it's official, Octavio's going to be my boyfriend.",
+   "speaker": "S05"
+  },
+  {
+   "start": 394.98,
+   "end": 395.98,
+   "text": "So then what?",
+   "speaker": "S06"
+  },
+  {
+   "start": 396.08,
+   "end": 396.96,
+   "text": "Are you going to be his girlfriend?",
+   "speaker": "S06"
+  },
+  {
+   "start": 397.18,
+   "end": 397.98,
+   "text": "That's the way it works.",
+   "speaker": "S05"
+  },
+  {
+   "start": 398.26,
+   "end": 399.62,
+   "text": "Well, I don't trust him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 399.82,
+   "end": 401.6,
+   "text": "Brendan, I know Octi's a little strange.",
+   "speaker": "S05"
+  },
+  {
+   "start": 401.78,
+   "end": 402.08,
+   "text": "Whoa, wait.",
+   "speaker": "S05"
+  },
+  {
+   "start": 402.32,
+   "end": 402.52,
+   "text": "Whoa.",
+   "speaker": "S05"
+  },
+  {
+   "start": 403.38,
+   "end": 403.78,
+   "text": "Who?",
+   "speaker": "S05"
+  },
+  {
+   "start": 404.16,
+   "end": 405.18,
+   "text": "Oh, I call him Octi.",
+   "speaker": "S05"
+  },
+  {
+   "start": 405.38,
+   "end": 406.38,
+   "text": "You call him what?",
+   "speaker": "S106"
+  },
+  {
+   "start": 406.62,
+   "end": 408.34,
+   "text": "I call him Octi. It's short for Octavio.",
+   "speaker": "S05"
+  },
+  {
+   "start": 408.6,
+   "end": 409.84,
+   "text": "I don't know. I just like him.",
+   "speaker": "S05"
+  },
+  {
+   "start": 410.14,
+   "end": 413.04,
+   "text": "Listen, Melissa, I just don't want to see me get hurt, okay?",
+   "speaker": "S06"
+  },
+  {
+   "start": 413.36,
+   "end": 413.8,
+   "text": "You mean me?",
+   "speaker": "S06"
+  },
+  {
+   "start": 414.2,
+   "end": 414.96,
+   "text": "Yeah, that's what I said.",
+   "speaker": "S06"
+  },
+  {
+   "start": 415.12,
+   "end": 415.32,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 415.48,
+   "end": 417.32,
+   "text": "I just want to see you get hurt, okay?",
+   "speaker": "S06"
+  },
+  {
+   "start": 417.5,
+   "end": 418.86,
+   "text": "Hey, Knuckleheads. What's up?",
+   "speaker": "S22"
+  },
+  {
+   "start": 419.22,
+   "end": 419.98,
+   "text": "I got shot.",
+   "speaker": "S22"
+  },
+  {
+   "start": 420.34,
+   "end": 420.7,
+   "text": "Jason.",
+   "speaker": "S22"
+  },
+  {
+   "start": 420.96,
+   "end": 421.32,
+   "text": "Hey, Jason.",
+   "speaker": "S22"
+  },
+  {
+   "start": 421.5,
+   "end": 422.34,
+   "text": "Jason, what is that?",
+   "speaker": "S05"
+  },
+  {
+   "start": 422.5,
+   "end": 422.7,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 423.1,
+   "end": 423.32,
+   "text": "What?",
+   "speaker": "S05"
+  },
+  {
+   "start": 423.5,
+   "end": 424.12,
+   "text": "What are you doing?",
+   "speaker": "S05"
+  },
+  {
+   "start": 424.24,
+   "end": 425.56,
+   "text": "Yeah, I'm looking through my coupons.",
+   "speaker": "S22"
+  },
+  {
+   "start": 426.0,
+   "end": 426.36,
+   "text": "Coupons?",
+   "speaker": "S22"
+  },
+  {
+   "start": 426.48,
+   "end": 427.56,
+   "text": "You have a coupon book?",
+   "speaker": "S05"
+  },
+  {
+   "start": 427.8,
+   "end": 429.46,
+   "text": "I like to use coupons. It's a hobby.",
+   "speaker": "S22"
+  },
+  {
+   "start": 429.98,
+   "end": 432.3,
+   "text": "So I use coupons. Most of America does.",
+   "speaker": "S22"
+  },
+  {
+   "start": 433.12,
+   "end": 436.24,
+   "text": "Yeah, I used to get the jumbos, but now I get the extra large.",
+   "speaker": "S04"
+  },
+  {
+   "start": 436.54,
+   "end": 438.1,
+   "text": "Yeah, it's easier to throw.",
+   "speaker": "S04"
+  },
+  {
+   "start": 439.26,
+   "end": 442.1,
+   "text": "You know, with jumbo eggs, though, you only need two instead of three.",
+   "speaker": "S08"
+  },
+  {
+   "start": 442.26,
+   "end": 442.44,
+   "text": "Yeah.",
+   "speaker": "S08"
+  },
+  {
+   "start": 442.74,
+   "end": 446.38,
+   "text": "I get the one-size-fits-all egg, but I like to see those jumbo hens.",
+   "speaker": "S02"
+  },
+  {
+   "start": 446.9,
+   "end": 447.68,
+   "text": "Yeah, that's funny.",
+   "speaker": "S04"
+  },
+  {
+   "start": 448.12,
+   "end": 452.62,
+   "text": "Yeah, listen, you know, it was so great running into all you guys, but I got to get going.",
+   "speaker": "S23"
+  },
+  {
+   "start": 452.96,
+   "end": 453.42,
+   "text": "Oh, yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 453.6,
+   "end": 454.16,
+   "text": "Well, me too.",
+   "speaker": "S23"
+  },
+  {
+   "start": 454.36,
+   "end": 454.72,
+   "text": "Me too.",
+   "speaker": "S23"
+  },
+  {
+   "start": 454.84,
+   "end": 455.76,
+   "text": "I should do that here also.",
+   "speaker": "S02"
+  },
+  {
+   "start": 456.22,
+   "end": 457.38,
+   "text": "Everyone's got a schedule, huh?",
+   "speaker": "S04"
+  },
+  {
+   "start": 457.48,
+   "end": 457.6,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 457.6,
+   "end": 458.34,
+   "text": "You got a aisle seven.",
+   "speaker": "S08"
+  },
+  {
+   "start": 458.46,
+   "end": 459.16,
+   "text": "Okay, take it.",
+   "speaker": "S23"
+  },
+  {
+   "start": 459.88,
+   "end": 461.48,
+   "text": "Hey, crazy idea, guys.",
+   "speaker": "S04"
+  },
+  {
+   "start": 461.48,
+   "end": 463.44,
+   "text": "What do you say we all have dinner together?",
+   "speaker": "S04"
+  },
+  {
+   "start": 464.06,
+   "end": 464.22,
+   "text": "You know?",
+   "speaker": "S04"
+  },
+  {
+   "start": 464.94,
+   "end": 465.72,
+   "text": "Four of us.",
+   "speaker": "S04"
+  },
+  {
+   "start": 467.14,
+   "end": 467.54,
+   "text": "Dinner.",
+   "speaker": "S04"
+  },
+  {
+   "start": 468.06,
+   "end": 470.66,
+   "text": "Hey, uh, no, why would we do that?",
+   "speaker": "S109"
+  },
+  {
+   "start": 470.84,
+   "end": 472.48,
+   "text": "You know, I mean, this is working out.",
+   "speaker": "S04"
+  },
+  {
+   "start": 472.72,
+   "end": 474.08,
+   "text": "I mean, we seem to talk well together.",
+   "speaker": "S04"
+  },
+  {
+   "start": 474.58,
+   "end": 475.1,
+   "text": "You know?",
+   "speaker": "S04"
+  },
+  {
+   "start": 477.54,
+   "end": 478.2,
+   "text": "About it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 478.88,
+   "end": 479.28,
+   "text": "Anyone?",
+   "speaker": "S04"
+  },
+  {
+   "start": 479.82,
+   "end": 481.28,
+   "text": "Whoa, look at the time!",
+   "speaker": "S23"
+  },
+  {
+   "start": 481.56,
+   "end": 482.12,
+   "text": "I gotta go.",
+   "speaker": "S23"
+  },
+  {
+   "start": 482.28,
+   "end": 483.94,
+   "text": "Yeah, look at that cantaloupe over there.",
+   "speaker": "S08"
+  },
+  {
+   "start": 484.64,
+   "end": 486.02,
+   "text": "Um, where?",
+   "speaker": "S04"
+  },
+  {
+   "start": 486.88,
+   "end": 489.04,
+   "text": "I mean, I gotta go over there and look at it.",
+   "speaker": "S08"
+  },
+  {
+   "start": 489.36,
+   "end": 489.72,
+   "text": "Goodbye.",
+   "speaker": "S08"
+  },
+  {
+   "start": 490.38,
+   "end": 492.24,
+   "text": "Am I getting the blow off here?",
+   "speaker": "S04"
+  },
+  {
+   "start": 492.4,
+   "end": 493.44,
+   "text": "Not at all. Nope.",
+   "speaker": "S02"
+  },
+  {
+   "start": 493.62,
+   "end": 495.96,
+   "text": "That's fine. If you guys don't want to do dinner, we don't do dinner.",
+   "speaker": "S04"
+  },
+  {
+   "start": 496.18,
+   "end": 501.92,
+   "text": "Just from my own experience, this is never gonna happen unless we put one person in charge of it",
+   "speaker": "S02"
+  },
+  {
+   "start": 501.92,
+   "end": 504.26,
+   "text": "to really synchronize everybody's schedules.",
+   "speaker": "S02"
+  },
+  {
+   "start": 504.42,
+   "end": 505.18,
+   "text": "Well, I'll take the helm.",
+   "speaker": "S04"
+  },
+  {
+   "start": 505.6,
+   "end": 507.42,
+   "text": "Well, who likes veal?",
+   "speaker": "S04"
+  },
+  {
+   "start": 507.54,
+   "end": 508.2,
+   "text": "Yeah, I gotta go.",
+   "speaker": "S08"
+  },
+  {
+   "start": 508.92,
+   "end": 510.06,
+   "text": "Here's one for gravy.",
+   "speaker": "S22"
+  },
+  {
+   "start": 510.36,
+   "end": 510.88,
+   "text": "What's it worth?",
+   "speaker": "S22"
+  },
+  {
+   "start": 511.0,
+   "end": 512.96,
+   "text": "35 cents off, six cans.",
+   "speaker": "S22"
+  },
+  {
+   "start": 513.24,
+   "end": 513.72,
+   "text": "I'll take it.",
+   "speaker": "S22"
+  },
+  {
+   "start": 513.88,
+   "end": 516.12,
+   "text": "I'll give you 10 cents off Floral Wax for the gravy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 516.34,
+   "end": 516.56,
+   "text": "Deal.",
+   "speaker": "S06"
+  },
+  {
+   "start": 516.72,
+   "end": 517.22,
+   "text": "Come to Papa.",
+   "speaker": "S06"
+  },
+  {
+   "start": 518.0,
+   "end": 520.56,
+   "text": "Who wants 50 cents off on cat food?",
+   "speaker": "S22"
+  },
+  {
+   "start": 521.4,
+   "end": 521.76,
+   "text": "Give me!",
+   "speaker": "S22"
+  },
+  {
+   "start": 521.96,
+   "end": 523.14,
+   "text": "Me! Me! Me! Me!",
+   "speaker": "S108"
+  },
+  {
+   "start": 523.84,
+   "end": 525.1,
+   "text": "You don't even have a cat!",
+   "speaker": "S22"
+  },
+  {
+   "start": 525.52,
+   "end": 527.52,
+   "text": "Guys, I don't care. I'm running this show.",
+   "speaker": "S22"
+  },
+  {
+   "start": 528.24,
+   "end": 528.52,
+   "text": "Eric!",
+   "speaker": "S22"
+  },
+  {
+   "start": 528.74,
+   "end": 529.7,
+   "text": "Caught me in the act.",
+   "speaker": "S02"
+  },
+  {
+   "start": 531.4,
+   "end": 532.28,
+   "text": "McGurk, how are you?",
+   "speaker": "S02"
+  },
+  {
+   "start": 532.48,
+   "end": 534.62,
+   "text": "Hey, Eric, what are you buying? Toilet paper?",
+   "speaker": "S04"
+  },
+  {
+   "start": 534.68,
+   "end": 536.14,
+   "text": "No, no, you know, I wasn't buying anything.",
+   "speaker": "S02"
+  },
+  {
+   "start": 536.24,
+   "end": 538.04,
+   "text": "I was just looking and seeing what my options are.",
+   "speaker": "S02"
+  },
+  {
+   "start": 538.2,
+   "end": 538.92,
+   "text": "Adult diapers?",
+   "speaker": "S04"
+  },
+  {
+   "start": 539.3,
+   "end": 540.24,
+   "text": "Shh! Hey, please.",
+   "speaker": "S109"
+  },
+  {
+   "start": 540.24,
+   "end": 541.2,
+   "text": "I had no idea!",
+   "speaker": "S04"
+  },
+  {
+   "start": 541.44,
+   "end": 543.72,
+   "text": "No, I just assumed they didn't.",
+   "speaker": "S02"
+  },
+  {
+   "start": 543.72,
+   "end": 544.82,
+   "text": "I'm just having fun with you.",
+   "speaker": "S04"
+  },
+  {
+   "start": 544.82,
+   "end": 547.56,
+   "text": "Hey, let's shop together, huh? We're both here. Let's shop together.",
+   "speaker": "S04"
+  },
+  {
+   "start": 547.76,
+   "end": 548.4,
+   "text": "What do you say?",
+   "speaker": "S04"
+  },
+  {
+   "start": 548.58,
+   "end": 549.5,
+   "text": "I have... Why?",
+   "speaker": "S02"
+  },
+  {
+   "start": 549.82,
+   "end": 550.08,
+   "text": "Huh?",
+   "speaker": "S02"
+  },
+  {
+   "start": 550.3,
+   "end": 550.66,
+   "text": "Why?",
+   "speaker": "S02"
+  },
+  {
+   "start": 551.16,
+   "end": 552.46,
+   "text": "You mean why? It'll be fun.",
+   "speaker": "S04"
+  },
+  {
+   "start": 552.46,
+   "end": 555.56,
+   "text": "No, I know. I need to shop alone because I need to concentrate.",
+   "speaker": "S02"
+  },
+  {
+   "start": 555.9,
+   "end": 558.22,
+   "text": "Yeah, let's go around together and help each other.",
+   "speaker": "S04"
+  },
+  {
+   "start": 558.36,
+   "end": 559.38,
+   "text": "Are you with me?",
+   "speaker": "S04"
+  },
+  {
+   "start": 559.38,
+   "end": 560.28,
+   "text": "I should probably get going.",
+   "speaker": "S02"
+  },
+  {
+   "start": 560.58,
+   "end": 563.86,
+   "text": "Oh, all this toilet paper, Eric. Kind of makes me think.",
+   "speaker": "S04"
+  },
+  {
+   "start": 564.62,
+   "end": 565.46,
+   "text": "So what about dinner?",
+   "speaker": "S04"
+  },
+  {
+   "start": 565.72,
+   "end": 571.02,
+   "text": "You know, I'm not sure because my schedule is tricky this week, so I...",
+   "speaker": "S02"
+  },
+  {
+   "start": 571.02,
+   "end": 571.98,
+   "text": "I'm going to follow you.",
+   "speaker": "S04"
+  },
+  {
+   "start": 572.06,
+   "end": 573.8,
+   "text": "Okay, I wish you wouldn't follow me.",
+   "speaker": "S02"
+  },
+  {
+   "start": 573.8,
+   "end": 575.12,
+   "text": "Here I come, coming to get you.",
+   "speaker": "S04"
+  },
+  {
+   "start": 575.36,
+   "end": 576.24,
+   "text": "Okay, don't do that, though.",
+   "speaker": "S02"
+  },
+  {
+   "start": 576.4,
+   "end": 577.7,
+   "text": "Eric, you're going too fast.",
+   "speaker": "S04"
+  },
+  {
+   "start": 577.96,
+   "end": 578.86,
+   "text": "Eric, slow down.",
+   "speaker": "S04"
+  },
+  {
+   "start": 579.32,
+   "end": 579.72,
+   "text": "Eric!",
+   "speaker": "S04"
+  },
+  {
+   "start": 580.82,
+   "end": 581.22,
+   "text": "Whoa.",
+   "speaker": "S04"
+  },
+  {
+   "start": 583.46,
+   "end": 585.22,
+   "text": "I just hope you know what you're doing, Melissa.",
+   "speaker": "S22"
+  },
+  {
+   "start": 585.6,
+   "end": 585.92,
+   "text": "You know?",
+   "speaker": "S22"
+  },
+  {
+   "start": 586.08,
+   "end": 586.58,
+   "text": "About what?",
+   "speaker": "S22"
+  },
+  {
+   "start": 586.9,
+   "end": 589.1,
+   "text": "Well, you haven't been spending...",
+   "speaker": "S22"
+  },
+  {
+   "start": 589.1,
+   "end": 589.74,
+   "text": "Forget it.",
+   "speaker": "S22"
+  },
+  {
+   "start": 589.98,
+   "end": 590.26,
+   "text": "Okay.",
+   "speaker": "S22"
+  },
+  {
+   "start": 590.7,
+   "end": 591.02,
+   "text": "Seriously?",
+   "speaker": "S22"
+  },
+  {
+   "start": 591.46,
+   "end": 591.8,
+   "text": "Yeah.",
+   "speaker": "S22"
+  },
+  {
+   "start": 592.08,
+   "end": 592.36,
+   "text": "Oh.",
+   "speaker": "S22"
+  },
+  {
+   "start": 592.48,
+   "end": 592.94,
+   "text": "It's forgotten.",
+   "speaker": "S22"
+  },
+  {
+   "start": 593.28,
+   "end": 594.1,
+   "text": "I was just...",
+   "speaker": "S22"
+  },
+  {
+   "start": 594.1,
+   "end": 594.84,
+   "text": "Can you pass the cereal?",
+   "speaker": "S05"
+  },
+  {
+   "start": 595.4,
+   "end": 595.56,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 596.12,
+   "end": 598.16,
+   "text": "You know, these peanut butter puffy oats are pretty good.",
+   "speaker": "S06"
+  },
+  {
+   "start": 598.36,
+   "end": 598.72,
+   "text": "I told you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 599.68,
+   "end": 603.04,
+   "text": "Especially good when we didn't pay for them yet, did we?",
+   "speaker": "S22"
+  },
+  {
+   "start": 603.04,
+   "end": 605.16,
+   "text": "Is this thing on? Melissa, it's your dad.",
+   "speaker": "S02"
+  },
+  {
+   "start": 605.46,
+   "end": 607.1,
+   "text": "Whoa. Hello?",
+   "speaker": "S02"
+  },
+  {
+   "start": 607.94,
+   "end": 609.04,
+   "text": "How's everybody doing?",
+   "speaker": "S02"
+  },
+  {
+   "start": 609.6,
+   "end": 610.64,
+   "text": "Attention, shoppers.",
+   "speaker": "S02"
+  },
+  {
+   "start": 611.56,
+   "end": 613.4,
+   "text": "Won't you come home with me?",
+   "speaker": "S109"
+  },
+  {
+   "start": 613.62,
+   "end": 614.74,
+   "text": "Okay. Melissa,",
+   "speaker": "S02"
+  },
+  {
+   "start": 615.06,
+   "end": 616.56,
+   "text": "this is your father, Eric.",
+   "speaker": "S02"
+  },
+  {
+   "start": 616.96,
+   "end": 618.66,
+   "text": "I'm ready to leave, honey.",
+   "speaker": "S02"
+  },
+  {
+   "start": 618.76,
+   "end": 621.0,
+   "text": "Sir, sir! I'll meet you at the front.",
+   "speaker": "S02"
+  },
+  {
+   "start": 621.32,
+   "end": 622.56,
+   "text": "Oh. Yeah, that's...",
+   "speaker": "S06"
+  },
+  {
+   "start": 622.56,
+   "end": 624.12,
+   "text": "I guess I should go.",
+   "speaker": "S05"
+  },
+  {
+   "start": 624.9,
+   "end": 626.64,
+   "text": "Oh, this is a nightmare. Paula!",
+   "speaker": "S23"
+  },
+  {
+   "start": 626.94,
+   "end": 628.8,
+   "text": "So we meet again. So, uh,",
+   "speaker": "S04"
+  },
+  {
+   "start": 629.06,
+   "end": 631.28,
+   "text": "I know we're talking dinner. I was thinking Saturday night.",
+   "speaker": "S04"
+  },
+  {
+   "start": 631.36,
+   "end": 632.7,
+   "text": "How about that? I can't.",
+   "speaker": "S23"
+  },
+  {
+   "start": 632.7,
+   "end": 633.42,
+   "text": "Oh, Friday?",
+   "speaker": "S04"
+  },
+  {
+   "start": 633.62,
+   "end": 634.34,
+   "text": "Not good.",
+   "speaker": "S23"
+  },
+  {
+   "start": 634.68,
+   "end": 635.62,
+   "text": "Sunday? I could do Sunday.",
+   "speaker": "S04"
+  },
+  {
+   "start": 635.62,
+   "end": 636.5,
+   "text": "Busy. Busy.",
+   "speaker": "S23"
+  },
+  {
+   "start": 636.84,
+   "end": 637.56,
+   "text": "Call me.",
+   "speaker": "S04"
+  },
+  {
+   "start": 637.84,
+   "end": 638.26,
+   "text": "You bet.",
+   "speaker": "S04"
+  },
+  {
+   "start": 638.6,
+   "end": 639.74,
+   "text": "Okay. All right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 640.02,
+   "end": 640.48,
+   "text": "All right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 642.08,
+   "end": 642.88,
+   "text": "Oh, yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 643.14,
+   "end": 643.8,
+   "text": "What are these?",
+   "speaker": "S04"
+  },
+  {
+   "start": 644.84,
+   "end": 645.78,
+   "text": "That's good stuff.",
+   "speaker": "S04"
+  },
+  {
+   "start": 646.32,
+   "end": 647.2,
+   "text": "What is that, salami?",
+   "speaker": "S04"
+  },
+  {
+   "start": 648.08,
+   "end": 648.56,
+   "text": "Tofu?",
+   "speaker": "S04"
+  },
+  {
+   "start": 649.2,
+   "end": 649.66,
+   "text": "Jeez.",
+   "speaker": "S04"
+  },
+  {
+   "start": 650.48,
+   "end": 651.4,
+   "text": "I love it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 651.76,
+   "end": 652.36,
+   "text": "I'll take some.",
+   "speaker": "S04"
+  },
+  {
+   "start": 656.68,
+   "end": 657.96,
+   "text": "Jason, I'm worried about Melissa.",
+   "speaker": "S06"
+  },
+  {
+   "start": 658.1,
+   "end": 659.66,
+   "text": "She's spending way too much time with Octavia.",
+   "speaker": "S06"
+  },
+  {
+   "start": 659.76,
+   "end": 661.0,
+   "text": "Brandon, slow down.",
+   "speaker": "S22"
+  },
+  {
+   "start": 661.58,
+   "end": 662.06,
+   "text": "Bub.",
+   "speaker": "S22"
+  },
+  {
+   "start": 662.06,
+   "end": 663.74,
+   "text": "It doesn't matter anyway.",
+   "speaker": "S22"
+  },
+  {
+   "start": 664.18,
+   "end": 664.34,
+   "text": "Why?",
+   "speaker": "S22"
+  },
+  {
+   "start": 664.92,
+   "end": 668.14,
+   "text": "Because it doesn't change anything. I'm still gonna end up marrying Melissa.",
+   "speaker": "S22"
+  },
+  {
+   "start": 668.46,
+   "end": 668.74,
+   "text": "Hmm?",
+   "speaker": "S22"
+  },
+  {
+   "start": 669.02,
+   "end": 670.0,
+   "text": "Oh, really?",
+   "speaker": "S73"
+  },
+  {
+   "start": 670.34,
+   "end": 670.8,
+   "text": "Uh-huh.",
+   "speaker": "S73"
+  },
+  {
+   "start": 671.1,
+   "end": 672.8,
+   "text": "I didn't know you felt that way.",
+   "speaker": "S06"
+  },
+  {
+   "start": 672.92,
+   "end": 675.64,
+   "text": "Oh, it's our destiny, Brenda. Get on board.",
+   "speaker": "S22"
+  },
+  {
+   "start": 676.62,
+   "end": 677.56,
+   "text": "Have you told her?",
+   "speaker": "S06"
+  },
+  {
+   "start": 678.34,
+   "end": 678.78,
+   "text": "Who?",
+   "speaker": "S06"
+  },
+  {
+   "start": 679.24,
+   "end": 679.68,
+   "text": "Melissa.",
+   "speaker": "S06"
+  },
+  {
+   "start": 679.98,
+   "end": 685.08,
+   "text": "Oh, no, no, no. I'll, you know, tell her when the time is right, Brenda. It has to be perfect.",
+   "speaker": "S22"
+  },
+  {
+   "start": 687.64,
+   "end": 689.08,
+   "text": "Probably it's the country club",
+   "speaker": "S22"
+  },
+  {
+   "start": 689.08,
+   "end": 691.36,
+   "text": "You know, on the 18th green",
+   "speaker": "S22"
+  },
+  {
+   "start": 692.72,
+   "end": 694.34,
+   "text": "We just finished our round",
+   "speaker": "S22"
+  },
+  {
+   "start": 695.22,
+   "end": 696.5,
+   "text": "Wow, what's in the hole?",
+   "speaker": "S22"
+  },
+  {
+   "start": 696.7,
+   "end": 697.62,
+   "text": "It's a diamond ring",
+   "speaker": "S22"
+  },
+  {
+   "start": 698.2,
+   "end": 699.48,
+   "text": "Oh, that's weird",
+   "speaker": "S22"
+  },
+  {
+   "start": 699.48,
+   "end": 701.6,
+   "text": "Somebody must have been grabbing their ball",
+   "speaker": "S22"
+  },
+  {
+   "start": 701.6,
+   "end": 702.48,
+   "text": "And it fell off",
+   "speaker": "S22"
+  },
+  {
+   "start": 702.48,
+   "end": 704.16,
+   "text": "No, will you marry me?",
+   "speaker": "S22"
+  },
+  {
+   "start": 705.28,
+   "end": 705.76,
+   "text": "See?",
+   "speaker": "S22"
+  },
+  {
+   "start": 706.0,
+   "end": 707.14,
+   "text": "I totally haven't worked out",
+   "speaker": "S22"
+  },
+  {
+   "start": 707.14,
+   "end": 708.54,
+   "text": "I play golf in the future, Brenda",
+   "speaker": "S22"
+  },
+  {
+   "start": 708.54,
+   "end": 709.1,
+   "text": "Oh",
+   "speaker": "S22"
+  },
+  {
+   "start": 709.1,
+   "end": 710.14,
+   "text": "Hey guys",
+   "speaker": "S05"
+  },
+  {
+   "start": 710.14,
+   "end": 711.46,
+   "text": "Hey, Melissa",
+   "speaker": "S06"
+  },
+  {
+   "start": 711.46,
+   "end": 712.24,
+   "text": "Hi, Jason",
+   "speaker": "S05"
+  },
+  {
+   "start": 712.24,
+   "end": 712.86,
+   "text": "Whatever",
+   "speaker": "S22"
+  },
+  {
+   "start": 712.86,
+   "end": 714.92,
+   "text": "Hey, Melissa, where's your shadow?",
+   "speaker": "S06"
+  },
+  {
+   "start": 715.08,
+   "end": 715.48,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 716.3,
+   "end": 717.56,
+   "text": "Brendan's right there on the wall.",
+   "speaker": "S22"
+  },
+  {
+   "start": 717.74,
+   "end": 718.6,
+   "text": "I mean, Octavio.",
+   "speaker": "S06"
+  },
+  {
+   "start": 719.22,
+   "end": 720.46,
+   "text": "He's not my shadow, Brendan.",
+   "speaker": "S05"
+  },
+  {
+   "start": 720.78,
+   "end": 720.8,
+   "text": "Yes, he is.",
+   "speaker": "S05"
+  },
+  {
+   "start": 720.84,
+   "end": 721.36,
+   "text": "Yes, he is.",
+   "speaker": "S05"
+  },
+  {
+   "start": 721.44,
+   "end": 721.9,
+   "text": "No, he's not.",
+   "speaker": "S05"
+  },
+  {
+   "start": 722.02,
+   "end": 722.5,
+   "text": "Yes, he is.",
+   "speaker": "S05"
+  },
+  {
+   "start": 722.6,
+   "end": 723.14,
+   "text": "No, he's not.",
+   "speaker": "S05"
+  },
+  {
+   "start": 723.22,
+   "end": 723.66,
+   "text": "Yes, he is.",
+   "speaker": "S05"
+  },
+  {
+   "start": 723.76,
+   "end": 724.22,
+   "text": "No, he's not.",
+   "speaker": "S05"
+  },
+  {
+   "start": 724.26,
+   "end": 724.78,
+   "text": "Yes, he is.",
+   "speaker": "S05"
+  },
+  {
+   "start": 724.88,
+   "end": 726.18,
+   "text": "You know, I think you're just jealous.",
+   "speaker": "S05"
+  },
+  {
+   "start": 726.64,
+   "end": 726.84,
+   "text": "What?",
+   "speaker": "S05"
+  },
+  {
+   "start": 727.28,
+   "end": 727.92,
+   "text": "I'm jealous?",
+   "speaker": "S06"
+  },
+  {
+   "start": 728.06,
+   "end": 728.32,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 728.74,
+   "end": 730.02,
+   "text": "I'm not jealous of him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 730.16,
+   "end": 732.74,
+   "text": "He's got a...",
+   "speaker": "S06"
+  },
+  {
+   "start": 732.74,
+   "end": 733.56,
+   "text": "Have you seen his shoes?",
+   "speaker": "S06"
+  },
+  {
+   "start": 733.76,
+   "end": 734.2,
+   "text": "You know what, Brendan?",
+   "speaker": "S06"
+  },
+  {
+   "start": 734.26,
+   "end": 736.84,
+   "text": "You've been acting like a jerk ever since he became my boyfriend.",
+   "speaker": "S05"
+  },
+  {
+   "start": 737.52,
+   "end": 738.46,
+   "text": "No, I haven't.",
+   "speaker": "S03"
+  },
+  {
+   "start": 738.46,
+   "end": 738.98,
+   "text": "Yes, you have.",
+   "speaker": "S03"
+  },
+  {
+   "start": 739.12,
+   "end": 740.36,
+   "text": "I've been a jerk the whole time.",
+   "speaker": "S03"
+  },
+  {
+   "start": 740.56,
+   "end": 741.04,
+   "text": "You know what, Brendan?",
+   "speaker": "S03"
+  },
+  {
+   "start": 741.04,
+   "end": 742.06,
+   "text": "He treats me nice.",
+   "speaker": "S05"
+  },
+  {
+   "start": 742.08,
+   "end": 744.8,
+   "text": "And, you know, Octi and I are together now.",
+   "speaker": "S05"
+  },
+  {
+   "start": 745.86,
+   "end": 747.34,
+   "text": "You know what? I don't have to take this anymore.",
+   "speaker": "S05"
+  },
+  {
+   "start": 747.38,
+   "end": 750.06,
+   "text": "If that's the way you feel about me and Octavio, then you know what?",
+   "speaker": "S05"
+  },
+  {
+   "start": 750.18,
+   "end": 752.12,
+   "text": "Bury the hatchet and let's just shoot this scene, all right?",
+   "speaker": "S06"
+  },
+  {
+   "start": 752.12,
+   "end": 753.48,
+   "text": "I have a better idea. I quit.",
+   "speaker": "S05"
+  },
+  {
+   "start": 754.24,
+   "end": 754.56,
+   "text": "Wow.",
+   "speaker": "S05"
+  },
+  {
+   "start": 755.86,
+   "end": 758.34,
+   "text": "All right, Jason. Stuff the pillow and put on the wig.",
+   "speaker": "S06"
+  },
+  {
+   "start": 758.5,
+   "end": 759.42,
+   "text": "We gotta shoot this scene.",
+   "speaker": "S06"
+  },
+  {
+   "start": 759.56,
+   "end": 761.14,
+   "text": "Stuff the pillow and put on the wig.",
+   "speaker": "S22"
+  },
+  {
+   "start": 761.66,
+   "end": 762.68,
+   "text": "You got it, Captain.",
+   "speaker": "S73"
+  },
+  {
+   "start": 773.38,
+   "end": 774.84,
+   "text": "Look at our top, yo.",
+   "speaker": "S06"
+  },
+  {
+   "start": 775.08,
+   "end": 779.8,
+   "text": "He thinks he's so cool because he's from some foreign country and speaks French.",
+   "speaker": "S06"
+  },
+  {
+   "start": 780.14,
+   "end": 780.76,
+   "text": "What a jerk.",
+   "speaker": "S06"
+  },
+  {
+   "start": 781.78,
+   "end": 782.42,
+   "text": "Octavio.",
+   "speaker": "S06"
+  },
+  {
+   "start": 782.82,
+   "end": 784.88,
+   "text": "I'm going to call him October behind his back.",
+   "speaker": "S06"
+  },
+  {
+   "start": 786.92,
+   "end": 788.7,
+   "text": "Okay, pencils down.",
+   "speaker": "S08"
+  },
+  {
+   "start": 788.98,
+   "end": 791.28,
+   "text": "And pass your papers forward, please.",
+   "speaker": "S08"
+  },
+  {
+   "start": 791.56,
+   "end": 792.82,
+   "text": "The test is over.",
+   "speaker": "S08"
+  },
+  {
+   "start": 793.12,
+   "end": 793.46,
+   "text": "Uh-oh.",
+   "speaker": "S08"
+  },
+  {
+   "start": 795.08,
+   "end": 801.42,
+   "text": "I just don't understand how somebody can lose a test paper between their desk and my desk, Brendan.",
+   "speaker": "S08"
+  },
+  {
+   "start": 801.42,
+   "end": 805.42,
+   "text": "I mean, this sort of irresponsible behavior had better stop, mister.",
+   "speaker": "S08"
+  },
+  {
+   "start": 805.86,
+   "end": 807.66,
+   "text": "Do I make myself clear, young man?",
+   "speaker": "S08"
+  },
+  {
+   "start": 808.46,
+   "end": 808.94,
+   "text": "Lynch.",
+   "speaker": "S08"
+  },
+  {
+   "start": 809.22,
+   "end": 809.44,
+   "text": "Huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 809.82,
+   "end": 810.46,
+   "text": "You got a minute?",
+   "speaker": "S04"
+  },
+  {
+   "start": 810.66,
+   "end": 810.84,
+   "text": "Oh.",
+   "speaker": "S04"
+  },
+  {
+   "start": 811.54,
+   "end": 812.66,
+   "text": "What are you teaching?",
+   "speaker": "S08"
+  },
+  {
+   "start": 813.0,
+   "end": 813.62,
+   "text": "One second.",
+   "speaker": "S08"
+  },
+  {
+   "start": 814.08,
+   "end": 814.82,
+   "text": "Oh, hey, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 815.08,
+   "end": 815.42,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 815.94,
+   "end": 817.1,
+   "text": "Well, you can go now.",
+   "speaker": "S08"
+  },
+  {
+   "start": 817.54,
+   "end": 818.02,
+   "text": "All right.",
+   "speaker": "S08"
+  },
+  {
+   "start": 818.4,
+   "end": 818.86,
+   "text": "Lynch.",
+   "speaker": "S08"
+  },
+  {
+   "start": 819.22,
+   "end": 819.96,
+   "text": "Goodbye, Brendan.",
+   "speaker": "S08"
+  },
+  {
+   "start": 820.42,
+   "end": 820.74,
+   "text": "What?",
+   "speaker": "S08"
+  },
+  {
+   "start": 820.98,
+   "end": 823.56,
+   "text": "I've got it down to 16 possible dates for dinner.",
+   "speaker": "S04"
+  },
+  {
+   "start": 823.78,
+   "end": 825.02,
+   "text": "McGurk, I don't have time.",
+   "speaker": "S08"
+  },
+  {
+   "start": 825.24,
+   "end": 826.08,
+   "text": "Let me see your calendar.",
+   "speaker": "S04"
+  },
+  {
+   "start": 826.18,
+   "end": 826.38,
+   "text": "Don't.",
+   "speaker": "S04"
+  },
+  {
+   "start": 826.5,
+   "end": 826.88,
+   "text": "No, no, no.",
+   "speaker": "S04"
+  },
+  {
+   "start": 827.92,
+   "end": 828.4,
+   "text": "Kittens.",
+   "speaker": "S04"
+  },
+  {
+   "start": 828.76,
+   "end": 829.64,
+   "text": "I like cats.",
+   "speaker": "S08"
+  },
+  {
+   "start": 829.88,
+   "end": 830.58,
+   "text": "So sue me.",
+   "speaker": "S08"
+  },
+  {
+   "start": 830.58,
+   "end": 831.72,
+   "text": "I think I could.",
+   "speaker": "S04"
+  },
+  {
+   "start": 832.0,
+   "end": 833.08,
+   "text": "I don't think you can.",
+   "speaker": "S08"
+  },
+  {
+   "start": 833.3,
+   "end": 835.4,
+   "text": "I think you can sue for a kitten calendar.",
+   "speaker": "S04"
+  },
+  {
+   "start": 835.8,
+   "end": 836.92,
+   "text": "You're scary, Lynch.",
+   "speaker": "S04"
+  },
+  {
+   "start": 837.32,
+   "end": 838.3,
+   "text": "So I'll see you later.",
+   "speaker": "S05"
+  },
+  {
+   "start": 838.52,
+   "end": 839.28,
+   "text": "Okay, Octi?",
+   "speaker": "S05"
+  },
+  {
+   "start": 839.6,
+   "end": 840.46,
+   "text": "Okay, Melissa.",
+   "speaker": "S110"
+  },
+  {
+   "start": 841.3,
+   "end": 842.6,
+   "text": "Au revoir, mon ami.",
+   "speaker": "S110"
+  },
+  {
+   "start": 842.86,
+   "end": 844.88,
+   "text": "Au revoir, Mona, you.",
+   "speaker": "S05"
+  },
+  {
+   "start": 848.18,
+   "end": 849.56,
+   "text": "Octavio likes Melissa.",
+   "speaker": "S107"
+  },
+  {
+   "start": 850.16,
+   "end": 851.64,
+   "text": "Octavio likes Melissa.",
+   "speaker": "S107"
+  },
+  {
+   "start": 852.46,
+   "end": 853.52,
+   "text": "Octavio likes Melissa.",
+   "speaker": "S107"
+  },
+  {
+   "start": 854.0,
+   "end": 854.68,
+   "text": "Shut up.",
+   "speaker": "S106"
+  },
+  {
+   "start": 855.12,
+   "end": 855.6,
+   "text": "You like her.",
+   "speaker": "S106"
+  },
+  {
+   "start": 855.68,
+   "end": 856.04,
+   "text": "I don't.",
+   "speaker": "S106"
+  },
+  {
+   "start": 856.08,
+   "end": 856.46,
+   "text": "Yes, you do.",
+   "speaker": "S106"
+  },
+  {
+   "start": 856.58,
+   "end": 856.88,
+   "text": "I do not.",
+   "speaker": "S106"
+  },
+  {
+   "start": 856.96,
+   "end": 857.36,
+   "text": "I guess you do.",
+   "speaker": "S106"
+  },
+  {
+   "start": 857.5,
+   "end": 857.92,
+   "text": "I don't.",
+   "speaker": "S106"
+  },
+  {
+   "start": 858.06,
+   "end": 858.86,
+   "text": "You got it all wrong.",
+   "speaker": "S22"
+  },
+  {
+   "start": 859.18,
+   "end": 859.78,
+   "text": "I'm just using her.",
+   "speaker": "S107"
+  },
+  {
+   "start": 859.78,
+   "end": 861.54,
+   "text": "so I can make movies with Brendan Small.",
+   "speaker": "S22"
+  },
+  {
+   "start": 861.84,
+   "end": 862.86,
+   "text": "I want to be a movie star.",
+   "speaker": "S22"
+  },
+  {
+   "start": 863.04,
+   "end": 863.78,
+   "text": "What about us?",
+   "speaker": "S107"
+  },
+  {
+   "start": 864.04,
+   "end": 864.78,
+   "text": "Who cares?",
+   "speaker": "S22"
+  },
+  {
+   "start": 865.06,
+   "end": 865.46,
+   "text": "I do.",
+   "speaker": "S22"
+  },
+  {
+   "start": 865.68,
+   "end": 866.66,
+   "text": "You're a silly, stupid girl.",
+   "speaker": "S22"
+  },
+  {
+   "start": 866.86,
+   "end": 867.8,
+   "text": "You're a real bastard.",
+   "speaker": "S107"
+  },
+  {
+   "start": 868.74,
+   "end": 870.08,
+   "text": "You got a lot of guts doing that.",
+   "speaker": "S22"
+  },
+  {
+   "start": 870.56,
+   "end": 871.52,
+   "text": "You got something else for me?",
+   "speaker": "S22"
+  },
+  {
+   "start": 871.88,
+   "end": 872.3,
+   "text": "Knock, knock.",
+   "speaker": "S22"
+  },
+  {
+   "start": 872.58,
+   "end": 873.1,
+   "text": "Who's there?",
+   "speaker": "S22"
+  },
+  {
+   "start": 874.38,
+   "end": 875.1,
+   "text": "Should have known.",
+   "speaker": "S22"
+  },
+  {
+   "start": 875.54,
+   "end": 876.32,
+   "text": "Got it out of your system?",
+   "speaker": "S22"
+  },
+  {
+   "start": 877.06,
+   "end": 877.64,
+   "text": "That's better.",
+   "speaker": "S22"
+  },
+  {
+   "start": 877.86,
+   "end": 878.38,
+   "text": "Had enough sit?",
+   "speaker": "S22"
+  },
+  {
+   "start": 878.92,
+   "end": 879.3,
+   "text": "Enough.",
+   "speaker": "S22"
+  },
+  {
+   "start": 879.62,
+   "end": 879.92,
+   "text": "All right.",
+   "speaker": "S22"
+  },
+  {
+   "start": 880.22,
+   "end": 880.7,
+   "text": "See you around.",
+   "speaker": "S22"
+  },
+  {
+   "start": 881.1,
+   "end": 881.52,
+   "text": "So long.",
+   "speaker": "S22"
+  },
+  {
+   "start": 882.18,
+   "end": 882.92,
+   "text": "One more for the road.",
+   "speaker": "S22"
+  },
+  {
+   "start": 885.14,
+   "end": 887.4,
+   "text": "Brendan, when was the last time I put you in a game?",
+   "speaker": "S04"
+  },
+  {
+   "start": 887.78,
+   "end": 889.46,
+   "text": "I was just in last month.",
+   "speaker": "S06"
+  },
+  {
+   "start": 889.46,
+   "end": 890.3,
+   "text": "Sorry, I'm back.",
+   "speaker": "S02"
+  },
+  {
+   "start": 890.46,
+   "end": 891.3,
+   "text": "Eric, what were you doing?",
+   "speaker": "S04"
+  },
+  {
+   "start": 891.46,
+   "end": 892.66,
+   "text": "I was on hold for 20 minutes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 892.84,
+   "end": 893.42,
+   "text": "I'm sorry.",
+   "speaker": "S04"
+  },
+  {
+   "start": 893.58,
+   "end": 894.94,
+   "text": "You know, I'm fielding a lot of calls today.",
+   "speaker": "S02"
+  },
+  {
+   "start": 895.12,
+   "end": 896.2,
+   "text": "So how are your Wednesdays?",
+   "speaker": "S04"
+  },
+  {
+   "start": 896.46,
+   "end": 898.94,
+   "text": "Same as everybody else's, right after my Tuesdays.",
+   "speaker": "S02"
+  },
+  {
+   "start": 899.24,
+   "end": 899.92,
+   "text": "No, I'm serious.",
+   "speaker": "S04"
+  },
+  {
+   "start": 900.24,
+   "end": 901.66,
+   "text": "Lynch can do Wednesday.",
+   "speaker": "S04"
+  },
+  {
+   "start": 901.86,
+   "end": 902.4,
+   "text": "I'll let you know.",
+   "speaker": "S04"
+  },
+  {
+   "start": 902.6,
+   "end": 903.76,
+   "text": "What about eating at Frank's?",
+   "speaker": "S04"
+  },
+  {
+   "start": 903.88,
+   "end": 904.82,
+   "text": "How about Ralph's?",
+   "speaker": "S04"
+  },
+  {
+   "start": 905.06,
+   "end": 906.32,
+   "text": "You got a good barbecue at Ralph's.",
+   "speaker": "S04"
+  },
+  {
+   "start": 906.44,
+   "end": 907.74,
+   "text": "You know, I never heard of those restaurants.",
+   "speaker": "S02"
+  },
+  {
+   "start": 908.16,
+   "end": 909.44,
+   "text": "Oh, you want to go to a restaurant?",
+   "speaker": "S04"
+  },
+  {
+   "start": 909.9,
+   "end": 910.96,
+   "text": "Oh, all right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 911.24,
+   "end": 912.32,
+   "text": "Change your plans.",
+   "speaker": "S04"
+  },
+  {
+   "start": 912.84,
+   "end": 913.86,
+   "text": "I'm going to have to call Ralph.",
+   "speaker": "S04"
+  },
+  {
+   "start": 914.48,
+   "end": 914.84,
+   "text": "Cancel.",
+   "speaker": "S04"
+  },
+  {
+   "start": 915.7,
+   "end": 916.84,
+   "text": "I'll call you back.",
+   "speaker": "S04"
+  },
+  {
+   "start": 917.46,
+   "end": 917.82,
+   "text": "Coach.",
+   "speaker": "S04"
+  },
+  {
+   "start": 918.06,
+   "end": 918.38,
+   "text": "Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 918.66,
+   "end": 918.8,
+   "text": "Yeah?",
+   "speaker": "S04"
+  },
+  {
+   "start": 918.8,
+   "end": 920.02,
+   "text": "Go get me a Yellow Pages.",
+   "speaker": "S04"
+  },
+  {
+   "start": 920.48,
+   "end": 922.04,
+   "text": "Octavio, Melissa, get in the game.",
+   "speaker": "S04"
+  },
+  {
+   "start": 922.44,
+   "end": 924.24,
+   "text": "Hey, Coach, what do you think of Octavio?",
+   "speaker": "S06"
+  },
+  {
+   "start": 924.38,
+   "end": 925.0,
+   "text": "He's an ass.",
+   "speaker": "S04"
+  },
+  {
+   "start": 925.22,
+   "end": 925.7,
+   "text": "I agree.",
+   "speaker": "S04"
+  },
+  {
+   "start": 925.86,
+   "end": 928.12,
+   "text": "But I know something about him that Melissa doesn't know,",
+   "speaker": "S06"
+  },
+  {
+   "start": 928.14,
+   "end": 929.96,
+   "text": "and if she finds out, it's going to hurt her feelings.",
+   "speaker": "S06"
+  },
+  {
+   "start": 930.2,
+   "end": 932.1,
+   "text": "But if I tell her, she won't believe me",
+   "speaker": "S06"
+  },
+  {
+   "start": 932.1,
+   "end": 933.86,
+   "text": "because she thinks I'm jealous and don't like him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 934.56,
+   "end": 936.36,
+   "text": "Oh, my job.",
+   "speaker": "S04"
+  },
+  {
+   "start": 936.98,
+   "end": 937.38,
+   "text": "Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 937.7,
+   "end": 937.9,
+   "text": "Yeah?",
+   "speaker": "S04"
+  },
+  {
+   "start": 938.2,
+   "end": 939.88,
+   "text": "I know guys like Octavio.",
+   "speaker": "S04"
+  },
+  {
+   "start": 940.2,
+   "end": 940.82,
+   "text": "Lady killers.",
+   "speaker": "S04"
+  },
+  {
+   "start": 941.14,
+   "end": 941.34,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 941.54,
+   "end": 941.8,
+   "text": "Right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 941.96,
+   "end": 942.2,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 942.5,
+   "end": 943.68,
+   "text": "I'm like Octavio.",
+   "speaker": "S04"
+  },
+  {
+   "start": 943.92,
+   "end": 944.06,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 944.16,
+   "end": 946.18,
+   "text": "I fake accents to try and pick up girls.",
+   "speaker": "S04"
+  },
+  {
+   "start": 946.4,
+   "end": 946.5,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 946.64,
+   "end": 947.4,
+   "text": "I do that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 947.62,
+   "end": 948.3,
+   "text": "It works.",
+   "speaker": "S04"
+  },
+  {
+   "start": 948.3,
+   "end": 948.84,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 949.2,
+   "end": 949.94,
+   "text": "What can you do?",
+   "speaker": "S04"
+  },
+  {
+   "start": 950.14,
+   "end": 950.56,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 950.84,
+   "end": 951.16,
+   "text": "Nothing.",
+   "speaker": "S04"
+  },
+  {
+   "start": 951.62,
+   "end": 952.4,
+   "text": "Fake an accent.",
+   "speaker": "S04"
+  },
+  {
+   "start": 953.02,
+   "end": 953.64,
+   "text": "All right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 953.84,
+   "end": 954.08,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 954.54,
+   "end": 955.0,
+   "text": "Right now?",
+   "speaker": "S04"
+  },
+  {
+   "start": 955.3,
+   "end": 958.08,
+   "text": "Look, Brendan, you want to get Melissa back, all right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 958.22,
+   "end": 959.48,
+   "text": "Start with Octavio.",
+   "speaker": "S04"
+  },
+  {
+   "start": 959.7,
+   "end": 960.52,
+   "text": "There's your source.",
+   "speaker": "S04"
+  },
+  {
+   "start": 960.84,
+   "end": 960.98,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 961.1,
+   "end": 961.88,
+   "text": "Sit him down.",
+   "speaker": "S04"
+  },
+  {
+   "start": 962.02,
+   "end": 962.16,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 962.3,
+   "end": 963.56,
+   "text": "Find out what his game is.",
+   "speaker": "S04"
+  },
+  {
+   "start": 963.64,
+   "end": 963.82,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 963.98,
+   "end": 964.3,
+   "text": "All right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 964.54,
+   "end": 964.7,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 964.92,
+   "end": 966.44,
+   "text": "And then let the rest run its course.",
+   "speaker": "S04"
+  },
+  {
+   "start": 966.98,
+   "end": 967.28,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 967.46,
+   "end": 968.12,
+   "text": "You know what I'm saying?",
+   "speaker": "S04"
+  },
+  {
+   "start": 968.34,
+   "end": 968.62,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 968.98,
+   "end": 969.4,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 969.58,
+   "end": 969.86,
+   "text": "Thanks.",
+   "speaker": "S04"
+  },
+  {
+   "start": 970.52,
+   "end": 971.1,
+   "text": "You're welcome.",
+   "speaker": "S04"
+  },
+  {
+   "start": 971.38,
+   "end": 972.02,
+   "text": "Thanks for the advice.",
+   "speaker": "S06"
+  },
+  {
+   "start": 972.26,
+   "end": 972.74,
+   "text": "No problem.",
+   "speaker": "S06"
+  },
+  {
+   "start": 975.56,
+   "end": 976.7,
+   "text": "Susan B. Anthony.",
+   "speaker": "S06"
+  },
+  {
+   "start": 976.9,
+   "end": 978.06,
+   "text": "Who are you, Susan?",
+   "speaker": "S02"
+  },
+  {
+   "start": 978.3,
+   "end": 982.0,
+   "text": "Tell me so that I can tell the world your story.",
+   "speaker": "S06"
+  },
+  {
+   "start": 982.3,
+   "end": 982.62,
+   "text": "Bonjour.",
+   "speaker": "S06"
+  },
+  {
+   "start": 984.24,
+   "end": 986.0,
+   "text": "Oh, sorry. I scare you, no?",
+   "speaker": "S22"
+  },
+  {
+   "start": 986.2,
+   "end": 988.0,
+   "text": "No, no, I was just...",
+   "speaker": "S06"
+  },
+  {
+   "start": 988.0,
+   "end": 988.74,
+   "text": "How did you get down here?",
+   "speaker": "S06"
+  },
+  {
+   "start": 988.94,
+   "end": 990.84,
+   "text": "Your mother let me in.",
+   "speaker": "S22"
+  },
+  {
+   "start": 991.08,
+   "end": 994.08,
+   "text": "Oh, well, I'm glad you're here, Octavio.",
+   "speaker": "S06"
+  },
+  {
+   "start": 994.4,
+   "end": 995.84,
+   "text": "Ah, oui, oui, oui.",
+   "speaker": "S73"
+  },
+  {
+   "start": 996.12,
+   "end": 997.44,
+   "text": "Listen, I know your game.",
+   "speaker": "S06"
+  },
+  {
+   "start": 997.76,
+   "end": 998.3,
+   "text": "What game?",
+   "speaker": "S06"
+  },
+  {
+   "start": 998.66,
+   "end": 1000.42,
+   "text": "You don't really want to be Melissa's boyfriend, do you?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1000.6,
+   "end": 1001.74,
+   "text": "No, no, I do not.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1001.98,
+   "end": 1004.3,
+   "text": "You were just using Melissa so you could be in our movies, right?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1004.68,
+   "end": 1005.9,
+   "text": "Oui, she's correct.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1005.9,
+   "end": 1009.9,
+   "text": "But I want to work with a genius director. Uh-huh. Brendan",
+   "speaker": "S22"
+  },
+  {
+   "start": 1009.9,
+   "end": 1014.14,
+   "text": "I am the best actor you will ever work with in your life. What makes you think you're such a great actor?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1014.38,
+   "end": 1017.08,
+   "text": "Because Brendan, Brendan, Brendan. What?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1017.36,
+   "end": 1023.98,
+   "text": "Ta-da, I'm not French. I'm acting. Yeah, I know. Huh? Yeah, I know. Since when? Since the first time I heard you speak.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1024.2,
+   "end": 1029.04,
+   "text": "It's fake. It's a fake accent. It's kind of like a hacky French accent. What have you been watching? Like the Pink Panther?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1029.3,
+   "end": 1035.46,
+   "text": "You're right. I'm not French. Do you think I'm American? I know you're not French. Think I'm American? Well, yeah. I'm not. Why? What are you?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1035.46,
+   "end": 1036.42,
+   "text": "I'm Canadian, eh?",
+   "speaker": "S110"
+  },
+  {
+   "start": 1036.88,
+   "end": 1037.86,
+   "text": "All right, there's the door.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1038.8,
+   "end": 1040.0,
+   "text": "Oh, I hope that's him.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1040.56,
+   "end": 1040.86,
+   "text": "Hello?",
+   "speaker": "S05"
+  },
+  {
+   "start": 1041.5,
+   "end": 1041.82,
+   "text": "Eric?",
+   "speaker": "S05"
+  },
+  {
+   "start": 1042.18,
+   "end": 1042.48,
+   "text": "John?",
+   "speaker": "S05"
+  },
+  {
+   "start": 1042.74,
+   "end": 1043.04,
+   "text": "Yep?",
+   "speaker": "S05"
+  },
+  {
+   "start": 1043.44,
+   "end": 1044.0,
+   "text": "It's not him.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1044.36,
+   "end": 1047.0,
+   "text": "So I got the date locked in for dinner, the 12th.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1047.12,
+   "end": 1047.62,
+   "text": "How about that?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1047.82,
+   "end": 1048.04,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1048.26,
+   "end": 1050.34,
+   "text": "Can you hang on one second while I check my calendar?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1050.52,
+   "end": 1050.9,
+   "text": "Oh, yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1051.02,
+   "end": 1051.6,
+   "text": "Yeah, I got time.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1051.76,
+   "end": 1054.78,
+   "text": "Yeah, I got to say, it doesn't look like that's going to work out.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1054.94,
+   "end": 1056.06,
+   "text": "Uh-huh, you're checking your calendar.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1056.2,
+   "end": 1058.08,
+   "text": "Yeah, I'm checking my calendar right now.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1058.18,
+   "end": 1059.18,
+   "text": "Got it in your hand, huh?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1059.24,
+   "end": 1060.22,
+   "text": "Yep, just looking at it.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1060.34,
+   "end": 1061.04,
+   "text": "Looking at it, huh?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1061.28,
+   "end": 1061.48,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1061.62,
+   "end": 1062.74,
+   "text": "Where are you right now?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1062.74,
+   "end": 1066.24,
+   "text": "Right now, I'm sitting in the living room, and I'm looking at my calendar.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1066.46,
+   "end": 1068.56,
+   "text": "Sitting in the living room holding a calendar, huh?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1068.62,
+   "end": 1068.78,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1069.02,
+   "end": 1069.72,
+   "text": "Not in the kitchen.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1069.9,
+   "end": 1071.9,
+   "text": "I'm in the living room. I'm holding a calendar.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1072.08,
+   "end": 1074.38,
+   "text": "I'm in my car holding binoculars.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1074.72,
+   "end": 1074.98,
+   "text": "Oh.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1075.3,
+   "end": 1078.64,
+   "text": "And you're in the kitchen holding a blue coffee mug. All right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1078.88,
+   "end": 1079.28,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1079.6,
+   "end": 1080.26,
+   "text": "There I am.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1080.66,
+   "end": 1081.24,
+   "text": "See me?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1081.36,
+   "end": 1081.98,
+   "text": "I see you.",
+   "speaker": "S109"
+  },
+  {
+   "start": 1082.14,
+   "end": 1086.3,
+   "text": "How you doing? All right, now pick up the calendar and hold it up where I can see it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1086.44,
+   "end": 1087.34,
+   "text": "No funny stuff.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1088.18,
+   "end": 1089.78,
+   "text": "I don't want to work with Octavia. He's a jerk.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1090.24,
+   "end": 1090.92,
+   "text": "That's right.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1091.08,
+   "end": 1093.22,
+   "text": "Brendan, I call him October behind his back.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1094.06,
+   "end": 1095.46,
+   "text": "Well, that's just childish.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1095.76,
+   "end": 1096.06,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1096.42,
+   "end": 1096.68,
+   "text": "Hey.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1097.14,
+   "end": 1100.38,
+   "text": "I just thought of a way we can get rid of Octavio and get Melissa back before it's too late.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1100.78,
+   "end": 1101.86,
+   "text": "Get over here as fast as you can.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1102.2,
+   "end": 1102.66,
+   "text": "All right.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1103.12,
+   "end": 1104.38,
+   "text": "Could you send a cab?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1105.1,
+   "end": 1106.86,
+   "text": "No, John, Friday sounds doable.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1107.22,
+   "end": 1107.5,
+   "text": "Good.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1107.92,
+   "end": 1109.26,
+   "text": "Lynch, still there?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1109.48,
+   "end": 1109.9,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1110.12,
+   "end": 1110.92,
+   "text": "What about Friday?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1112.26,
+   "end": 1115.8,
+   "text": "Yeah, I guess I can do Friday, but not until, let's see, 8.30.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1115.92,
+   "end": 1116.42,
+   "text": "At 8.30.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1116.5,
+   "end": 1116.84,
+   "text": "Hold on.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1117.2,
+   "end": 1117.56,
+   "text": "Paula?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1118.22,
+   "end": 1118.86,
+   "text": "Still here.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1118.86,
+   "end": 1120.56,
+   "text": "What about Friday, 8.30?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1120.74,
+   "end": 1121.04,
+   "text": "Fine.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1121.24,
+   "end": 1121.68,
+   "text": "All right, good.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1122.28,
+   "end": 1123.5,
+   "text": "I'll call you back.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1123.9,
+   "end": 1124.94,
+   "text": "Erica, watch this.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1125.4,
+   "end": 1125.72,
+   "text": "Lynch?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1125.94,
+   "end": 1126.24,
+   "text": "Hello.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1126.78,
+   "end": 1127.18,
+   "text": "Lynch.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1127.6,
+   "end": 1128.96,
+   "text": "Yeah, what's going on?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1129.2,
+   "end": 1129.8,
+   "text": "I don't know.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1130.08,
+   "end": 1130.84,
+   "text": "What are you doing?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1131.04,
+   "end": 1131.98,
+   "text": "You were making the plan.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1132.12,
+   "end": 1133.02,
+   "text": "What's going on?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1133.06,
+   "end": 1133.52,
+   "text": "What plan?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1133.98,
+   "end": 1134.86,
+   "text": "The dinner plan.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1134.86,
+   "end": 1137.14,
+   "text": "I don't know what you're talking about, Lynch, but don't call me anymore.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1137.34,
+   "end": 1137.74,
+   "text": "What?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1138.84,
+   "end": 1140.12,
+   "text": "I lied to you, October.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1141.18,
+   "end": 1141.58,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1142.04,
+   "end": 1142.44,
+   "text": "October.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1142.84,
+   "end": 1145.94,
+   "text": "I didn't really invite you here to make a movie about a scientific expedition to the",
+   "speaker": "S06"
+  },
+  {
+   "start": 1145.94,
+   "end": 1148.74,
+   "text": "bottom of the Indian Ocean, as I said to you earlier on the phone.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1148.86,
+   "end": 1152.72,
+   "text": "See this? I taped your little confession about Melissa and how you used her.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1152.92,
+   "end": 1153.44,
+   "text": "You're good.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1153.64,
+   "end": 1153.94,
+   "text": "Thanks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1154.18,
+   "end": 1158.54,
+   "text": "Now I want you to call Melissa and tell her that she's too good for you, or I'll show this tape.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1158.76,
+   "end": 1159.84,
+   "text": "What's it gonna be, October?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1160.32,
+   "end": 1162.16,
+   "text": "It gets me every time.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1162.42,
+   "end": 1163.66,
+   "text": "Okay, I'll do it.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1163.92,
+   "end": 1165.68,
+   "text": "I wrote out everything you need to say to her.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1165.76,
+   "end": 1166.82,
+   "text": "And I want to see a good performance.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1167.44,
+   "end": 1167.74,
+   "text": "Brendan.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1168.06,
+   "end": 1168.26,
+   "text": "Yeah?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1168.54,
+   "end": 1170.12,
+   "text": "I'll give the best performance you've ever seen.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1170.5,
+   "end": 1171.46,
+   "text": "Can you tape this for my reel?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1174.98,
+   "end": 1179.82,
+   "text": "And every time I see a smile, it will feel like a dagger in my heart",
+   "speaker": "S22"
+  },
+  {
+   "start": 1179.82,
+   "end": 1184.28,
+   "text": "And a constant reminder of what could have been if I wasn't such a shallow person",
+   "speaker": "S22"
+  },
+  {
+   "start": 1184.28,
+   "end": 1186.44,
+   "text": "So, can you give her that message?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1186.8,
+   "end": 1187.4,
+   "text": "I will",
+   "speaker": "S04"
+  },
+  {
+   "start": 1187.4,
+   "end": 1188.24,
+   "text": "Au revoir",
+   "speaker": "S22"
+  },
+  {
+   "start": 1188.24,
+   "end": 1189.02,
+   "text": "Alright",
+   "speaker": "S22"
+  },
+  {
+   "start": 1189.78,
+   "end": 1192.5,
+   "text": "Here's my headshot and bios, please note all the different dialects",
+   "speaker": "S22"
+  },
+  {
+   "start": 1192.5,
+   "end": 1194.96,
+   "text": "I also play soccer, swim, and can ride a horse",
+   "speaker": "S22"
+  },
+  {
+   "start": 1194.96,
+   "end": 1196.42,
+   "text": "I also do magic, poof",
+   "speaker": "S22"
+  },
+  {
+   "start": 1198.92,
+   "end": 1201.5,
+   "text": "Listen guys, I'm sorry I got mad and quit the other day",
+   "speaker": "S05"
+  },
+  {
+   "start": 1201.5,
+   "end": 1204.12,
+   "text": "And I'm really sorry I let Octavio get in between us",
+   "speaker": "S05"
+  },
+  {
+   "start": 1204.12,
+   "end": 1209.0,
+   "text": "Well, Melissa, we're sorry if we didn't do things",
+   "speaker": "S06"
+  },
+  {
+   "start": 1209.0,
+   "end": 1210.76,
+   "text": "Thanks, Brendan, that means a lot",
+   "speaker": "S05"
+  },
+  {
+   "start": 1211.14,
+   "end": 1213.58,
+   "text": "So, Jason, Brendan said you want to marry me",
+   "speaker": "S05"
+  },
+  {
+   "start": 1213.58,
+   "end": 1214.7,
+   "text": "I never said that",
+   "speaker": "S22"
+  },
+  {
+   "start": 1214.7,
+   "end": 1216.86,
+   "text": "You told me you wanted to marry her, that it was your destiny",
+   "speaker": "S06"
+  },
+  {
+   "start": 1216.86,
+   "end": 1217.58,
+   "text": "No, I did, Brendan",
+   "speaker": "S106"
+  },
+  {
+   "start": 1217.94,
+   "end": 1218.52,
+   "text": "Yes, you did",
+   "speaker": "S106"
+  },
+  {
+   "start": 1218.52,
+   "end": 1218.98,
+   "text": "I did not",
+   "speaker": "S106"
+  },
+  {
+   "start": 1218.98,
+   "end": 1219.52,
+   "text": "You did too",
+   "speaker": "S106"
+  },
+  {
+   "start": 1219.52,
+   "end": 1222.54,
+   "text": "Melissa, I don't want to marry you, oh my god, no",
+   "speaker": "S22"
+  },
+  {
+   "start": 1222.54,
+   "end": 1224.52,
+   "text": "Alright, well, then let's get to work",
+   "speaker": "S05"
+  },
+  {
+   "start": 1224.52,
+   "end": 1226.28,
+   "text": "Sure, here's what I was thinking",
+   "speaker": "S06"
+  },
+  {
+   "start": 1226.28,
+   "end": 1229.26,
+   "text": "I mean, uh, what did you have any ideas?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1229.74,
+   "end": 1230.28,
+   "text": "I love...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1230.92,
+   "end": 1233.52,
+   "text": "Women will never get the right to vote. Never!",
+   "speaker": "S108"
+  },
+  {
+   "start": 1233.84,
+   "end": 1237.16,
+   "text": "Well then, maybe I'll just have to settle for the right to bear arms.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1237.38,
+   "end": 1239.02,
+   "text": "Okay, you can vote, you can vote.",
+   "speaker": "S108"
+  },
+  {
+   "start": 1239.26,
+   "end": 1240.62,
+   "text": "Good job, Susan.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1241.02,
+   "end": 1243.38,
+   "text": "Wait, are you Susan B. Anthony?",
+   "speaker": "S108"
+  },
+  {
+   "start": 1243.8,
+   "end": 1244.56,
+   "text": "That's me.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1244.78,
+   "end": 1248.38,
+   "text": "Well, I have to know, Susan, what does the B stand for?",
+   "speaker": "S108"
+  },
+  {
+   "start": 1248.62,
+   "end": 1249.72,
+   "text": "You really wanna know?",
+   "speaker": "S05"
+  },
+  {
+   "start": 1249.98,
+   "end": 1250.46,
+   "text": "Please.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1253.5,
+   "end": 1253.98,
+   "text": "Bitchin'.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1253.98,
+   "end": 1254.5,
+   "text": "Yay!",
+   "speaker": "S05"
+  },
+  {
+   "start": 1257.64,
+   "end": 1259.0,
+   "text": "Eric, take a load off.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1259.28,
+   "end": 1260.68,
+   "text": "Hey, sorry I'm so late.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1260.82,
+   "end": 1261.84,
+   "text": "Don't worry about it, you're fine.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1262.94,
+   "end": 1264.32,
+   "text": "Where's Lynch and Paula?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1264.44,
+   "end": 1264.84,
+   "text": "Cancelled.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1265.4,
+   "end": 1267.42,
+   "text": "Oh, that's why Paula offered to babysit.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1267.52,
+   "end": 1268.54,
+   "text": "Well, I'll tell you, we don't need him.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1268.84,
+   "end": 1269.48,
+   "text": "Drink wine?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1269.74,
+   "end": 1270.12,
+   "text": "Please.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1270.32,
+   "end": 1271.28,
+   "text": "Let's order another bottle.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1271.58,
+   "end": 1271.82,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1272.26,
+   "end": 1273.54,
+   "text": "Hey, have you eaten here before?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1273.7,
+   "end": 1275.32,
+   "text": "I just ate, so I finished.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1275.7,
+   "end": 1276.74,
+   "text": "Well, I'm gonna hit the head.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1278.06,
+   "end": 1278.5,
+   "text": "Woof.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1279.2,
+   "end": 1281.84,
+   "text": "John McGurk, I tell you, I needed this.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1282.3,
+   "end": 1284.02,
+   "text": "Yeah, here's to you for showing up.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1284.12,
+   "end": 1286.04,
+   "text": "Hey, you know who we shouldn't toast to?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1286.48,
+   "end": 1287.32,
+   "text": "Lynch and Paula.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1287.62,
+   "end": 1288.02,
+   "text": "That's right.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1288.34,
+   "end": 1290.56,
+   "text": "But I'd like to drink to them, as long as I get my glass up.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1290.7,
+   "end": 1291.88,
+   "text": "I'm glad you came through, though.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1291.96,
+   "end": 1292.38,
+   "text": "It was nice.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1292.9,
+   "end": 1293.36,
+   "text": "You know?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1293.54,
+   "end": 1296.48,
+   "text": "You're a man who respects a plan, and that's good.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1296.64,
+   "end": 1297.34,
+   "text": "Hey, to planning.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1297.66,
+   "end": 1298.0,
+   "text": "Come on.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1298.36,
+   "end": 1300.06,
+   "text": "Oh, man, this is good.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1300.16,
+   "end": 1300.26,
+   "text": "What?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1300.38,
+   "end": 1301.12,
+   "text": "Who made this?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1301.34,
+   "end": 1302.26,
+   "text": "You can drink, huh?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1302.4,
+   "end": 1303.5,
+   "text": "I mean, I can't pronounce it.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1303.64,
+   "end": 1304.92,
+   "text": "I can consume it.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1305.18,
+   "end": 1306.68,
+   "text": "Are you going to order, or are you going to, uh...",
+   "speaker": "S04"
+  },
+  {
+   "start": 1306.68,
+   "end": 1308.1,
+   "text": "I ordered already while you were in the bathroom.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1308.28,
+   "end": 1308.66,
+   "text": "Oh, you did?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1308.8,
+   "end": 1308.9,
+   "text": "Yep.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1309.06,
+   "end": 1309.72,
+   "text": "Well, I'm going to take off.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1310.04,
+   "end": 1310.36,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1310.36,
+   "end": 1311.92,
+   "text": "Do you mind if I eat while you're gone?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1312.1,
+   "end": 1312.96,
+   "text": "No, no, enjoy.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1313.44,
+   "end": 1314.02,
+   "text": "What'd you get?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1314.28,
+   "end": 1316.72,
+   "text": "I got the grilled chicken salad salad.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1316.9,
+   "end": 1317.62,
+   "text": "You go, girl.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1318.96,
+   "end": 1320.02,
+   "text": "I'll check you later, buddy.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1320.28,
+   "end": 1321.42,
+   "text": "I'm going to leave you with the check.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1322.14,
+   "end": 1323.36,
+   "text": "I do got to run out of here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1323.46,
+   "end": 1326.48,
+   "text": "I just got to call my friend Ralph, and we're going to hit a nightclub.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1326.86,
+   "end": 1327.16,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1327.38,
+   "end": 1329.06,
+   "text": "You want me to hook up with you guys later?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1329.22,
+   "end": 1329.98,
+   "text": "No, no, that's cool.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1330.16,
+   "end": 1330.96,
+   "text": "You stick it out here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1331.24,
+   "end": 1332.54,
+   "text": "Because I have my cell phone with me.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1332.62,
+   "end": 1333.1,
+   "text": "Have a good meal.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1333.4,
+   "end": 1335.64,
+   "text": "Okay, if you want to call me, just...",
+   "speaker": "S02"
+  },
+  {
+   "start": 1335.64,
+   "end": 1336.4,
+   "text": "See you later, buddy.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1336.52,
+   "end": 1337.14,
+   "text": "I'm going to leave it on.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1337.22,
+   "end": 1338.24,
+   "text": "Hey, thanks for showing up.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1340.36,
+   "end": 1341.24,
+   "text": "Thank you.",
+   "speaker": "S21"
+  }
+ ],
+ "times": {
+  "transcribe_s": 78.9,
+  "speaker_id_s": 10.4
+ }
+}

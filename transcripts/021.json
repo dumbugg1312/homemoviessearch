@@ -1,0 +1,4027 @@
+{
+ "idx": 21,
+ "code": "S2E8",
+ "title": "Therapy",
+ "season": 2,
+ "episode": 8,
+ "video_url": "https://www.youtube.com/watch?v=f80lFKuG8ms",
+ "yt_start": 26605.0,
+ "duration": 1340.0,
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "speakers": [
+  "S04",
+  "S05",
+  "S06",
+  "S22",
+  "S23",
+  "S78",
+  "S80",
+  "S81"
+ ],
+ "clusters": {
+  "0": {
+   "speaker": "S05",
+   "how": "match",
+   "n_segs": 23,
+   "sim": 0.856
+  },
+  "1": {
+   "speaker": "S80",
+   "how": "new",
+   "n_segs": 39,
+   "sim": 0.421
+  },
+  "2": {
+   "speaker": "S22",
+   "how": "match",
+   "n_segs": 40,
+   "sim": 0.83
+  },
+  "3": {
+   "speaker": "S06",
+   "how": "match",
+   "n_segs": 179,
+   "sim": 0.952
+  },
+  "4": {
+   "speaker": "S78",
+   "how": "match",
+   "n_segs": 60,
+   "sim": 0.953
+  },
+  "5": {
+   "speaker": "S04",
+   "how": "match",
+   "n_segs": 72,
+   "sim": 0.947
+  },
+  "6": {
+   "speaker": "S23",
+   "how": "match",
+   "n_segs": 33,
+   "sim": 0.924
+  },
+  "7": {
+   "speaker": "S81",
+   "how": "new",
+   "n_segs": 88,
+   "sim": 0.299
+  }
+ },
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.44,
+   "text": "The End",
+   "speaker": "S06"
+  },
+  {
+   "start": 0.44,
+   "end": 0.64,
+   "text": "The End",
+   "speaker": "S06"
+  },
+  {
+   "start": 0.64,
+   "end": 3.42,
+   "text": "The End",
+   "speaker": "S06"
+  },
+  {
+   "start": 7.92,
+   "end": 10.7,
+   "text": "Lord, have you lost weight, perhaps?",
+   "speaker": "S05"
+  },
+  {
+   "start": 11.04,
+   "end": 13.44,
+   "text": "Uh, not that I know of, but thank you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 13.78,
+   "end": 16.0,
+   "text": "No, he does look thinner.",
+   "speaker": "S22"
+  },
+  {
+   "start": 16.38,
+   "end": 17.64,
+   "text": "Hmm. You both flatter me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 17.82,
+   "end": 20.14,
+   "text": "Not flatter, my lord. Thinner.",
+   "speaker": "S22"
+  },
+  {
+   "start": 20.36,
+   "end": 23.22,
+   "text": "Well, I suppose you two look thinner, too, then.",
+   "speaker": "S06"
+  },
+  {
+   "start": 23.7,
+   "end": 26.12,
+   "text": "Impossible. I'm fatter, if anything.",
+   "speaker": "S22"
+  },
+  {
+   "start": 26.42,
+   "end": 27.92,
+   "text": "You seem shorter, too, Your Honor.",
+   "speaker": "S05"
+  },
+  {
+   "start": 27.92,
+   "end": 30.06,
+   "text": "Shorter, yes, much shorter.",
+   "speaker": "S22"
+  },
+  {
+   "start": 30.38,
+   "end": 34.98,
+   "text": "It doesn't carry the same complimentary weight as thinner, but funny I don't feel shorter.",
+   "speaker": "S06"
+  },
+  {
+   "start": 35.2,
+   "end": 37.0,
+   "text": "Sire, is this your big shoe?",
+   "speaker": "S05"
+  },
+  {
+   "start": 37.46,
+   "end": 40.28,
+   "text": "Yes, give that back. Must have fallen off.",
+   "speaker": "S06"
+  },
+  {
+   "start": 40.36,
+   "end": 41.66,
+   "text": "You're shrinking, my king.",
+   "speaker": "S22"
+  },
+  {
+   "start": 41.88,
+   "end": 43.24,
+   "text": "Hey, what's that supposed to mean?",
+   "speaker": "S06"
+  },
+  {
+   "start": 43.3,
+   "end": 44.54,
+   "text": "We didn't know how to tell you.",
+   "speaker": "S05"
+  },
+  {
+   "start": 44.78,
+   "end": 46.08,
+   "text": "I'm not shrinking.",
+   "speaker": "S06"
+  },
+  {
+   "start": 46.4,
+   "end": 47.72,
+   "text": "Yes, my lord, you are.",
+   "speaker": "S22"
+  },
+  {
+   "start": 47.98,
+   "end": 52.48,
+   "text": "Oh, yeah? Well, you're shrinking. How do you like that? Doesn't feel so good, does it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 52.74,
+   "end": 54.12,
+   "text": "No, it doesn't.",
+   "speaker": "S22"
+  },
+  {
+   "start": 54.22,
+   "end": 54.6,
+   "text": "Yeah, see?",
+   "speaker": "S22"
+  },
+  {
+   "start": 54.7,
+   "end": 56.12,
+   "text": "But we're not shrinking, my lord.",
+   "speaker": "S22"
+  },
+  {
+   "start": 56.12,
+   "end": 58.56,
+   "text": "And I remember a time when you didn't have to use that stool.",
+   "speaker": "S05"
+  },
+  {
+   "start": 58.96,
+   "end": 62.54,
+   "text": "I like the stool. I use it because it's fun.",
+   "speaker": "S06"
+  },
+  {
+   "start": 62.66,
+   "end": 64.42,
+   "text": "You use it because you're shrinking.",
+   "speaker": "S22"
+  },
+  {
+   "start": 65.02,
+   "end": 67.5,
+   "text": "Hey, is this some new kooky way of impeaching me?",
+   "speaker": "S06"
+  },
+  {
+   "start": 67.64,
+   "end": 68.44,
+   "text": "Not at all, sire.",
+   "speaker": "S05"
+  },
+  {
+   "start": 68.56,
+   "end": 71.04,
+   "text": "We are your humble servants, my President King.",
+   "speaker": "S22"
+  },
+  {
+   "start": 71.4,
+   "end": 74.28,
+   "text": "Well, well, then, very good, then. That seems settled.",
+   "speaker": "S06"
+  },
+  {
+   "start": 74.64,
+   "end": 78.32,
+   "text": "Is it settled? Then good. Okay, no more talking of shrinking, then, all right?",
+   "speaker": "S06"
+  },
+  {
+   "start": 79.26,
+   "end": 81.26,
+   "text": "Okay, could somebody just help me off the stool?",
+   "speaker": "S06"
+  },
+  {
+   "start": 81.8,
+   "end": 82.44,
+   "text": "Yes, sir.",
+   "speaker": "S22"
+  },
+  {
+   "start": 82.7,
+   "end": 84.92,
+   "text": "Good. I'm off to go shopping, then.",
+   "speaker": "S06"
+  },
+  {
+   "start": 84.92,
+   "end": 86.44,
+   "text": "How are we on toilet paper?",
+   "speaker": "S06"
+  },
+  {
+   "start": 86.62,
+   "end": 86.86,
+   "text": "Good.",
+   "speaker": "S06"
+  },
+  {
+   "start": 87.06,
+   "end": 87.46,
+   "text": "Get some.",
+   "speaker": "S06"
+  },
+  {
+   "start": 87.74,
+   "end": 88.06,
+   "text": "Get some?",
+   "speaker": "S06"
+  },
+  {
+   "start": 88.26,
+   "end": 88.54,
+   "text": "Get some.",
+   "speaker": "S06"
+  },
+  {
+   "start": 88.58,
+   "end": 89.28,
+   "text": "All right, write it down.",
+   "speaker": "S06"
+  },
+  {
+   "start": 89.62,
+   "end": 91.28,
+   "text": "T-O-V-I-GET IT.",
+   "speaker": "S06"
+  },
+  {
+   "start": 91.4,
+   "end": 91.82,
+   "text": "I'll remember.",
+   "speaker": "S06"
+  },
+  {
+   "start": 92.0,
+   "end": 92.92,
+   "text": "Okay, I'll be back soon.",
+   "speaker": "S06"
+  },
+  {
+   "start": 93.06,
+   "end": 93.92,
+   "text": "Goodbye, my lord.",
+   "speaker": "S22"
+  },
+  {
+   "start": 94.3,
+   "end": 95.58,
+   "text": "He's definitely shrieking.",
+   "speaker": "S22"
+  },
+  {
+   "start": 95.66,
+   "end": 97.32,
+   "text": "We should prepare for his eventual disappearance.",
+   "speaker": "S05"
+  },
+  {
+   "start": 97.56,
+   "end": 98.12,
+   "text": "I forgot my wallet.",
+   "speaker": "S05"
+  },
+  {
+   "start": 98.18,
+   "end": 101.46,
+   "text": "When he disappears, I'll take over O'goody.",
+   "speaker": "S22"
+  },
+  {
+   "start": 101.72,
+   "end": 102.98,
+   "text": "With me as your woman commander.",
+   "speaker": "S05"
+  },
+  {
+   "start": 103.12,
+   "end": 105.04,
+   "text": "Of course, I nearly forgot.",
+   "speaker": "S04"
+  },
+  {
+   "start": 109.06,
+   "end": 110.98,
+   "text": "They're plotting against me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 111.26,
+   "end": 114.06,
+   "text": "Good thing I'm shrinking or they'd see me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 114.06,
+   "end": 115.36,
+   "text": "It feels soft.",
+   "speaker": "S22"
+  },
+  {
+   "start": 115.56,
+   "end": 116.38,
+   "text": "I think it feels flat.",
+   "speaker": "S05"
+  },
+  {
+   "start": 116.6,
+   "end": 118.42,
+   "text": "Yeah, soft and flat like a bathroom rug.",
+   "speaker": "S06"
+  },
+  {
+   "start": 118.72,
+   "end": 122.18,
+   "text": "It also feels forced, like somebody forced a bathroom rug into something.",
+   "speaker": "S06"
+  },
+  {
+   "start": 122.86,
+   "end": 123.6,
+   "text": "Like a hamper.",
+   "speaker": "S06"
+  },
+  {
+   "start": 123.86,
+   "end": 125.14,
+   "text": "I hate my acting.",
+   "speaker": "S22"
+  },
+  {
+   "start": 125.48,
+   "end": 126.28,
+   "text": "It's horrible.",
+   "speaker": "S22"
+  },
+  {
+   "start": 126.62,
+   "end": 127.42,
+   "text": "You think you were bad?",
+   "speaker": "S05"
+  },
+  {
+   "start": 127.48,
+   "end": 128.02,
+   "text": "What about me?",
+   "speaker": "S05"
+  },
+  {
+   "start": 128.16,
+   "end": 130.08,
+   "text": "I couldn't act my way into a paper bag.",
+   "speaker": "S05"
+  },
+  {
+   "start": 130.52,
+   "end": 130.92,
+   "text": "Into.",
+   "speaker": "S05"
+  },
+  {
+   "start": 131.26,
+   "end": 132.04,
+   "text": "Are you guys serious?",
+   "speaker": "S06"
+  },
+  {
+   "start": 132.28,
+   "end": 132.74,
+   "text": "I'm sorry.",
+   "speaker": "S06"
+  },
+  {
+   "start": 132.92,
+   "end": 133.1,
+   "text": "Thanks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 133.2,
+   "end": 134.64,
+   "text": "My acting sucks on ice.",
+   "speaker": "S06"
+  },
+  {
+   "start": 134.88,
+   "end": 136.18,
+   "text": "What was I doing up there?",
+   "speaker": "S06"
+  },
+  {
+   "start": 136.32,
+   "end": 137.68,
+   "text": "Not acting, that's for sure.",
+   "speaker": "S06"
+  },
+  {
+   "start": 138.1,
+   "end": 138.66,
+   "text": "You know, that was just...",
+   "speaker": "S06"
+  },
+  {
+   "start": 138.66,
+   "end": 140.78,
+   "text": "Hey, Brendan, why don't you put some extra bait on that hook?",
+   "speaker": "S22"
+  },
+  {
+   "start": 141.04,
+   "end": 143.48,
+   "text": "Yeah, don't forget your tackle box for your compliment fishing trip.",
+   "speaker": "S05"
+  },
+  {
+   "start": 143.48,
+   "end": 145.56,
+   "text": "I thought we were all fishing for compliments.",
+   "speaker": "S06"
+  },
+  {
+   "start": 145.78,
+   "end": 146.34,
+   "text": "That's what we were...",
+   "speaker": "S06"
+  },
+  {
+   "start": 146.34,
+   "end": 146.96,
+   "text": "Oh, forget it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 147.28,
+   "end": 149.22,
+   "text": "Hey, Brendan, grow a Ahab beard.",
+   "speaker": "S06"
+  },
+  {
+   "start": 150.62,
+   "end": 150.98,
+   "text": "Okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 151.2,
+   "end": 151.7,
+   "text": "Guys, guys.",
+   "speaker": "S06"
+  },
+  {
+   "start": 151.7,
+   "end": 152.28,
+   "text": "Maybe I will.",
+   "speaker": "S06"
+  },
+  {
+   "start": 152.4,
+   "end": 154.14,
+   "text": "You're captain of the essence compliment.",
+   "speaker": "S22"
+  },
+  {
+   "start": 154.52,
+   "end": 156.98,
+   "text": "Guys, should we maybe rehearse this more and reshoot it?",
+   "speaker": "S05"
+  },
+  {
+   "start": 157.1,
+   "end": 158.5,
+   "text": "Whoa, whoa, whoa, whoa, whoa, no.",
+   "speaker": "S22"
+  },
+  {
+   "start": 158.8,
+   "end": 160.02,
+   "text": "Yeah, nobody's acting that bad.",
+   "speaker": "S06"
+  },
+  {
+   "start": 160.28,
+   "end": 161.66,
+   "text": "You're acting like a child.",
+   "speaker": "S80"
+  },
+  {
+   "start": 161.9,
+   "end": 162.9,
+   "text": "What does that mean?",
+   "speaker": "S78"
+  },
+  {
+   "start": 163.04,
+   "end": 163.74,
+   "text": "Wait, me or him?",
+   "speaker": "S06"
+  },
+  {
+   "start": 163.9,
+   "end": 164.56,
+   "text": "Both of you.",
+   "speaker": "S80"
+  },
+  {
+   "start": 164.66,
+   "end": 165.98,
+   "text": "Well, I am a child, so thank you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 166.08,
+   "end": 167.24,
+   "text": "Do you want to elaborate, Linda?",
+   "speaker": "S81"
+  },
+  {
+   "start": 167.38,
+   "end": 169.66,
+   "text": "You didn't want to race because of your shoes.",
+   "speaker": "S78"
+  },
+  {
+   "start": 169.92,
+   "end": 170.9,
+   "text": "That's what you said.",
+   "speaker": "S78"
+  },
+  {
+   "start": 171.08,
+   "end": 172.38,
+   "text": "How do you know what I really wanted to do?",
+   "speaker": "S80"
+  },
+  {
+   "start": 172.4,
+   "end": 173.32,
+   "text": "Can I jump in and say something?",
+   "speaker": "S06"
+  },
+  {
+   "start": 173.48,
+   "end": 174.36,
+   "text": "Go ahead, Brandon.",
+   "speaker": "S81"
+  },
+  {
+   "start": 174.56,
+   "end": 174.76,
+   "text": "Brandon.",
+   "speaker": "S81"
+  },
+  {
+   "start": 175.94,
+   "end": 176.56,
+   "text": "Never mind.",
+   "speaker": "S06"
+  },
+  {
+   "start": 176.9,
+   "end": 179.4,
+   "text": "Linda, we said let's race to the car,",
+   "speaker": "S06"
+  },
+  {
+   "start": 179.48,
+   "end": 181.2,
+   "text": "and you said you couldn't because of your shoes,",
+   "speaker": "S06"
+  },
+  {
+   "start": 181.28,
+   "end": 182.36,
+   "text": "and you know, so we just...",
+   "speaker": "S06"
+  },
+  {
+   "start": 182.36,
+   "end": 184.58,
+   "text": "Honey, you were wearing beautiful shoes,",
+   "speaker": "S78"
+  },
+  {
+   "start": 184.7,
+   "end": 187.96,
+   "text": "but maybe you should carry extra shoes on days with Brandon.",
+   "speaker": "S78"
+  },
+  {
+   "start": 188.12,
+   "end": 189.68,
+   "text": "And you said you didn't want to race anyway.",
+   "speaker": "S06"
+  },
+  {
+   "start": 189.92,
+   "end": 190.42,
+   "text": "But I did.",
+   "speaker": "S06"
+  },
+  {
+   "start": 190.52,
+   "end": 191.8,
+   "text": "I just couldn't because of my shoes.",
+   "speaker": "S80"
+  },
+  {
+   "start": 191.98,
+   "end": 194.54,
+   "text": "Well, maybe we can go shoe shopping after this,",
+   "speaker": "S78"
+  },
+  {
+   "start": 194.66,
+   "end": 197.42,
+   "text": "or we can schedule a shoe outing for the three of us.",
+   "speaker": "S78"
+  },
+  {
+   "start": 197.56,
+   "end": 198.74,
+   "text": "Don't patronize me.",
+   "speaker": "S80"
+  },
+  {
+   "start": 198.86,
+   "end": 200.2,
+   "text": "I'd like to stop you there.",
+   "speaker": "S81"
+  },
+  {
+   "start": 200.42,
+   "end": 201.42,
+   "text": "I'm not patronizing you.",
+   "speaker": "S78"
+  },
+  {
+   "start": 201.48,
+   "end": 202.12,
+   "text": "I'm just saying.",
+   "speaker": "S78"
+  },
+  {
+   "start": 202.32,
+   "end": 203.36,
+   "text": "Oh, what are you saying there?",
+   "speaker": "S80"
+  },
+  {
+   "start": 203.36,
+   "end": 206.54,
+   "text": "Hey, I've got an idea. Well, let's reschedule the race and we'll just let Linda win.",
+   "speaker": "S06"
+  },
+  {
+   "start": 206.68,
+   "end": 208.86,
+   "text": "Brandon, do not patronize Linda.",
+   "speaker": "S78"
+  },
+  {
+   "start": 209.02,
+   "end": 210.4,
+   "text": "I thought I was patronizing you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 210.5,
+   "end": 211.06,
+   "text": "Real nice.",
+   "speaker": "S06"
+  },
+  {
+   "start": 211.34,
+   "end": 213.06,
+   "text": "I can't believe we're arguing about shoes.",
+   "speaker": "S78"
+  },
+  {
+   "start": 213.26,
+   "end": 215.28,
+   "text": "No, don't do that. It's more than that.",
+   "speaker": "S80"
+  },
+  {
+   "start": 215.4,
+   "end": 216.88,
+   "text": "And maybe we should argue about something else.",
+   "speaker": "S06"
+  },
+  {
+   "start": 216.88,
+   "end": 218.22,
+   "text": "I'd like to stop you there, too.",
+   "speaker": "S81"
+  },
+  {
+   "start": 218.22,
+   "end": 223.94,
+   "text": "No, it's serious. If you can't interpret what's really going on, then how well is this whole thing going to work? It's stupid.",
+   "speaker": "S80"
+  },
+  {
+   "start": 224.18,
+   "end": 225.42,
+   "text": "Well, maybe it is stupid.",
+   "speaker": "S78"
+  },
+  {
+   "start": 225.6,
+   "end": 227.42,
+   "text": "Well, then it's unanimous. Something's stupid.",
+   "speaker": "S06"
+  },
+  {
+   "start": 227.6,
+   "end": 227.94,
+   "text": "Brandon!",
+   "speaker": "S06"
+  },
+  {
+   "start": 228.18,
+   "end": 230.34,
+   "text": "Hey, I'm sorry, but I am the winner of the race still.",
+   "speaker": "S06"
+  },
+  {
+   "start": 230.48,
+   "end": 232.32,
+   "text": "Oh, can we stop talking about the stupid race?",
+   "speaker": "S80"
+  },
+  {
+   "start": 232.32,
+   "end": 240.46,
+   "text": "I'm gonna stop us there. I'm so embarrassed. Well, that's why I taped the first session so that we can see how embarrassing we are",
+   "speaker": "S81"
+  },
+  {
+   "start": 240.46,
+   "end": 246.16,
+   "text": "Man my acting is horrible. I'm really in a slump. Does this cost more the taping a little?",
+   "speaker": "S06"
+  },
+  {
+   "start": 246.88,
+   "end": 252.16,
+   "text": "Listen doctor. I'd like to apologize for everybody's bickering and I then I'd like to accept our apology",
+   "speaker": "S06"
+  },
+  {
+   "start": 253.6,
+   "end": 256.36,
+   "text": "Well good, but the main issue here is",
+   "speaker": "S81"
+  },
+  {
+   "start": 256.36,
+   "end": 258.26,
+   "text": "communication. And there was some",
+   "speaker": "S81"
+  },
+  {
+   "start": 258.26,
+   "end": 260.1,
+   "text": "abrasive talk that day, wasn't there?",
+   "speaker": "S81"
+  },
+  {
+   "start": 260.34,
+   "end": 262.12,
+   "text": "Yeah, there was. The word",
+   "speaker": "S81"
+  },
+  {
+   "start": 262.12,
+   "end": 264.46,
+   "text": "stupid was used, huh? Stupid.",
+   "speaker": "S81"
+  },
+  {
+   "start": 264.9,
+   "end": 265.46,
+   "text": "Ouch.",
+   "speaker": "S81"
+  },
+  {
+   "start": 266.2,
+   "end": 268.38,
+   "text": "Stupid is a very hurtful word, and you",
+   "speaker": "S81"
+  },
+  {
+   "start": 268.38,
+   "end": 270.24,
+   "text": "raised your voices, you pointed fingers.",
+   "speaker": "S81"
+  },
+  {
+   "start": 270.62,
+   "end": 271.58,
+   "text": "I'm sorry.",
+   "speaker": "S78"
+  },
+  {
+   "start": 271.92,
+   "end": 273.92,
+   "text": "Well, Dad, I'm not looking for an apology.",
+   "speaker": "S81"
+  },
+  {
+   "start": 274.26,
+   "end": 276.4,
+   "text": "But if the three of you are willing, I'd like",
+   "speaker": "S81"
+  },
+  {
+   "start": 276.4,
+   "end": 278.38,
+   "text": "to show you a communication technique I've",
+   "speaker": "S81"
+  },
+  {
+   "start": 278.38,
+   "end": 280.1,
+   "text": "pioneered called gentle talk.",
+   "speaker": "S81"
+  },
+  {
+   "start": 280.7,
+   "end": 281.26,
+   "text": "Guys?",
+   "speaker": "S81"
+  },
+  {
+   "start": 281.7,
+   "end": 283.48,
+   "text": "Sounds stupid, but okay.",
+   "speaker": "S80"
+  },
+  {
+   "start": 284.22,
+   "end": 286.22,
+   "text": "Brandon? Sure, it does sound stupid,",
+   "speaker": "S06"
+  },
+  {
+   "start": 286.22,
+   "end": 292.44,
+   "text": "but, uh, okay. Great. Well then, let me start off easy on y'all. I feel that it would be in your",
+   "speaker": "S81"
+  },
+  {
+   "start": 292.44,
+   "end": 297.82,
+   "text": "best interest. Let's get used to that phrase, huh? And let's try to use that phrase in place of the",
+   "speaker": "S81"
+  },
+  {
+   "start": 297.82,
+   "end": 305.14,
+   "text": "word should. Should is an ugly word, isn't it? Sure. It is? Since when? Oh, yes, it is. When one",
+   "speaker": "S81"
+  },
+  {
+   "start": 305.14,
+   "end": 310.3,
+   "text": "is telling another that they should do something, that's your critical parent talking. We don't like",
+   "speaker": "S81"
+  },
+  {
+   "start": 310.3,
+   "end": 316.1,
+   "text": "to be criticized, do we, gang? No. No. How about you, little skipper? You don't like criticism",
+   "speaker": "S81"
+  },
+  {
+   "start": 317.26,
+   "end": 320.0,
+   "text": "Criticism? No. I don't mind giving it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 320.34,
+   "end": 321.14,
+   "text": "No, we don't.",
+   "speaker": "S81"
+  },
+  {
+   "start": 321.98,
+   "end": 328.24,
+   "text": "I feel that it would be in your best interest to wear some running sneakers because me and the boy would like to race with you to the car today.",
+   "speaker": "S81"
+  },
+  {
+   "start": 328.7,
+   "end": 331.5,
+   "text": "See? That's a little more gentle, isn't it?",
+   "speaker": "S81"
+  },
+  {
+   "start": 331.94,
+   "end": 337.38,
+   "text": "Yeah, that's very interesting. I like what you said about the things. I'm sorry I wasn't listening at all.",
+   "speaker": "S06"
+  },
+  {
+   "start": 341.32,
+   "end": 343.4,
+   "text": "Time out! Riff, time out!",
+   "speaker": "S04"
+  },
+  {
+   "start": 343.96,
+   "end": 345.68,
+   "text": "Melissa, Brendan, come here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 346.2,
+   "end": 348.06,
+   "text": "That's right, on the double. Hustle it up.",
+   "speaker": "S04"
+  },
+  {
+   "start": 349.72,
+   "end": 350.08,
+   "text": "Yeah?",
+   "speaker": "S04"
+  },
+  {
+   "start": 350.28,
+   "end": 351.04,
+   "text": "Coach, are we in trouble?",
+   "speaker": "S05"
+  },
+  {
+   "start": 351.24,
+   "end": 352.68,
+   "text": "I want you two to look at my gums.",
+   "speaker": "S04"
+  },
+  {
+   "start": 352.86,
+   "end": 353.96,
+   "text": "I don't want to look at your gums, Coach.",
+   "speaker": "S06"
+  },
+  {
+   "start": 354.24,
+   "end": 355.64,
+   "text": "Come on, I can't see them from here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 355.8,
+   "end": 356.22,
+   "text": "All right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 356.4,
+   "end": 357.14,
+   "text": "Oh, gross.",
+   "speaker": "S80"
+  },
+  {
+   "start": 357.4,
+   "end": 357.92,
+   "text": "They're bleeding?",
+   "speaker": "S80"
+  },
+  {
+   "start": 358.16,
+   "end": 359.4,
+   "text": "Uh, yep. You hurt yourself?",
+   "speaker": "S06"
+  },
+  {
+   "start": 359.6,
+   "end": 361.36,
+   "text": "Oh, Brendan, it's called gingivitis.",
+   "speaker": "S04"
+  },
+  {
+   "start": 361.56,
+   "end": 362.22,
+   "text": "Like on TV.",
+   "speaker": "S06"
+  },
+  {
+   "start": 362.72,
+   "end": 363.84,
+   "text": "Right, or in the movies.",
+   "speaker": "S04"
+  },
+  {
+   "start": 364.18,
+   "end": 364.44,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 364.92,
+   "end": 366.2,
+   "text": "Why don't you just go to the dentist?",
+   "speaker": "S05"
+  },
+  {
+   "start": 366.68,
+   "end": 367.54,
+   "text": "I hate the dentist.",
+   "speaker": "S04"
+  },
+  {
+   "start": 367.86,
+   "end": 369.66,
+   "text": "Me too, because every time I go to the dentist,",
+   "speaker": "S06"
+  },
+  {
+   "start": 369.78,
+   "end": 370.74,
+   "text": "my tongue gets depressed.",
+   "speaker": "S06"
+  },
+  {
+   "start": 373.4,
+   "end": 373.74,
+   "text": "Thank you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 374.04,
+   "end": 375.06,
+   "text": "You floss, Brendan?",
+   "speaker": "S04"
+  },
+  {
+   "start": 375.26,
+   "end": 375.64,
+   "text": "No way.",
+   "speaker": "S04"
+  },
+  {
+   "start": 376.04,
+   "end": 377.06,
+   "text": "Oh, me neither.",
+   "speaker": "S04"
+  },
+  {
+   "start": 377.8,
+   "end": 378.4,
+   "text": "Time in!",
+   "speaker": "S04"
+  },
+  {
+   "start": 381.82,
+   "end": 385.56,
+   "text": "Mom, I don't like going to therapy with Dad and Linda.",
+   "speaker": "S06"
+  },
+  {
+   "start": 385.72,
+   "end": 387.2,
+   "text": "It's only for a trial basis, you know?",
+   "speaker": "S23"
+  },
+  {
+   "start": 387.26,
+   "end": 388.24,
+   "text": "You can just give it a try.",
+   "speaker": "S23"
+  },
+  {
+   "start": 388.46,
+   "end": 388.86,
+   "text": "Yeah, yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 389.14,
+   "end": 392.6,
+   "text": "Look, your dad thinks it'll help you guys deal with the tension of Linda being in your lives.",
+   "speaker": "S23"
+  },
+  {
+   "start": 392.96,
+   "end": 394.48,
+   "text": "Wait, that came out wrong.",
+   "speaker": "S23"
+  },
+  {
+   "start": 394.62,
+   "end": 395.42,
+   "text": "No, but it is tense.",
+   "speaker": "S06"
+  },
+  {
+   "start": 395.5,
+   "end": 396.5,
+   "text": "See, I'm going out of my mind.",
+   "speaker": "S06"
+  },
+  {
+   "start": 396.62,
+   "end": 397.54,
+   "text": "But are you learning anything?",
+   "speaker": "S23"
+  },
+  {
+   "start": 397.7,
+   "end": 399.32,
+   "text": "I mean, psychology can be kind of interesting.",
+   "speaker": "S23"
+  },
+  {
+   "start": 399.58,
+   "end": 402.1,
+   "text": "Well, I learned that should is a word I shouldn't use.",
+   "speaker": "S06"
+  },
+  {
+   "start": 402.28,
+   "end": 402.88,
+   "text": "Why shouldn't you?",
+   "speaker": "S23"
+  },
+  {
+   "start": 402.88,
+   "end": 404.5,
+   "text": "I don't know cause it makes a doctor mad.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 404.86,
+   "end": 405.88,
+   "text": "He should lighten up a little.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 406.04,
+   "end": 407.32,
+   "text": "Well maybe you should lighten up a little.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 407.4,
+   "end": 408.68,
+   "text": "Maybe you should go to therapy with Linda.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 408.86,
+   "end": 409.96,
+   "text": "Maybe she should lighten up a little.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 410.0,
+   "end": 411.12,
+   "text": "Maybe everybody should lighten up a little.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 411.24,
+   "end": 411.86,
+   "text": "What should we have for dinner?",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 412.06,
+   "end": 412.54,
+   "text": "We should have pizza.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 412.68,
+   "end": 413.48,
+   "text": "We should have salad too.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 413.52,
+   "end": 414.22,
+   "text": "You should have salad.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 414.26,
+   "end": 415.26,
+   "text": "Maybe Linda should have the salad.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 415.3,
+   "end": 416.78,
+   "text": "I feel it would be in her best interest.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 416.86,
+   "end": 417.8,
+   "text": "Should be in her best interest.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 417.92,
+   "end": 418.82,
+   "text": "What should be in who's best interest?",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 419.1,
+   "end": 419.28,
+   "text": "The salad.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 419.48,
+   "end": 420.42,
+   "text": "The salad's in Linda's best interest?",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 420.46,
+   "end": 421.98,
+   "text": "No the piezas in the salad's best interest.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 422.0,
+   "end": 422.94,
+   "text": "The piezas in the salad's best interest.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 422.94,
+   "end": 423.08,
+   "text": "The piezas in the salad's best interest.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 423.22,
+   "end": 425.26,
+   "text": "The piezas in the salad's best interest.",
+   "sus": true,
+   "speaker": "S23"
+  },
+  {
+   "start": 432.86,
+   "end": 435.16,
+   "text": "Great. And how was your day, Linda?",
+   "speaker": "S78"
+  },
+  {
+   "start": 435.72,
+   "end": 435.98,
+   "text": "Hmm.",
+   "speaker": "S78"
+  },
+  {
+   "start": 437.42,
+   "end": 437.82,
+   "text": "Fantastic.",
+   "speaker": "S78"
+  },
+  {
+   "start": 440.14,
+   "end": 443.72,
+   "text": "Hey, guys, look. I want to try to communicate a little more.",
+   "speaker": "S78"
+  },
+  {
+   "start": 443.92,
+   "end": 446.2,
+   "text": "I mean, I don't want to force us to do anything,",
+   "speaker": "S78"
+  },
+  {
+   "start": 446.26,
+   "end": 448.38,
+   "text": "but the sessions aren't going to help",
+   "speaker": "S78"
+  },
+  {
+   "start": 448.38,
+   "end": 450.92,
+   "text": "unless we try to apply what he's teaching us.",
+   "speaker": "S78"
+  },
+  {
+   "start": 451.2,
+   "end": 452.1,
+   "text": "You know what I mean?",
+   "speaker": "S78"
+  },
+  {
+   "start": 452.1,
+   "end": 453.14,
+   "text": "Well, let's talk then.",
+   "speaker": "S80"
+  },
+  {
+   "start": 453.36,
+   "end": 454.04,
+   "text": "I said let's order.",
+   "speaker": "S06"
+  },
+  {
+   "start": 454.2,
+   "end": 457.54,
+   "text": "I feel it would be in our best interest to talk first.",
+   "speaker": "S78"
+  },
+  {
+   "start": 457.82,
+   "end": 458.98,
+   "text": "I think I'm gonna get to...",
+   "speaker": "S06"
+  },
+  {
+   "start": 458.98,
+   "end": 461.08,
+   "text": "Do you guys want to know what I did today?",
+   "speaker": "S78"
+  },
+  {
+   "start": 461.26,
+   "end": 462.34,
+   "text": "I had the worst day.",
+   "speaker": "S80"
+  },
+  {
+   "start": 462.34,
+   "end": 466.78,
+   "text": "Well, I got in early, I talked to a few clients, I have a case next week.",
+   "speaker": "S78"
+  },
+  {
+   "start": 466.96,
+   "end": 469.5,
+   "text": "And, no, not next week, in a week and a half.",
+   "speaker": "S78"
+  },
+  {
+   "start": 469.56,
+   "end": 470.78,
+   "text": "I nearly got in an accident.",
+   "speaker": "S80"
+  },
+  {
+   "start": 471.1,
+   "end": 472.26,
+   "text": "Oh, I wasn't finished, sweetie.",
+   "speaker": "S78"
+  },
+  {
+   "start": 472.86,
+   "end": 473.54,
+   "text": "I'm sorry?",
+   "speaker": "S05"
+  },
+  {
+   "start": 474.26,
+   "end": 475.5,
+   "text": "You interrupted me, honey.",
+   "speaker": "S78"
+  },
+  {
+   "start": 475.64,
+   "end": 477.22,
+   "text": "Right, did you even hear what I said?",
+   "speaker": "S80"
+  },
+  {
+   "start": 477.62,
+   "end": 478.98,
+   "text": "You almost got in an accident?",
+   "speaker": "S78"
+  },
+  {
+   "start": 479.18,
+   "end": 480.46,
+   "text": "Yeah, I could have been killed.",
+   "speaker": "S80"
+  },
+  {
+   "start": 480.96,
+   "end": 486.26,
+   "text": "Well, I'm sorry about that, I mean, but my point is that if we don't allow each other to finish sentences,",
+   "speaker": "S78"
+  },
+  {
+   "start": 486.7,
+   "end": 488.68,
+   "text": "then how are we going to learn to communicate better?",
+   "speaker": "S78"
+  },
+  {
+   "start": 488.76,
+   "end": 491.64,
+   "text": "Yeah, so it's not important at all that I was practically killed.",
+   "speaker": "S80"
+  },
+  {
+   "start": 491.64,
+   "end": 495.86,
+   "text": "No, it's always important when you're practically killed, but that's not the issue.",
+   "speaker": "S78"
+  },
+  {
+   "start": 496.08,
+   "end": 498.18,
+   "text": "Oh, really? Really? Great. That's fine.",
+   "speaker": "S80"
+  },
+  {
+   "start": 498.22,
+   "end": 499.16,
+   "text": "Sweetheart, come on.",
+   "speaker": "S78"
+  },
+  {
+   "start": 499.36,
+   "end": 499.86,
+   "text": "Yes, I agree.",
+   "speaker": "S78"
+  },
+  {
+   "start": 501.18,
+   "end": 502.6,
+   "text": "All right, tell us about the accident.",
+   "speaker": "S78"
+  },
+  {
+   "start": 502.62,
+   "end": 503.6,
+   "text": "No, I don't want to now.",
+   "speaker": "S80"
+  },
+  {
+   "start": 503.74,
+   "end": 504.46,
+   "text": "Please, it's imp...",
+   "speaker": "S78"
+  },
+  {
+   "start": 504.46,
+   "end": 507.72,
+   "text": "Well, I'm driving down Elmwood, and this pickup truck comes from out of nowhere.",
+   "speaker": "S80"
+  },
+  {
+   "start": 507.72,
+   "end": 509.56,
+   "text": "My soccer coach has gingivitis.",
+   "speaker": "S06"
+  },
+  {
+   "start": 509.78,
+   "end": 511.64,
+   "text": "Well, that's probably because he doesn't floss.",
+   "speaker": "S78"
+  },
+  {
+   "start": 511.74,
+   "end": 512.72,
+   "text": "He doesn't? I asked him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 512.86,
+   "end": 513.48,
+   "text": "Do you floss?",
+   "speaker": "S78"
+  },
+  {
+   "start": 513.56,
+   "end": 514.38,
+   "text": "No way. Do you?",
+   "speaker": "S06"
+  },
+  {
+   "start": 514.52,
+   "end": 515.1,
+   "text": "No way.",
+   "speaker": "S06"
+  },
+  {
+   "start": 515.28,
+   "end": 516.24,
+   "text": "Hey, what about me?",
+   "speaker": "S80"
+  },
+  {
+   "start": 516.44,
+   "end": 516.6,
+   "text": "Whoops.",
+   "speaker": "S80"
+  },
+  {
+   "start": 516.94,
+   "end": 517.18,
+   "text": "Jeez.",
+   "speaker": "S80"
+  },
+  {
+   "start": 517.24,
+   "end": 518.6,
+   "text": "I'm sorry, honey. Do you floss?",
+   "speaker": "S78"
+  },
+  {
+   "start": 518.6,
+   "end": 521.96,
+   "text": "Ugh! You know what? I'll be in the car if you need me.",
+   "speaker": "S80"
+  },
+  {
+   "start": 522.08,
+   "end": 525.4,
+   "text": "No, don't do that! Tell us what happened! You almost got killed! Oh my god!",
+   "speaker": "S78"
+  },
+  {
+   "start": 528.52,
+   "end": 530.98,
+   "text": "Well, uh, should we go get her?",
+   "speaker": "S06"
+  },
+  {
+   "start": 531.16,
+   "end": 535.46,
+   "text": "No. Yeah, I mean, uh, she's a little testy since we started this therapy stuff.",
+   "speaker": "S78"
+  },
+  {
+   "start": 535.86,
+   "end": 536.64,
+   "text": "You don't say.",
+   "speaker": "S06"
+  },
+  {
+   "start": 536.84,
+   "end": 537.64,
+   "text": "I need the keys.",
+   "speaker": "S80"
+  },
+  {
+   "start": 537.84,
+   "end": 538.06,
+   "text": "Right.",
+   "speaker": "S80"
+  },
+  {
+   "start": 539.6,
+   "end": 543.48,
+   "text": "Yeah, and uh, hey, that reminds me. I told the therapist that you made movies.",
+   "speaker": "S78"
+  },
+  {
+   "start": 543.66,
+   "end": 544.1,
+   "text": "Oh, yeah?",
+   "speaker": "S78"
+  },
+  {
+   "start": 544.34,
+   "end": 547.66,
+   "text": "Yeah, and he said bring some over to the next session because he'd really like to see them.",
+   "speaker": "S78"
+  },
+  {
+   "start": 547.66,
+   "end": 548.32,
+   "text": "Oh, that's cool.",
+   "speaker": "S06"
+  },
+  {
+   "start": 548.44,
+   "end": 549.26,
+   "text": "Where did you park?",
+   "speaker": "S80"
+  },
+  {
+   "start": 552.48,
+   "end": 555.06,
+   "text": "I'd like to be taken out of the box now, please.",
+   "speaker": "S06"
+  },
+  {
+   "start": 555.44,
+   "end": 556.02,
+   "text": "Yes, Lord.",
+   "speaker": "S06"
+  },
+  {
+   "start": 556.9,
+   "end": 557.54,
+   "text": "Thank you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 558.26,
+   "end": 560.02,
+   "text": "You know, I don't want to sound ungrateful",
+   "speaker": "S06"
+  },
+  {
+   "start": 560.02,
+   "end": 562.94,
+   "text": "because I appreciate you two making this shoebox bed for me,",
+   "speaker": "S06"
+  },
+  {
+   "start": 563.0,
+   "end": 565.4,
+   "text": "but it's a little dark and musty in there.",
+   "speaker": "S06"
+  },
+  {
+   "start": 565.56,
+   "end": 568.16,
+   "text": "But we made air holes for you, my Lordship.",
+   "speaker": "S22"
+  },
+  {
+   "start": 568.26,
+   "end": 570.78,
+   "text": "Yes, and your bed is too big now that you've taken up shrinking.",
+   "speaker": "S05"
+  },
+  {
+   "start": 571.14,
+   "end": 572.28,
+   "text": "Ah, ah, ah, ah, whoa.",
+   "speaker": "S06"
+  },
+  {
+   "start": 572.66,
+   "end": 573.7,
+   "text": "We don't use that word.",
+   "speaker": "S06"
+  },
+  {
+   "start": 573.94,
+   "end": 575.46,
+   "text": "I'm reverse growing.",
+   "speaker": "S06"
+  },
+  {
+   "start": 575.68,
+   "end": 576.64,
+   "text": "You're acting up.",
+   "speaker": "S22"
+  },
+  {
+   "start": 576.64,
+   "end": 577.7,
+   "text": "He's acting up.",
+   "speaker": "S22"
+  },
+  {
+   "start": 577.84,
+   "end": 578.74,
+   "text": "Maybe we should feed him.",
+   "speaker": "S05"
+  },
+  {
+   "start": 578.84,
+   "end": 580.5,
+   "text": "I can feed myself.",
+   "speaker": "S06"
+  },
+  {
+   "start": 580.8,
+   "end": 581.32,
+   "text": "Thank you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 581.7,
+   "end": 584.18,
+   "text": "Can one of you just pass me the soup and the eyedropper, please?",
+   "speaker": "S06"
+  },
+  {
+   "start": 584.56,
+   "end": 585.3,
+   "text": "I'm sorry, my lord.",
+   "speaker": "S22"
+  },
+  {
+   "start": 585.42,
+   "end": 587.22,
+   "text": "Is that my handkerchief you're wearing?",
+   "speaker": "S22"
+  },
+  {
+   "start": 587.46,
+   "end": 588.64,
+   "text": "You mean my hankertoga?",
+   "speaker": "S06"
+  },
+  {
+   "start": 588.9,
+   "end": 590.02,
+   "text": "Yes, it's mine.",
+   "speaker": "S22"
+  },
+  {
+   "start": 590.04,
+   "end": 590.76,
+   "text": "You stole it.",
+   "speaker": "S22"
+  },
+  {
+   "start": 590.88,
+   "end": 592.14,
+   "text": "Hey, I can do whatever I want.",
+   "speaker": "S06"
+  },
+  {
+   "start": 592.32,
+   "end": 593.16,
+   "text": "I'm the king.",
+   "speaker": "S06"
+  },
+  {
+   "start": 593.36,
+   "end": 594.16,
+   "text": "Not for long.",
+   "speaker": "S05"
+  },
+  {
+   "start": 595.82,
+   "end": 596.22,
+   "text": "What?",
+   "speaker": "S05"
+  },
+  {
+   "start": 596.56,
+   "end": 596.88,
+   "text": "Nothing.",
+   "speaker": "S05"
+  },
+  {
+   "start": 596.96,
+   "end": 597.24,
+   "text": "Nothing.",
+   "speaker": "S05"
+  },
+  {
+   "start": 597.4,
+   "end": 597.7,
+   "text": "Nothing.",
+   "speaker": "S05"
+  },
+  {
+   "start": 599.3,
+   "end": 603.1,
+   "text": "Hey, am I out of my mind, or are you two plotting to overthrow me or something?",
+   "speaker": "S06"
+  },
+  {
+   "start": 603.3,
+   "end": 603.52,
+   "text": "No.",
+   "speaker": "S06"
+  },
+  {
+   "start": 603.52,
+   "end": 605.16,
+   "text": "No, never, my lord.",
+   "speaker": "S22"
+  },
+  {
+   "start": 605.32,
+   "end": 606.24,
+   "text": "I'll be the woman commander.",
+   "speaker": "S05"
+  },
+  {
+   "start": 606.24,
+   "end": 607.18,
+   "text": "Yeah, but instead I'll be torn.",
+   "speaker": "S22"
+  },
+  {
+   "start": 607.26,
+   "end": 607.92,
+   "text": "It's going to be great.",
+   "speaker": "S05"
+  },
+  {
+   "start": 608.02,
+   "end": 610.96,
+   "text": "Because I get the feeling that you are plotting against me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 611.02,
+   "end": 613.04,
+   "text": "You must be out of your mind, my lord.",
+   "speaker": "S22"
+  },
+  {
+   "start": 613.24,
+   "end": 614.22,
+   "text": "And you will be the king.",
+   "speaker": "S06"
+  },
+  {
+   "start": 614.3,
+   "end": 615.1,
+   "text": "I can't wait to be king.",
+   "speaker": "S22"
+  },
+  {
+   "start": 615.16,
+   "end": 617.6,
+   "text": "Because I can hear you plotting against me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 617.76,
+   "end": 620.14,
+   "text": "You're crazy, my lord. Crazy.",
+   "speaker": "S22"
+  },
+  {
+   "start": 620.8,
+   "end": 622.76,
+   "text": "I think you're overtired.",
+   "speaker": "S22"
+  },
+  {
+   "start": 623.36,
+   "end": 626.74,
+   "text": "Maybe you should get some sleep so we can smash you.",
+   "speaker": "S22"
+  },
+  {
+   "start": 627.06,
+   "end": 627.28,
+   "text": "What?",
+   "speaker": "S22"
+  },
+  {
+   "start": 627.48,
+   "end": 629.74,
+   "text": "He just said get some sleep so we can smash you.",
+   "speaker": "S05"
+  },
+  {
+   "start": 629.94,
+   "end": 631.2,
+   "text": "Oh, okay, well that's...",
+   "speaker": "S06"
+  },
+  {
+   "start": 631.2,
+   "end": 631.64,
+   "text": "Yeah, alright.",
+   "speaker": "S06"
+  },
+  {
+   "start": 631.8,
+   "end": 633.3,
+   "text": "Hey, wait a minute, I'm not sleepy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 634.4,
+   "end": 636.18,
+   "text": "I'd like to stop us there.",
+   "speaker": "S81"
+  },
+  {
+   "start": 636.5,
+   "end": 636.9,
+   "text": "Brendan?",
+   "speaker": "S81"
+  },
+  {
+   "start": 637.28,
+   "end": 637.54,
+   "text": "Yep.",
+   "speaker": "S81"
+  },
+  {
+   "start": 637.9,
+   "end": 639.16,
+   "text": "There's a lot going on there.",
+   "speaker": "S81"
+  },
+  {
+   "start": 639.32,
+   "end": 641.68,
+   "text": "But you know which character I think is the most interesting?",
+   "speaker": "S81"
+  },
+  {
+   "start": 642.04,
+   "end": 642.32,
+   "text": "Who?",
+   "speaker": "S81"
+  },
+  {
+   "start": 642.6,
+   "end": 643.74,
+   "text": "The one that you played.",
+   "speaker": "S81"
+  },
+  {
+   "start": 644.04,
+   "end": 645.04,
+   "text": "The President King, yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 645.1,
+   "end": 646.1,
+   "text": "That's my favorite, too.",
+   "speaker": "S06"
+  },
+  {
+   "start": 646.6,
+   "end": 648.44,
+   "text": "Well, I didn't say favorite.",
+   "speaker": "S81"
+  },
+  {
+   "start": 648.46,
+   "end": 649.64,
+   "text": "I said interesting.",
+   "speaker": "S81"
+  },
+  {
+   "start": 650.06,
+   "end": 654.82,
+   "text": "Interesting because that character clearly has a number of psychological ailments.",
+   "speaker": "S81"
+  },
+  {
+   "start": 655.16,
+   "end": 656.72,
+   "text": "He's got a Napoleon complex.",
+   "speaker": "S81"
+  },
+  {
+   "start": 656.72,
+   "end": 658.02,
+   "text": "He's narcissistic.",
+   "speaker": "S81"
+  },
+  {
+   "start": 658.18,
+   "end": 659.24,
+   "text": "He's claustrophobic.",
+   "speaker": "S81"
+  },
+  {
+   "start": 659.38,
+   "end": 660.16,
+   "text": "He's delusional.",
+   "speaker": "S81"
+  },
+  {
+   "start": 660.3,
+   "end": 661.28,
+   "text": "He's paranoid.",
+   "speaker": "S81"
+  },
+  {
+   "start": 661.62,
+   "end": 665.86,
+   "text": "He thinks that some authoritative male-female team is plotting against him.",
+   "speaker": "S81"
+  },
+  {
+   "start": 665.94,
+   "end": 666.1,
+   "text": "Sure.",
+   "speaker": "S81"
+  },
+  {
+   "start": 666.26,
+   "end": 667.58,
+   "text": "And he's slowly disappearing.",
+   "speaker": "S81"
+  },
+  {
+   "start": 667.98,
+   "end": 669.58,
+   "text": "Yeah, uh, he's pretty screwed up.",
+   "speaker": "S06"
+  },
+  {
+   "start": 669.98,
+   "end": 671.52,
+   "text": "That character is you, Brendan.",
+   "speaker": "S81"
+  },
+  {
+   "start": 672.24,
+   "end": 674.44,
+   "text": "Right. I played him. You can tell from my nose.",
+   "speaker": "S06"
+  },
+  {
+   "start": 674.66,
+   "end": 677.74,
+   "text": "No, Brendan. That character represents who you are.",
+   "speaker": "S81"
+  },
+  {
+   "start": 678.04,
+   "end": 681.08,
+   "text": "Yeah, I know. If you just fast forward, the credits say so.",
+   "speaker": "S06"
+  },
+  {
+   "start": 681.42,
+   "end": 685.22,
+   "text": "Brendan, you, in real life, have these issues.",
+   "speaker": "S81"
+  },
+  {
+   "start": 685.48,
+   "end": 686.06,
+   "text": "No way.",
+   "speaker": "S81"
+  },
+  {
+   "start": 686.18,
+   "end": 687.44,
+   "text": "And that character is you.",
+   "speaker": "S81"
+  },
+  {
+   "start": 687.54,
+   "end": 688.28,
+   "text": "Because I played him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 688.6,
+   "end": 691.12,
+   "text": "No. In real life, you are those things.",
+   "speaker": "S81"
+  },
+  {
+   "start": 691.12,
+   "end": 692.6,
+   "text": "You didn't like the movie, did you?",
+   "speaker": "S06"
+  },
+  {
+   "start": 692.98,
+   "end": 695.7,
+   "text": "It was fine, but the President King...",
+   "speaker": "S81"
+  },
+  {
+   "start": 695.7,
+   "end": 697.56,
+   "text": "Is me, because you recognize my voice.",
+   "speaker": "S06"
+  },
+  {
+   "start": 698.18,
+   "end": 702.64,
+   "text": "I feel your true feelings about your father remarrying have come out in your work.",
+   "speaker": "S81"
+  },
+  {
+   "start": 702.74,
+   "end": 705.0,
+   "text": "Hey, look, let's not overanalyze this.",
+   "speaker": "S06"
+  },
+  {
+   "start": 705.3,
+   "end": 706.14,
+   "text": "I have to.",
+   "speaker": "S81"
+  },
+  {
+   "start": 706.88,
+   "end": 707.42,
+   "text": "Oh, well...",
+   "speaker": "S81"
+  },
+  {
+   "start": 707.42,
+   "end": 710.66,
+   "text": "Dad, Linda, I think we've had a big breakthrough today.",
+   "speaker": "S81"
+  },
+  {
+   "start": 711.12,
+   "end": 715.24,
+   "text": "We found a big roadblock in the family, and that roadblock is right there.",
+   "speaker": "S81"
+  },
+  {
+   "start": 733.5,
+   "end": 735.1,
+   "text": "I don't think you're melon-chested, Brendan.",
+   "speaker": "S23"
+  },
+  {
+   "start": 735.34,
+   "end": 738.84,
+   "text": "Well, maybe melon-chested is the wrong word, but, you know, I am messed up.",
+   "speaker": "S06"
+  },
+  {
+   "start": 738.98,
+   "end": 740.32,
+   "text": "Do you mean maladjusted?",
+   "speaker": "S23"
+  },
+  {
+   "start": 740.46,
+   "end": 743.74,
+   "text": "That's it. See, that's it. I'm screwed in the head. I'm insane in the membrane.",
+   "speaker": "S06"
+  },
+  {
+   "start": 743.88,
+   "end": 745.06,
+   "text": "No, you are not, Brendan.",
+   "speaker": "S23"
+  },
+  {
+   "start": 745.36,
+   "end": 747.32,
+   "text": "Well, Dr. What's-his-face seems to think so.",
+   "speaker": "S06"
+  },
+  {
+   "start": 747.44,
+   "end": 749.32,
+   "text": "Well, Dr. What's-his-face is wrong.",
+   "speaker": "S23"
+  },
+  {
+   "start": 749.32,
+   "end": 753.14,
+   "text": "You're fine. Look, there's nothing wrong with reacting to your father remarrying.",
+   "speaker": "S23"
+  },
+  {
+   "start": 753.24,
+   "end": 754.1,
+   "text": "I've been doing it all week.",
+   "speaker": "S23"
+  },
+  {
+   "start": 754.26,
+   "end": 756.12,
+   "text": "But why did you have to get remarried anyway, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 756.22,
+   "end": 756.68,
+   "text": "Who knows?",
+   "speaker": "S06"
+  },
+  {
+   "start": 757.58,
+   "end": 759.62,
+   "text": "I knew this therapy thing was a bad idea.",
+   "speaker": "S23"
+  },
+  {
+   "start": 759.74,
+   "end": 761.22,
+   "text": "You said psychology was interesting.",
+   "speaker": "S06"
+  },
+  {
+   "start": 761.6,
+   "end": 762.5,
+   "text": "Only in theory.",
+   "speaker": "S23"
+  },
+  {
+   "start": 762.72,
+   "end": 767.28,
+   "text": "Not when it makes you feel bad about feeling strange about a thing that's totally natural and not your fault.",
+   "speaker": "S23"
+  },
+  {
+   "start": 767.54,
+   "end": 769.44,
+   "text": "Yeah, but Dad wants everybody to be happy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 769.6,
+   "end": 772.32,
+   "text": "Ugh, this is another one of his stupid antiseptic remedies.",
+   "speaker": "S23"
+  },
+  {
+   "start": 772.46,
+   "end": 773.78,
+   "text": "It's clinical and detached.",
+   "speaker": "S23"
+  },
+  {
+   "start": 774.26,
+   "end": 777.0,
+   "text": "It's nonsense. I should talk to him. I'm gonna talk to him.",
+   "speaker": "S23"
+  },
+  {
+   "start": 777.0,
+   "end": 778.84,
+   "text": "No, no, no, no, no, no, no, no, no, no, no, no.",
+   "speaker": "S06"
+  },
+  {
+   "start": 778.84,
+   "end": 781.14,
+   "text": "Listen, just let me know if you want out, okay?",
+   "speaker": "S23"
+  },
+  {
+   "start": 781.26,
+   "end": 782.86,
+   "text": "I'll write you a note, you keep it in your pocket.",
+   "speaker": "S23"
+  },
+  {
+   "start": 782.88,
+   "end": 785.04,
+   "text": "If you feel weird, pull it out and give it to the doctor.",
+   "speaker": "S23"
+  },
+  {
+   "start": 785.22,
+   "end": 786.06,
+   "text": "Well, what do you write on it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 786.18,
+   "end": 787.06,
+   "text": "I have no idea.",
+   "speaker": "S23"
+  },
+  {
+   "start": 787.2,
+   "end": 789.52,
+   "text": "Something along the lines of, listen, you crazy idiot.",
+   "speaker": "S23"
+  },
+  {
+   "start": 789.86,
+   "end": 790.7,
+   "text": "That sounds aggressive.",
+   "speaker": "S06"
+  },
+  {
+   "start": 790.92,
+   "end": 791.92,
+   "text": "Okay, maybe I'll do a rewrite.",
+   "speaker": "S23"
+  },
+  {
+   "start": 795.36,
+   "end": 796.74,
+   "text": "Here's a piece of advice, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 796.98,
+   "end": 798.3,
+   "text": "There's no such thing as psychology.",
+   "speaker": "S04"
+  },
+  {
+   "start": 798.3,
+   "end": 799.42,
+   "text": "It's all made up crap.",
+   "speaker": "S04"
+  },
+  {
+   "start": 799.78,
+   "end": 800.18,
+   "text": "Oh, really?",
+   "speaker": "S04"
+  },
+  {
+   "start": 800.38,
+   "end": 801.72,
+   "text": "Yeah, they're all con men.",
+   "speaker": "S04"
+  },
+  {
+   "start": 802.0,
+   "end": 803.4,
+   "text": "All of them, even the women.",
+   "speaker": "S04"
+  },
+  {
+   "start": 803.64,
+   "end": 803.86,
+   "text": "Oh.",
+   "speaker": "S04"
+  },
+  {
+   "start": 804.18,
+   "end": 805.64,
+   "text": "Just remember that when they're telling you",
+   "speaker": "S04"
+  },
+  {
+   "start": 805.64,
+   "end": 806.58,
+   "text": "how screwed up you are.",
+   "speaker": "S04"
+  },
+  {
+   "start": 806.74,
+   "end": 807.04,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 807.04,
+   "end": 809.38,
+   "text": "And, uh, let me tell you something else.",
+   "speaker": "S04"
+  },
+  {
+   "start": 810.0,
+   "end": 811.52,
+   "text": "Astronomy is BS, too.",
+   "speaker": "S04"
+  },
+  {
+   "start": 811.88,
+   "end": 812.22,
+   "text": "Really?",
+   "speaker": "S04"
+  },
+  {
+   "start": 812.44,
+   "end": 814.74,
+   "text": "Yeah, all that star crap is ridiculous.",
+   "speaker": "S04"
+  },
+  {
+   "start": 815.04,
+   "end": 815.92,
+   "text": "But there are stars.",
+   "speaker": "S06"
+  },
+  {
+   "start": 816.22,
+   "end": 817.08,
+   "text": "Whatever, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 817.34,
+   "end": 819.46,
+   "text": "Okay. Will you ever go to a therapist?",
+   "speaker": "S06"
+  },
+  {
+   "start": 819.68,
+   "end": 822.36,
+   "text": "Well, yeah, sometimes you gotta do certain things",
+   "speaker": "S04"
+  },
+  {
+   "start": 822.36,
+   "end": 824.26,
+   "text": "to reenter society, all right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 825.02,
+   "end": 826.3,
+   "text": "I guess I've got some issues.",
+   "speaker": "S06"
+  },
+  {
+   "start": 826.62,
+   "end": 828.02,
+   "text": "Well, like what? I'll fix them.",
+   "speaker": "S04"
+  },
+  {
+   "start": 828.22,
+   "end": 831.04,
+   "text": "Well, I guess I'm slightly frustrated about my father remarrying,",
+   "speaker": "S06"
+  },
+  {
+   "start": 831.7,
+   "end": 832.14,
+   "text": "you know, this...",
+   "speaker": "S06"
+  },
+  {
+   "start": 832.14,
+   "end": 833.32,
+   "text": "That's a load of crap, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 833.62,
+   "end": 834.04,
+   "text": "Yeah, well...",
+   "speaker": "S04"
+  },
+  {
+   "start": 834.04,
+   "end": 835.76,
+   "text": "Come on, that's psychobabble.",
+   "speaker": "S04"
+  },
+  {
+   "start": 836.02,
+   "end": 836.28,
+   "text": "What?",
+   "speaker": "S04"
+  },
+  {
+   "start": 836.28,
+   "end": 837.9,
+   "text": "Don't fall prey to it, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 838.24,
+   "end": 839.4,
+   "text": "Okay. What does that mean, though?",
+   "speaker": "S06"
+  },
+  {
+   "start": 840.7,
+   "end": 841.58,
+   "text": "So what were you saying?",
+   "speaker": "S04"
+  },
+  {
+   "start": 841.78,
+   "end": 845.36,
+   "text": "I was saying, uh, I guess I'm slightly frustrated about my father remarrying, you know, the woman...",
+   "speaker": "S06"
+  },
+  {
+   "start": 845.36,
+   "end": 846.12,
+   "text": "Oh, that makes sense.",
+   "speaker": "S04"
+  },
+  {
+   "start": 846.14,
+   "end": 847.58,
+   "text": "The woman he's marrying, though, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 847.9,
+   "end": 848.76,
+   "text": "What, what, is she ugly?",
+   "speaker": "S04"
+  },
+  {
+   "start": 849.14,
+   "end": 851.08,
+   "text": "No, actually, she's attractive, which is...",
+   "speaker": "S06"
+  },
+  {
+   "start": 851.08,
+   "end": 851.7,
+   "text": "Really attractive?",
+   "speaker": "S04"
+  },
+  {
+   "start": 851.92,
+   "end": 854.06,
+   "text": "Pretty attractive, yeah. She could be on a magazine.",
+   "speaker": "S06"
+  },
+  {
+   "start": 854.26,
+   "end": 854.52,
+   "text": "Really?",
+   "speaker": "S06"
+  },
+  {
+   "start": 854.7,
+   "end": 854.84,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 854.96,
+   "end": 858.72,
+   "text": "What type of magazine? Like a dirty mag or a... or like one of those model mags?",
+   "speaker": "S04"
+  },
+  {
+   "start": 858.88,
+   "end": 860.84,
+   "text": "Uh, like a model mag, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 861.22,
+   "end": 861.54,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 861.98,
+   "end": 862.22,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 862.7,
+   "end": 863.68,
+   "text": "So you're jealous?",
+   "speaker": "S04"
+  },
+  {
+   "start": 864.06,
+   "end": 865.54,
+   "text": "Oh, no way. No, no, no.",
+   "speaker": "S06"
+  },
+  {
+   "start": 865.54,
+   "end": 867.94,
+   "text": "She's not my type. She is way too wound up.",
+   "speaker": "S06"
+  },
+  {
+   "start": 868.12,
+   "end": 869.04,
+   "text": "Well, so are you, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 869.38,
+   "end": 869.84,
+   "text": "No, I'm not.",
+   "speaker": "S04"
+  },
+  {
+   "start": 869.92,
+   "end": 870.54,
+   "text": "Oh, yeah, you are.",
+   "speaker": "S04"
+  },
+  {
+   "start": 870.72,
+   "end": 871.02,
+   "text": "No.",
+   "speaker": "S04"
+  },
+  {
+   "start": 871.22,
+   "end": 871.7,
+   "text": "Yeah, see?",
+   "speaker": "S04"
+  },
+  {
+   "start": 872.1,
+   "end": 872.46,
+   "text": "What?",
+   "speaker": "S04"
+  },
+  {
+   "start": 872.94,
+   "end": 873.6,
+   "text": "You're defensive.",
+   "speaker": "S04"
+  },
+  {
+   "start": 874.04,
+   "end": 875.32,
+   "text": "Well, it's because you're accusing me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 875.56,
+   "end": 877.56,
+   "text": "There's nothing wrong with being wound up, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 877.66,
+   "end": 877.9,
+   "text": "All right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 878.18,
+   "end": 879.58,
+   "text": "And you're, like, weak and sickly.",
+   "speaker": "S04"
+  },
+  {
+   "start": 879.72,
+   "end": 879.96,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 880.18,
+   "end": 881.22,
+   "text": "You're a little short, too.",
+   "speaker": "S04"
+  },
+  {
+   "start": 881.38,
+   "end": 881.8,
+   "text": "Whoa, whoa, man.",
+   "speaker": "S04"
+  },
+  {
+   "start": 881.8,
+   "end": 883.12,
+   "text": "Nothing wrong with that either, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 883.22,
+   "end": 884.24,
+   "text": "Nothing wrong with being short.",
+   "speaker": "S04"
+  },
+  {
+   "start": 884.42,
+   "end": 885.24,
+   "text": "You make up for it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 885.46,
+   "end": 886.26,
+   "text": "In other ways.",
+   "speaker": "S04"
+  },
+  {
+   "start": 886.54,
+   "end": 886.84,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 886.98,
+   "end": 888.02,
+   "text": "Use your head, for instance.",
+   "speaker": "S04"
+  },
+  {
+   "start": 888.08,
+   "end": 888.58,
+   "text": "Sure, sure.",
+   "speaker": "S04"
+  },
+  {
+   "start": 888.94,
+   "end": 889.38,
+   "text": "Yeah, what?",
+   "speaker": "S04"
+  },
+  {
+   "start": 889.52,
+   "end": 891.3,
+   "text": "No, but anyway, Brendan, it's clear of me you're jealous.",
+   "speaker": "S04"
+  },
+  {
+   "start": 891.6,
+   "end": 892.16,
+   "text": "No way.",
+   "speaker": "S04"
+  },
+  {
+   "start": 892.34,
+   "end": 892.56,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 892.68,
+   "end": 892.88,
+   "text": "No.",
+   "speaker": "S04"
+  },
+  {
+   "start": 892.88,
+   "end": 895.62,
+   "text": "And this woman probably acts like a baby, you know,",
+   "speaker": "S04"
+  },
+  {
+   "start": 895.7,
+   "end": 897.42,
+   "text": "and acting like a baby's your job, right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 897.68,
+   "end": 898.04,
+   "text": "No.",
+   "speaker": "S04"
+  },
+  {
+   "start": 898.32,
+   "end": 899.96,
+   "text": "And she's stepping on your toes, and you hate her,",
+   "speaker": "S04"
+  },
+  {
+   "start": 900.08,
+   "end": 902.34,
+   "text": "even though really deep down you wish that she was marrying you.",
+   "speaker": "S04"
+  },
+  {
+   "start": 902.52,
+   "end": 903.46,
+   "text": "What? You heard me.",
+   "speaker": "S04"
+  },
+  {
+   "start": 903.64,
+   "end": 904.18,
+   "text": "No, no.",
+   "speaker": "S04"
+  },
+  {
+   "start": 904.24,
+   "end": 906.88,
+   "text": "And maybe you opened your father's bedroom door,",
+   "speaker": "S04"
+  },
+  {
+   "start": 906.98,
+   "end": 908.32,
+   "text": "and she was just getting out of the shower.",
+   "speaker": "S04"
+  },
+  {
+   "start": 908.62,
+   "end": 908.86,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 909.02,
+   "end": 910.38,
+   "text": "And then she had just a towel on.",
+   "speaker": "S04"
+  },
+  {
+   "start": 910.74,
+   "end": 910.88,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 910.88,
+   "end": 914.4,
+   "text": "And that towel was riding really low, exposing a lot of cleavage.",
+   "speaker": "S04"
+  },
+  {
+   "start": 914.44,
+   "end": 914.6,
+   "text": "Whoa.",
+   "speaker": "S04"
+  },
+  {
+   "start": 914.82,
+   "end": 915.76,
+   "text": "And she's all wet.",
+   "speaker": "S04"
+  },
+  {
+   "start": 915.96,
+   "end": 916.04,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 916.1,
+   "end": 917.12,
+   "text": "The skin's all fresh.",
+   "speaker": "S04"
+  },
+  {
+   "start": 917.16,
+   "end": 918.4,
+   "text": "After that, then you can smell it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 918.48,
+   "end": 918.92,
+   "text": "So calm down.",
+   "speaker": "S04"
+  },
+  {
+   "start": 919.18,
+   "end": 919.94,
+   "text": "She's pure clean.",
+   "speaker": "S04"
+  },
+  {
+   "start": 920.28,
+   "end": 920.36,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 920.36,
+   "end": 921.84,
+   "text": "Clean and nude and beautiful.",
+   "speaker": "S04"
+  },
+  {
+   "start": 922.26,
+   "end": 922.48,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 922.48,
+   "end": 923.86,
+   "text": "It's textbook stuff, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 925.62,
+   "end": 928.16,
+   "text": "Look, the bottom line is you're going to be fine.",
+   "speaker": "S04"
+  },
+  {
+   "start": 928.38,
+   "end": 928.92,
+   "text": "You're just a kid.",
+   "speaker": "S04"
+  },
+  {
+   "start": 929.12,
+   "end": 929.28,
+   "text": "Right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 929.42,
+   "end": 929.68,
+   "text": "You know what?",
+   "speaker": "S04"
+  },
+  {
+   "start": 929.68,
+   "end": 932.04,
+   "text": "You grow up and everything, oh, well, it doesn't work out.",
+   "speaker": "S04"
+  },
+  {
+   "start": 932.66,
+   "end": 934.72,
+   "text": "Anyway, Brendan, one last thing.",
+   "speaker": "S04"
+  },
+  {
+   "start": 935.04,
+   "end": 935.3,
+   "text": "Yeah?",
+   "speaker": "S04"
+  },
+  {
+   "start": 936.06,
+   "end": 936.78,
+   "text": "Oh, man.",
+   "speaker": "S06"
+  },
+  {
+   "start": 940.34,
+   "end": 941.72,
+   "text": "Okay, go ahead, Linda.",
+   "speaker": "S81"
+  },
+  {
+   "start": 942.08,
+   "end": 943.4,
+   "text": "Use the gentle talk.",
+   "speaker": "S81"
+  },
+  {
+   "start": 943.74,
+   "end": 945.16,
+   "text": "Use it to say something to Brendan.",
+   "speaker": "S81"
+  },
+  {
+   "start": 946.38,
+   "end": 947.3,
+   "text": "Well, Brendan.",
+   "speaker": "S80"
+  },
+  {
+   "start": 947.68,
+   "end": 948.04,
+   "text": "Good.",
+   "speaker": "S80"
+  },
+  {
+   "start": 948.26,
+   "end": 949.02,
+   "text": "Now we're cooking.",
+   "speaker": "S81"
+  },
+  {
+   "start": 949.56,
+   "end": 956.74,
+   "text": "I feel that you and I misunderstand each other, and maybe we should...",
+   "speaker": "S80"
+  },
+  {
+   "start": 956.74,
+   "end": 958.4,
+   "text": "Ouch. What happened there, Linda?",
+   "speaker": "S81"
+  },
+  {
+   "start": 958.7,
+   "end": 960.6,
+   "text": "What did we say about the word should?",
+   "speaker": "S81"
+  },
+  {
+   "start": 960.94,
+   "end": 961.56,
+   "text": "All right.",
+   "speaker": "S80"
+  },
+  {
+   "start": 961.9,
+   "end": 962.62,
+   "text": "Try again, Linda.",
+   "speaker": "S81"
+  },
+  {
+   "start": 963.42,
+   "end": 969.56,
+   "text": "Maybe it would be in our best interest to try to understand each other.",
+   "speaker": "S80"
+  },
+  {
+   "start": 969.82,
+   "end": 972.98,
+   "text": "Linda, that was just what the doctor ordered.",
+   "speaker": "S81"
+  },
+  {
+   "start": 975.52,
+   "end": 975.96,
+   "text": "Brendan?",
+   "speaker": "S81"
+  },
+  {
+   "start": 976.42,
+   "end": 979.74,
+   "text": "I know you must be feeling a little fragile after hearing that.",
+   "speaker": "S81"
+  },
+  {
+   "start": 979.88,
+   "end": 982.22,
+   "text": "If you'd like to cry, that's all right.",
+   "speaker": "S81"
+  },
+  {
+   "start": 982.58,
+   "end": 983.68,
+   "text": "I think I'm going to be okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 983.98,
+   "end": 986.96,
+   "text": "I would like us to hear your response to that, Brendan.",
+   "speaker": "S81"
+  },
+  {
+   "start": 987.54,
+   "end": 993.26,
+   "text": "Okay, well, I think it's kind of easy for Linda to say that we should understand each other,",
+   "speaker": "S06"
+  },
+  {
+   "start": 993.28,
+   "end": 995.88,
+   "text": "because now she's off the hook and the pressure's on me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 995.98,
+   "end": 996.26,
+   "text": "Brendan.",
+   "speaker": "S06"
+  },
+  {
+   "start": 996.38,
+   "end": 997.78,
+   "text": "Wait, no, I think I've got something here.",
+   "speaker": "S06"
+  },
+  {
+   "start": 998.04,
+   "end": 998.72,
+   "text": "Uh, Linda?",
+   "speaker": "S06"
+  },
+  {
+   "start": 998.98,
+   "end": 999.32,
+   "text": "Yeah?",
+   "speaker": "S06"
+  },
+  {
+   "start": 999.32,
+   "end": 1003.56,
+   "text": "I don't dislike you, but I dislike being around you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1003.66,
+   "end": 1004.68,
+   "text": "Whoa, whoa, Brendan.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1004.68,
+   "end": 1006.76,
+   "text": "And I can say that because we don't know each other at all,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1006.86,
+   "end": 1009.22,
+   "text": "and neither of us is making any effort at all,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1009.3,
+   "end": 1010.08,
+   "text": "but, you know, who knows?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1010.18,
+   "end": 1012.22,
+   "text": "Maybe we should, but then again, you know, maybe we shouldn't.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1012.24,
+   "end": 1013.02,
+   "text": "I don't know, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1013.2,
+   "end": 1015.86,
+   "text": "Ouch, ouch, ouch, Brendan, ouch.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1016.06,
+   "end": 1017.56,
+   "text": "I'm concerned with your behavior.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1017.74,
+   "end": 1018.26,
+   "text": "Yeah, what's new?",
+   "speaker": "S81"
+  },
+  {
+   "start": 1018.44,
+   "end": 1021.12,
+   "text": "Brendan, I know you know about gentle talk.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1021.34,
+   "end": 1022.8,
+   "text": "I'm being passive-aggressive, aren't I?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1023.14,
+   "end": 1025.8,
+   "text": "No, your aggression isn't passive at all.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1025.8,
+   "end": 1027.12,
+   "text": "It's active aggression.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1027.42,
+   "end": 1029.04,
+   "text": "So you're saying it should be more passive, then?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1029.32,
+   "end": 1033.04,
+   "text": "No, and ouch, because you used the word should again.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1033.66,
+   "end": 1035.7,
+   "text": "Brendan, I've got some homework for you.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1035.9,
+   "end": 1038.98,
+   "text": "I would like you to try to express exactly how you feel",
+   "speaker": "S81"
+  },
+  {
+   "start": 1038.98,
+   "end": 1041.54,
+   "text": "to somebody with whom you have a difficult time",
+   "speaker": "S81"
+  },
+  {
+   "start": 1041.54,
+   "end": 1045.16,
+   "text": "communicating using gentle talk, alright?",
+   "speaker": "S81"
+  },
+  {
+   "start": 1045.56,
+   "end": 1048.1,
+   "text": "Uh, no and no.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1048.62,
+   "end": 1051.22,
+   "text": "I, uh, I wanted to speak to you about the food.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1051.5,
+   "end": 1052.18,
+   "text": "Alright, what?",
+   "speaker": "S22"
+  },
+  {
+   "start": 1052.38,
+   "end": 1054.76,
+   "text": "Okay, uh, first of all, what, uh, what is this?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1055.06,
+   "end": 1056.3,
+   "text": "It's chicken fried steak.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1056.36,
+   "end": 1058.22,
+   "text": "Chicken fried, chicken fried steak, okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1058.22,
+   "end": 1059.3,
+   "text": "I, I, I...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1059.3,
+   "end": 1062.24,
+   "text": "It's steak fried in chicken fat.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1062.54,
+   "end": 1063.54,
+   "text": "It's good for you.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1063.66,
+   "end": 1063.94,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1064.44,
+   "end": 1067.52,
+   "text": "Um, I feel that it's important that you know how I,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1067.56,
+   "end": 1069.66,
+   "text": "I feel about the chicken fried steak.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1069.86,
+   "end": 1070.6,
+   "text": "You enjoy it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1070.66,
+   "end": 1071.16,
+   "text": "You like it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1071.3,
+   "end": 1071.78,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1071.78,
+   "end": 1074.36,
+   "text": "I feel that when I tried this that I,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1074.44,
+   "end": 1076.68,
+   "text": "I felt that I could vomit.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1077.12,
+   "end": 1077.62,
+   "text": "All right.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1078.46,
+   "end": 1078.94,
+   "text": "Okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1079.18,
+   "end": 1082.3,
+   "text": "And the, ow, I feel that was in a, uncalled for?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1082.44,
+   "end": 1083.24,
+   "text": "Did you feel that?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1083.56,
+   "end": 1084.54,
+   "text": "Yeah, I did.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1084.9,
+   "end": 1085.16,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1085.38,
+   "end": 1086.92,
+   "text": "Yeah, and I feel that that was...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1086.92,
+   "end": 1087.48,
+   "text": "How about another?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1087.72,
+   "end": 1087.98,
+   "text": "Ow.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1088.22,
+   "end": 1089.18,
+   "text": "So let's move on.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1089.26,
+   "end": 1089.48,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1089.78,
+   "end": 1090.92,
+   "text": "I thought it was important to say something.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1093.02,
+   "end": 1094.16,
+   "text": "Are you mad at me?",
+   "speaker": "S78"
+  },
+  {
+   "start": 1094.64,
+   "end": 1095.12,
+   "text": "No.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1095.5,
+   "end": 1099.38,
+   "text": "I just feel that I get bored sometimes when you talk about work.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1099.7,
+   "end": 1102.08,
+   "text": "Oh, well, I didn't know that.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1102.22,
+   "end": 1106.0,
+   "text": "And I feel that what you just said is an aggressive attack on me.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1106.02,
+   "end": 1109.5,
+   "text": "I feel that you're raising your voice and trying to hurt my feelings.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1109.76,
+   "end": 1111.88,
+   "text": "Well, I feel that I'm honestly responding.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1112.06,
+   "end": 1114.88,
+   "text": "Well, I feel that if it weren't for your son,",
+   "speaker": "S80"
+  },
+  {
+   "start": 1114.88,
+   "end": 1118.52,
+   "text": "we wouldn't be spending all our time and money in stupid therapy.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1118.74,
+   "end": 1119.26,
+   "text": "Stupid?",
+   "speaker": "S80"
+  },
+  {
+   "start": 1119.78,
+   "end": 1123.42,
+   "text": "You just used the word stupid in a sentence directed at me!",
+   "speaker": "S78"
+  },
+  {
+   "start": 1128.78,
+   "end": 1131.02,
+   "text": "Alright, let's start off easy today.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1131.4,
+   "end": 1135.36,
+   "text": "Dad, how's about you say something nice to Linda to open things up?",
+   "speaker": "S81"
+  },
+  {
+   "start": 1135.52,
+   "end": 1137.2,
+   "text": "Do you always have to call me Dad?",
+   "speaker": "S78"
+  },
+  {
+   "start": 1137.66,
+   "end": 1138.66,
+   "text": "Well, no.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1138.94,
+   "end": 1140.22,
+   "text": "Because I'm not your father.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1140.44,
+   "end": 1141.48,
+   "text": "I'm aware of that.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1141.72,
+   "end": 1143.26,
+   "text": "I don't like it when you call me Dad.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1143.26,
+   "end": 1145.9,
+   "text": "Well, that kind of hurts my feelings.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1146.56,
+   "end": 1147.08,
+   "text": "Sorry.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1147.64,
+   "end": 1151.34,
+   "text": "I feel some aggressive energy from your side of the room over there.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1151.48,
+   "end": 1154.36,
+   "text": "Because I have a name. It's Andrew, okay?",
+   "speaker": "S78"
+  },
+  {
+   "start": 1154.72,
+   "end": 1158.42,
+   "text": "Okay, Andrew. Well, we'll come back to that.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1158.6,
+   "end": 1161.6,
+   "text": "But now I'd like for us to get into a circle around Brendan.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1161.96,
+   "end": 1166.34,
+   "text": "And this is an exercise to show Brendan his strengths so he won't be so insecure.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1166.72,
+   "end": 1167.8,
+   "text": "Hey, I'm right here. Geez.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1168.18,
+   "end": 1169.86,
+   "text": "Dad, would you like to start?",
+   "speaker": "S81"
+  },
+  {
+   "start": 1170.02,
+   "end": 1170.78,
+   "text": "What'd I just say?",
+   "speaker": "S78"
+  },
+  {
+   "start": 1170.78,
+   "end": 1173.22,
+   "text": "My fault. Andrew, would you like to begin?",
+   "speaker": "S81"
+  },
+  {
+   "start": 1173.42,
+   "end": 1174.54,
+   "text": "Why don't we start with Linda?",
+   "speaker": "S78"
+  },
+  {
+   "start": 1174.94,
+   "end": 1175.92,
+   "text": "Well, why not?",
+   "speaker": "S80"
+  },
+  {
+   "start": 1176.38,
+   "end": 1177.14,
+   "text": "Go ahead, Linda.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1178.62,
+   "end": 1182.9,
+   "text": "Brendan, I feel that you're talented.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1183.28,
+   "end": 1184.3,
+   "text": "Hey, thanks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1184.58,
+   "end": 1186.56,
+   "text": "Great, Linda. I'm going to go next.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1187.0,
+   "end": 1189.5,
+   "text": "Brendan, I feel that you're a real go-getter,",
+   "speaker": "S81"
+  },
+  {
+   "start": 1189.54,
+   "end": 1192.6,
+   "text": "and someday, maybe I feel that you're going to relax",
+   "speaker": "S81"
+  },
+  {
+   "start": 1192.6,
+   "end": 1194.92,
+   "text": "and enjoy life with your father and Linda.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1195.12,
+   "end": 1198.16,
+   "text": "Stop already! Jeez! Nobody talks this way!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1198.3,
+   "end": 1199.02,
+   "text": "This is unnatural!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1200.22,
+   "end": 1201.84,
+   "text": "Brendan, I was complimenting you.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1201.94,
+   "end": 1203.52,
+   "text": "That's probably why it sounded unnatural.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1204.04,
+   "end": 1204.96,
+   "text": "Besides, you weren't.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1205.22,
+   "end": 1207.0,
+   "text": "You hope I relax someday is what she said.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1207.16,
+   "end": 1209.28,
+   "text": "That's not a compliment. This is ridiculous.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1209.62,
+   "end": 1210.9,
+   "text": "No, I can't do this.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1211.02,
+   "end": 1211.9,
+   "text": "If he's not, then I'm not.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1212.0,
+   "end": 1212.36,
+   "text": "Well, I'm not.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1212.48,
+   "end": 1213.78,
+   "text": "Well, if they aren't, then neither am I.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1213.9,
+   "end": 1216.16,
+   "text": "Let's all calm down and try to diffuse this anger.",
+   "speaker": "S81"
+  },
+  {
+   "start": 1216.24,
+   "end": 1217.66,
+   "text": "No way, I'm mad and I like it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1217.74,
+   "end": 1218.12,
+   "text": "Me too.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1218.4,
+   "end": 1220.1,
+   "text": "Good for you. Way to go, Brendan.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1220.34,
+   "end": 1222.92,
+   "text": "You leave him alone and don't talk to him like that, Linda.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1223.18,
+   "end": 1224.64,
+   "text": "I'll be in the car if you need me.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1224.74,
+   "end": 1226.14,
+   "text": "I don't think I will need you.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1226.34,
+   "end": 1227.24,
+   "text": "Then I'll be in a cab.",
+   "speaker": "S80"
+  },
+  {
+   "start": 1227.24,
+   "end": 1235.28,
+   "text": "Oh, doctor? I forgot. I have a note from my mom. I won't be coming back. You know why? Because THERAPY SUCKS!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1235.32,
+   "end": 1235.68,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1236.3,
+   "end": 1238.32,
+   "text": "Oh, that felt good. Ouch.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1238.78,
+   "end": 1240.18,
+   "text": "Could I get some money for a cab?",
+   "speaker": "S80"
+  },
+  {
+   "start": 1241.74,
+   "end": 1243.62,
+   "text": "I'm sorry I put you through that.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1243.94,
+   "end": 1246.86,
+   "text": "I'm still feeling the adrenaline. It's like extreme therapy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1247.2,
+   "end": 1248.34,
+   "text": "Well, I learned a lot.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1248.78,
+   "end": 1251.08,
+   "text": "So, uh, am I still invited to the wedding?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1251.28,
+   "end": 1252.34,
+   "text": "There still is a wedding.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1253.14,
+   "end": 1255.44,
+   "text": "So, are you saying that Linda might not marry you?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1255.68,
+   "end": 1256.96,
+   "text": "I really don't know, Brendan.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1256.96,
+   "end": 1257.68,
+   "text": "So she's available.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1257.92,
+   "end": 1258.6,
+   "text": "Very funny.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1258.82,
+   "end": 1259.48,
+   "text": "You think I'm joking.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1259.72,
+   "end": 1260.58,
+   "text": "I've got issues, Dad.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1261.12,
+   "end": 1261.98,
+   "text": "I've got, uh...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1261.98,
+   "end": 1262.52,
+   "text": "Where are we going?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1262.74,
+   "end": 1263.8,
+   "text": "Taking you to your mother's.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1264.22,
+   "end": 1265.1,
+   "text": "Where are you going?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1265.36,
+   "end": 1267.2,
+   "text": "I've got to have a long talk with Linda.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1267.94,
+   "end": 1268.18,
+   "text": "Ooh.",
+   "speaker": "S78"
+  },
+  {
+   "start": 1269.88,
+   "end": 1274.26,
+   "text": "I take it upon myself to welcome you as my new husband.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1275.0,
+   "end": 1277.42,
+   "text": "Yes, my sweet piece of angel cake.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1277.58,
+   "end": 1280.06,
+   "text": "I, too, take you as my new wife.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1280.32,
+   "end": 1280.66,
+   "text": "Ha!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1281.16,
+   "end": 1282.52,
+   "text": "Let me just get the ring.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1284.0,
+   "end": 1287.56,
+   "text": "Uh, yes, uh, the ring, please, if it's not too much trouble.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1287.84,
+   "end": 1289.28,
+   "text": "Right, that would be me.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1289.62,
+   "end": 1289.72,
+   "text": "Uh-huh.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1290.82,
+   "end": 1293.46,
+   "text": "You're definitely gonna need the, uh, ring.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1294.36,
+   "end": 1296.04,
+   "text": "This baby's got a lot of pockets.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1296.74,
+   "end": 1298.34,
+   "text": "The ring, please, I say.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1298.8,
+   "end": 1300.6,
+   "text": "Yeah, should've worn a three-piece.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1301.0,
+   "end": 1301.3,
+   "text": "Okay.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1301.68,
+   "end": 1302.48,
+   "text": "Um, yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1302.86,
+   "end": 1305.94,
+   "text": "Okay, everybody, uh, you're not gonna believe this.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1306.84,
+   "end": 1306.9,
+   "text": "Ugh.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1321.72,
+   "end": 1324.52,
+   "text": "Thank you.",
+   "speaker": "S06"
+  }
+ ],
+ "times": {
+  "transcribe_s": 78.7,
+  "speaker_id_s": 10.4
+ }
+}

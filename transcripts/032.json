@@ -1,0 +1,3795 @@
+{
+ "idx": 32,
+ "code": "S3E6",
+ "title": "Renaissance",
+ "season": 3,
+ "episode": 6,
+ "video_url": "https://www.youtube.com/watch?v=f80lFKuG8ms",
+ "yt_start": 41372.0,
+ "duration": 1353.0,
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "speakers": [
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S08",
+  "S100",
+  "S101",
+  "S111",
+  "S112",
+  "S113",
+  "S114",
+  "S115",
+  "S116",
+  "S117",
+  "S118",
+  "S119",
+  "S21",
+  "S22",
+  "S23",
+  "S61",
+  "S90"
+ ],
+ "clusters": {
+  "0": {
+   "speaker": "S111",
+   "how": "new",
+   "n_segs": 6,
+   "sim": 0.383
+  },
+  "1": {
+   "speaker": "S112",
+   "how": "new",
+   "n_segs": 7,
+   "sim": 0.477
+  },
+  "2": {
+   "speaker": "S113",
+   "how": "new",
+   "n_segs": 6,
+   "sim": 0.482
+  },
+  "3": {
+   "speaker": "S90",
+   "how": "match",
+   "n_segs": 20,
+   "sim": 0.765
+  },
+  "4": {
+   "speaker": "S06",
+   "how": "match",
+   "n_segs": 58,
+   "sim": 0.895
+  },
+  "5": {
+   "speaker": "S114",
+   "how": "new",
+   "n_segs": 56,
+   "sim": 0.491
+  },
+  "6": {
+   "speaker": "S100",
+   "how": "match",
+   "n_segs": 5,
+   "sim": 0.583
+  },
+  "7": {
+   "speaker": "S61",
+   "how": "match",
+   "n_segs": 6,
+   "sim": 0.618
+  },
+  "8": {
+   "speaker": "S21",
+   "how": "match",
+   "n_segs": 6,
+   "sim": 0.752
+  },
+  "9": {
+   "speaker": "S03",
+   "how": "match",
+   "n_segs": 31,
+   "sim": 0.767
+  },
+  "10": {
+   "speaker": "S115",
+   "how": "new",
+   "n_segs": 14,
+   "sim": 0.549
+  },
+  "11": {
+   "speaker": "S08",
+   "how": "match",
+   "n_segs": 67,
+   "sim": 0.885
+  },
+  "12": {
+   "speaker": "S116",
+   "how": "new",
+   "n_segs": 9,
+   "sim": 0.471
+  },
+  "13": {
+   "speaker": "S117",
+   "how": "new",
+   "n_segs": 5,
+   "sim": 0.662
+  },
+  "14": {
+   "speaker": "S23",
+   "how": "match",
+   "n_segs": 7,
+   "sim": 0.751
+  },
+  "15": {
+   "speaker": "S101",
+   "how": "match",
+   "n_segs": 8,
+   "sim": 0.696
+  },
+  "16": {
+   "speaker": "S05",
+   "how": "match",
+   "n_segs": 25,
+   "sim": 0.894
+  },
+  "17": {
+   "speaker": "S04",
+   "how": "match",
+   "n_segs": 57,
+   "sim": 0.92
+  },
+  "18": {
+   "speaker": "S22",
+   "how": "match",
+   "n_segs": 45,
+   "sim": 0.914
+  },
+  "19": {
+   "speaker": "S118",
+   "how": "new",
+   "n_segs": 11,
+   "sim": 0.474
+  },
+  "20": {
+   "speaker": "S119",
+   "how": "new",
+   "n_segs": 24,
+   "sim": 0.81
+  }
+ },
+ "segments": [
+  {
+   "start": 26.48,
+   "end": 29.28,
+   "text": "The End",
+   "speaker": "S05"
+  },
+  {
+   "start": 30.0,
+   "end": 30.66,
+   "text": "I'm forgetting the coffee.",
+   "speaker": "S05"
+  },
+  {
+   "start": 30.88,
+   "end": 31.56,
+   "text": "Is this...",
+   "speaker": "S22"
+  },
+  {
+   "start": 31.56,
+   "end": 33.12,
+   "text": "No, I meant just because I will get hives.",
+   "speaker": "S22"
+  },
+  {
+   "start": 33.4,
+   "end": 34.08,
+   "text": "So don't drink it.",
+   "speaker": "S05"
+  },
+  {
+   "start": 34.26,
+   "end": 36.42,
+   "text": "Well, what, can't we get something else then for me?",
+   "speaker": "S22"
+  },
+  {
+   "start": 36.62,
+   "end": 37.62,
+   "text": "We're gonna be there soon.",
+   "speaker": "S05"
+  },
+  {
+   "start": 37.96,
+   "end": 40.52,
+   "text": "I don't know why Mr. Lynch needs you to be there so early.",
+   "speaker": "S23"
+  },
+  {
+   "start": 40.8,
+   "end": 44.5,
+   "text": "Well, it's because he's the county chairman of all medieval activities, you know, so...",
+   "speaker": "S06"
+  },
+  {
+   "start": 44.5,
+   "end": 45.68,
+   "text": "Yeah, he takes this stuff pretty seriously.",
+   "speaker": "S05"
+  },
+  {
+   "start": 46.3,
+   "end": 48.42,
+   "text": "I guess I should've packed my own juice or something.",
+   "speaker": "S22"
+  },
+  {
+   "start": 48.78,
+   "end": 50.24,
+   "text": "Yeah, and we are getting paid, Mom, so...",
+   "speaker": "S06"
+  },
+  {
+   "start": 50.24,
+   "end": 50.38,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 50.54,
+   "end": 52.88,
+   "text": "Yeah, I actually don't really like the medieval fare.",
+   "speaker": "S22"
+  },
+  {
+   "start": 53.2,
+   "end": 54.08,
+   "text": "Yes, you do, Jason.",
+   "speaker": "S05"
+  },
+  {
+   "start": 54.32,
+   "end": 55.08,
+   "text": "No, I don't, Melissa.",
+   "speaker": "S22"
+  },
+  {
+   "start": 55.3,
+   "end": 55.92,
+   "text": "Yes, you do.",
+   "speaker": "S05"
+  },
+  {
+   "start": 56.1,
+   "end": 57.54,
+   "text": "I wanna go to the Sci-Fi Convention.",
+   "speaker": "S22"
+  },
+  {
+   "start": 57.86,
+   "end": 59.02,
+   "text": "What's a Sci-Fi Convention?",
+   "speaker": "S23"
+  },
+  {
+   "start": 59.02,
+   "end": 61.4,
+   "text": "Well, you know, it's a bunch of dorks trading action figures, Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 61.58,
+   "end": 63.06,
+   "text": "Oh, like that thing I took you to last year?",
+   "speaker": "S23"
+  },
+  {
+   "start": 63.18,
+   "end": 63.4,
+   "text": "Yes.",
+   "speaker": "S23"
+  },
+  {
+   "start": 63.58,
+   "end": 66.08,
+   "text": "Believe you me, you two, it's not a bunch of dorks.",
+   "speaker": "S22"
+  },
+  {
+   "start": 68.06,
+   "end": 70.94,
+   "text": "Anyway, this year it's happening, you know, on the same day, next door to the medieval",
+   "speaker": "S06"
+  },
+  {
+   "start": 70.94,
+   "end": 73.08,
+   "text": "fair, which is a huge conflict of interest for geeks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 73.16,
+   "end": 73.94,
+   "text": "Hey, watch it, Brendan.",
+   "speaker": "S22"
+  },
+  {
+   "start": 74.14,
+   "end": 76.4,
+   "text": "Jason, aren't you more interested in the history of medieval times?",
+   "speaker": "S05"
+  },
+  {
+   "start": 76.82,
+   "end": 77.78,
+   "text": "I mean, it really happened.",
+   "speaker": "S05"
+  },
+  {
+   "start": 78.34,
+   "end": 79.66,
+   "text": "So does sci-fi stuff.",
+   "speaker": "S22"
+  },
+  {
+   "start": 79.86,
+   "end": 80.56,
+   "text": "When, in the future?",
+   "speaker": "S05"
+  },
+  {
+   "start": 80.8,
+   "end": 81.06,
+   "text": "No.",
+   "speaker": "S05"
+  },
+  {
+   "start": 81.3,
+   "end": 82.64,
+   "text": "That's why you don't understand it.",
+   "speaker": "S22"
+  },
+  {
+   "start": 82.76,
+   "end": 83.6,
+   "text": "It's already happening.",
+   "speaker": "S22"
+  },
+  {
+   "start": 83.72,
+   "end": 85.14,
+   "text": "Kids, it's a little early to be arguing.",
+   "speaker": "S23"
+  },
+  {
+   "start": 85.34,
+   "end": 86.16,
+   "text": "It's gonna be fun.",
+   "speaker": "S05"
+  },
+  {
+   "start": 86.34,
+   "end": 86.44,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 86.56,
+   "end": 87.76,
+   "text": "Dwayne's band is gonna be there.",
+   "speaker": "S05"
+  },
+  {
+   "start": 87.86,
+   "end": 88.64,
+   "text": "I don't like Dwayne.",
+   "speaker": "S22"
+  },
+  {
+   "start": 89.02,
+   "end": 90.4,
+   "text": "You have a bad attitude today.",
+   "speaker": "S05"
+  },
+  {
+   "start": 90.5,
+   "end": 90.9,
+   "text": "You do.",
+   "speaker": "S05"
+  },
+  {
+   "start": 91.1,
+   "end": 91.3,
+   "text": "You do.",
+   "speaker": "S05"
+  },
+  {
+   "start": 91.3,
+   "end": 92.16,
+   "text": "I don't like Dwayne.",
+   "speaker": "S22"
+  },
+  {
+   "start": 92.22,
+   "end": 93.48,
+   "text": "Guys, guys, it'll be fine.",
+   "speaker": "S06"
+  },
+  {
+   "start": 93.64,
+   "end": 94.06,
+   "text": "It'll be fine.",
+   "speaker": "S06"
+  },
+  {
+   "start": 94.2,
+   "end": 95.42,
+   "text": "And, you know, I'm videotaping it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 95.54,
+   "end": 98.34,
+   "text": "Well, remember when we used to play sci-fi games together?",
+   "speaker": "S22"
+  },
+  {
+   "start": 98.66,
+   "end": 100.14,
+   "text": "Yeah, we still play sci-fi games.",
+   "speaker": "S06"
+  },
+  {
+   "start": 100.16,
+   "end": 101.86,
+   "text": "Yeah, so why can't we go to the sci-fi convention?",
+   "speaker": "S22"
+  },
+  {
+   "start": 102.08,
+   "end": 103.9,
+   "text": "Because we're not getting paid to go to the sci-fi convention.",
+   "speaker": "S06"
+  },
+  {
+   "start": 104.02,
+   "end": 105.8,
+   "text": "We're getting paid to do the medieval fair, and we're performing.",
+   "speaker": "S06"
+  },
+  {
+   "start": 105.94,
+   "end": 106.34,
+   "text": "We're performers.",
+   "speaker": "S06"
+  },
+  {
+   "start": 106.58,
+   "end": 108.68,
+   "text": "Why don't we take the money and go to the sci-fi convention?",
+   "speaker": "S22"
+  },
+  {
+   "start": 108.98,
+   "end": 110.5,
+   "text": "Then we could buy collectibles.",
+   "speaker": "S22"
+  },
+  {
+   "start": 110.98,
+   "end": 112.68,
+   "text": "We're already dressed for the medieval fair.",
+   "speaker": "S05"
+  },
+  {
+   "start": 112.8,
+   "end": 114.26,
+   "text": "Oh, is that why you guys are wearing those things?",
+   "speaker": "S23"
+  },
+  {
+   "start": 115.0,
+   "end": 115.32,
+   "text": "Yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 116.16,
+   "end": 116.48,
+   "text": "Mom.",
+   "speaker": "S23"
+  },
+  {
+   "start": 117.78,
+   "end": 118.1,
+   "text": "Uh.",
+   "speaker": "S23"
+  },
+  {
+   "start": 118.1,
+   "end": 120.14,
+   "text": "Uh, let's sing a song.",
+   "speaker": "S22"
+  },
+  {
+   "start": 120.38,
+   "end": 121.58,
+   "text": "How about that?",
+   "speaker": "S22"
+  },
+  {
+   "start": 122.02,
+   "end": 128.6,
+   "text": "Oh, the medieval time is coming to go.",
+   "speaker": "S22"
+  },
+  {
+   "start": 132.96,
+   "end": 134.6,
+   "text": "Good morrow.",
+   "speaker": "S08"
+  },
+  {
+   "start": 135.06,
+   "end": 136.46,
+   "text": "Good morrow, everyone.",
+   "speaker": "S08"
+  },
+  {
+   "start": 136.94,
+   "end": 142.46,
+   "text": "Are ye well-rested, me shrews and frrews and stablesmen?",
+   "speaker": "S08"
+  },
+  {
+   "start": 142.86,
+   "end": 145.34,
+   "text": "I look like y'arr.",
+   "speaker": "S08"
+  },
+  {
+   "start": 146.48,
+   "end": 151.7,
+   "text": "Well, that was an Elizabethan dialect, everyone, and all of you must learn to speak it.",
+   "speaker": "S08"
+  },
+  {
+   "start": 151.9,
+   "end": 155.16,
+   "text": "The fair goers will expect that from ye lot.",
+   "speaker": "S08"
+  },
+  {
+   "start": 157.0,
+   "end": 158.08,
+   "text": "Come up here, Brendan.",
+   "speaker": "S08"
+  },
+  {
+   "start": 158.9,
+   "end": 159.4,
+   "text": "Okay.",
+   "speaker": "S08"
+  },
+  {
+   "start": 159.86,
+   "end": 164.38,
+   "text": "Now, all of you will be improvising in the character that you've dressed as, okay?",
+   "speaker": "S08"
+  },
+  {
+   "start": 165.16,
+   "end": 166.28,
+   "text": "Now, who are you, Brendan?",
+   "speaker": "S08"
+  },
+  {
+   "start": 166.82,
+   "end": 167.84,
+   "text": "I'm King Arthur.",
+   "speaker": "S06"
+  },
+  {
+   "start": 168.02,
+   "end": 169.02,
+   "text": "Me lard!",
+   "speaker": "S08"
+  },
+  {
+   "start": 170.3,
+   "end": 173.92,
+   "text": "See? You are the king, and I must treat you thusly.",
+   "speaker": "S08"
+  },
+  {
+   "start": 174.24,
+   "end": 174.56,
+   "text": "Right.",
+   "speaker": "S08"
+  },
+  {
+   "start": 174.56,
+   "end": 178.18,
+   "text": "And I am the wizard, Moylin.",
+   "speaker": "S08"
+  },
+  {
+   "start": 178.66,
+   "end": 179.76,
+   "text": "You mean Merlin?",
+   "speaker": "S06"
+  },
+  {
+   "start": 180.38,
+   "end": 180.9,
+   "text": "Moylin!",
+   "speaker": "S06"
+  },
+  {
+   "start": 181.74,
+   "end": 182.24,
+   "text": "Okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 182.48,
+   "end": 182.64,
+   "text": "Okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 182.9,
+   "end": 186.24,
+   "text": "So, treat the other characters based on how they're dressed.",
+   "speaker": "S08"
+  },
+  {
+   "start": 186.62,
+   "end": 189.5,
+   "text": "Remember, cast systems were big in the medieval times.",
+   "speaker": "S08"
+  },
+  {
+   "start": 189.82,
+   "end": 194.32,
+   "text": "Okay, like if I were to talk to, let's say, okay, him.",
+   "speaker": "S08"
+  },
+  {
+   "start": 194.46,
+   "end": 194.9,
+   "text": "No, no.",
+   "speaker": "S08"
+  },
+  {
+   "start": 194.94,
+   "end": 195.64,
+   "text": "He's an archer.",
+   "speaker": "S08"
+  },
+  {
+   "start": 195.78,
+   "end": 195.96,
+   "text": "No.",
+   "speaker": "S08"
+  },
+  {
+   "start": 196.12,
+   "end": 196.84,
+   "text": "Okay, come hither.",
+   "speaker": "S08"
+  },
+  {
+   "start": 197.32,
+   "end": 198.24,
+   "text": "Come hither.",
+   "speaker": "S08"
+  },
+  {
+   "start": 198.9,
+   "end": 199.18,
+   "text": "Yeah?",
+   "speaker": "S08"
+  },
+  {
+   "start": 199.82,
+   "end": 202.4,
+   "text": "Aye, thou be an archer, eh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 202.96,
+   "end": 203.96,
+   "text": "Um, yeah.",
+   "speaker": "S22"
+  },
+  {
+   "start": 203.96,
+   "end": 211.74,
+   "text": "Thou swagger't! Thou foolish tart! Fetch me an owl at once, thou scurvy-ridden, rump-fed mudsloth!",
+   "speaker": "S08"
+  },
+  {
+   "start": 212.88,
+   "end": 213.58,
+   "text": "Say again?",
+   "speaker": "S22"
+  },
+  {
+   "start": 213.74,
+   "end": 219.24,
+   "text": "And he would have to fetch, because a wizard is above a common archer in the caste system.",
+   "speaker": "S08"
+  },
+  {
+   "start": 219.42,
+   "end": 220.26,
+   "text": "Okay, you get it everyone?",
+   "speaker": "S08"
+  },
+  {
+   "start": 220.56,
+   "end": 224.64,
+   "text": "Um, Robin Hood. Okay.",
+   "speaker": "S22"
+  },
+  {
+   "start": 225.52,
+   "end": 228.28,
+   "text": "Okay, now Brendan, let's you and I have a conversation, okay?",
+   "speaker": "S08"
+  },
+  {
+   "start": 228.38,
+   "end": 229.74,
+   "text": "Everybody, pay attention.",
+   "speaker": "S08"
+  },
+  {
+   "start": 229.74,
+   "end": 236.22,
+   "text": "Good morrow, me lard. By God's breath, dinst thou ever see such a bootful marnin.",
+   "speaker": "S08"
+  },
+  {
+   "start": 236.78,
+   "end": 242.1,
+   "text": "Aye, and watch thy steppeth in the thicket, me lard. There be archers a boot.",
+   "speaker": "S08"
+  },
+  {
+   "start": 243.04,
+   "end": 244.0,
+   "text": "And then I would talk?",
+   "speaker": "S06"
+  },
+  {
+   "start": 244.62,
+   "end": 245.82,
+   "text": "Okay, alright, well alright.",
+   "speaker": "S08"
+  },
+  {
+   "start": 246.06,
+   "end": 246.4,
+   "text": "Yeah, I don't know.",
+   "speaker": "S08"
+  },
+  {
+   "start": 246.6,
+   "end": 249.0,
+   "text": "Okay, okay, I understand this is your first time.",
+   "speaker": "S08"
+  },
+  {
+   "start": 249.16,
+   "end": 251.9,
+   "text": "A lot of first timers here. All first timers, actually.",
+   "speaker": "S08"
+  },
+  {
+   "start": 252.14,
+   "end": 257.6,
+   "text": "And there's something you can do. If you have any problem, I've prepared this list of outs for all of you, okay?",
+   "speaker": "S08"
+  },
+  {
+   "start": 257.6,
+   "end": 263.6,
+   "text": "If a character starts talking over your head, you don't understand them, pull out the list and read one of the outs.",
+   "speaker": "S08"
+  },
+  {
+   "start": 264.06,
+   "end": 266.92,
+   "text": "You could say, um...",
+   "speaker": "S08"
+  },
+  {
+   "start": 266.92,
+   "end": 268.16,
+   "text": "Okay, that's a bad one.",
+   "speaker": "S08"
+  },
+  {
+   "start": 268.44,
+   "end": 270.74,
+   "text": "I wrote these this morning at 6, so...",
+   "speaker": "S08"
+  },
+  {
+   "start": 271.72,
+   "end": 273.58,
+   "text": "I don't understand, Dwayne. What's the problem?",
+   "speaker": "S08"
+  },
+  {
+   "start": 273.74,
+   "end": 275.34,
+   "text": "We want to know when we get paid.",
+   "speaker": "S61"
+  },
+  {
+   "start": 275.58,
+   "end": 277.06,
+   "text": "I thought we settled this already, Dwayne.",
+   "speaker": "S08"
+  },
+  {
+   "start": 277.14,
+   "end": 281.12,
+   "text": "No, cash up front. We all talk about it. Cash up front or we don't play.",
+   "speaker": "S61"
+  },
+  {
+   "start": 281.28,
+   "end": 282.38,
+   "text": "No, that wasn't the agreement.",
+   "speaker": "S08"
+  },
+  {
+   "start": 282.54,
+   "end": 282.8,
+   "text": "So?",
+   "speaker": "S08"
+  },
+  {
+   "start": 283.0,
+   "end": 285.18,
+   "text": "So you work first and then I pay you. That's how it works.",
+   "speaker": "S08"
+  },
+  {
+   "start": 285.3,
+   "end": 285.54,
+   "text": "So?",
+   "speaker": "S08"
+  },
+  {
+   "start": 285.92,
+   "end": 287.28,
+   "text": "So that's what we're going to do.",
+   "speaker": "S08"
+  },
+  {
+   "start": 287.28,
+   "end": 288.08,
+   "text": "I don't care.",
+   "speaker": "S61"
+  },
+  {
+   "start": 288.46,
+   "end": 289.02,
+   "text": "Okay.",
+   "speaker": "S61"
+  },
+  {
+   "start": 289.66,
+   "end": 290.68,
+   "text": "Catch up front?",
+   "speaker": "S61"
+  },
+  {
+   "start": 290.88,
+   "end": 291.98,
+   "text": "No, no, catch later.",
+   "speaker": "S08"
+  },
+  {
+   "start": 292.24,
+   "end": 292.9,
+   "text": "I don't care.",
+   "speaker": "S61"
+  },
+  {
+   "start": 293.5,
+   "end": 294.58,
+   "text": "All right, then go away.",
+   "speaker": "S08"
+  },
+  {
+   "start": 294.82,
+   "end": 295.16,
+   "text": "Okay.",
+   "speaker": "S08"
+  },
+  {
+   "start": 296.56,
+   "end": 297.98,
+   "text": "All right, we're ready to open.",
+   "speaker": "S08"
+  },
+  {
+   "start": 298.24,
+   "end": 299.88,
+   "text": "Uh, where's my blacksmith?",
+   "speaker": "S08"
+  },
+  {
+   "start": 300.74,
+   "end": 301.3,
+   "text": "Blacksmith!",
+   "speaker": "S08"
+  },
+  {
+   "start": 301.96,
+   "end": 302.52,
+   "text": "Blacksmith!",
+   "speaker": "S08"
+  },
+  {
+   "start": 302.76,
+   "end": 304.62,
+   "text": "Uh, come on.",
+   "speaker": "S112"
+  },
+  {
+   "start": 305.64,
+   "end": 306.32,
+   "text": "Oh, come on.",
+   "speaker": "S112"
+  },
+  {
+   "start": 308.38,
+   "end": 308.8,
+   "text": "I'm right.",
+   "speaker": "S112"
+  },
+  {
+   "start": 313.92,
+   "end": 316.0,
+   "text": "Uh, uh, uh.",
+   "speaker": "S112"
+  },
+  {
+   "start": 317.58,
+   "end": 318.34,
+   "text": "Oh, my.",
+   "speaker": "S112"
+  },
+  {
+   "start": 322.72,
+   "end": 323.6,
+   "text": "Oh, my.",
+   "speaker": "S112"
+  },
+  {
+   "start": 324.56,
+   "end": 324.78,
+   "text": "Oh.",
+   "speaker": "S112"
+  },
+  {
+   "start": 332.32,
+   "end": 334.96,
+   "text": "McGurk, you know we needed you here in working condition.",
+   "speaker": "S08"
+  },
+  {
+   "start": 335.24,
+   "end": 337.48,
+   "text": "Lynch, I'm just a little hungover, all right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 337.72,
+   "end": 338.48,
+   "text": "No problem.",
+   "speaker": "S04"
+  },
+  {
+   "start": 338.72,
+   "end": 339.62,
+   "text": "I don't know. You look bad.",
+   "speaker": "S08"
+  },
+  {
+   "start": 339.78,
+   "end": 341.4,
+   "text": "I'm going to have to dismiss you, McGurk.",
+   "speaker": "S08"
+  },
+  {
+   "start": 341.54,
+   "end": 343.02,
+   "text": "Lynch, I'm fine. I'm fine.",
+   "speaker": "S04"
+  },
+  {
+   "start": 344.26,
+   "end": 345.86,
+   "text": "Um, I don't think so.",
+   "speaker": "S08"
+  },
+  {
+   "start": 345.86,
+   "end": 353.16,
+   "text": "I'm fine Lynch. I'll be fine. I just need the job. All right, I mean the money I'm making from today's already spent on what on",
+   "speaker": "S04"
+  },
+  {
+   "start": 353.16,
+   "end": 354.28,
+   "text": "drinks and",
+   "speaker": "S04"
+  },
+  {
+   "start": 354.28,
+   "end": 361.42,
+   "text": "Property I met a guy last night bought a shrimp farm. Oh McGurk are you still gonna be able to do the big finale with me?",
+   "speaker": "S08"
+  },
+  {
+   "start": 362.66,
+   "end": 369.52,
+   "text": "What did you learn your lines? Hmm? Yes. Yes to what you said. Okay. Okay. I don't know. I don't know",
+   "speaker": "S08"
+  },
+  {
+   "start": 369.52,
+   "end": 374.14,
+   "text": "I'm ready for this thing final performance. Yeah, the wizard and the blacksmith what?",
+   "speaker": "S08"
+  },
+  {
+   "start": 374.14,
+   "end": 378.24,
+   "text": "What? Yes. The wizard and the blacksmith. It's all set.",
+   "speaker": "S04"
+  },
+  {
+   "start": 378.42,
+   "end": 380.46,
+   "text": "And you'll be able to stay in character all day?",
+   "speaker": "S08"
+  },
+  {
+   "start": 380.96,
+   "end": 382.98,
+   "text": "Hmm. Mm-hmm.",
+   "speaker": "S112"
+  },
+  {
+   "start": 383.54,
+   "end": 385.3,
+   "text": "Okay, give me an example. What would you say?",
+   "speaker": "S08"
+  },
+  {
+   "start": 385.92,
+   "end": 386.94,
+   "text": "As the blacksmith?",
+   "speaker": "S04"
+  },
+  {
+   "start": 387.18,
+   "end": 387.54,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 387.86,
+   "end": 390.28,
+   "text": "What do you want me to make you?",
+   "speaker": "S04"
+  },
+  {
+   "start": 390.94,
+   "end": 392.04,
+   "text": "What do you want me to make you?",
+   "speaker": "S04"
+  },
+  {
+   "start": 392.04,
+   "end": 393.44,
+   "text": "No! An Elizabethan!",
+   "speaker": "S08"
+  },
+  {
+   "start": 394.1,
+   "end": 394.46,
+   "text": "Okay.",
+   "speaker": "S08"
+  },
+  {
+   "start": 395.32,
+   "end": 396.92,
+   "text": "What do you want me to make you?",
+   "speaker": "S04"
+  },
+  {
+   "start": 396.92,
+   "end": 397.42,
+   "text": "Oh, boy.",
+   "speaker": "S04"
+  },
+  {
+   "start": 397.72,
+   "end": 398.94,
+   "text": "Now move. I'm gonna throw up.",
+   "speaker": "S04"
+  },
+  {
+   "start": 399.56,
+   "end": 404.16,
+   "text": "Good morrow, me lord. May the gods bless ye, aye?",
+   "speaker": "S118"
+  },
+  {
+   "start": 404.88,
+   "end": 410.42,
+   "text": "Tis a measle of hogs hoof, eh? Nay, and how doth ye find meself, me lord?",
+   "speaker": "S118"
+  },
+  {
+   "start": 411.18,
+   "end": 414.12,
+   "text": "And how doth ye find ye self?",
+   "speaker": "S118"
+  },
+  {
+   "start": 416.26,
+   "end": 421.14,
+   "text": "Pardon me, good sire. I must tend to a dragon elsewhere. Good morrow.",
+   "speaker": "S06"
+  },
+  {
+   "start": 421.8,
+   "end": 425.18,
+   "text": "Come ye all to the trilogy of King Arthur and Robin Hood!",
+   "speaker": "S05"
+  },
+  {
+   "start": 425.18,
+   "end": 429.96,
+   "text": "A fine piece of drama done with mean minstrels.",
+   "speaker": "S05"
+  },
+  {
+   "start": 430.58,
+   "end": 432.32,
+   "text": "Perry, Perry, let's go see it.",
+   "speaker": "S117"
+  },
+  {
+   "start": 432.48,
+   "end": 433.66,
+   "text": "Yeah, I like Robin Hood.",
+   "speaker": "S90"
+  },
+  {
+   "start": 435.56,
+   "end": 437.68,
+   "text": "Perry, you remind me of Robin Hood.",
+   "speaker": "S117"
+  },
+  {
+   "start": 437.76,
+   "end": 438.12,
+   "text": "I do?",
+   "speaker": "S117"
+  },
+  {
+   "start": 438.34,
+   "end": 438.64,
+   "text": "Yeah.",
+   "speaker": "S117"
+  },
+  {
+   "start": 439.18,
+   "end": 439.34,
+   "text": "Yeah.",
+   "speaker": "S117"
+  },
+  {
+   "start": 439.5,
+   "end": 440.56,
+   "text": "You have beautiful skin.",
+   "speaker": "S101"
+  },
+  {
+   "start": 440.8,
+   "end": 441.16,
+   "text": "Really?",
+   "speaker": "S101"
+  },
+  {
+   "start": 442.6,
+   "end": 442.9,
+   "text": "No.",
+   "speaker": "S101"
+  },
+  {
+   "start": 443.2,
+   "end": 443.48,
+   "text": "Ah!",
+   "speaker": "S101"
+  },
+  {
+   "start": 444.36,
+   "end": 444.82,
+   "text": "Ah!",
+   "speaker": "S101"
+  },
+  {
+   "start": 445.22,
+   "end": 445.52,
+   "text": "No!",
+   "speaker": "S101"
+  },
+  {
+   "start": 445.7,
+   "end": 446.66,
+   "text": "It's not Stephanie!",
+   "speaker": "S90"
+  },
+  {
+   "start": 447.08,
+   "end": 447.82,
+   "text": "Somebody help me!",
+   "speaker": "S21"
+  },
+  {
+   "start": 448.16,
+   "end": 448.24,
+   "text": "Perry!",
+   "speaker": "S21"
+  },
+  {
+   "start": 449.0,
+   "end": 449.52,
+   "text": "Yes!",
+   "speaker": "S21"
+  },
+  {
+   "start": 449.76,
+   "end": 450.72,
+   "text": "It's dark in here.",
+   "speaker": "S90"
+  },
+  {
+   "start": 450.92,
+   "end": 451.9,
+   "text": "I'm scared.",
+   "speaker": "S90"
+  },
+  {
+   "start": 452.18,
+   "end": 453.3,
+   "text": "I miss you, Walter.",
+   "speaker": "S90"
+  },
+  {
+   "start": 453.42,
+   "end": 454.22,
+   "text": "Where are you, Perry?",
+   "speaker": "S90"
+  },
+  {
+   "start": 454.22,
+   "end": 456.22,
+   "text": "I'm right next to the apple cart!",
+   "speaker": "S90"
+  },
+  {
+   "start": 456.36,
+   "end": 458.64,
+   "text": "I can hear you, but I can't see you, Perry!",
+   "speaker": "S90"
+  },
+  {
+   "start": 458.9,
+   "end": 459.88,
+   "text": "Greetings, Earthling!",
+   "speaker": "S119"
+  },
+  {
+   "start": 460.2,
+   "end": 463.24,
+   "text": "You jerk! You made the apple cart fall in water!",
+   "speaker": "S90"
+  },
+  {
+   "start": 463.64,
+   "end": 466.02,
+   "text": "Whoops! Like my robot, everybody?",
+   "speaker": "S119"
+  },
+  {
+   "start": 466.34,
+   "end": 468.62,
+   "text": "Who be you causing problems here?",
+   "speaker": "S118"
+  },
+  {
+   "start": 468.86,
+   "end": 471.06,
+   "text": "I'm from the future, and I've come to blow up your planet!",
+   "speaker": "S119"
+  },
+  {
+   "start": 471.32,
+   "end": 473.8,
+   "text": "Aye, run! Run from the future, man!",
+   "speaker": "S118"
+  },
+  {
+   "start": 474.22,
+   "end": 476.68,
+   "text": "That's right! Run! Dork!",
+   "speaker": "S119"
+  },
+  {
+   "start": 477.62,
+   "end": 478.38,
+   "text": "Hi, Brandon!",
+   "speaker": "S117"
+  },
+  {
+   "start": 478.98,
+   "end": 479.86,
+   "text": "Uh, hi, Fenton.",
+   "speaker": "S06"
+  },
+  {
+   "start": 480.04,
+   "end": 482.26,
+   "text": "Oh, it's, uh, it's nothing. It's, uh...",
+   "speaker": "S119"
+  },
+  {
+   "start": 485.38,
+   "end": 486.86,
+   "text": "Cool robot, Dr. Neptune.",
+   "speaker": "S22"
+  },
+  {
+   "start": 487.44,
+   "end": 489.54,
+   "text": "Yeah, I'm just testing her out.",
+   "speaker": "S119"
+  },
+  {
+   "start": 490.2,
+   "end": 492.8,
+   "text": "I've entered it into the sci-fi robot battles.",
+   "speaker": "S119"
+  },
+  {
+   "start": 493.46,
+   "end": 495.02,
+   "text": "I've probably got a good chance of winning.",
+   "speaker": "S119"
+  },
+  {
+   "start": 495.28,
+   "end": 496.58,
+   "text": "You should come check it out, Brendan.",
+   "speaker": "S119"
+  },
+  {
+   "start": 497.02,
+   "end": 499.14,
+   "text": "Nah, I've got to stay and work here, sorry.",
+   "speaker": "S06"
+  },
+  {
+   "start": 499.52,
+   "end": 501.02,
+   "text": "Aw, medieval stuff sucks.",
+   "speaker": "S119"
+  },
+  {
+   "start": 501.2,
+   "end": 504.06,
+   "text": "No, it doesn't. Medieval stuff is cool, Fenton. At least it really happened.",
+   "speaker": "S05"
+  },
+  {
+   "start": 504.86,
+   "end": 507.04,
+   "text": "Yeah, yeah, Melissa. Okay, nice nightgown.",
+   "speaker": "S119"
+  },
+  {
+   "start": 507.26,
+   "end": 509.08,
+   "text": "What happened? Forget the dress this morning?",
+   "speaker": "S119"
+  },
+  {
+   "start": 509.92,
+   "end": 511.88,
+   "text": "I really like your robot, Dr. Neptune.",
+   "speaker": "S22"
+  },
+  {
+   "start": 511.88,
+   "end": 513.68,
+   "text": "Yeah, whatever. Nice tights, loser.",
+   "speaker": "S119"
+  },
+  {
+   "start": 514.1,
+   "end": 515.46,
+   "text": "Your mom know you steal her clothes?",
+   "speaker": "S119"
+  },
+  {
+   "start": 515.72,
+   "end": 516.54,
+   "text": "Um, no.",
+   "speaker": "S22"
+  },
+  {
+   "start": 516.96,
+   "end": 518.86,
+   "text": "I gotta go. See you, Brendan.",
+   "speaker": "S119"
+  },
+  {
+   "start": 519.18,
+   "end": 521.52,
+   "text": "Bye, dorks. See you...",
+   "speaker": "S119"
+  },
+  {
+   "start": 521.52,
+   "end": 523.76,
+   "text": "In the hotel chair!",
+   "speaker": "S21"
+  },
+  {
+   "start": 526.9,
+   "end": 528.24,
+   "text": "Here's a full package.",
+   "speaker": "S22"
+  },
+  {
+   "start": 528.52,
+   "end": 530.54,
+   "text": "Uh, Perry? Hello?",
+   "speaker": "S101"
+  },
+  {
+   "start": 531.0,
+   "end": 533.0,
+   "text": "Hey, I found a way in here.",
+   "speaker": "S90"
+  },
+  {
+   "start": 533.18,
+   "end": 534.1,
+   "text": "Hi, Perry.",
+   "speaker": "S90"
+  },
+  {
+   "start": 534.56,
+   "end": 536.34,
+   "text": "Hey, there we go. Thank you, here.",
+   "speaker": "S90"
+  },
+  {
+   "start": 536.56,
+   "end": 537.76,
+   "text": "I'm so glad you're here.",
+   "speaker": "S101"
+  },
+  {
+   "start": 537.94,
+   "end": 539.32,
+   "text": "Maybe we could live here forever.",
+   "speaker": "S101"
+  },
+  {
+   "start": 539.32,
+   "end": 539.54,
+   "text": "Good morrow.",
+   "speaker": "S101"
+  },
+  {
+   "start": 540.78,
+   "end": 542.92,
+   "text": "Good morrow, Lord Arthur.",
+   "speaker": "S114"
+  },
+  {
+   "start": 543.3,
+   "end": 544.64,
+   "text": "Well, good morrow.",
+   "speaker": "S06"
+  },
+  {
+   "start": 545.46,
+   "end": 545.98,
+   "text": "You?",
+   "speaker": "S06"
+  },
+  {
+   "start": 546.16,
+   "end": 546.54,
+   "text": "Aye.",
+   "speaker": "S06"
+  },
+  {
+   "start": 546.98,
+   "end": 550.06,
+   "text": "Me name be Helmut, most magnanimous lord.",
+   "speaker": "S114"
+  },
+  {
+   "start": 550.32,
+   "end": 551.26,
+   "text": "Hello, fair maiden.",
+   "speaker": "S114"
+  },
+  {
+   "start": 551.46,
+   "end": 552.82,
+   "text": "Good morrow, Robin Hood.",
+   "speaker": "S114"
+  },
+  {
+   "start": 553.0,
+   "end": 553.78,
+   "text": "Good morrow, Helmut.",
+   "speaker": "S05"
+  },
+  {
+   "start": 554.02,
+   "end": 554.74,
+   "text": "Aye, weirdo.",
+   "speaker": "S22"
+  },
+  {
+   "start": 554.98,
+   "end": 557.4,
+   "text": "I'm here on important business, me lord.",
+   "speaker": "S114"
+  },
+  {
+   "start": 557.86,
+   "end": 558.7,
+   "text": "In Woostergaden.",
+   "speaker": "S114"
+  },
+  {
+   "start": 558.9,
+   "end": 560.0,
+   "text": "There be tales.",
+   "speaker": "S114"
+  },
+  {
+   "start": 560.3,
+   "end": 564.02,
+   "text": "There be rumblings amongst the people of a future man",
+   "speaker": "S114"
+  },
+  {
+   "start": 564.02,
+   "end": 566.34,
+   "text": "that come here causing a ruckus.",
+   "speaker": "S114"
+  },
+  {
+   "start": 566.58,
+   "end": 567.4,
+   "text": "Oh, you mean Fenton?",
+   "speaker": "S06"
+  },
+  {
+   "start": 567.6,
+   "end": 568.0,
+   "text": "Oh, no.",
+   "speaker": "S06"
+  },
+  {
+   "start": 568.34,
+   "end": 568.86,
+   "text": "He's fine.",
+   "speaker": "S06"
+  },
+  {
+   "start": 568.86,
+   "end": 576.56,
+   "text": "He come from the other camp claiming they'd be sci-fi lovers knocking over apple carts and whatnot.",
+   "speaker": "S114"
+  },
+  {
+   "start": 577.0,
+   "end": 578.82,
+   "text": "You know, you can talk regular if you want.",
+   "speaker": "S06"
+  },
+  {
+   "start": 579.22,
+   "end": 582.24,
+   "text": "Okay, look, I just want you guys to know that jerk who did this is gonna pay.",
+   "speaker": "S114"
+  },
+  {
+   "start": 582.46,
+   "end": 583.3,
+   "text": "What are you talking about?",
+   "speaker": "S05"
+  },
+  {
+   "start": 583.48,
+   "end": 588.48,
+   "text": "Look, I'm sorry, but those guys at the sci-fi convention are stupid dorks,",
+   "speaker": "S114"
+  },
+  {
+   "start": 588.5,
+   "end": 591.7,
+   "text": "and they have been pushing the medieval people around for years.",
+   "speaker": "S114"
+  },
+  {
+   "start": 592.34,
+   "end": 593.8,
+   "text": "This year, it's stopping.",
+   "speaker": "S114"
+  },
+  {
+   "start": 593.8,
+   "end": 598.94,
+   "text": "You know, we are drawing a line in the sand, and we're shutting those ray gun boys down.",
+   "speaker": "S114"
+  },
+  {
+   "start": 599.24,
+   "end": 601.48,
+   "text": "Well, uh, you know, don't go doing anything stupid.",
+   "speaker": "S06"
+  },
+  {
+   "start": 601.76,
+   "end": 602.06,
+   "text": "I'm off!",
+   "speaker": "S06"
+  },
+  {
+   "start": 602.26,
+   "end": 604.68,
+   "text": "I will need to consult my dice for my next step.",
+   "speaker": "S114"
+  },
+  {
+   "start": 604.86,
+   "end": 606.58,
+   "text": "I'll keep you informed, my lord.",
+   "speaker": "S114"
+  },
+  {
+   "start": 606.7,
+   "end": 607.5,
+   "text": "Okay, don't bother.",
+   "speaker": "S06"
+  },
+  {
+   "start": 607.64,
+   "end": 608.28,
+   "text": "My king!",
+   "speaker": "S114"
+  },
+  {
+   "start": 608.72,
+   "end": 610.24,
+   "text": "Hey, you tore my dress.",
+   "speaker": "S90"
+  },
+  {
+   "start": 610.74,
+   "end": 611.62,
+   "text": "Sorry, wench.",
+   "speaker": "S114"
+  },
+  {
+   "start": 611.8,
+   "end": 612.82,
+   "text": "Did not see you there.",
+   "speaker": "S114"
+  },
+  {
+   "start": 613.08,
+   "end": 613.48,
+   "text": "Farewell!",
+   "speaker": "S114"
+  },
+  {
+   "start": 613.92,
+   "end": 614.32,
+   "text": "Wench?",
+   "speaker": "S114"
+  },
+  {
+   "start": 614.44,
+   "end": 616.52,
+   "text": "What's all this my lord business, Brendan?",
+   "speaker": "S22"
+  },
+  {
+   "start": 616.7,
+   "end": 617.18,
+   "text": "Can it stop?",
+   "speaker": "S22"
+  },
+  {
+   "start": 617.36,
+   "end": 619.36,
+   "text": "They're treating him like that because he's dressed as the king.",
+   "speaker": "S05"
+  },
+  {
+   "start": 619.54,
+   "end": 620.74,
+   "text": "Oh, it's getting annoying.",
+   "speaker": "S22"
+  },
+  {
+   "start": 621.08,
+   "end": 621.98,
+   "text": "Yeah, it's getting a little annoying.",
+   "speaker": "S06"
+  },
+  {
+   "start": 624.8,
+   "end": 627.96,
+   "text": "Hey, blacksmith, why don't you wake up and make some Silbertips arrows?",
+   "speaker": "S111"
+  },
+  {
+   "start": 628.12,
+   "end": 632.38,
+   "text": "Lowly blacksmith has to wake up! We command it! It's been commanded!",
+   "speaker": "S113"
+  },
+  {
+   "start": 632.78,
+   "end": 634.0,
+   "text": "You're supposed to be blacksmithing for us.",
+   "speaker": "S111"
+  },
+  {
+   "start": 634.04,
+   "end": 636.6,
+   "text": "Yeah, make a broadsword! Make some chain mail!",
+   "speaker": "S113"
+  },
+  {
+   "start": 636.66,
+   "end": 637.96,
+   "text": "We're part of the aristocracy.",
+   "speaker": "S111"
+  },
+  {
+   "start": 638.04,
+   "end": 638.78,
+   "text": "Get up, blacksmith!",
+   "speaker": "S113"
+  },
+  {
+   "start": 639.16,
+   "end": 640.24,
+   "text": "We're losing patience!",
+   "speaker": "S113"
+  },
+  {
+   "start": 640.54,
+   "end": 641.56,
+   "text": "Do it, you stupid idiot!",
+   "speaker": "S118"
+  },
+  {
+   "start": 641.8,
+   "end": 642.52,
+   "text": "Yeah, do it, idiot!",
+   "speaker": "S113"
+  },
+  {
+   "start": 642.88,
+   "end": 643.56,
+   "text": "Do it, do it!",
+   "speaker": "S113"
+  },
+  {
+   "start": 643.58,
+   "end": 644.04,
+   "text": "Do it, idiot!",
+   "speaker": "S113"
+  },
+  {
+   "start": 645.02,
+   "end": 646.06,
+   "text": "Alright, that's it!",
+   "speaker": "S03"
+  },
+  {
+   "start": 647.94,
+   "end": 648.86,
+   "text": "That was awesome.",
+   "speaker": "S61"
+  },
+  {
+   "start": 653.02,
+   "end": 654.94,
+   "text": "Many years ago",
+   "speaker": "S115"
+  },
+  {
+   "start": 654.94,
+   "end": 658.46,
+   "text": "In the ancient times of England",
+   "speaker": "S115"
+  },
+  {
+   "start": 658.46,
+   "end": 661.64,
+   "text": "On a fateful day where the fairies prayed",
+   "speaker": "S115"
+  },
+  {
+   "start": 661.64,
+   "end": 664.04,
+   "text": "And the devil crept in shadows",
+   "speaker": "S115"
+  },
+  {
+   "start": 664.04,
+   "end": 667.0,
+   "text": "Two men did meet",
+   "speaker": "S115"
+  },
+  {
+   "start": 667.0,
+   "end": 670.08,
+   "text": "In a forest by the brook",
+   "speaker": "S115"
+  },
+  {
+   "start": 670.08,
+   "end": 672.96,
+   "text": "And that day would change the fates",
+   "speaker": "S115"
+  },
+  {
+   "start": 672.96,
+   "end": 675.58,
+   "text": "Of these two very famous men",
+   "speaker": "S03"
+  },
+  {
+   "start": 675.58,
+   "end": 681.88,
+   "text": "They met instead in silence into each other's souls",
+   "speaker": "S03"
+  },
+  {
+   "start": 681.88,
+   "end": 687.46,
+   "text": "Their egos threatened danger, were they friends or were they foes",
+   "speaker": "S03"
+  },
+  {
+   "start": 687.46,
+   "end": 692.74,
+   "text": "They could have killed each other",
+   "speaker": "S115"
+  },
+  {
+   "start": 701.34,
+   "end": 703.16,
+   "text": "But what's this?",
+   "speaker": "S03"
+  },
+  {
+   "start": 703.42,
+   "end": 705.16,
+   "text": "The king speaks",
+   "speaker": "S03"
+  },
+  {
+   "start": 707.4,
+   "end": 709.94,
+   "text": "I decree before all of England",
+   "speaker": "S03"
+  },
+  {
+   "start": 709.94,
+   "end": 711.98,
+   "text": "That I, King Arthur",
+   "speaker": "S03"
+  },
+  {
+   "start": 711.98,
+   "end": 713.44,
+   "text": "And Robin Hood",
+   "speaker": "S03"
+  },
+  {
+   "start": 713.44,
+   "end": 714.78,
+   "text": "From this point on",
+   "speaker": "S03"
+  },
+  {
+   "start": 714.78,
+   "end": 717.06,
+   "text": "Shall be best friends forever",
+   "speaker": "S03"
+  },
+  {
+   "start": 724.34,
+   "end": 729.34,
+   "text": "Oh, brilliant piece, me lord",
+   "speaker": "S114"
+  },
+  {
+   "start": 729.34,
+   "end": 730.02,
+   "text": "Hey, thanks",
+   "speaker": "S06"
+  },
+  {
+   "start": 730.02,
+   "end": 731.68,
+   "text": "Better news from the king's front, me lord",
+   "speaker": "S114"
+  },
+  {
+   "start": 731.68,
+   "end": 732.2,
+   "text": "What?",
+   "speaker": "S114"
+  },
+  {
+   "start": 732.4,
+   "end": 734.8,
+   "text": "One of ours has infiltrated the sci-fi sector",
+   "speaker": "S114"
+  },
+  {
+   "start": 735.28,
+   "end": 736.36,
+   "text": "incognito. Yes.",
+   "speaker": "S06"
+  },
+  {
+   "start": 736.94,
+   "end": 738.26,
+   "text": "Yes. Good.",
+   "speaker": "S06"
+  },
+  {
+   "start": 738.56,
+   "end": 740.8,
+   "text": "Good. And you'll be happy to know our nemesis'",
+   "speaker": "S114"
+  },
+  {
+   "start": 740.96,
+   "end": 743.26,
+   "text": "robot was indeed thwarted.",
+   "speaker": "S114"
+  },
+  {
+   "start": 743.48,
+   "end": 744.9,
+   "text": "All in the name of good King Arthur.",
+   "speaker": "S114"
+  },
+  {
+   "start": 745.08,
+   "end": 746.74,
+   "text": "God save the king. God save the king.",
+   "speaker": "S114"
+  },
+  {
+   "start": 746.92,
+   "end": 749.08,
+   "text": "Wait, what did you do now?",
+   "speaker": "S06"
+  },
+  {
+   "start": 749.24,
+   "end": 750.22,
+   "text": "Which one of you did this?",
+   "speaker": "S119"
+  },
+  {
+   "start": 750.54,
+   "end": 752.56,
+   "text": "Brandon? Do you know anything about this?",
+   "speaker": "S119"
+  },
+  {
+   "start": 752.84,
+   "end": 754.92,
+   "text": "No, no. Well, I have a pretty good",
+   "speaker": "S06"
+  },
+  {
+   "start": 754.92,
+   "end": 756.32,
+   "text": "idea that it was somebody from over here.",
+   "speaker": "S119"
+  },
+  {
+   "start": 756.5,
+   "end": 759.04,
+   "text": "Perhaps a wizard cast a spell on your devil's",
+   "speaker": "S114"
+  },
+  {
+   "start": 759.04,
+   "end": 761.04,
+   "text": "invention, or possibly it was cursed",
+   "speaker": "S114"
+  },
+  {
+   "start": 761.04,
+   "end": 762.84,
+   "text": "by an enchanted loot or a",
+   "speaker": "S114"
+  },
+  {
+   "start": 762.84,
+   "end": 764.7,
+   "text": "doom goblin, or perhaps...",
+   "speaker": "S114"
+  },
+  {
+   "start": 764.7,
+   "end": 766.28,
+   "text": "Enough of that, okay, you stupid...",
+   "speaker": "S119"
+  },
+  {
+   "start": 766.28,
+   "end": 767.3,
+   "text": "I don't even know what you're saying.",
+   "speaker": "S119"
+  },
+  {
+   "start": 767.7,
+   "end": 769.34,
+   "text": "I will get to the bottom of this.",
+   "speaker": "S119"
+  },
+  {
+   "start": 769.48,
+   "end": 772.38,
+   "text": "And I swear that my people will get revenge for what has been done.",
+   "speaker": "S119"
+  },
+  {
+   "start": 772.78,
+   "end": 773.74,
+   "text": "Dr. Neptune!",
+   "speaker": "S116"
+  },
+  {
+   "start": 774.52,
+   "end": 774.84,
+   "text": "Hello!",
+   "speaker": "S116"
+  },
+  {
+   "start": 777.06,
+   "end": 778.58,
+   "text": "Zap you! Zap you!",
+   "speaker": "S117"
+  },
+  {
+   "start": 788.78,
+   "end": 790.28,
+   "text": "Good morrow, Robin Hood.",
+   "speaker": "S03"
+  },
+  {
+   "start": 790.46,
+   "end": 791.22,
+   "text": "King Arthur.",
+   "speaker": "S22"
+  },
+  {
+   "start": 791.78,
+   "end": 793.16,
+   "text": "That's me, my friend.",
+   "speaker": "S06"
+  },
+  {
+   "start": 793.16,
+   "end": 795.32,
+   "text": "Feels like dragon weather, doth it?",
+   "speaker": "S22"
+  },
+  {
+   "start": 795.52,
+   "end": 796.82,
+   "text": "Aye, aye.",
+   "speaker": "S114"
+  },
+  {
+   "start": 797.42,
+   "end": 799.34,
+   "text": "Something has been troubling me, my friend.",
+   "speaker": "S03"
+  },
+  {
+   "start": 799.78,
+   "end": 803.24,
+   "text": "Doth thou possess mine money that thou borrowed from me last week?",
+   "speaker": "S03"
+  },
+  {
+   "start": 803.38,
+   "end": 805.26,
+   "text": "Ah, nay, my lord.",
+   "speaker": "S100"
+  },
+  {
+   "start": 805.62,
+   "end": 808.46,
+   "text": "Couldst thou come back perhaps later?",
+   "speaker": "S22"
+  },
+  {
+   "start": 808.78,
+   "end": 809.18,
+   "text": "Hmm.",
+   "speaker": "S22"
+  },
+  {
+   "start": 809.58,
+   "end": 812.82,
+   "text": "Hast thou seen thy king's treasure chest lately?",
+   "speaker": "S03"
+  },
+  {
+   "start": 813.02,
+   "end": 814.92,
+   "text": "Nay, King Arthur, nay.",
+   "speaker": "S22"
+  },
+  {
+   "start": 815.3,
+   "end": 818.9,
+   "text": "Because I have noticed that since we've been friends,",
+   "speaker": "S03"
+  },
+  {
+   "start": 819.3,
+   "end": 821.42,
+   "text": "that my valuables keep disappearing.",
+   "speaker": "S03"
+  },
+  {
+   "start": 821.42,
+   "end": 824.1,
+   "text": "Ah, news to me.",
+   "speaker": "S100"
+  },
+  {
+   "start": 824.58,
+   "end": 826.0,
+   "text": "Good morrow, Robin Hood.",
+   "speaker": "S05"
+  },
+  {
+   "start": 826.14,
+   "end": 827.28,
+   "text": "Good morrow, Guinevere.",
+   "speaker": "S22"
+  },
+  {
+   "start": 827.68,
+   "end": 830.72,
+   "text": "Art thou ready for our date? Feels like dragon weather, does it not?",
+   "speaker": "S05"
+  },
+  {
+   "start": 830.94,
+   "end": 831.42,
+   "text": "Guinevere!",
+   "speaker": "S05"
+  },
+  {
+   "start": 831.66,
+   "end": 832.2,
+   "text": "Lord Arthur!",
+   "speaker": "S05"
+  },
+  {
+   "start": 832.4,
+   "end": 834.6,
+   "text": "Date? Thou art my girlfriend!",
+   "speaker": "S03"
+  },
+  {
+   "start": 834.92,
+   "end": 838.28,
+   "text": "Robin Hood, hast thou been stealing my things and giving them to the poor?",
+   "speaker": "S03"
+  },
+  {
+   "start": 838.42,
+   "end": 838.84,
+   "text": "Yes.",
+   "speaker": "S03"
+  },
+  {
+   "start": 839.04,
+   "end": 840.98,
+   "text": "And you've stolen my girlfriend too?",
+   "speaker": "S03"
+  },
+  {
+   "start": 841.24,
+   "end": 841.72,
+   "text": "Yes.",
+   "speaker": "S03"
+  },
+  {
+   "start": 841.86,
+   "end": 843.36,
+   "text": "And you're giving her to the poor?",
+   "speaker": "S03"
+  },
+  {
+   "start": 843.66,
+   "end": 844.14,
+   "text": "Yes!",
+   "speaker": "S03"
+  },
+  {
+   "start": 844.26,
+   "end": 845.76,
+   "text": "You're giving her to the poor?",
+   "speaker": "S03"
+  },
+  {
+   "start": 845.98,
+   "end": 847.6,
+   "text": "That's what I said, yes.",
+   "speaker": "S100"
+  },
+  {
+   "start": 848.08,
+   "end": 850.58,
+   "text": "Unsheath thy sword and prepare for battle.",
+   "speaker": "S03"
+  },
+  {
+   "start": 850.58,
+   "end": 851.56,
+   "text": "No, thou mustn't!",
+   "speaker": "S90"
+  },
+  {
+   "start": 851.58,
+   "end": 853.0,
+   "text": "Today we fight to the death!",
+   "speaker": "S03"
+  },
+  {
+   "start": 853.4,
+   "end": 855.28,
+   "text": "So be it.",
+   "speaker": "S100"
+  },
+  {
+   "start": 855.6,
+   "end": 860.0,
+   "text": "Robin Hood cross and I'm stole off his concubine from him.",
+   "speaker": "S03"
+  },
+  {
+   "start": 862.2,
+   "end": 868.56,
+   "text": "The friendship is finished and it has diminished into deception.",
+   "speaker": "S115"
+  },
+  {
+   "start": 869.76,
+   "end": 876.24,
+   "text": "And so they must fight the fight until the death to prove his right.",
+   "speaker": "S115"
+  },
+  {
+   "start": 876.24,
+   "end": 879.84,
+   "text": "And they will battle through the night",
+   "speaker": "S115"
+  },
+  {
+   "start": 882.24,
+   "end": 885.46,
+   "text": "But stop and wait and look to the skies",
+   "speaker": "S03"
+  },
+  {
+   "start": 885.46,
+   "end": 888.7,
+   "text": "A dragon approaches and there's death in his eyes",
+   "speaker": "S03"
+  },
+  {
+   "start": 888.7,
+   "end": 891.58,
+   "text": "Best to join forces and fight the beast",
+   "speaker": "S03"
+  },
+  {
+   "start": 891.58,
+   "end": 894.72,
+   "text": "You better join forces or you'll both be deceased",
+   "speaker": "S03"
+  },
+  {
+   "start": 894.72,
+   "end": 896.08,
+   "text": "Dragon attack!",
+   "speaker": "S21"
+  },
+  {
+   "start": 909.44,
+   "end": 911.16,
+   "text": "Bravo, my king, bravo!",
+   "speaker": "S114"
+  },
+  {
+   "start": 911.36,
+   "end": 911.98,
+   "text": "Hey, yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 912.36,
+   "end": 912.66,
+   "text": "Thanks.",
+   "speaker": "S06"
+  },
+  {
+   "start": 912.92,
+   "end": 914.66,
+   "text": "As you can see, our numbers have increased.",
+   "speaker": "S114"
+  },
+  {
+   "start": 914.98,
+   "end": 915.96,
+   "text": "Right, right, uh, great.",
+   "speaker": "S06"
+  },
+  {
+   "start": 916.26,
+   "end": 921.36,
+   "text": "It has been brought to our knowledge that there is indeed a traitor in our midst.",
+   "speaker": "S114"
+  },
+  {
+   "start": 921.66,
+   "end": 922.4,
+   "text": "Uh, yep.",
+   "speaker": "S06"
+  },
+  {
+   "start": 922.64,
+   "end": 925.36,
+   "text": "Keep thine eyes open, my king, and don't despair.",
+   "speaker": "S114"
+  },
+  {
+   "start": 925.36,
+   "end": 926.76,
+   "text": "My men will protect you.",
+   "speaker": "S114"
+  },
+  {
+   "start": 926.9,
+   "end": 926.98,
+   "text": "Great.",
+   "speaker": "S114"
+  },
+  {
+   "start": 927.06,
+   "end": 927.96,
+   "text": "Am I right, men?",
+   "speaker": "S114"
+  },
+  {
+   "start": 929.5,
+   "end": 932.64,
+   "text": "Arthur! Arthur! Arthur! Arthur!",
+   "speaker": "S21"
+  },
+  {
+   "start": 932.64,
+   "end": 934.98,
+   "text": "Boy, we're nearly killed. They're calling for the author.",
+   "speaker": "S22"
+  },
+  {
+   "start": 935.4,
+   "end": 935.88,
+   "text": "Arthur! Arthur!",
+   "speaker": "S22"
+  },
+  {
+   "start": 935.88,
+   "end": 936.96,
+   "text": "You hear that, Brantel?",
+   "speaker": "S22"
+  },
+  {
+   "start": 937.16,
+   "end": 937.66,
+   "text": "Yeah, yeah.",
+   "speaker": "S22"
+  },
+  {
+   "start": 938.22,
+   "end": 939.24,
+   "text": "Guys, I'll be back, okay?",
+   "speaker": "S06"
+  },
+  {
+   "start": 939.4,
+   "end": 940.8,
+   "text": "Good show, me lord.",
+   "speaker": "S118"
+  },
+  {
+   "start": 941.5,
+   "end": 942.72,
+   "text": "In me opinion,",
+   "speaker": "S118"
+  },
+  {
+   "start": 943.08,
+   "end": 944.42,
+   "text": "twas a weedy wayward,",
+   "speaker": "S111"
+  },
+  {
+   "start": 944.54,
+   "end": 946.18,
+   "text": "tottering violet of a performance.",
+   "speaker": "S118"
+  },
+  {
+   "start": 946.58,
+   "end": 946.76,
+   "text": "Huh.",
+   "speaker": "S118"
+  },
+  {
+   "start": 947.26,
+   "end": 948.78,
+   "text": "And what does thou say to that?",
+   "speaker": "S118"
+  },
+  {
+   "start": 952.16,
+   "end": 952.64,
+   "text": "Uh...",
+   "speaker": "S118"
+  },
+  {
+   "start": 952.64,
+   "end": 953.1,
+   "text": "Farewell.",
+   "speaker": "S118"
+  },
+  {
+   "start": 953.4,
+   "end": 955.66,
+   "text": "Can I get one of those caramel-dipped scrolls?",
+   "speaker": "S114"
+  },
+  {
+   "start": 956.18,
+   "end": 958.34,
+   "text": "No, a fresh one.",
+   "speaker": "S114"
+  },
+  {
+   "start": 958.58,
+   "end": 959.44,
+   "text": "A fresh one.",
+   "speaker": "S114"
+  },
+  {
+   "start": 959.64,
+   "end": 960.32,
+   "text": "It's hot.",
+   "speaker": "S114"
+  },
+  {
+   "start": 960.74,
+   "end": 961.46,
+   "text": "These are cold.",
+   "speaker": "S114"
+  },
+  {
+   "start": 962.06,
+   "end": 962.66,
+   "text": "These are cold.",
+   "speaker": "S114"
+  },
+  {
+   "start": 963.36,
+   "end": 965.32,
+   "text": "Ricker, you've been in there for 45 minutes.",
+   "speaker": "S08"
+  },
+  {
+   "start": 965.32,
+   "end": 966.64,
+   "text": "Yeah, yeah, yeah, yeah, whatever.",
+   "speaker": "S04"
+  },
+  {
+   "start": 966.86,
+   "end": 969.22,
+   "text": "There are people lined up for the blacksmith booth.",
+   "speaker": "S08"
+  },
+  {
+   "start": 969.36,
+   "end": 970.3,
+   "text": "They want you back there.",
+   "speaker": "S08"
+  },
+  {
+   "start": 970.48,
+   "end": 971.98,
+   "text": "Lynch, shut up, all right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 971.98,
+   "end": 973.3,
+   "text": "I'm having stomach problems.",
+   "speaker": "S04"
+  },
+  {
+   "start": 973.5,
+   "end": 974.34,
+   "text": "Look, get out here.",
+   "speaker": "S08"
+  },
+  {
+   "start": 974.7,
+   "end": 977.68,
+   "text": "I'm paying you to play a blacksmith, not to do what you're doing.",
+   "speaker": "S08"
+  },
+  {
+   "start": 977.86,
+   "end": 980.94,
+   "text": "By the way, my lord, isn't this historically inaccurate?",
+   "speaker": "S04"
+  },
+  {
+   "start": 981.36,
+   "end": 984.18,
+   "text": "Shouldn't I be going outside in a hole in the ground?",
+   "speaker": "S04"
+  },
+  {
+   "start": 984.44,
+   "end": 986.12,
+   "text": "Not in this beautiful porta potty?",
+   "speaker": "S04"
+  },
+  {
+   "start": 986.24,
+   "end": 987.28,
+   "text": "Well, I'm sure you would be...",
+   "speaker": "S08"
+  },
+  {
+   "start": 987.28,
+   "end": 987.88,
+   "text": "I want one of these.",
+   "speaker": "S04"
+  },
+  {
+   "start": 988.3,
+   "end": 989.56,
+   "text": "Put it on my front lawn.",
+   "speaker": "S04"
+  },
+  {
+   "start": 990.3,
+   "end": 991.42,
+   "text": "Piss off my neighbors.",
+   "speaker": "S04"
+  },
+  {
+   "start": 991.56,
+   "end": 992.4,
+   "text": "Look, get out here, McGurk.",
+   "speaker": "S08"
+  },
+  {
+   "start": 992.72,
+   "end": 993.3,
+   "text": "Get out here.",
+   "speaker": "S08"
+  },
+  {
+   "start": 993.4,
+   "end": 994.3,
+   "text": "I heard you, Lynch.",
+   "speaker": "S04"
+  },
+  {
+   "start": 994.62,
+   "end": 995.16,
+   "text": "Forget it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 995.32,
+   "end": 996.1,
+   "text": "I'm not paying you.",
+   "speaker": "S08"
+  },
+  {
+   "start": 996.2,
+   "end": 996.82,
+   "text": "All right, I'm out.",
+   "speaker": "S04"
+  },
+  {
+   "start": 997.08,
+   "end": 997.42,
+   "text": "Boo!",
+   "speaker": "S04"
+  },
+  {
+   "start": 998.46,
+   "end": 999.58,
+   "text": "Are you booing?",
+   "speaker": "S100"
+  },
+  {
+   "start": 999.68,
+   "end": 1000.0,
+   "text": "Woo!",
+   "speaker": "S100"
+  },
+  {
+   "start": 1000.56,
+   "end": 1001.78,
+   "text": "I know, I'm sorry.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1002.02,
+   "end": 1002.34,
+   "text": "Oh, God.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1002.72,
+   "end": 1003.16,
+   "text": "Oh, yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1003.62,
+   "end": 1003.98,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1004.28,
+   "end": 1005.0,
+   "text": "I'm sorry.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1005.16,
+   "end": 1007.22,
+   "text": "That is not a wand of summoning, my friend.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1007.52,
+   "end": 1008.6,
+   "text": "No, no.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1008.76,
+   "end": 1012.3,
+   "text": "A wand of summoning has a pewter coil that...",
+   "speaker": "S114"
+  },
+  {
+   "start": 1012.3,
+   "end": 1013.62,
+   "text": "That's not a pewter coil!",
+   "speaker": "S114"
+  },
+  {
+   "start": 1013.96,
+   "end": 1016.86,
+   "text": "That is inlaid scrimshaw, which by the...",
+   "speaker": "S114"
+  },
+  {
+   "start": 1016.86,
+   "end": 1018.54,
+   "text": "Was there wailing in King Arthur's time?",
+   "speaker": "S114"
+  },
+  {
+   "start": 1018.56,
+   "end": 1019.14,
+   "text": "I don't think so.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1019.2,
+   "end": 1020.56,
+   "text": "That's weird that you would have a scrimshaw.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1020.9,
+   "end": 1021.18,
+   "text": "Brendan.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1021.58,
+   "end": 1022.02,
+   "text": "Brendan.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1022.48,
+   "end": 1022.92,
+   "text": "Fenton?",
+   "speaker": "S114"
+  },
+  {
+   "start": 1023.36,
+   "end": 1023.92,
+   "text": "Down here.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1024.14,
+   "end": 1025.2,
+   "text": "What are you doing?",
+   "speaker": "S114"
+  },
+  {
+   "start": 1025.32,
+   "end": 1026.4,
+   "text": "I'm recruiting you.",
+   "speaker": "S119"
+  },
+  {
+   "start": 1026.62,
+   "end": 1027.16,
+   "text": "For what?",
+   "speaker": "S119"
+  },
+  {
+   "start": 1027.32,
+   "end": 1029.44,
+   "text": "We want you to join us.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1029.68,
+   "end": 1029.94,
+   "text": "We?",
+   "speaker": "S116"
+  },
+  {
+   "start": 1030.44,
+   "end": 1030.96,
+   "text": "Affirmative.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1031.3,
+   "end": 1032.88,
+   "text": "Our numbers are back, Brendan.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1033.34,
+   "end": 1035.3,
+   "text": "We just need to recruit someone else from the inside.",
+   "speaker": "S117"
+  },
+  {
+   "start": 1035.64,
+   "end": 1036.28,
+   "text": "Someone else?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1036.4,
+   "end": 1039.68,
+   "text": "Look, you're either with us or against us.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1039.86,
+   "end": 1040.74,
+   "text": "I just don't care.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1040.9,
+   "end": 1041.6,
+   "text": "There's always that.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1041.72,
+   "end": 1042.44,
+   "text": "Join us!",
+   "speaker": "S116"
+  },
+  {
+   "start": 1042.66,
+   "end": 1042.88,
+   "text": "No.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1043.36,
+   "end": 1044.96,
+   "text": "Don't involve me in this fountain, okay?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1045.16,
+   "end": 1048.02,
+   "text": "You will soon regret the decision you have made.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1048.32,
+   "end": 1049.38,
+   "text": "Mark my words.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1049.66,
+   "end": 1051.28,
+   "text": "Captain Neptune, away!",
+   "speaker": "S116"
+  },
+  {
+   "start": 1052.66,
+   "end": 1053.84,
+   "text": "Isn't it Dr. Neptune?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1054.22,
+   "end": 1055.58,
+   "text": "Dr. Neptune away!",
+   "speaker": "S116"
+  },
+  {
+   "start": 1056.34,
+   "end": 1056.58,
+   "text": "Alright.",
+   "speaker": "S116"
+  },
+  {
+   "start": 1058.2,
+   "end": 1060.4,
+   "text": "Oh no, man, I could barely walk out of there.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1060.68,
+   "end": 1062.06,
+   "text": "I didn't know I called a cab.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1062.66,
+   "end": 1062.82,
+   "text": "McGurk! McGurk!",
+   "speaker": "S04"
+  },
+  {
+   "start": 1062.96,
+   "end": 1063.62,
+   "text": "There was no way.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1063.66,
+   "end": 1064.42,
+   "text": "McGurk, put that away.",
+   "speaker": "S111"
+  },
+  {
+   "start": 1064.76,
+   "end": 1065.12,
+   "text": "What?",
+   "speaker": "S111"
+  },
+  {
+   "start": 1065.4,
+   "end": 1066.3,
+   "text": "Put the phone away.",
+   "speaker": "S118"
+  },
+  {
+   "start": 1066.82,
+   "end": 1067.74,
+   "text": "I'm on the phone, Lynch.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1067.82,
+   "end": 1068.54,
+   "text": "It doesn't exist.",
+   "speaker": "S111"
+  },
+  {
+   "start": 1068.92,
+   "end": 1072.4,
+   "text": "What? Lynch, I don't want to have a philosophical conversation with you right now.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1072.62,
+   "end": 1073.22,
+   "text": "G-g-what?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1073.64,
+   "end": 1074.06,
+   "text": "Give me that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1074.22,
+   "end": 1074.72,
+   "text": "Hold on.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1074.9,
+   "end": 1075.28,
+   "text": "Give me that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1075.62,
+   "end": 1076.86,
+   "text": "Lynch, give me my phone back.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1076.96,
+   "end": 1077.74,
+   "text": "Who is this? Hello?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1077.86,
+   "end": 1078.32,
+   "text": "Give it back.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1078.62,
+   "end": 1079.8,
+   "text": "He's making horseshoes.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1079.94,
+   "end": 1081.14,
+   "text": "Lynch, give me my phone back.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1081.3,
+   "end": 1081.58,
+   "text": "Really?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1081.78,
+   "end": 1082.1,
+   "text": "Lynch!",
+   "speaker": "S04"
+  },
+  {
+   "start": 1082.1,
+   "end": 1084.16,
+   "text": "Renaissance okay good. Okay. Oh",
+   "speaker": "S08"
+  },
+  {
+   "start": 1086.16,
+   "end": 1087.44,
+   "text": "Okay, everybody",
+   "speaker": "S08"
+  },
+  {
+   "start": 1089.7,
+   "end": 1090.76,
+   "text": "Burn him",
+   "speaker": "S08"
+  },
+  {
+   "start": 1090.76,
+   "end": 1093.42,
+   "text": "Burn him alive",
+   "speaker": "S08"
+  },
+  {
+   "start": 1094.22,
+   "end": 1102.72,
+   "text": "Sir you acknowledge that you are talking to a chaotic neutral eighth level half elf ranger illusionist and you treat me with that respect",
+   "speaker": "S114"
+  },
+  {
+   "start": 1102.72,
+   "end": 1110.68,
+   "text": "I did not sew these leather breeches myself so that I can't get a goblet of non-alcoholic meat when I ask for it",
+   "speaker": "S114"
+  },
+  {
+   "start": 1110.68,
+   "end": 1114.02,
+   "text": "Oh, mighty Odin, where is thy cleansing thunderbolt?",
+   "speaker": "S114"
+  },
+  {
+   "start": 1114.6,
+   "end": 1114.96,
+   "text": "Brendan.",
+   "speaker": "S114"
+  },
+  {
+   "start": 1115.3,
+   "end": 1115.48,
+   "text": "Yeah?",
+   "speaker": "S114"
+  },
+  {
+   "start": 1115.64,
+   "end": 1117.76,
+   "text": "I'll have a drink the night before a medieval fair.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1118.04,
+   "end": 1118.34,
+   "text": "Oh, yeah?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1118.6,
+   "end": 1118.82,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1119.14,
+   "end": 1119.74,
+   "text": "Drink during.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1120.12,
+   "end": 1121.12,
+   "text": "That's what I should have done.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1121.3,
+   "end": 1121.56,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1121.68,
+   "end": 1122.58,
+   "text": "Well, anyway, back to me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1122.7,
+   "end": 1125.88,
+   "text": "Look, so Fenton and Helmut are both involving me in this stupid geek fight.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1126.38,
+   "end": 1127.02,
+   "text": "I don't know.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1127.2,
+   "end": 1127.82,
+   "text": "Yeah, so?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1128.1,
+   "end": 1129.16,
+   "text": "So I don't want to be involved.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1129.34,
+   "end": 1130.22,
+   "text": "So they're dorks.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1130.36,
+   "end": 1130.94,
+   "text": "Let them fight.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1131.14,
+   "end": 1131.68,
+   "text": "It'd be funny.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1131.92,
+   "end": 1133.24,
+   "text": "You ever seen two dorks fight?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1133.44,
+   "end": 1134.12,
+   "text": "It's hilarious.",
+   "speaker": "S112"
+  },
+  {
+   "start": 1134.52,
+   "end": 1134.68,
+   "text": "Yeah.",
+   "speaker": "S112"
+  },
+  {
+   "start": 1134.94,
+   "end": 1135.48,
+   "text": "Yeah, you know what?",
+   "speaker": "S112"
+  },
+  {
+   "start": 1135.6,
+   "end": 1139.38,
+   "text": "Everybody's saying that there's a traitor around and stuff, and these kids are weird,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1139.42,
+   "end": 1140.54,
+   "text": "and they might do something stupid.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1140.68,
+   "end": 1141.88,
+   "text": "You know what looks good, Brendan?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1142.26,
+   "end": 1142.64,
+   "text": "What's that?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1142.8,
+   "end": 1143.74,
+   "text": "The sci-fi thing.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1143.74,
+   "end": 1144.96,
+   "text": "Oh, not you too.",
+   "speaker": "S03"
+  },
+  {
+   "start": 1145.66,
+   "end": 1146.1,
+   "text": "What?",
+   "speaker": "S03"
+  },
+  {
+   "start": 1146.32,
+   "end": 1147.26,
+   "text": "That's what I'm talking about.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1147.58,
+   "end": 1150.72,
+   "text": "Everyone's fighting against sci-fi and the medieval...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1150.72,
+   "end": 1150.74,
+   "text": "Brendan!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1151.12,
+   "end": 1151.38,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1151.58,
+   "end": 1152.78,
+   "text": "That's the way it was.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1153.08,
+   "end": 1155.52,
+   "text": "The medieval people fought with the sci-fi people.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1155.8,
+   "end": 1157.56,
+   "text": "It's been thousands of years of that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1157.74,
+   "end": 1157.96,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1158.22,
+   "end": 1159.32,
+   "text": "That's why they're doing this.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1159.4,
+   "end": 1160.3,
+   "text": "It's a reenactment.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1160.56,
+   "end": 1162.82,
+   "text": "It's just, coach, I don't know what I'm supposed to do.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1162.98,
+   "end": 1163.38,
+   "text": "Brendan!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1163.64,
+   "end": 1163.86,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1163.94,
+   "end": 1164.78,
+   "text": "Well, what would you do?",
+   "speaker": "S90"
+  },
+  {
+   "start": 1164.92,
+   "end": 1165.5,
+   "text": "Brendan, look.",
+   "speaker": "S90"
+  },
+  {
+   "start": 1165.66,
+   "end": 1165.96,
+   "text": "What?",
+   "speaker": "S90"
+  },
+  {
+   "start": 1166.16,
+   "end": 1166.9,
+   "text": "Here's $4.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1167.66,
+   "end": 1171.46,
+   "text": "Go across the field and go to that burger place and get me a double burger with cheese.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1171.94,
+   "end": 1173.6,
+   "text": "No, coach, you're not supposed to have...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1173.6,
+   "end": 1175.02,
+   "text": "Large fries, curly fries.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1175.02,
+   "end": 1175.58,
+   "text": "Coach, they didn't have...",
+   "speaker": "S04"
+  },
+  {
+   "start": 1175.58,
+   "end": 1176.5,
+   "text": "Curly fries, Brenda.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1176.64,
+   "end": 1178.48,
+   "text": "They didn't have curly fries back in medieval times.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1178.6,
+   "end": 1179.18,
+   "text": "I can't do it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1179.2,
+   "end": 1180.9,
+   "text": "Brenda, we're not in medieval times, all right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1181.16,
+   "end": 1182.04,
+   "text": "Turn your head.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1182.26,
+   "end": 1183.76,
+   "text": "Look, there's the burger place.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1183.98,
+   "end": 1185.1,
+   "text": "You can see it from here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1185.34,
+   "end": 1186.84,
+   "text": "Oh, wait, there's a car.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1186.98,
+   "end": 1188.2,
+   "text": "It just drove by.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1188.64,
+   "end": 1191.0,
+   "text": "Now, now it's going into the drive-thru.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1191.22,
+   "end": 1192.36,
+   "text": "Why are you yelling at me?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1192.52,
+   "end": 1193.74,
+   "text": "Because go get me one.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1193.88,
+   "end": 1194.3,
+   "text": "All right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1194.5,
+   "end": 1194.94,
+   "text": "You want one?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1195.06,
+   "end": 1195.34,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1199.44,
+   "end": 1204.52,
+   "text": "And so the dragon has been slain",
+   "speaker": "S115"
+  },
+  {
+   "start": 1204.52,
+   "end": 1210.26,
+   "text": "And now King Arthur and Robin Hood must decide",
+   "speaker": "S115"
+  },
+  {
+   "start": 1210.26,
+   "end": 1214.14,
+   "text": "If they still want to do what they were going to do",
+   "speaker": "S115"
+  },
+  {
+   "start": 1215.66,
+   "end": 1217.92,
+   "text": "And fight to the death",
+   "speaker": "S03"
+  },
+  {
+   "start": 1221.82,
+   "end": 1223.9,
+   "text": "Well, what's it gonna be?",
+   "speaker": "S21"
+  },
+  {
+   "start": 1239.52,
+   "end": 1240.4,
+   "text": "We'll be right back.",
+   "speaker": "S21"
+  },
+  {
+   "start": 1256.9,
+   "end": 1257.82,
+   "text": "Not mom, not part of it.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1259.2,
+   "end": 1259.56,
+   "text": "Yeah!",
+   "speaker": "S08"
+  },
+  {
+   "start": 1265.32,
+   "end": 1266.82,
+   "text": "So you were the traitor, Melissa?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1267.08,
+   "end": 1267.34,
+   "text": "Yep.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1267.64,
+   "end": 1268.4,
+   "text": "And so what?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1268.46,
+   "end": 1270.26,
+   "text": "You got the robes and you led them into the fair?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1270.5,
+   "end": 1270.76,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1271.06,
+   "end": 1273.32,
+   "text": "Wow, Melissa, sometimes you impress me.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1273.42,
+   "end": 1274.0,
+   "text": "Yeah, well.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1274.26,
+   "end": 1275.28,
+   "text": "But see, why?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1275.46,
+   "end": 1277.82,
+   "text": "You didn't seem to care about that sci-fi stuff at all, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1277.98,
+   "end": 1278.5,
+   "text": "Oh, I don't.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1278.8,
+   "end": 1279.68,
+   "text": "Well, then why did you do it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1279.84,
+   "end": 1282.4,
+   "text": "Brendan Helmut ripped my dress and he called me a wench.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1282.66,
+   "end": 1283.02,
+   "text": "Oh.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1283.46,
+   "end": 1283.74,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1284.02,
+   "end": 1286.76,
+   "text": "You rip a girl's dress, you call her a wench, you're asking for it.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1287.28,
+   "end": 1288.9,
+   "text": "Oh, girl power.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1289.34,
+   "end": 1290.28,
+   "text": "Very good, yes.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1290.42,
+   "end": 1291.76,
+   "text": "Power to the ladies.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1293.1,
+   "end": 1295.28,
+   "text": "Brendan, I stole this.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1295.9,
+   "end": 1296.86,
+   "text": "Is that a big one?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1297.36,
+   "end": 1298.56,
+   "text": "It's not ceramic.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1299.08,
+   "end": 1301.26,
+   "text": "Oh, yeah, I'm going to give it to my dad.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1301.44,
+   "end": 1302.32,
+   "text": "Take it off, Jason.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1302.94,
+   "end": 1303.84,
+   "text": "Don't eat me.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1304.18,
+   "end": 1305.26,
+   "text": "So what are you guys talking about?",
+   "speaker": "S23"
+  },
+  {
+   "start": 1305.92,
+   "end": 1306.36,
+   "text": "Nothing.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1307.1,
+   "end": 1307.22,
+   "text": "Nothing.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1307.74,
+   "end": 1308.68,
+   "text": "Brendan, how was the fair?",
+   "speaker": "S23"
+  },
+  {
+   "start": 1309.04,
+   "end": 1311.3,
+   "text": "Oh, actually, it was pretty much the same as last year.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1314.04,
+   "end": 1314.48,
+   "text": "Perry?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1314.82,
+   "end": 1315.18,
+   "text": "Yeah?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1315.18,
+   "end": 1317.1,
+   "text": "This is the best day I've ever had.",
+   "speaker": "S101"
+  },
+  {
+   "start": 1317.46,
+   "end": 1318.44,
+   "text": "Goodbye, Walter.",
+   "speaker": "S101"
+  },
+  {
+   "start": 1318.7,
+   "end": 1319.38,
+   "text": "Goodnight, Perry.",
+   "speaker": "S101"
+  },
+  {
+   "start": 1319.78,
+   "end": 1320.54,
+   "text": "Sleep tight.",
+   "speaker": "S101"
+  },
+  {
+   "start": 1320.78,
+   "end": 1321.78,
+   "text": "Okay, you too.",
+   "speaker": "S90"
+  },
+  {
+   "start": 1323.94,
+   "end": 1324.42,
+   "text": "Perry?",
+   "speaker": "S90"
+  },
+  {
+   "start": 1324.7,
+   "end": 1325.0,
+   "text": "Yeah?",
+   "speaker": "S90"
+  },
+  {
+   "start": 1325.18,
+   "end": 1325.72,
+   "text": "Are you up?",
+   "speaker": "S90"
+  },
+  {
+   "start": 1325.86,
+   "end": 1327.72,
+   "text": "Yeah, I can't sleep, can you?",
+   "speaker": "S90"
+  },
+  {
+   "start": 1327.74,
+   "end": 1328.58,
+   "text": "Me neither.",
+   "speaker": "S90"
+  },
+  {
+   "start": 1329.08,
+   "end": 1330.08,
+   "text": "All of the giggles.",
+   "speaker": "S90"
+  },
+  {
+   "start": 1331.44,
+   "end": 1332.82,
+   "text": "Don't start, because I'll start.",
+   "speaker": "S90"
+  },
+  {
+   "start": 1345.4,
+   "end": 1345.8,
+   "text": ".",
+   "sus": true,
+   "speaker": "S90"
+  },
+  {
+   "start": 1345.8,
+   "end": 1345.82,
+   "text": ".",
+   "sus": true,
+   "speaker": "S90"
+  },
+  {
+   "start": 1348.84,
+   "end": 1349.24,
+   "text": ".",
+   "sus": true,
+   "speaker": "S90"
+  }
+ ],
+ "times": {
+  "transcribe_s": 73.5,
+  "speaker_id_s": 9.6
+ }
+}
