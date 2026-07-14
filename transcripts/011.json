@@ -1,0 +1,3602 @@
+{
+ "idx": 11,
+ "code": "S1E11",
+ "title": "Mortgages and Marbles",
+ "season": 1,
+ "episode": 11,
+ "video_url": "https://www.youtube.com/watch?v=f80lFKuG8ms",
+ "yt_start": 13226.0,
+ "duration": 1329.0,
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "speakers": [
+  "S02",
+  "S04",
+  "S05",
+  "S06",
+  "S08",
+  "S22",
+  "S23",
+  "S31",
+  "S38",
+  "S39"
+ ],
+ "clusters": {
+  "0": {
+   "speaker": "S22",
+   "how": "match",
+   "n_segs": 24,
+   "sim": 0.847
+  },
+  "1": {
+   "speaker": "S04",
+   "how": "match",
+   "n_segs": 147,
+   "sim": 0.89
+  },
+  "2": {
+   "speaker": "S05",
+   "how": "match",
+   "n_segs": 24,
+   "sim": 0.877
+  },
+  "3": {
+   "speaker": "S23",
+   "how": "match",
+   "n_segs": 16,
+   "sim": 0.875
+  },
+  "4": {
+   "speaker": "S08",
+   "how": "match",
+   "n_segs": 72,
+   "sim": 0.96
+  },
+  "5": {
+   "speaker": "S38",
+   "how": "new",
+   "n_segs": 11,
+   "sim": 0.416
+  },
+  "6": {
+   "speaker": "S06",
+   "how": "match",
+   "n_segs": 74,
+   "sim": 0.896
+  },
+  "7": {
+   "speaker": "S02",
+   "how": "match",
+   "n_segs": 88,
+   "sim": 0.911
+  },
+  "8": {
+   "speaker": "S39",
+   "how": "new",
+   "n_segs": 6,
+   "sim": 0.528
+  },
+  "9": {
+   "speaker": "S31",
+   "how": "match",
+   "n_segs": 9,
+   "sim": 0.753
+  }
+ },
+ "segments": [
+  {
+   "start": 9.96,
+   "end": 12.34,
+   "text": "Come on, Josie. Do something cute or something.",
+   "speaker": "S06"
+  },
+  {
+   "start": 12.7,
+   "end": 14.44,
+   "text": "Josie, you want to talk to me?",
+   "speaker": "S06"
+  },
+  {
+   "start": 14.66,
+   "end": 16.7,
+   "text": "We'll film it. Can you say it, Brendan?",
+   "speaker": "S06"
+  },
+  {
+   "start": 19.36,
+   "end": 21.5,
+   "text": "Breen-dow-n.",
+   "speaker": "S06"
+  },
+  {
+   "start": 22.48,
+   "end": 24.3,
+   "text": "Oh, you like marbles, Josie?",
+   "speaker": "S06"
+  },
+  {
+   "start": 24.4,
+   "end": 25.78,
+   "text": "Can you say marbles?",
+   "speaker": "S06"
+  },
+  {
+   "start": 26.12,
+   "end": 27.38,
+   "text": "Say marbles!",
+   "speaker": "S22"
+  },
+  {
+   "start": 27.62,
+   "end": 28.04,
+   "text": "Brendan!",
+   "speaker": "S22"
+  },
+  {
+   "start": 28.04,
+   "end": 32.76,
+   "text": "Marb bulls my balls",
+   "speaker": "S38"
+  },
+  {
+   "start": 34.4,
+   "end": 38.02,
+   "text": "Sorry, thank you don't mention it",
+   "speaker": "S23"
+  },
+  {
+   "start": 38.86,
+   "end": 46.44,
+   "text": "We have to be quiet Josie, okay? No, okay think of something to say while I adjust the focus. Can you say focus Josie focus?",
+   "speaker": "S06"
+  },
+  {
+   "start": 51.46,
+   "end": 55.9,
+   "text": "I forgot oh, no no",
+   "speaker": "S06"
+  },
+  {
+   "start": 55.9,
+   "end": 58.92,
+   "text": "Oh! Josie! Mom? Uh-oh!",
+   "speaker": "S06"
+  },
+  {
+   "start": 59.2,
+   "end": 60.3,
+   "text": "I'm not answering, Brendan.",
+   "speaker": "S23"
+  },
+  {
+   "start": 60.54,
+   "end": 60.9,
+   "text": "Mom!",
+   "speaker": "S23"
+  },
+  {
+   "start": 61.3,
+   "end": 62.84,
+   "text": "Brendan, quietly.",
+   "speaker": "S23"
+  },
+  {
+   "start": 63.18,
+   "end": 63.66,
+   "text": "Mom!",
+   "speaker": "S23"
+  },
+  {
+   "start": 64.02,
+   "end": 64.38,
+   "text": "Yes!",
+   "speaker": "S23"
+  },
+  {
+   "start": 64.8,
+   "end": 66.06,
+   "text": "Josie put mama around there now.",
+   "speaker": "S06"
+  },
+  {
+   "start": 66.54,
+   "end": 66.92,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 67.2,
+   "end": 67.8,
+   "text": "I'm Josie.",
+   "speaker": "S22"
+  },
+  {
+   "start": 68.42,
+   "end": 69.08,
+   "text": "Come on.",
+   "speaker": "S23"
+  },
+  {
+   "start": 74.56,
+   "end": 75.44,
+   "text": "She'll be fine.",
+   "speaker": "S31"
+  },
+  {
+   "start": 75.6,
+   "end": 77.36,
+   "text": "You know, more scared than anything else.",
+   "speaker": "S31"
+  },
+  {
+   "start": 77.52,
+   "end": 82.58,
+   "text": "You see, she blocked off her nasal passages, you know, had to mouth breathe for a while with the...",
+   "speaker": "S31"
+  },
+  {
+   "start": 83.16,
+   "end": 84.86,
+   "text": "That's probably what you heard on the way over.",
+   "speaker": "S31"
+  },
+  {
+   "start": 84.86,
+   "end": 87.22,
+   "text": "A lot of kids do that the rest of their lives.",
+   "speaker": "S31"
+  },
+  {
+   "start": 87.32,
+   "end": 89.42,
+   "text": "But she'll be fine. She'll be okay, I think.",
+   "speaker": "S31"
+  },
+  {
+   "start": 89.6,
+   "end": 90.8,
+   "text": "Thank you so much, Doctor.",
+   "speaker": "S23"
+  },
+  {
+   "start": 90.84,
+   "end": 93.26,
+   "text": "Don't mention it. And you might want to hold on to these.",
+   "speaker": "S31"
+  },
+  {
+   "start": 93.42,
+   "end": 96.48,
+   "text": "I guess I didn't do a very good job of watching Josie, huh, Mom?",
+   "speaker": "S06"
+  },
+  {
+   "start": 96.84,
+   "end": 98.8,
+   "text": "You reacted quickly, Brendan, and that's good.",
+   "speaker": "S23"
+  },
+  {
+   "start": 98.88,
+   "end": 102.24,
+   "text": "Yeah. Also, you know, I've been thinking maybe she's a little, you know, not...",
+   "speaker": "S06"
+  },
+  {
+   "start": 102.24,
+   "end": 106.5,
+   "text": "You know, I mean, why would a normal person put marbles up their nose?",
+   "speaker": "S06"
+  },
+  {
+   "start": 106.72,
+   "end": 107.7,
+   "text": "Because Josie's a baby.",
+   "speaker": "S23"
+  },
+  {
+   "start": 107.82,
+   "end": 109.54,
+   "text": "Hey, no need for name-calling.",
+   "speaker": "S06"
+  },
+  {
+   "start": 109.76,
+   "end": 111.74,
+   "text": "Look, she just doesn't know any better, Brendan.",
+   "speaker": "S23"
+  },
+  {
+   "start": 111.88,
+   "end": 113.98,
+   "text": "Well, you know, someone should teach her to know better.",
+   "speaker": "S06"
+  },
+  {
+   "start": 113.98,
+   "end": 117.34,
+   "text": "You know what I think, Brendan? I think as her big brother, you can teach her some things.",
+   "speaker": "S23"
+  },
+  {
+   "start": 117.48,
+   "end": 120.9,
+   "text": "Yeah, um, I can, sure, of course, it'd be easy. I could do that.",
+   "speaker": "S06"
+  },
+  {
+   "start": 121.12,
+   "end": 121.38,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 121.8,
+   "end": 122.24,
+   "text": "Like what?",
+   "speaker": "S06"
+  },
+  {
+   "start": 122.62,
+   "end": 124.16,
+   "text": "Like not to stick marbles up her nose?",
+   "speaker": "S23"
+  },
+  {
+   "start": 124.6,
+   "end": 124.92,
+   "text": "Yes.",
+   "speaker": "S23"
+  },
+  {
+   "start": 125.2,
+   "end": 126.76,
+   "text": "How about starting with lesson one?",
+   "speaker": "S23"
+  },
+  {
+   "start": 126.9,
+   "end": 127.12,
+   "text": "Right.",
+   "speaker": "S23"
+  },
+  {
+   "start": 127.38,
+   "end": 128.78,
+   "text": "Don't stick the marbles up your nose.",
+   "speaker": "S23"
+  },
+  {
+   "start": 129.0,
+   "end": 130.14,
+   "text": "I can teach her to not do that.",
+   "speaker": "S06"
+  },
+  {
+   "start": 130.36,
+   "end": 132.84,
+   "text": "You know, maybe I can, I can make a teaching video.",
+   "speaker": "S06"
+  },
+  {
+   "start": 133.0,
+   "end": 134.84,
+   "text": "And, yeah, I can teach her a whole bunch of stuff.",
+   "speaker": "S06"
+  },
+  {
+   "start": 135.0,
+   "end": 136.88,
+   "text": "Oh, boy. Here we go again.",
+   "speaker": "S31"
+  },
+  {
+   "start": 137.88,
+   "end": 138.2,
+   "text": "Nurse!",
+   "speaker": "S31"
+  },
+  {
+   "start": 143.98,
+   "end": 146.14,
+   "text": "Alright, look alive out there. Come on, everyone!",
+   "speaker": "S04"
+  },
+  {
+   "start": 146.44,
+   "end": 148.22,
+   "text": "You heard him, Melissa. Look lively.",
+   "speaker": "S02"
+  },
+  {
+   "start": 148.66,
+   "end": 150.6,
+   "text": "I mean, have a lively look about you.",
+   "speaker": "S02"
+  },
+  {
+   "start": 151.16,
+   "end": 152.48,
+   "text": "What are you, Melissa's dad or something?",
+   "speaker": "S04"
+  },
+  {
+   "start": 152.66,
+   "end": 152.86,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 153.06,
+   "end": 154.5,
+   "text": "Yeah. I thought you looked familiar.",
+   "speaker": "S04"
+  },
+  {
+   "start": 155.0,
+   "end": 155.64,
+   "text": "Ernest, right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 155.94,
+   "end": 156.32,
+   "text": "Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 156.54,
+   "end": 159.42,
+   "text": "Yeah, Melissa's a good kid. You know, you got a pretty good kid there.",
+   "speaker": "S04"
+  },
+  {
+   "start": 159.64,
+   "end": 161.24,
+   "text": "I call her my little sunshine daisy.",
+   "speaker": "S02"
+  },
+  {
+   "start": 161.44,
+   "end": 164.14,
+   "text": "Melissa, you idiot! Kick the ball!",
+   "speaker": "S04"
+  },
+  {
+   "start": 164.6,
+   "end": 166.28,
+   "text": "I bet her mom's pretty, though, huh?",
+   "speaker": "S04"
+  },
+  {
+   "start": 166.52,
+   "end": 167.06,
+   "text": "She's dead.",
+   "speaker": "S04"
+  },
+  {
+   "start": 167.88,
+   "end": 168.18,
+   "text": "Wow.",
+   "speaker": "S04"
+  },
+  {
+   "start": 169.08,
+   "end": 170.0,
+   "text": "Good game, huh?",
+   "speaker": "S02"
+  },
+  {
+   "start": 170.62,
+   "end": 173.6,
+   "text": "Was she a pretty woman when she was around, you know, on Earth?",
+   "speaker": "S04"
+  },
+  {
+   "start": 173.6,
+   "end": 176.34,
+   "text": "She's not actually dead. She ran off with some guy.",
+   "speaker": "S02"
+  },
+  {
+   "start": 176.64,
+   "end": 179.94,
+   "text": "Oh. So how long were they doing it behind your back?",
+   "speaker": "S04"
+  },
+  {
+   "start": 180.12,
+   "end": 181.28,
+   "text": "Hey, let's talk about something else.",
+   "speaker": "S02"
+  },
+  {
+   "start": 181.56,
+   "end": 184.76,
+   "text": "Sure. So what do you think your wife is doing with this guy right now?",
+   "speaker": "S04"
+  },
+  {
+   "start": 185.96,
+   "end": 187.2,
+   "text": "It's eight hours later there.",
+   "speaker": "S02"
+  },
+  {
+   "start": 187.86,
+   "end": 189.44,
+   "text": "But, hey, can we talk about something else?",
+   "speaker": "S02"
+  },
+  {
+   "start": 189.72,
+   "end": 191.2,
+   "text": "You have a laundry business, right?",
+   "speaker": "S04"
+  },
+  {
+   "start": 191.5,
+   "end": 192.36,
+   "text": "I'm in real estate.",
+   "speaker": "S02"
+  },
+  {
+   "start": 192.64,
+   "end": 194.36,
+   "text": "Real estate. So you're rich.",
+   "speaker": "S04"
+  },
+  {
+   "start": 194.84,
+   "end": 195.12,
+   "text": "Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 195.6,
+   "end": 195.84,
+   "text": "Earnest.",
+   "speaker": "S04"
+  },
+  {
+   "start": 196.2,
+   "end": 197.8,
+   "text": "No, I'm being earnest when I say Eric.",
+   "speaker": "S02"
+  },
+  {
+   "start": 198.04,
+   "end": 199.48,
+   "text": "I mean you have a lot of money.",
+   "speaker": "S04"
+  },
+  {
+   "start": 199.68,
+   "end": 201.3,
+   "text": "I do okay. I mean business is good.",
+   "speaker": "S02"
+  },
+  {
+   "start": 201.3,
+   "end": 204.12,
+   "text": "This is a seller's market.",
+   "speaker": "S02"
+  },
+  {
+   "start": 204.26,
+   "end": 207.04,
+   "text": "Well, that's good, because I'm thinking about buying a house.",
+   "speaker": "S04"
+  },
+  {
+   "start": 207.4,
+   "end": 208.64,
+   "text": "That's good. It's a buyer's market.",
+   "speaker": "S02"
+  },
+  {
+   "start": 209.2,
+   "end": 211.86,
+   "text": "You should stop by my office sometime. We can talk about it.",
+   "speaker": "S02"
+  },
+  {
+   "start": 212.0,
+   "end": 212.88,
+   "text": "Well, let's go right now.",
+   "speaker": "S04"
+  },
+  {
+   "start": 213.42,
+   "end": 214.66,
+   "text": "Shouldn't we wait until after the game?",
+   "speaker": "S02"
+  },
+  {
+   "start": 215.3,
+   "end": 217.84,
+   "text": "All right, stop play. Lightning threat.",
+   "speaker": "S04"
+  },
+  {
+   "start": 218.4,
+   "end": 220.86,
+   "text": "Everybody go back to class as fast as you can.",
+   "speaker": "S04"
+  },
+  {
+   "start": 221.84,
+   "end": 223.08,
+   "text": "Oh, man, I love coaching.",
+   "speaker": "S04"
+  },
+  {
+   "start": 227.56,
+   "end": 229.14,
+   "text": "Oh, man, look at that place.",
+   "speaker": "S04"
+  },
+  {
+   "start": 229.14,
+   "end": 232.18,
+   "text": "swimming pools, sauna, mailboxes with keys.",
+   "speaker": "S04"
+  },
+  {
+   "start": 232.54,
+   "end": 233.34,
+   "text": "That's what I want.",
+   "speaker": "S04"
+  },
+  {
+   "start": 233.74,
+   "end": 235.72,
+   "text": "Well, you know, let's get the paperwork rolling",
+   "speaker": "S02"
+  },
+  {
+   "start": 235.72,
+   "end": 238.0,
+   "text": "and see if we can't get you pre-approved,",
+   "speaker": "S02"
+  },
+  {
+   "start": 238.04,
+   "end": 241.28,
+   "text": "because once that happens, most of the work is over.",
+   "speaker": "S02"
+  },
+  {
+   "start": 241.56,
+   "end": 242.24,
+   "text": "Sounds good.",
+   "speaker": "S04"
+  },
+  {
+   "start": 242.78,
+   "end": 243.54,
+   "text": "Yearly income?",
+   "speaker": "S02"
+  },
+  {
+   "start": 243.72,
+   "end": 245.08,
+   "text": "Uh, what is it?",
+   "speaker": "S04"
+  },
+  {
+   "start": 245.28,
+   "end": 245.5,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 246.22,
+   "end": 248.06,
+   "text": "It's, um, I do all right.",
+   "speaker": "S04"
+  },
+  {
+   "start": 248.24,
+   "end": 250.2,
+   "text": "You know, I need some kind of figure for the bank,",
+   "speaker": "S02"
+  },
+  {
+   "start": 250.24,
+   "end": 252.54,
+   "text": "otherwise they're not going to pre-approve you.",
+   "speaker": "S02"
+  },
+  {
+   "start": 252.82,
+   "end": 253.96,
+   "text": "Can it be a lie?",
+   "speaker": "S04"
+  },
+  {
+   "start": 254.22,
+   "end": 256.04,
+   "text": "It can't be a bold lie.",
+   "speaker": "S02"
+  },
+  {
+   "start": 256.24,
+   "end": 257.46,
+   "text": "You can exaggerate.",
+   "speaker": "S02"
+  },
+  {
+   "start": 257.46,
+   "end": 258.98,
+   "text": "You can give a gross income.",
+   "speaker": "S02"
+  },
+  {
+   "start": 259.26,
+   "end": 259.56,
+   "text": "All right.",
+   "speaker": "S02"
+  },
+  {
+   "start": 259.64,
+   "end": 260.82,
+   "text": "I think most people would do that.",
+   "speaker": "S02"
+  },
+  {
+   "start": 260.98,
+   "end": 262.0,
+   "text": "So, um...",
+   "speaker": "S04"
+  },
+  {
+   "start": 262.0,
+   "end": 263.28,
+   "text": "Yeah, so give me a rough figure.",
+   "speaker": "S02"
+  },
+  {
+   "start": 263.96,
+   "end": 265.08,
+   "text": "Oh, $2 million.",
+   "speaker": "S04"
+  },
+  {
+   "start": 265.74,
+   "end": 266.12,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 266.42,
+   "end": 267.84,
+   "text": "You have the paperwork to back that up.",
+   "speaker": "S02"
+  },
+  {
+   "start": 267.98,
+   "end": 269.34,
+   "text": "I'm making it out right now.",
+   "speaker": "S04"
+  },
+  {
+   "start": 269.72,
+   "end": 270.76,
+   "text": "What about...",
+   "speaker": "S02"
+  },
+  {
+   "start": 271.36,
+   "end": 272.38,
+   "text": "What about savings?",
+   "speaker": "S02"
+  },
+  {
+   "start": 272.86,
+   "end": 274.1,
+   "text": "Uh, $2 million.",
+   "speaker": "S04"
+  },
+  {
+   "start": 274.62,
+   "end": 276.94,
+   "text": "And, um, do you have credit lines anywhere?",
+   "speaker": "S02"
+  },
+  {
+   "start": 277.2,
+   "end": 278.0,
+   "text": "$2 million.",
+   "speaker": "S04"
+  },
+  {
+   "start": 278.54,
+   "end": 279.02,
+   "text": "Okay.",
+   "speaker": "S04"
+  },
+  {
+   "start": 283.66,
+   "end": 284.6,
+   "text": "Brandon, uh...",
+   "speaker": "S08"
+  },
+  {
+   "start": 284.6,
+   "end": 284.74,
+   "text": "Yeah?",
+   "speaker": "S08"
+  },
+  {
+   "start": 284.74,
+   "end": 288.64,
+   "text": "It really seemed to me like you were daydreaming today in class.",
+   "speaker": "S08"
+  },
+  {
+   "start": 288.78,
+   "end": 289.18,
+   "text": "I was.",
+   "speaker": "S08"
+  },
+  {
+   "start": 289.36,
+   "end": 290.44,
+   "text": "I knew it.",
+   "speaker": "S08"
+  },
+  {
+   "start": 290.7,
+   "end": 293.6,
+   "text": "After 18 years of teaching, I can tell the daydreamers.",
+   "speaker": "S08"
+  },
+  {
+   "start": 293.7,
+   "end": 295.06,
+   "text": "That's great, Mr. Lynch.",
+   "speaker": "S06"
+  },
+  {
+   "start": 295.28,
+   "end": 296.08,
+   "text": "I got a question.",
+   "speaker": "S06"
+  },
+  {
+   "start": 296.44,
+   "end": 299.8,
+   "text": "You see, I want to learn how to communicate with kids.",
+   "speaker": "S06"
+  },
+  {
+   "start": 300.42,
+   "end": 301.64,
+   "text": "You are a kid.",
+   "speaker": "S08"
+  },
+  {
+   "start": 301.74,
+   "end": 302.76,
+   "text": "I mean, younger kids.",
+   "speaker": "S06"
+  },
+  {
+   "start": 302.94,
+   "end": 305.74,
+   "text": "I want to make an educational film.",
+   "speaker": "S06"
+  },
+  {
+   "start": 306.28,
+   "end": 306.66,
+   "text": "Oh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 307.04,
+   "end": 308.48,
+   "text": "Bitten by the teaching bug, huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 308.66,
+   "end": 311.34,
+   "text": "Well, you know, I was about your age when it bit me.",
+   "speaker": "S08"
+  },
+  {
+   "start": 312.18,
+   "end": 313.36,
+   "text": "The teaching bug.",
+   "speaker": "S08"
+  },
+  {
+   "start": 315.3,
+   "end": 316.54,
+   "text": "I don't want to teach, though.",
+   "speaker": "S06"
+  },
+  {
+   "start": 316.66,
+   "end": 318.48,
+   "text": "I want to make a film that teaches, you know.",
+   "speaker": "S06"
+  },
+  {
+   "start": 318.7,
+   "end": 320.94,
+   "text": "I want to show it to my baby sister, you know,",
+   "speaker": "S06"
+  },
+  {
+   "start": 320.98,
+   "end": 322.92,
+   "text": "because she's at a young age, and I figure I can get to her,",
+   "speaker": "S06"
+  },
+  {
+   "start": 323.0,
+   "end": 324.84,
+   "text": "because she's like a little sponge, you know.",
+   "speaker": "S06"
+  },
+  {
+   "start": 325.18,
+   "end": 328.22,
+   "text": "Oh, you mean like Sesame Street or Mr. Rogers?",
+   "speaker": "S08"
+  },
+  {
+   "start": 328.74,
+   "end": 331.26,
+   "text": "Right. Well, okay, not so much that.",
+   "speaker": "S06"
+  },
+  {
+   "start": 331.5,
+   "end": 334.54,
+   "text": "I was thinking more along the lines of, you know, Gattaca.",
+   "speaker": "S06"
+  },
+  {
+   "start": 335.8,
+   "end": 337.42,
+   "text": "Well, you know, a lot of bright colors in music",
+   "speaker": "S08"
+  },
+  {
+   "start": 337.42,
+   "end": 338.76,
+   "text": "works for almost any age.",
+   "speaker": "S08"
+  },
+  {
+   "start": 338.82,
+   "end": 339.64,
+   "text": "Well, that's, yeah, okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 339.9,
+   "end": 342.72,
+   "text": "Except for maybe the Paleolithic age. Huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 342.72,
+   "end": 343.88,
+   "text": "Huh? Huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 345.08,
+   "end": 346.08,
+   "text": "It's a joke, President.",
+   "speaker": "S08"
+  },
+  {
+   "start": 346.24,
+   "end": 347.38,
+   "text": "I mean, that's when the cavemen lived,",
+   "speaker": "S08"
+  },
+  {
+   "start": 347.5,
+   "end": 348.58,
+   "text": "during the Paleolithic age.",
+   "speaker": "S08"
+  },
+  {
+   "start": 348.94,
+   "end": 349.66,
+   "text": "Oh, right, cavemen.",
+   "speaker": "S06"
+  },
+  {
+   "start": 350.32,
+   "end": 352.54,
+   "text": "Humor is a great tool for teaching as well.",
+   "speaker": "S08"
+  },
+  {
+   "start": 352.72,
+   "end": 352.78,
+   "text": "Yeah.",
+   "speaker": "S08"
+  },
+  {
+   "start": 352.9,
+   "end": 353.3,
+   "text": "Use it.",
+   "speaker": "S08"
+  },
+  {
+   "start": 353.36,
+   "end": 355.5,
+   "text": "Well, um, how come you don't use it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 355.8,
+   "end": 357.32,
+   "text": "How come you don't use it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 357.72,
+   "end": 357.86,
+   "text": "Ah!",
+   "speaker": "S06"
+  },
+  {
+   "start": 359.7,
+   "end": 360.0,
+   "text": "Ah!",
+   "speaker": "S06"
+  },
+  {
+   "start": 361.24,
+   "end": 361.68,
+   "text": "Ah!",
+   "speaker": "S06"
+  },
+  {
+   "start": 372.7,
+   "end": 376.46,
+   "text": "Ah, yes. Touche, my young student. Touche.",
+   "speaker": "S08"
+  },
+  {
+   "start": 377.28,
+   "end": 380.64,
+   "text": "Anyway, look, I just want to know if I get some extra credit on this thing here.",
+   "speaker": "S06"
+  },
+  {
+   "start": 380.76,
+   "end": 387.02,
+   "text": "You know, after 18 years of teaching, I can always tell when a kid wants to make an educational film for extra credit.",
+   "speaker": "S08"
+  },
+  {
+   "start": 387.22,
+   "end": 388.72,
+   "text": "So you'll give me extra credit?",
+   "speaker": "S06"
+  },
+  {
+   "start": 389.06,
+   "end": 391.64,
+   "text": "Well, I'll give you extra credit if your film actually teaches something.",
+   "speaker": "S08"
+  },
+  {
+   "start": 391.78,
+   "end": 392.5,
+   "text": "It will. Don't worry.",
+   "speaker": "S06"
+  },
+  {
+   "start": 392.98,
+   "end": 395.9,
+   "text": "Listen, I don't want this video to glorify violence.",
+   "speaker": "S08"
+  },
+  {
+   "start": 396.06,
+   "end": 397.0,
+   "text": "What about slapstick?",
+   "speaker": "S06"
+  },
+  {
+   "start": 397.42,
+   "end": 400.16,
+   "text": "Oh, I love slapstick. That's a very good choice.",
+   "speaker": "S08"
+  },
+  {
+   "start": 400.48,
+   "end": 403.84,
+   "text": "Yes, it can be very funny. It's humorous. Watch this.",
+   "speaker": "S08"
+  },
+  {
+   "start": 405.1,
+   "end": 405.58,
+   "text": "Ow!",
+   "speaker": "S08"
+  },
+  {
+   "start": 406.48,
+   "end": 407.14,
+   "text": "Now watch this.",
+   "speaker": "S08"
+  },
+  {
+   "start": 408.66,
+   "end": 410.58,
+   "text": "Ow! Pretty funny, huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 410.82,
+   "end": 411.88,
+   "text": "Um, yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 415.68,
+   "end": 418.28,
+   "text": "What's with this stupid machine? Why the hell won't it go?",
+   "speaker": "S04"
+  },
+  {
+   "start": 418.76,
+   "end": 419.6,
+   "text": "Hey, McGurk.",
+   "speaker": "S08"
+  },
+  {
+   "start": 420.18,
+   "end": 422.16,
+   "text": "Uh, having trouble with the fax machine?",
+   "speaker": "S08"
+  },
+  {
+   "start": 422.44,
+   "end": 423.52,
+   "text": "Is that what this is?",
+   "speaker": "S04"
+  },
+  {
+   "start": 424.66,
+   "end": 425.86,
+   "text": "All right, let me show you.",
+   "speaker": "S08"
+  },
+  {
+   "start": 426.14,
+   "end": 426.56,
+   "text": "What are you doing?",
+   "speaker": "S08"
+  },
+  {
+   "start": 426.94,
+   "end": 429.72,
+   "text": "The paper goes in face down first, all right?",
+   "speaker": "S08"
+  },
+  {
+   "start": 429.72,
+   "end": 430.08,
+   "text": "Mm-hmm.",
+   "speaker": "S08"
+  },
+  {
+   "start": 430.2,
+   "end": 432.74,
+   "text": "And then you dial the number, and then you hit start.",
+   "speaker": "S08"
+  },
+  {
+   "start": 433.46,
+   "end": 434.48,
+   "text": "What do you have here?",
+   "speaker": "S08"
+  },
+  {
+   "start": 434.54,
+   "end": 436.14,
+   "text": "Is this a mortgage application?",
+   "speaker": "S08"
+  },
+  {
+   "start": 436.44,
+   "end": 437.56,
+   "text": "Well, Lynch, do you mind?",
+   "speaker": "S04"
+  },
+  {
+   "start": 437.8,
+   "end": 439.14,
+   "text": "You know, I let you help me with the facts.",
+   "speaker": "S04"
+  },
+  {
+   "start": 439.2,
+   "end": 439.7,
+   "text": "That was great.",
+   "speaker": "S04"
+  },
+  {
+   "start": 439.82,
+   "end": 440.34,
+   "text": "Now leave.",
+   "speaker": "S04"
+  },
+  {
+   "start": 440.68,
+   "end": 441.32,
+   "text": "Buying a house?",
+   "speaker": "S08"
+  },
+  {
+   "start": 441.46,
+   "end": 442.78,
+   "text": "Well, I'm going to buy a condo.",
+   "speaker": "S04"
+  },
+  {
+   "start": 443.14,
+   "end": 443.9,
+   "text": "You know, it's cooler.",
+   "speaker": "S04"
+  },
+  {
+   "start": 444.26,
+   "end": 447.96,
+   "text": "And I'm going out there later with my real estate agent to look it over, so...",
+   "speaker": "S04"
+  },
+  {
+   "start": 447.96,
+   "end": 448.58,
+   "text": "Oh, really?",
+   "speaker": "S08"
+  },
+  {
+   "start": 448.74,
+   "end": 448.98,
+   "text": "Wow.",
+   "speaker": "S08"
+  },
+  {
+   "start": 449.24,
+   "end": 451.38,
+   "text": "15-year or 30?",
+   "speaker": "S08"
+  },
+  {
+   "start": 452.2,
+   "end": 452.6,
+   "text": "What?",
+   "speaker": "S08"
+  },
+  {
+   "start": 452.82,
+   "end": 454.8,
+   "text": "On the mortgage, 15-year or 30?",
+   "speaker": "S08"
+  },
+  {
+   "start": 455.0,
+   "end": 456.92,
+   "text": "15 years or 30 years what?",
+   "speaker": "S04"
+  },
+  {
+   "start": 457.32,
+   "end": 458.74,
+   "text": "You're going to have to pay it back?",
+   "speaker": "S08"
+  },
+  {
+   "start": 458.74,
+   "end": 460.02,
+   "text": "Pay what back, Lynch?",
+   "speaker": "S04"
+  },
+  {
+   "start": 460.34,
+   "end": 461.68,
+   "text": "It's a loan that you're going to be paying back.",
+   "speaker": "S08"
+  },
+  {
+   "start": 462.36,
+   "end": 465.02,
+   "text": "I'm not taking out a loan. I'm doing a mortgage.",
+   "speaker": "S04"
+  },
+  {
+   "start": 467.46,
+   "end": 468.6,
+   "text": "Okay, good luck, McGurk.",
+   "speaker": "S08"
+  },
+  {
+   "start": 468.96,
+   "end": 471.74,
+   "text": "Look, Lynch, you know, I don't like you.",
+   "speaker": "S04"
+  },
+  {
+   "start": 472.0,
+   "end": 472.84,
+   "text": "Well, thank you.",
+   "speaker": "S08"
+  },
+  {
+   "start": 473.06,
+   "end": 475.58,
+   "text": "However, I'm going to probably have a housewarming party,",
+   "speaker": "S04"
+  },
+  {
+   "start": 475.58,
+   "end": 478.04,
+   "text": "and, you know, you can come.",
+   "speaker": "S04"
+  },
+  {
+   "start": 478.6,
+   "end": 481.58,
+   "text": "That's great. Okay, well, I'll see you at the teacher's meeting later.",
+   "speaker": "S08"
+  },
+  {
+   "start": 481.82,
+   "end": 483.46,
+   "text": "I'm going to get one of those satellite TVs,",
+   "speaker": "S04"
+  },
+  {
+   "start": 483.68,
+   "end": 486.36,
+   "text": "so that's a draw, you know, for a party. That's great.",
+   "speaker": "S04"
+  },
+  {
+   "start": 486.64,
+   "end": 487.84,
+   "text": "Right. Well, I'm leaving now.",
+   "speaker": "S08"
+  },
+  {
+   "start": 487.84,
+   "end": 491.56,
+   "text": "Before you go, can I borrow $25,000?",
+   "speaker": "S04"
+  },
+  {
+   "start": 496.46,
+   "end": 498.0,
+   "text": "Hi, Spikey, how's it going?",
+   "speaker": "S05"
+  },
+  {
+   "start": 498.12,
+   "end": 500.64,
+   "text": "Hey, Melissa, how about a hug for Spikey?",
+   "speaker": "S06"
+  },
+  {
+   "start": 501.26,
+   "end": 501.7,
+   "text": "Well...",
+   "speaker": "S06"
+  },
+  {
+   "start": 501.7,
+   "end": 503.7,
+   "text": "Just a little huggy for Spikey.",
+   "speaker": "S08"
+  },
+  {
+   "start": 503.86,
+   "end": 504.32,
+   "text": "Come on.",
+   "speaker": "S08"
+  },
+  {
+   "start": 504.42,
+   "end": 504.68,
+   "text": "Okay.",
+   "speaker": "S08"
+  },
+  {
+   "start": 505.96,
+   "end": 507.6,
+   "text": "Okay, Spikey, that's enough.",
+   "speaker": "S05"
+  },
+  {
+   "start": 507.72,
+   "end": 508.18,
+   "text": "I love to hug.",
+   "speaker": "S05"
+  },
+  {
+   "start": 508.42,
+   "end": 509.5,
+   "text": "Spikey, that's enough.",
+   "speaker": "S05"
+  },
+  {
+   "start": 509.84,
+   "end": 510.96,
+   "text": "Look what I can do, Melissa.",
+   "speaker": "S06"
+  },
+  {
+   "start": 511.34,
+   "end": 512.68,
+   "text": "Spikey, that's not funny.",
+   "speaker": "S05"
+  },
+  {
+   "start": 512.82,
+   "end": 513.58,
+   "text": "Yes, it is.",
+   "speaker": "S06"
+  },
+  {
+   "start": 514.24,
+   "end": 516.08,
+   "text": "Okay, it's funny, but it's dangerous.",
+   "speaker": "S05"
+  },
+  {
+   "start": 516.22,
+   "end": 517.38,
+   "text": "You need a doctor.",
+   "speaker": "S05"
+  },
+  {
+   "start": 517.38,
+   "end": 519.68,
+   "text": "Did you call for a doctor?",
+   "speaker": "S22"
+  },
+  {
+   "start": 520.18,
+   "end": 524.18,
+   "text": "Yes, Spikey shoved some marbles up his nose, and now he can't breathe through it.",
+   "speaker": "S05"
+  },
+  {
+   "start": 524.7,
+   "end": 528.56,
+   "text": "Um, you, um, shouldn't stick marbles in your nose, Spikey.",
+   "speaker": "S22"
+  },
+  {
+   "start": 529.02,
+   "end": 529.64,
+   "text": "Brendan, um...",
+   "speaker": "S22"
+  },
+  {
+   "start": 529.64,
+   "end": 529.84,
+   "text": "Yeah?",
+   "speaker": "S22"
+  },
+  {
+   "start": 530.36,
+   "end": 532.02,
+   "text": "Why, um, can't... Did we cut?",
+   "speaker": "S22"
+  },
+  {
+   "start": 532.14,
+   "end": 532.86,
+   "text": "Yeah, we're just rolling.",
+   "speaker": "S06"
+  },
+  {
+   "start": 533.32,
+   "end": 535.58,
+   "text": "Um, why can't you put marbles in your nose?",
+   "speaker": "S22"
+  },
+  {
+   "start": 535.8,
+   "end": 536.88,
+   "text": "Because it's dangerous.",
+   "speaker": "S06"
+  },
+  {
+   "start": 537.34,
+   "end": 539.4,
+   "text": "Brendan, have you ever tried to eat with your nose?",
+   "speaker": "S22"
+  },
+  {
+   "start": 539.78,
+   "end": 540.6,
+   "text": "I have.",
+   "speaker": "S22"
+  },
+  {
+   "start": 540.98,
+   "end": 541.42,
+   "text": "Well...",
+   "speaker": "S22"
+  },
+  {
+   "start": 541.42,
+   "end": 544.48,
+   "text": "If you stick food up your nose, then your nose is connected to your throat.",
+   "speaker": "S22"
+  },
+  {
+   "start": 544.88,
+   "end": 545.28,
+   "text": "Ew!",
+   "speaker": "S22"
+  },
+  {
+   "start": 545.28,
+   "end": 547.52,
+   "text": "One time I ate with my eye.",
+   "speaker": "S22"
+  },
+  {
+   "start": 547.7,
+   "end": 548.98,
+   "text": "Ew, Jason!",
+   "speaker": "S05"
+  },
+  {
+   "start": 549.92,
+   "end": 551.66,
+   "text": "You're not supposed to do that.",
+   "speaker": "S05"
+  },
+  {
+   "start": 551.76,
+   "end": 552.96,
+   "text": "Why don't you just use your mouth?",
+   "speaker": "S06"
+  },
+  {
+   "start": 553.14,
+   "end": 554.28,
+   "text": "Well, I mean, it's so obvious.",
+   "speaker": "S22"
+  },
+  {
+   "start": 554.8,
+   "end": 559.26,
+   "text": "I read that to be truly human is to be constantly exploring.",
+   "speaker": "S22"
+  },
+  {
+   "start": 559.56,
+   "end": 560.76,
+   "text": "Wow. Anyway.",
+   "speaker": "S22"
+  },
+  {
+   "start": 564.8,
+   "end": 567.24,
+   "text": "Oh, my God, Eric. Look at all the women.",
+   "speaker": "S04"
+  },
+  {
+   "start": 567.46,
+   "end": 568.38,
+   "text": "I want to live here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 568.68,
+   "end": 569.7,
+   "text": "Yeah, don't pee in the pool.",
+   "speaker": "S02"
+  },
+  {
+   "start": 569.88,
+   "end": 570.34,
+   "text": "Too late.",
+   "speaker": "S02"
+  },
+  {
+   "start": 570.58,
+   "end": 570.72,
+   "text": "Okay.",
+   "speaker": "S02"
+  },
+  {
+   "start": 572.04,
+   "end": 573.22,
+   "text": "Ladies! Hello!",
+   "speaker": "S04"
+  },
+  {
+   "start": 573.6,
+   "end": 575.48,
+   "text": "How you doing down there? How's the pool?",
+   "speaker": "S04"
+  },
+  {
+   "start": 576.22,
+   "end": 578.42,
+   "text": "Hey, look out, cannonball ladies!",
+   "speaker": "S04"
+  },
+  {
+   "start": 581.84,
+   "end": 583.58,
+   "text": "Eric, how many floors up are we?",
+   "speaker": "S04"
+  },
+  {
+   "start": 583.62,
+   "end": 585.74,
+   "text": "Eleven. Up and down, my friend.",
+   "speaker": "S02"
+  },
+  {
+   "start": 586.06,
+   "end": 588.3,
+   "text": "Forget the cannonball. Forget the cannonball!",
+   "speaker": "S04"
+  },
+  {
+   "start": 589.78,
+   "end": 591.48,
+   "text": "They seem to be ignoring me.",
+   "speaker": "S04"
+  },
+  {
+   "start": 591.66,
+   "end": 591.92,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 592.66,
+   "end": 594.04,
+   "text": "I'll tell you, this is gonna be great.",
+   "speaker": "S04"
+  },
+  {
+   "start": 594.34,
+   "end": 595.74,
+   "text": "Well, let's not get ahead of ourselves, Sean.",
+   "speaker": "S02"
+  },
+  {
+   "start": 595.88,
+   "end": 597.76,
+   "text": "I mean, you haven't heard back from the bank yet.",
+   "speaker": "S02"
+  },
+  {
+   "start": 597.76,
+   "end": 599.2,
+   "text": "What the hell with the bank, Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 599.42,
+   "end": 601.8,
+   "text": "I'm gonna live in this place, and I'm gonna start my new life here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 601.8,
+   "end": 605.04,
+   "text": "You know, I think we should continue to check out different price ranges.",
+   "speaker": "S02"
+  },
+  {
+   "start": 605.26,
+   "end": 607.3,
+   "text": "No. Forget it. I need this place.",
+   "speaker": "S04"
+  },
+  {
+   "start": 607.6,
+   "end": 611.04,
+   "text": "I don't disagree. I just say that you need to keep your options open at this point.",
+   "speaker": "S02"
+  },
+  {
+   "start": 611.24,
+   "end": 614.2,
+   "text": "Do you know what kind of status goes with living in a place like this?",
+   "speaker": "S04"
+  },
+  {
+   "start": 614.34,
+   "end": 617.54,
+   "text": "Oh, it is a very, um, prestigious place to live.",
+   "speaker": "S02"
+  },
+  {
+   "start": 617.8,
+   "end": 620.52,
+   "text": "Say goodbye to the old John McGurk. Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 621.08,
+   "end": 621.38,
+   "text": "Bye.",
+   "speaker": "S04"
+  },
+  {
+   "start": 621.78,
+   "end": 624.82,
+   "text": "Thank you. Now say hello to the new John McGurk.",
+   "speaker": "S04"
+  },
+  {
+   "start": 624.98,
+   "end": 626.12,
+   "text": "Okay, and how will you know the difference?",
+   "speaker": "S02"
+  },
+  {
+   "start": 626.32,
+   "end": 627.34,
+   "text": "Well, I've turned around.",
+   "speaker": "S04"
+  },
+  {
+   "start": 627.62,
+   "end": 629.26,
+   "text": "That indicates the arrival of the new John McGurk.",
+   "speaker": "S02"
+  },
+  {
+   "start": 629.26,
+   "end": 631.44,
+   "text": "But the new John McGurk is going to live here, Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 631.86,
+   "end": 635.04,
+   "text": "He's gonna have a respectable apartment, condominium that he owns.",
+   "speaker": "S04"
+  },
+  {
+   "start": 635.26,
+   "end": 637.3,
+   "text": "I'll be a homeowner, and I may grow a mustache.",
+   "speaker": "S04"
+  },
+  {
+   "start": 640.26,
+   "end": 640.58,
+   "text": "Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 640.82,
+   "end": 641.08,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 641.32,
+   "end": 641.98,
+   "text": "John McGurk.",
+   "speaker": "S04"
+  },
+  {
+   "start": 642.08,
+   "end": 643.0,
+   "text": "Hey, John, what can I do for you?",
+   "speaker": "S02"
+  },
+  {
+   "start": 643.32,
+   "end": 645.98,
+   "text": "Well, I wanted to know if you heard from the loan people.",
+   "speaker": "S04"
+  },
+  {
+   "start": 646.12,
+   "end": 647.76,
+   "text": "Actually, no, I haven't heard anything yet.",
+   "speaker": "S02"
+  },
+  {
+   "start": 647.92,
+   "end": 649.64,
+   "text": "I was hoping we'd hear something by the end of the day,",
+   "speaker": "S04"
+  },
+  {
+   "start": 649.72,
+   "end": 651.98,
+   "text": "because I just moved out of my apartment.",
+   "speaker": "S04"
+  },
+  {
+   "start": 652.38,
+   "end": 654.18,
+   "text": "Well, wait, wait, you already moved?",
+   "speaker": "S02"
+  },
+  {
+   "start": 654.3,
+   "end": 655.42,
+   "text": "Why would you move out already?",
+   "speaker": "S02"
+  },
+  {
+   "start": 655.54,
+   "end": 656.4,
+   "text": "I hate that place.",
+   "speaker": "S04"
+  },
+  {
+   "start": 656.58,
+   "end": 658.66,
+   "text": "So I went over to my landlady, and I mooned her.",
+   "speaker": "S04"
+  },
+  {
+   "start": 658.82,
+   "end": 660.4,
+   "text": "Told her to kiss my big fat ass.",
+   "speaker": "S04"
+  },
+  {
+   "start": 660.4,
+   "end": 663.4,
+   "text": "See, I don't think it's a good idea to leave your apartment just yet.",
+   "speaker": "S02"
+  },
+  {
+   "start": 663.8,
+   "end": 666.62,
+   "text": "I'd hate to see you stuck without a place to stay,",
+   "speaker": "S02"
+  },
+  {
+   "start": 666.76,
+   "end": 669.96,
+   "text": "which is what could happen if this mortgage doesn't come through and you...",
+   "speaker": "S02"
+  },
+  {
+   "start": 669.96,
+   "end": 671.48,
+   "text": "Whoa, whoa, whoa. What are you talking about, Eric?",
+   "speaker": "S04"
+  },
+  {
+   "start": 671.56,
+   "end": 673.24,
+   "text": "You don't want to move out before you know where you...",
+   "speaker": "S02"
+  },
+  {
+   "start": 673.24,
+   "end": 674.22,
+   "text": "Well, I just moved out.",
+   "speaker": "S04"
+  },
+  {
+   "start": 674.38,
+   "end": 676.6,
+   "text": "Yeah, well, you don't want to do what you've just done.",
+   "speaker": "S02"
+  },
+  {
+   "start": 676.78,
+   "end": 677.48,
+   "text": "That's what I'm saying.",
+   "speaker": "S22"
+  },
+  {
+   "start": 678.08,
+   "end": 678.54,
+   "text": "All right.",
+   "speaker": "S22"
+  },
+  {
+   "start": 678.7,
+   "end": 680.94,
+   "text": "Just to close a sale sometimes can take months.",
+   "speaker": "S02"
+  },
+  {
+   "start": 681.1,
+   "end": 681.28,
+   "text": "Yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 681.42,
+   "end": 684.16,
+   "text": "John, I don't want to see you left high and dry.",
+   "speaker": "S02"
+  },
+  {
+   "start": 684.82,
+   "end": 687.6,
+   "text": "Right. So I made a premature move then.",
+   "speaker": "S04"
+  },
+  {
+   "start": 687.76,
+   "end": 689.8,
+   "text": "Yeah, I think it was impulsive and premature,",
+   "speaker": "S02"
+  },
+  {
+   "start": 690.3,
+   "end": 691.78,
+   "text": "You don't have to overdo it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 692.36,
+   "end": 693.22,
+   "text": "Premature was fine.",
+   "speaker": "S31"
+  },
+  {
+   "start": 693.92,
+   "end": 694.96,
+   "text": "What was fine?",
+   "speaker": "S02"
+  },
+  {
+   "start": 695.36,
+   "end": 696.06,
+   "text": "Just premature.",
+   "speaker": "S04"
+  },
+  {
+   "start": 696.52,
+   "end": 696.9,
+   "text": "Okay, premature, yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 697.12,
+   "end": 700.7,
+   "text": "My point is that I'm kind of stuck with the decision I made here.",
+   "speaker": "S04"
+  },
+  {
+   "start": 700.8,
+   "end": 704.0,
+   "text": "Maybe I got a little overenthusiastic, but, you know, I...",
+   "speaker": "S04"
+  },
+  {
+   "start": 704.0,
+   "end": 704.66,
+   "text": "Well, John...",
+   "speaker": "S06"
+  },
+  {
+   "start": 704.66,
+   "end": 707.84,
+   "text": "All I'm saying is put it together by the end of the day.",
+   "speaker": "S04"
+  },
+  {
+   "start": 708.6,
+   "end": 710.48,
+   "text": "Why don't you pick up a Sari Amunji card?",
+   "speaker": "S02"
+  },
+  {
+   "start": 729.84,
+   "end": 730.38,
+   "text": "Mmm.",
+   "speaker": "S02"
+  },
+  {
+   "start": 732.7,
+   "end": 733.46,
+   "text": "Aren't you guys eating?",
+   "speaker": "S04"
+  },
+  {
+   "start": 733.68,
+   "end": 734.14,
+   "text": "It's great.",
+   "speaker": "S04"
+  },
+  {
+   "start": 734.64,
+   "end": 736.24,
+   "text": "Um, you're eating ours.",
+   "speaker": "S02"
+  },
+  {
+   "start": 736.6,
+   "end": 737.78,
+   "text": "Oh, well, it's great.",
+   "speaker": "S04"
+  },
+  {
+   "start": 740.7,
+   "end": 741.24,
+   "text": "Sgt.",
+   "speaker": "S04"
+  },
+  {
+   "start": 741.36,
+   "end": 742.64,
+   "text": "Schultz is hilarious.",
+   "speaker": "S04"
+  },
+  {
+   "start": 743.44,
+   "end": 744.06,
+   "text": "Oh, man.",
+   "speaker": "S38"
+  },
+  {
+   "start": 744.7,
+   "end": 745.54,
+   "text": "He's funny.",
+   "speaker": "S04"
+  },
+  {
+   "start": 745.72,
+   "end": 746.04,
+   "text": "Dad?",
+   "speaker": "S04"
+  },
+  {
+   "start": 746.22,
+   "end": 746.56,
+   "text": "Yes?",
+   "speaker": "S04"
+  },
+  {
+   "start": 746.9,
+   "end": 748.64,
+   "text": "Can I go over to the Smalls to watch TV?",
+   "speaker": "S05"
+  },
+  {
+   "start": 749.0,
+   "end": 749.26,
+   "text": "No.",
+   "speaker": "S05"
+  },
+  {
+   "start": 749.6,
+   "end": 749.62,
+   "text": "No.",
+   "speaker": "S05"
+  },
+  {
+   "start": 749.62,
+   "end": 749.64,
+   "text": "No.",
+   "speaker": "S05"
+  },
+  {
+   "start": 749.8,
+   "end": 750.1,
+   "text": "Dad.",
+   "speaker": "S05"
+  },
+  {
+   "start": 750.46,
+   "end": 751.36,
+   "text": "Listen to your mother.",
+   "speaker": "S02"
+  },
+  {
+   "start": 752.6,
+   "end": 754.16,
+   "text": "Dad, I can't take this.",
+   "speaker": "S05"
+  },
+  {
+   "start": 754.28,
+   "end": 755.24,
+   "text": "Isn't this a school night?",
+   "speaker": "S04"
+  },
+  {
+   "start": 755.56,
+   "end": 755.92,
+   "text": "Dad.",
+   "speaker": "S04"
+  },
+  {
+   "start": 756.36,
+   "end": 757.88,
+   "text": "No, you can go. There's no reason why you can't go.",
+   "speaker": "S02"
+  },
+  {
+   "start": 757.88,
+   "end": 758.74,
+   "text": "No, no, no, no.",
+   "speaker": "S04"
+  },
+  {
+   "start": 758.98,
+   "end": 759.32,
+   "text": "Yes.",
+   "speaker": "S04"
+  },
+  {
+   "start": 759.32,
+   "end": 759.58,
+   "text": "No.",
+   "speaker": "S04"
+  },
+  {
+   "start": 760.88,
+   "end": 761.24,
+   "text": "No.",
+   "speaker": "S04"
+  },
+  {
+   "start": 762.14,
+   "end": 763.14,
+   "text": "No, you can't.",
+   "speaker": "S04"
+  },
+  {
+   "start": 763.74,
+   "end": 765.18,
+   "text": "I don't want you hanging out with that kid, Brendan.",
+   "speaker": "S04"
+  },
+  {
+   "start": 765.44,
+   "end": 767.86,
+   "text": "You know, Coach, you're undermining my authority as a parent.",
+   "speaker": "S02"
+  },
+  {
+   "start": 768.44,
+   "end": 768.8,
+   "text": "Yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 769.36,
+   "end": 770.7,
+   "text": "That's the downside.",
+   "speaker": "S02"
+  },
+  {
+   "start": 770.96,
+   "end": 772.16,
+   "text": "Plus, that is, I think I love you.",
+   "speaker": "S02"
+  },
+  {
+   "start": 773.22,
+   "end": 775.26,
+   "text": "It's awful, Brendan, and he smells.",
+   "speaker": "S05"
+  },
+  {
+   "start": 775.66,
+   "end": 778.0,
+   "text": "I wish there was something I could do to help you, Melissa,",
+   "speaker": "S06"
+  },
+  {
+   "start": 778.1,
+   "end": 779.12,
+   "text": "but my hands are tied, you know?",
+   "speaker": "S06"
+  },
+  {
+   "start": 779.12,
+   "end": 781.46,
+   "text": "Hey, Melissa, I just used your toothbrush.",
+   "speaker": "S04"
+  },
+  {
+   "start": 781.94,
+   "end": 782.02,
+   "text": "Oh.",
+   "speaker": "S04"
+  },
+  {
+   "start": 782.46,
+   "end": 783.3,
+   "text": "I hope you don't mind.",
+   "speaker": "S04"
+  },
+  {
+   "start": 783.48,
+   "end": 785.42,
+   "text": "Brendan, he just used my toothbrush.",
+   "speaker": "S05"
+  },
+  {
+   "start": 785.44,
+   "end": 786.38,
+   "text": "What do I do?",
+   "speaker": "S05"
+  },
+  {
+   "start": 786.74,
+   "end": 787.72,
+   "text": "Let him have it, then.",
+   "speaker": "S06"
+  },
+  {
+   "start": 787.96,
+   "end": 788.32,
+   "text": "Melissa?",
+   "speaker": "S06"
+  },
+  {
+   "start": 788.6,
+   "end": 788.98,
+   "text": "Yes?",
+   "speaker": "S06"
+  },
+  {
+   "start": 789.12,
+   "end": 790.96,
+   "text": "Can I use your apricot shower wash?",
+   "speaker": "S04"
+  },
+  {
+   "start": 791.16,
+   "end": 791.58,
+   "text": "Sorry to interrupt.",
+   "speaker": "S04"
+  },
+  {
+   "start": 791.9,
+   "end": 793.86,
+   "text": "Melissa, the call's coming from inside the house.",
+   "speaker": "S06"
+  },
+  {
+   "start": 794.02,
+   "end": 794.7,
+   "text": "Brendan, is that you?",
+   "speaker": "S04"
+  },
+  {
+   "start": 794.88,
+   "end": 795.64,
+   "text": "Coach McGurk.",
+   "speaker": "S06"
+  },
+  {
+   "start": 795.78,
+   "end": 796.4,
+   "text": "How's it going?",
+   "speaker": "S06"
+  },
+  {
+   "start": 796.86,
+   "end": 798.38,
+   "text": "Well, couldn't be better, actually.",
+   "speaker": "S04"
+  },
+  {
+   "start": 798.66,
+   "end": 798.9,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 799.24,
+   "end": 801.78,
+   "text": "Melissa, so what's the... what's the word there?",
+   "speaker": "S04"
+  },
+  {
+   "start": 802.02,
+   "end": 804.56,
+   "text": "You know, I'm gonna leave you two alone to chat",
+   "speaker": "S06"
+  },
+  {
+   "start": 804.56,
+   "end": 806.22,
+   "text": "because this sounds important. Goodbye.",
+   "speaker": "S06"
+  },
+  {
+   "start": 806.92,
+   "end": 807.72,
+   "text": "Oh, he was Kurt.",
+   "speaker": "S04"
+  },
+  {
+   "start": 807.88,
+   "end": 808.64,
+   "text": "Were you guys in a fight?",
+   "speaker": "S04"
+  },
+  {
+   "start": 808.64,
+   "end": 810.28,
+   "text": "No, um...",
+   "speaker": "S05"
+  },
+  {
+   "start": 810.28,
+   "end": 812.9,
+   "text": "Yeah, I was asking if I could use your body wash.",
+   "speaker": "S04"
+  },
+  {
+   "start": 817.3,
+   "end": 817.74,
+   "text": "Um...",
+   "speaker": "S04"
+  },
+  {
+   "start": 817.74,
+   "end": 819.38,
+   "text": "Eric. Eric.",
+   "speaker": "S04"
+  },
+  {
+   "start": 819.92,
+   "end": 822.3,
+   "text": "Hold that thought. Um...",
+   "speaker": "S02"
+  },
+  {
+   "start": 822.3,
+   "end": 822.54,
+   "text": "Yes.",
+   "speaker": "S02"
+  },
+  {
+   "start": 822.78,
+   "end": 824.18,
+   "text": "Eric, what the hell are you doing? Get up.",
+   "speaker": "S04"
+  },
+  {
+   "start": 824.44,
+   "end": 825.36,
+   "text": "I'm meditating.",
+   "speaker": "S02"
+  },
+  {
+   "start": 825.82,
+   "end": 826.44,
+   "text": "Are you serious?",
+   "speaker": "S04"
+  },
+  {
+   "start": 826.78,
+   "end": 827.04,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 827.18,
+   "end": 828.32,
+   "text": "I thought only women did that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 828.52,
+   "end": 829.58,
+   "text": "I'm doing a boy style.",
+   "speaker": "S02"
+  },
+  {
+   "start": 829.9,
+   "end": 832.12,
+   "text": "This is my warrior stance.",
+   "speaker": "S02"
+  },
+  {
+   "start": 832.42,
+   "end": 833.28,
+   "text": "So you're meditating?",
+   "speaker": "S04"
+  },
+  {
+   "start": 833.54,
+   "end": 833.7,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 834.06,
+   "end": 834.74,
+   "text": "And what does that do?",
+   "speaker": "S04"
+  },
+  {
+   "start": 834.9,
+   "end": 836.84,
+   "text": "It relaxes me. It calms me.",
+   "speaker": "S02"
+  },
+  {
+   "start": 837.0,
+   "end": 837.78,
+   "text": "Well, that's stupid.",
+   "speaker": "S04"
+  },
+  {
+   "start": 837.78,
+   "end": 839.64,
+   "text": "You should try it. It might work for you.",
+   "speaker": "S02"
+  },
+  {
+   "start": 839.88,
+   "end": 841.5,
+   "text": "I don't think meditation is going to work for me.",
+   "speaker": "S04"
+  },
+  {
+   "start": 841.66,
+   "end": 844.32,
+   "text": "You know, I have different ways of relaxing myself.",
+   "speaker": "S04"
+  },
+  {
+   "start": 845.1,
+   "end": 845.3,
+   "text": "Bleh.",
+   "speaker": "S04"
+  },
+  {
+   "start": 847.52,
+   "end": 848.6,
+   "text": "You want to give this a shot?",
+   "speaker": "S02"
+  },
+  {
+   "start": 848.76,
+   "end": 851.28,
+   "text": "I don't know, Eric. I don't think I could sit like that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 851.38,
+   "end": 853.34,
+   "text": "You know, I mean, I have really thick legs.",
+   "speaker": "S04"
+  },
+  {
+   "start": 853.84,
+   "end": 854.72,
+   "text": "Sit like I'm sitting.",
+   "speaker": "S02"
+  },
+  {
+   "start": 855.2,
+   "end": 856.02,
+   "text": "I'm not going to do that.",
+   "speaker": "S04"
+  },
+  {
+   "start": 856.3,
+   "end": 857.48,
+   "text": "Give it a shot. You just...",
+   "speaker": "S02"
+  },
+  {
+   "start": 857.48,
+   "end": 858.76,
+   "text": "All right, I'll give it a shot.",
+   "speaker": "S04"
+  },
+  {
+   "start": 858.96,
+   "end": 861.5,
+   "text": "Sit like I'm sitting and take a deep breath in.",
+   "speaker": "S02"
+  },
+  {
+   "start": 862.92,
+   "end": 864.78,
+   "text": "And just letting it out go...",
+   "speaker": "S02"
+  },
+  {
+   "start": 864.78,
+   "end": 868.02,
+   "text": "Oh, oh.",
+   "speaker": "S39"
+  },
+  {
+   "start": 870.36,
+   "end": 870.76,
+   "text": "Whoops.",
+   "speaker": "S39"
+  },
+  {
+   "start": 872.36,
+   "end": 874.94,
+   "text": "Dad, how much longer do you think Coach McGurk",
+   "speaker": "S05"
+  },
+  {
+   "start": 874.94,
+   "end": 875.98,
+   "text": "is going to live with us?",
+   "speaker": "S05"
+  },
+  {
+   "start": 876.12,
+   "end": 878.4,
+   "text": "Well, you know, it's only been four hours, Melissa.",
+   "speaker": "S02"
+  },
+  {
+   "start": 878.52,
+   "end": 880.24,
+   "text": "I think we've got to give him at least a day.",
+   "speaker": "S02"
+  },
+  {
+   "start": 880.62,
+   "end": 881.9,
+   "text": "Hey, Eric, where's a plunger?",
+   "speaker": "S04"
+  },
+  {
+   "start": 882.24,
+   "end": 883.02,
+   "text": "Oh, no.",
+   "speaker": "S05"
+  },
+  {
+   "start": 883.96,
+   "end": 885.52,
+   "text": "This thing is messed up.",
+   "speaker": "S04"
+  },
+  {
+   "start": 885.86,
+   "end": 886.96,
+   "text": "Is he in my car?",
+   "speaker": "S02"
+  },
+  {
+   "start": 891.64,
+   "end": 898.04,
+   "text": "So I would like to watch the tape, and I welcome your feedback to a point.",
+   "speaker": "S06"
+  },
+  {
+   "start": 898.34,
+   "end": 901.8,
+   "text": "Don't overdo it, because I'm sensitive about my work.",
+   "speaker": "S06"
+  },
+  {
+   "start": 901.96,
+   "end": 908.0,
+   "text": "Just as I'm sure you wouldn't want me making fun of your sweater or your haircut over there.",
+   "speaker": "S06"
+  },
+  {
+   "start": 908.58,
+   "end": 909.1,
+   "text": "Brendan.",
+   "speaker": "S06"
+  },
+  {
+   "start": 909.24,
+   "end": 909.72,
+   "text": "Or your lisp.",
+   "speaker": "S06"
+  },
+  {
+   "start": 910.3,
+   "end": 910.52,
+   "text": "Okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 910.78,
+   "end": 911.06,
+   "text": "Brendan.",
+   "speaker": "S06"
+  },
+  {
+   "start": 912.94,
+   "end": 915.1,
+   "text": "Well, I'm about to put it on.",
+   "speaker": "S08"
+  },
+  {
+   "start": 915.36,
+   "end": 916.58,
+   "text": "Brendan, let's get on with the film.",
+   "speaker": "S08"
+  },
+  {
+   "start": 916.96,
+   "end": 917.82,
+   "text": "On with the film.",
+   "speaker": "S06"
+  },
+  {
+   "start": 918.88,
+   "end": 922.5,
+   "text": "Hi, I'm Spikey McMarbles, and this is my nose.",
+   "speaker": "S06"
+  },
+  {
+   "start": 922.76,
+   "end": 925.9,
+   "text": "And when I'm feeling lucky, I use it like a hose.",
+   "speaker": "S06"
+  },
+  {
+   "start": 926.36,
+   "end": 927.62,
+   "text": "Spikey, that's not right.",
+   "speaker": "S05"
+  },
+  {
+   "start": 927.92,
+   "end": 930.04,
+   "text": "Don't stick marbles where there is no light.",
+   "speaker": "S05"
+  },
+  {
+   "start": 930.56,
+   "end": 932.72,
+   "text": "Spikey, I'm Dr. Teachum.",
+   "speaker": "S22"
+  },
+  {
+   "start": 932.84,
+   "end": 936.32,
+   "text": "I'm going to have to operate to get the marbles out of your nose.",
+   "speaker": "S22"
+  },
+  {
+   "start": 936.7,
+   "end": 940.44,
+   "text": "Dr. Teachum, is Spikey stupid because he puts marbles up his nose?",
+   "speaker": "S05"
+  },
+  {
+   "start": 940.68,
+   "end": 941.16,
+   "text": "Yes.",
+   "speaker": "S05"
+  },
+  {
+   "start": 941.8,
+   "end": 942.28,
+   "text": "No.",
+   "speaker": "S05"
+  },
+  {
+   "start": 942.64,
+   "end": 944.98,
+   "text": "He just hasn't learned not to do it,",
+   "speaker": "S22"
+  },
+  {
+   "start": 944.98,
+   "end": 946.92,
+   "text": "But he might be a little stupid too.",
+   "speaker": "S22"
+  },
+  {
+   "start": 947.3,
+   "end": 949.38,
+   "text": "Spikey, why do you put marbles in your nose?",
+   "speaker": "S05"
+  },
+  {
+   "start": 949.82,
+   "end": 952.64,
+   "text": "Because I can't hold them between my toes!",
+   "speaker": "S06"
+  },
+  {
+   "start": 953.74,
+   "end": 955.98,
+   "text": "Spikey, you should keep marbles in this pouch.",
+   "speaker": "S05"
+  },
+  {
+   "start": 956.5,
+   "end": 958.96,
+   "text": "I'll stuff that bag right in my mouth!",
+   "speaker": "S38"
+  },
+  {
+   "start": 959.5,
+   "end": 960.02,
+   "text": "Ow!",
+   "speaker": "S38"
+  },
+  {
+   "start": 960.94,
+   "end": 961.38,
+   "text": "Ow!",
+   "speaker": "S38"
+  },
+  {
+   "start": 963.28,
+   "end": 966.28,
+   "text": "Hey kids, take it from me, Spikey McMarbles.",
+   "speaker": "S06"
+  },
+  {
+   "start": 966.52,
+   "end": 967.88,
+   "text": "Don't stick marbles in your nose.",
+   "speaker": "S06"
+  },
+  {
+   "start": 968.32,
+   "end": 969.26,
+   "text": "Bye for now.",
+   "speaker": "S06"
+  },
+  {
+   "start": 969.5,
+   "end": 970.04,
+   "text": "Bye kids.",
+   "speaker": "S06"
+  },
+  {
+   "start": 970.22,
+   "end": 970.4,
+   "text": "Bye.",
+   "speaker": "S06"
+  },
+  {
+   "start": 970.94,
+   "end": 971.08,
+   "text": "Bye.",
+   "speaker": "S06"
+  },
+  {
+   "start": 971.4,
+   "end": 971.62,
+   "text": "Bye.",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 972.86,
+   "end": 975.06,
+   "text": "Brendan, this has got to be the worst movie we've ever.",
+   "sus": true,
+   "speaker": "S22"
+  },
+  {
+   "start": 975.34,
+   "end": 977.08,
+   "text": "Don't put marbles in your nose.",
+   "sus": true,
+   "speaker": "S39"
+  },
+  {
+   "start": 977.16,
+   "end": 977.98,
+   "text": "Put them in there.",
+   "sus": true,
+   "speaker": "S38"
+  },
+  {
+   "start": 978.14,
+   "end": 979.44,
+   "text": "Do not put them in there.",
+   "sus": true,
+   "speaker": "S38"
+  },
+  {
+   "start": 979.54,
+   "end": 981.12,
+   "text": "Don't put marbles in your nose.",
+   "sus": true,
+   "speaker": "S08"
+  },
+  {
+   "start": 981.22,
+   "end": 982.02,
+   "text": "Put them in there.",
+   "sus": true,
+   "speaker": "S38"
+  },
+  {
+   "start": 982.16,
+   "end": 983.46,
+   "text": "Do not put them in there.",
+   "sus": true,
+   "speaker": "S38"
+  },
+  {
+   "start": 983.5,
+   "end": 985.04,
+   "text": "Don't put marbles in your nose.",
+   "sus": true,
+   "speaker": "S39"
+  },
+  {
+   "start": 985.18,
+   "end": 985.96,
+   "text": "Put them in there.",
+   "sus": true,
+   "speaker": "S38"
+  },
+  {
+   "start": 986.14,
+   "end": 986.9,
+   "text": "Do not put them in there.",
+   "sus": true,
+   "speaker": "S38"
+  },
+  {
+   "start": 987.18,
+   "end": 992.78,
+   "text": "So tell me, at what point did you get the urge to stick marbles into your nose?",
+   "sus": true,
+   "speaker": "S06"
+  },
+  {
+   "start": 993.18,
+   "end": 994.82,
+   "text": "When Spikey told me not to.",
+   "sus": true,
+   "speaker": "S05"
+  },
+  {
+   "start": 1009.38,
+   "end": 1010.56,
+   "text": "Brendan, I'm sorry.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1010.84,
+   "end": 1015.84,
+   "text": "I know you were counting on me and stuff, but I had to find out for myself.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1016.12,
+   "end": 1017.48,
+   "text": "And I'll tell you something.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1017.76,
+   "end": 1018.48,
+   "text": "It was great.",
+   "speaker": "S22"
+  },
+  {
+   "start": 1024.82,
+   "end": 1027.36,
+   "text": "Don't put marbles in your nose. Put them in there.",
+   "speaker": "S38"
+  },
+  {
+   "start": 1027.54,
+   "end": 1028.88,
+   "text": "Do not put them in there.",
+   "speaker": "S38"
+  },
+  {
+   "start": 1029.34,
+   "end": 1030.96,
+   "text": "Don't put marbles in your nose.",
+   "speaker": "S39"
+  },
+  {
+   "start": 1033.02,
+   "end": 1035.04,
+   "text": "Eric, I'm dying up here. It's like a sauna.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1035.3,
+   "end": 1036.42,
+   "text": "I can't live like this.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1036.88,
+   "end": 1038.78,
+   "text": "You know, it's small, but it's also...",
+   "speaker": "S02"
+  },
+  {
+   "start": 1038.78,
+   "end": 1039.2,
+   "text": "Crappy.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1039.4,
+   "end": 1040.7,
+   "text": "I was going to say cozy, but...",
+   "speaker": "S02"
+  },
+  {
+   "start": 1040.7,
+   "end": 1042.24,
+   "text": "There's no pool, there's no women.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1042.64,
+   "end": 1043.86,
+   "text": "I'm sweating like a pig.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1044.2,
+   "end": 1045.02,
+   "text": "It's a fixer-upper.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1045.18,
+   "end": 1046.14,
+   "text": "It's a piece of crapper.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1046.46,
+   "end": 1047.8,
+   "text": "Hey, let's check out some more places.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1047.92,
+   "end": 1048.16,
+   "text": "All right?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1051.2,
+   "end": 1053.06,
+   "text": "You know, this place is not that bad.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1053.06,
+   "end": 1059.28,
+   "text": "a little paint a little more paint paint the windows yeah eric you know it could look like",
+   "speaker": "S02"
+  },
+  {
+   "start": 1059.28,
+   "end": 1066.64,
+   "text": "it was just painted eric yeah why are you laughing i don't know i guess it's a bad sign when when",
+   "speaker": "S02"
+  },
+  {
+   "start": 1066.64,
+   "end": 1075.12,
+   "text": "your realtor's laughing yeah wow this is nice well i told you we would find something this is actually",
+   "speaker": "S04"
+  },
+  {
+   "start": 1075.12,
+   "end": 1081.22,
+   "text": "very nice what what did they say was wrong with it a small kitchen fire so it needs a little work",
+   "speaker": "S04"
+  },
+  {
+   "start": 1081.22,
+   "end": 1086.88,
+   "text": "I'm guessing probably some some new wallpaper. It's really quite nice. Wow",
+   "speaker": "S02"
+  },
+  {
+   "start": 1086.88,
+   "end": 1092.24,
+   "text": "Eric, do you check these places out before you bring I don't want to do your job for you",
+   "speaker": "S04"
+  },
+  {
+   "start": 1092.24,
+   "end": 1095.84,
+   "text": "But this is not one you want to bring people around to anymore. Yeah",
+   "speaker": "S04"
+  },
+  {
+   "start": 1099.68,
+   "end": 1103.62,
+   "text": "Don't see the educational value in the film Brendan. I'm wait wait you don't see the",
+   "speaker": "S08"
+  },
+  {
+   "start": 1104.52,
+   "end": 1110.44,
+   "text": "You don't see the educational value and then this I know I don't I'm sorry. There's no extra credit on this",
+   "speaker": "S08"
+  },
+  {
+   "start": 1110.44,
+   "end": 1116.34,
+   "text": "I'm sorry, but what about all the work I did the video did not teach kids not to put marbles in their noses",
+   "speaker": "S08"
+  },
+  {
+   "start": 1116.34,
+   "end": 1121.88,
+   "text": "Brendan and in fact I spent the rest of the day pulling marbles out of their noses if you remember",
+   "speaker": "S08"
+  },
+  {
+   "start": 1121.88,
+   "end": 1124.78,
+   "text": "Do you know what that is like? Maybe they had get my hands",
+   "speaker": "S08"
+  },
+  {
+   "start": 1124.78,
+   "end": 1129.46,
+   "text": "Well, maybe they had them and look look Brendan if you want to make a truly good",
+   "speaker": "S08"
+  },
+  {
+   "start": 1129.98,
+   "end": 1136.2,
+   "text": "Educational film no no forget it what I don't know look what are you gonna do with all those marbles?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1136.48,
+   "end": 1140.32,
+   "text": "Probably you donate them somewhere. That's all I'm not going to put them on my nose",
+   "speaker": "S08"
+  },
+  {
+   "start": 1140.44,
+   "end": 1141.22,
+   "text": "if that's what you're thinking.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1141.54,
+   "end": 1142.36,
+   "text": "Is that what you're thinking?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1142.44,
+   "end": 1142.66,
+   "text": "Yes.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1142.82,
+   "end": 1143.9,
+   "text": "You're wrong. I'm not.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1144.06,
+   "end": 1145.46,
+   "text": "All right. You don't mind if I take him, then?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1145.64,
+   "end": 1146.12,
+   "text": "I'm just going to take him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1146.2,
+   "end": 1146.52,
+   "text": "Just take him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1146.54,
+   "end": 1147.84,
+   "text": "All right, I will. I will. I'll take him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1148.22,
+   "end": 1148.6,
+   "text": "Leave two.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1149.4,
+   "end": 1150.88,
+   "text": "Eric, I just want to say thanks again",
+   "speaker": "S04"
+  },
+  {
+   "start": 1150.88,
+   "end": 1153.26,
+   "text": "for getting my landlady to take me back, you know?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1153.34,
+   "end": 1154.46,
+   "text": "Well, you're more than welcome.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1154.48,
+   "end": 1156.46,
+   "text": "I'm sorry it was so much money.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1156.68,
+   "end": 1157.92,
+   "text": "Are you sure you can live with that?",
+   "speaker": "S02"
+  },
+  {
+   "start": 1158.04,
+   "end": 1160.02,
+   "text": "No, but it doesn't matter.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1160.08,
+   "end": 1161.18,
+   "text": "I'm not going to pay it anyway.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1161.56,
+   "end": 1163.92,
+   "text": "But that was fun when we were looking for houses together.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1164.16,
+   "end": 1165.24,
+   "text": "Yes, it was.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1165.54,
+   "end": 1165.84,
+   "text": "Yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1166.34,
+   "end": 1167.74,
+   "text": "Remember that condo we looked at?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1167.84,
+   "end": 1167.98,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1168.04,
+   "end": 1168.64,
+   "text": "With the pool.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1169.04,
+   "end": 1169.7,
+   "text": "That was fun.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1169.7,
+   "end": 1170.8,
+   "text": "I'm still laughing.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1171.02,
+   "end": 1171.18,
+   "text": "Yeah.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1172.32,
+   "end": 1173.94,
+   "text": "Well, I should get going now.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1174.06,
+   "end": 1177.12,
+   "text": "You know, you have a fun way of showing people houses.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1177.92,
+   "end": 1178.24,
+   "text": "Thanks.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1178.5,
+   "end": 1179.7,
+   "text": "Well, I should get going, John.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1180.06,
+   "end": 1180.38,
+   "text": "Yeah.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1180.82,
+   "end": 1181.86,
+   "text": "Well, I mean, I'll see you around.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1182.0,
+   "end": 1182.86,
+   "text": "I mean, I know where you live.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1183.02,
+   "end": 1183.32,
+   "text": "Sure.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1183.64,
+   "end": 1185.8,
+   "text": "The next time you want to try to buy a house again, let me know.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1186.16,
+   "end": 1186.48,
+   "text": "Okay.",
+   "speaker": "S02"
+  },
+  {
+   "start": 1186.56,
+   "end": 1187.24,
+   "text": "How about next week?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1187.36,
+   "end": 1187.92,
+   "text": "Sounds like fun.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1188.12,
+   "end": 1188.36,
+   "text": "Really?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1193.48,
+   "end": 1195.14,
+   "text": "You need some help there, McGirt?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1195.14,
+   "end": 1196.04,
+   "text": "I can do it, Lynch.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1196.48,
+   "end": 1198.22,
+   "text": "Is that another mortgage application?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1198.22,
+   "end": 1200.68,
+   "text": "Yeah, I'm thinking about buying a couple more houses.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1201.1,
+   "end": 1202.5,
+   "text": "Oh, great. The market's good, huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1202.8,
+   "end": 1206.24,
+   "text": "Oh, yeah. In fact, the market's so good, I was thinking of buying the market.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1206.56,
+   "end": 1208.26,
+   "text": "You're being sarcastic there, aren't you?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1208.44,
+   "end": 1208.7,
+   "text": "No.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1209.38,
+   "end": 1210.58,
+   "text": "Wait a minute. That was sarcastic.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1210.58,
+   "end": 1211.38,
+   "text": "It's a copy of a lease.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1211.64,
+   "end": 1213.48,
+   "text": "Oh, so you decided not to buy?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1213.68,
+   "end": 1216.7,
+   "text": "Yeah, that's it. I decided not to buy.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1217.04,
+   "end": 1218.6,
+   "text": "You couldn't find anything you liked, I guess, huh?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1218.72,
+   "end": 1218.82,
+   "text": "Yeah.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1219.36,
+   "end": 1220.98,
+   "text": "Wrong way, McGurk. Let me have it.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1221.12,
+   "end": 1223.48,
+   "text": "Flip it around like this. All right.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1224.1,
+   "end": 1227.46,
+   "text": "Wow, expensive rent. Where are you moving to?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1228.04,
+   "end": 1229.06,
+   "text": "Actually, I'm not moving.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1229.34,
+   "end": 1230.48,
+   "text": "This is my old place.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1230.72,
+   "end": 1232.9,
+   "text": "My landlady raised the rent a bit, you know?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1233.1,
+   "end": 1233.7,
+   "text": "That's too bad.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1234.08,
+   "end": 1234.72,
+   "text": "Well, tripled it.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1235.1,
+   "end": 1238.44,
+   "text": "You know there are laws that say you can only raise the rent by a certain percentage?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1238.62,
+   "end": 1239.3,
+   "text": "So what's your point?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1239.52,
+   "end": 1242.06,
+   "text": "My point is that maybe you can use the law to your advantage?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1242.34,
+   "end": 1242.94,
+   "text": "Oh, please.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1243.74,
+   "end": 1244.64,
+   "text": "What's that, a marble?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1245.12,
+   "end": 1246.32,
+   "text": "Uh, no.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1246.54,
+   "end": 1247.84,
+   "text": "It's for, um...",
+   "speaker": "S08"
+  },
+  {
+   "start": 1247.84,
+   "end": 1248.16,
+   "text": "Wow.",
+   "speaker": "S08"
+  },
+  {
+   "start": 1248.54,
+   "end": 1249.98,
+   "text": "How did that get in my hand?",
+   "speaker": "S08"
+  },
+  {
+   "start": 1250.12,
+   "end": 1252.16,
+   "text": "Lynch, why are you carrying around marbles?",
+   "speaker": "S04"
+  },
+  {
+   "start": 1252.64,
+   "end": 1253.16,
+   "text": "Gotta go.",
+   "speaker": "S04"
+  },
+  {
+   "start": 1254.4,
+   "end": 1255.24,
+   "text": "See, Josie?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1255.38,
+   "end": 1256.36,
+   "text": "That's a hospital.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1256.36,
+   "end": 1262.94,
+   "text": "You were in a hospital. Remember hospital? Remember hospital? Can you say hospital? Can you say that?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1264.04,
+   "end": 1264.52,
+   "text": "Hospital!",
+   "speaker": "S06"
+  },
+  {
+   "start": 1265.48,
+   "end": 1269.18,
+   "text": "Brendan, maybe we should just watch the video, please.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1269.46,
+   "end": 1269.96,
+   "text": "Oh, okay.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1270.34,
+   "end": 1270.6,
+   "text": "Good.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1271.48,
+   "end": 1275.22,
+   "text": "Look, Mom, Mom, look. Look at Josie. She's learning, Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1275.5,
+   "end": 1276.32,
+   "text": "So am I, Brendan.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1276.58,
+   "end": 1276.92,
+   "text": "Oh.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1277.3,
+   "end": 1277.54,
+   "text": "Yeah.",
+   "speaker": "S23"
+  },
+  {
+   "start": 1278.68,
+   "end": 1283.1,
+   "text": "Um, Mom, can you say put a cork on the wine because I think you've had enough to drink?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1283.1,
+   "end": 1288.56,
+   "text": "Oh, can we say a glass of wine a day is very very good for you say lunatic",
+   "speaker": "S23"
+  },
+  {
+   "start": 1291.08,
+   "end": 1295.16,
+   "text": "Can you say ow bullseye?",
+   "speaker": "S23"
+  },
+  {
+   "start": 1313.1,
+   "end": 1315.04,
+   "text": "your nose",
+   "speaker": "S39"
+  },
+  {
+   "start": 1315.04,
+   "end": 1316.86,
+   "text": "and I'm on",
+   "speaker": "S39"
+  }
+ ],
+ "times": {
+  "transcribe_s": 73.8,
+  "speaker_id_s": 9.6
+ }
+}

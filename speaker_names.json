@@ -1,0 +1,49 @@
+{
+ "S06": "Brendan",
+ "S04": "Coach McGuirk",
+ "S12": "Paula",
+ "_meta": {
+  "S06": {
+   "auto": true,
+   "votes": 31,
+   "runner_up": [
+    "Brendan Small",
+    5
+   ]
+  },
+  "S04": {
+   "auto": true,
+   "votes": 5,
+   "runner_up": [
+    "Brendan",
+    1
+   ]
+  },
+  "S03": {
+   "auto": true,
+   "votes": 7,
+   "runner_up": [
+    "Brenda",
+    1
+   ],
+   "lost_collision_to": "S06"
+  },
+  "S12": {
+   "auto": true,
+   "votes": 5,
+   "runner_up": [
+    "Peter",
+    1
+   ]
+  },
+  "S22": {
+   "auto": true,
+   "votes": 6,
+   "runner_up": [
+    "Louis",
+    1
+   ],
+   "lost_collision_to": "S06"
+  }
+ }
+}

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Movies — transcript search</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #14161a; color: #e8e6e1; min-height: 100vh;
+  }
+  header {
+    padding: 28px 20px 18px; text-align: center; border-bottom: 1px solid #2a2d33;
+  }
+  h1 { margin: 0 0 4px; font-size: 22px; font-weight: 700; }
+  .sub { color: #8b8f98; font-size: 13px; }
+  .private-note {
+    display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 20px;
+    background: #262a31; color: #9aa0ab; font-size: 11px;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 80px; }
+  #search {
+    width: 100%; padding: 14px 16px; font-size: 16px; border-radius: 10px;
+    border: 1px solid #33373f; background: #1c1f24; color: #e8e6e1; outline: none;
+  }
+  #search:focus { border-color: #5a7fd6; }
+  .filters {
+    display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 4px;
+  }
+  .filters select {
+    background: #1c1f24; color: #cfd3da; border: 1px solid #33373f;
+    border-radius: 8px; padding: 6px 10px; font-size: 13px;
+  }
+  #status { color: #7d818a; font-size: 12px; margin: 10px 2px 14px; }
+  .result {
+    padding: 12px 14px; margin-bottom: 8px; background: #1a1d22; border: 1px solid #262930;
+    border-radius: 10px; cursor: pointer; transition: border-color .12s;
+  }
+  .result:hover { border-color: #454b56; }
+  .result .meta {
+    display: flex; justify-content: space-between; gap: 10px; font-size: 11px;
+    color: #7d818a; margin-bottom: 5px;
+  }
+  .result .ep { color: #9aa7c7; }
+  .result .speaker { font-weight: 600; color: #d7b98e; }
+  .result .text { font-size: 14.5px; line-height: 1.45; color: #e2e0da; }
+  .result mark { background: #4a3d1e; color: #ffd98a; padding: 0 2px; border-radius: 3px; }
+  #empty { text-align: center; color: #6b6f78; padding: 40px 0; font-size: 14px; }
+  .name-panel {
+    margin-top: 20px; padding: 14px; background: #1a1d22; border: 1px solid #262930;
+    border-radius: 10px; font-size: 12px; color: #9aa0ab;
+  }
+  .name-panel summary { cursor: pointer; color: #cfd3da; font-size: 13px; }
+  .voice-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; }
+  .voice-row .vid { width: 34px; color: #7d818a; font-variant-numeric: tabular-nums; }
+  .voice-row input {
+    flex: 1; background: #14161a; border: 1px solid #33373f; border-radius: 6px;
+    color: #e8e6e1; padding: 5px 8px; font-size: 12.5px;
+  }
+  .voice-row .stats { width: 90px; color: #5c6067; font-size: 10.5px; text-align: right; }
+  #modal {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,.75);
+    align-items: center; justify-content: center; z-index: 10; padding: 20px;
+  }
+  #modal.open { display: flex; }
+  #modal .box {
+    background: #1a1d22; border: 1px solid #33373f; border-radius: 12px;
+    padding: 16px; width: 100%; max-width: 560px;
+  }
+  #modal iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 8px; }
+  #modal .box h3 { margin: 10px 0 2px; font-size: 15px; }
+  #modal .box .yt-link { font-size: 12px; color: #7fa3ff; text-decoration: none; }
+  #modal .close {
+    float: right; background: none; border: none; color: #9aa0ab; font-size: 20px;
+    cursor: pointer; line-height: 1;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Home Movies — full series search</h1>
+  <div class="sub">Private local transcript search, built with Whisper</div>
+  <div class="private-note">local only · not hosted or shared</div>
+</header>
+<main>
+  <input id="search" type="text" placeholder="Search dialogue…" autocomplete="off">
+  <div class="filters">
+    <select id="epFilter"><option value="">All episodes</option></select>
+    <select id="speakerFilter"><option value="">All voices</option></select>
+  </div>
+  <div id="status"></div>
+  <div id="results"></div>
+  <div id="empty" style="display:none">No matches yet — keep typing, or the batch may still be transcribing.</div>
+
+  <details class="name-panel">
+    <summary>Voice bank — label who's who (saved in your browser)</summary>
+    <div id="voiceList" style="margin-top:10px"></div>
+  </details>
+</main>
+
+<div id="modal">
+  <div class="box">
+    <button class="close" onclick="closeModal()">✕</button>
+    <div id="modalFrame"></div>
+    <h3 id="modalTitle"></h3>
+    <a id="modalLink" class="yt-link" target="_blank" rel="noopener">Open on YouTube ↗</a>
+  </div>
+</div>
+
+<script>
+let DATA = null;
+const LS_KEY = "hm_voice_names";
+
+function loadOverrides() {
+  try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}"); } catch { return {}; }
+}
+function saveOverrides(o) { localStorage.setItem(LS_KEY, JSON.stringify(o)); }
+
+function displayName(sid) {
+  const overrides = loadOverrides();
+  if (overrides[sid]) return overrides[sid];
+  const v = DATA.voices[sid];
+  return (v && v.name) ? v.name : sid;
+}
+
+function fmtTime(sec) {
+  sec = Math.floor(sec);
+  const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
+  return h > 0
+    ? `${h}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`
+    : `${m}:${String(s).padStart(2,"0")}`;
+}
+
+function epByIdx(idx) { return DATA.episodes.find(e => e.idx === idx); }
+
+function populateFilters() {
+  const epSel = document.getElementById("epFilter");
+  DATA.episodes.forEach(e => {
+    const o = document.createElement("option");
+    o.value = e.idx;
+    o.textContent = `${e.code} — ${e.title}`;
+    epSel.appendChild(o);
+  });
+  const spSel = document.getElementById("speakerFilter");
+  const ids = Object.keys(DATA.voices).sort((a,b) => (DATA.voices[b].n||0) - (DATA.voices[a].n||0));
+  ids.forEach(sid => {
+    const o = document.createElement("option");
+    o.value = sid;
+    o.textContent = displayName(sid);
+    spSel.appendChild(o);
+  });
+}
+
+function renderVoicePanel() {
+  const overrides = loadOverrides();
+  const box = document.getElementById("voiceList");
+  box.innerHTML = "";
+  const ids = Object.keys(DATA.voices).sort((a,b) => (DATA.voices[b].n||0) - (DATA.voices[a].n||0));
+  ids.forEach(sid => {
+    const v = DATA.voices[sid];
+    const row = document.createElement("div");
+    row.className = "voice-row";
+    row.innerHTML = `
+      <span class="vid">${sid}</span>
+      <input value="${(overrides[sid] || v.name || "").replace(/"/g,'&quot;')}" placeholder="unnamed voice" data-sid="${sid}">
+      <span class="stats">${v.n||0} lines · ${v.eps||0} ep</span>`;
+    box.appendChild(row);
+  });
+  box.querySelectorAll("input").forEach(inp => {
+    inp.addEventListener("change", () => {
+      const o = loadOverrides();
+      if (inp.value.trim()) o[inp.dataset.sid] = inp.value.trim();
+      else delete o[inp.dataset.sid];
+      saveOverrides(o);
+      populateFilters();
+      runSearch();
+    });
+  });
+}
+
+function highlight(text, q) {
+  if (!q) return text;
+  const idx = text.toLowerCase().indexOf(q.toLowerCase());
+  if (idx === -1) return text;
+  return text.slice(0, idx) + "<mark>" + text.slice(idx, idx + q.length) + "</mark>" + text.slice(idx + q.length);
+}
+
+function runSearch() {
+  const q = document.getElementById("search").value.trim();
+  const epFilter = document.getElementById("epFilter").value;
+  const spFilter = document.getElementById("speakerFilter").value;
+  const results = document.getElementById("results");
+  const status = document.getElementById("status");
+  const empty = document.getElementById("empty");
+  results.innerHTML = "";
+
+  if (!q && !epFilter && !spFilter) {
+    status.textContent = `${DATA.lines.length.toLocaleString()} lines across ${DATA.episodes.length} episodes indexed.`;
+    empty.style.display = "none";
+    return;
+  }
+
+  const ql = q.toLowerCase();
+  let matches = DATA.lines.filter(([idx, t, sid, text]) => {
+    if (epFilter && String(idx) !== epFilter) return false;
+    if (spFilter && sid !== spFilter) return false;
+    if (q && !text.toLowerCase().includes(ql)) return false;
+    return true;
+  });
+
+  status.textContent = `${matches.length.toLocaleString()} match${matches.length===1?"":"es"}`;
+  empty.style.display = matches.length ? "none" : "block";
+  matches = matches.slice(0, 300);
+
+  matches.forEach(([idx, t, sid, text]) => {
+    const ep = epByIdx(idx);
+    const div = document.createElement("div");
+    div.className = "result";
+    div.innerHTML = `
+      <div class="meta">
+        <span class="ep">${ep ? ep.code + " — " + ep.title : "ep " + idx} · ${fmtTime(t)}</span>
+        <span class="speaker">${displayName(sid)}</span>
+      </div>
+      <div class="text">${highlight(text, q)}</div>`;
+    div.addEventListener("click", () => openModal(ep, t));
+    results.appendChild(div);
+  });
+}
+
+function openModal(ep, t) {
+  if (!ep) return;
+  const ytSeconds = Math.floor(ep.yt_start + t);
+  document.getElementById("modalTitle").textContent = `${ep.code} — ${ep.title}`;
+  document.getElementById("modalLink").href = `https://www.youtube.com/watch?v=${DATA.video}&t=${ytSeconds}s`;
+  document.getElementById("modalFrame").innerHTML =
+    `<iframe src="https://www.youtube.com/embed/${DATA.video}?start=${ytSeconds}&autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+  document.getElementById("modal").classList.add("open");
+}
+function closeModal() {
+  document.getElementById("modal").classList.remove("open");
+  document.getElementById("modalFrame").innerHTML = "";
+}
+document.getElementById("modal").addEventListener("click", e => {
+  if (e.target.id === "modal") closeModal();
+});
+
+async function init() {
+  const status = document.getElementById("status");
+  status.textContent = "Loading transcripts…";
+  const res = await fetch("data.json");
+  DATA = await res.json();
+  populateFilters();
+  renderVoicePanel();
+  runSearch();
+  document.getElementById("search").addEventListener("input", runSearch);
+  document.getElementById("epFilter").addEventListener("change", runSearch);
+  document.getElementById("speakerFilter").addEventListener("change", runSearch);
+}
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,3629 @@
+{
+ "idx": 4,
+ "code": "S1E4",
+ "title": "Brendon gets Rabies",
+ "season": 1,
+ "episode": 4,
+ "video_url": "https://www.youtube.com/watch?v=f80lFKuG8ms",
+ "yt_start": 4028.0,
+ "duration": 1331.0,
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "speakers": [
+  "S01",
+  "S03",
+  "S05",
+  "S06",
+  "S11",
+  "S12",
+  "S13",
+  "S14"
+ ],
+ "clusters": {
+  "0": {
+   "speaker": "S11",
+   "how": "new",
+   "n_segs": 21,
+   "sim": 0.311
+  },
+  "1": {
+   "speaker": "S06",
+   "how": "match",
+   "n_segs": 212,
+   "sim": 0.932
+  },
+  "2": {
+   "speaker": "S12",
+   "how": "new",
+   "n_segs": 15,
+   "sim": 0.345
+  },
+  "3": {
+   "speaker": "S03",
+   "how": "match",
+   "n_segs": 13,
+   "sim": 0.602
+  },
+  "4": {
+   "speaker": "S01",
+   "how": "match",
+   "n_segs": 131,
+   "sim": 0.919
+  },
+  "5": {
+   "speaker": "S05",
+   "how": "match",
+   "n_segs": 71,
+   "sim": 0.894
+  },
+  "6": {
+   "speaker": "S03",
+   "how": "match",
+   "n_segs": 13,
+   "sim": 0.714
+  },
+  "7": {
+   "speaker": "S13",
+   "how": "new",
+   "n_segs": 6,
+   "sim": 0.447
+  },
+  "8": {
+   "speaker": "S14",
+   "how": "new",
+   "n_segs": 8,
+   "sim": 0.084
+  }
+ },
+ "segments": [
+  {
+   "start": 11.78,
+   "end": 13.46,
+   "text": "It smells really good.",
+   "speaker": "S03"
+  },
+  {
+   "start": 13.56,
+   "end": 15.72,
+   "text": "It smells, this is what nature smells like, Melissa.",
+   "speaker": "S06"
+  },
+  {
+   "start": 16.08,
+   "end": 17.24,
+   "text": "This doesn't smell like nature.",
+   "speaker": "S05"
+  },
+  {
+   "start": 17.36,
+   "end": 20.58,
+   "text": "This is what nature smells like in a very small room with lots of nature.",
+   "speaker": "S06"
+  },
+  {
+   "start": 20.74,
+   "end": 21.96,
+   "text": "Oh, there's the dog.",
+   "speaker": "S05"
+  },
+  {
+   "start": 22.06,
+   "end": 23.18,
+   "text": "Come here, boy. Come here.",
+   "speaker": "S06"
+  },
+  {
+   "start": 24.38,
+   "end": 26.08,
+   "text": "Come here, boy. Come here.",
+   "speaker": "S06"
+  },
+  {
+   "start": 26.18,
+   "end": 27.24,
+   "text": "Don't tap on the glass.",
+   "speaker": "S05"
+  },
+  {
+   "start": 27.46,
+   "end": 28.02,
+   "text": "I'm not tapping.",
+   "speaker": "S05"
+  },
+  {
+   "start": 28.56,
+   "end": 29.9,
+   "text": "Look at him. He's so happy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 30.0,
+   "end": 31.74,
+   "text": "Are you gonna be able to get a dog?",
+   "speaker": "S05"
+  },
+  {
+   "start": 32.12,
+   "end": 33.0,
+   "text": "I'm working on it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 33.14,
+   "end": 35.12,
+   "text": "Brendan, do you even know how to take care of a dog?",
+   "speaker": "S05"
+  },
+  {
+   "start": 35.56,
+   "end": 35.86,
+   "text": "Yes.",
+   "speaker": "S05"
+  },
+  {
+   "start": 36.72,
+   "end": 37.66,
+   "text": "It's not easy.",
+   "speaker": "S05"
+  },
+  {
+   "start": 38.06,
+   "end": 39.02,
+   "text": "I don't know. It's how...",
+   "speaker": "S06"
+  },
+  {
+   "start": 39.02,
+   "end": 40.34,
+   "text": "Shut up, you birds!",
+   "speaker": "S03"
+  },
+  {
+   "start": 40.96,
+   "end": 42.24,
+   "text": "I would never get a bird.",
+   "speaker": "S06"
+  },
+  {
+   "start": 42.46,
+   "end": 44.2,
+   "text": "I don't like birds much at all.",
+   "speaker": "S05"
+  },
+  {
+   "start": 44.4,
+   "end": 45.88,
+   "text": "They just do...they do nothing for me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 45.98,
+   "end": 46.88,
+   "text": "What do you think of ferrets?",
+   "speaker": "S05"
+  },
+  {
+   "start": 47.2,
+   "end": 50.28,
+   "text": "Ferrets are great because if you lose something in a small tube,",
+   "speaker": "S06"
+  },
+  {
+   "start": 50.52,
+   "end": 54.0,
+   "text": "you can put them down there and I guess they would get it out for you.",
+   "speaker": "S06"
+  },
+  {
+   "start": 54.16,
+   "end": 55.24,
+   "text": "That's something I hadn't thought of.",
+   "speaker": "S05"
+  },
+  {
+   "start": 55.24,
+   "end": 56.66,
+   "text": "I don't know how helpful they are, though.",
+   "speaker": "S06"
+  },
+  {
+   "start": 56.8,
+   "end": 58.62,
+   "text": "The best thing in the store is the dog.",
+   "speaker": "S06"
+  },
+  {
+   "start": 58.82,
+   "end": 59.22,
+   "text": "Definitely.",
+   "speaker": "S06"
+  },
+  {
+   "start": 59.54,
+   "end": 61.14,
+   "text": "That's the cutest dog I ever saw.",
+   "speaker": "S05"
+  },
+  {
+   "start": 61.26,
+   "end": 62.34,
+   "text": "Hey, you guys want to pet the puppy?",
+   "speaker": "S14"
+  },
+  {
+   "start": 62.64,
+   "end": 63.12,
+   "text": "Can we?",
+   "speaker": "S14"
+  },
+  {
+   "start": 63.5,
+   "end": 64.84,
+   "text": "No. I'm just kidding.",
+   "speaker": "S14"
+  },
+  {
+   "start": 65.24,
+   "end": 66.44,
+   "text": "Peter, get the puppy out of the pen, please.",
+   "speaker": "S14"
+  },
+  {
+   "start": 66.68,
+   "end": 67.88,
+   "text": "Peter, the kids want to pet the puppy.",
+   "speaker": "S14"
+  },
+  {
+   "start": 68.0,
+   "end": 70.68,
+   "text": "Can I hold the puppy? I hold the puppy and Brendan, pet the puppy.",
+   "speaker": "S05"
+  },
+  {
+   "start": 70.7,
+   "end": 72.78,
+   "text": "I'll pet if you hold and you hold and I'll pet and we'll hold the puppy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 72.96,
+   "end": 73.42,
+   "text": "And then we'll switch.",
+   "speaker": "S06"
+  },
+  {
+   "start": 74.06,
+   "end": 74.2,
+   "text": "What?",
+   "speaker": "S06"
+  },
+  {
+   "start": 74.64,
+   "end": 76.0,
+   "text": "Brendan, want to go first?",
+   "speaker": "S14"
+  },
+  {
+   "start": 76.28,
+   "end": 76.9,
+   "text": "Hello, guys.",
+   "speaker": "S03"
+  },
+  {
+   "start": 77.84,
+   "end": 78.3,
+   "text": "Oh, oh, oh.",
+   "speaker": "S03"
+  },
+  {
+   "start": 78.9,
+   "end": 79.7,
+   "text": "Can I have it back, please?",
+   "speaker": "S06"
+  },
+  {
+   "start": 79.86,
+   "end": 80.08,
+   "text": "Melissa?",
+   "speaker": "S06"
+  },
+  {
+   "start": 80.46,
+   "end": 81.62,
+   "text": "Whoa, whoa, whoa, whoa, whoa, where are you going?",
+   "speaker": "S06"
+  },
+  {
+   "start": 81.8,
+   "end": 82.68,
+   "text": "He's so cute.",
+   "speaker": "S05"
+  },
+  {
+   "start": 83.16,
+   "end": 85.66,
+   "text": "I didn't get her a chance to really pet it that much.",
+   "speaker": "S06"
+  },
+  {
+   "start": 85.92,
+   "end": 86.82,
+   "text": "He's so sweet.",
+   "speaker": "S05"
+  },
+  {
+   "start": 86.82,
+   "end": 88.44,
+   "text": "All right, time for the puppy to go to bed.",
+   "speaker": "S14"
+  },
+  {
+   "start": 88.62,
+   "end": 89.66,
+   "text": "Oh, he loves me.",
+   "speaker": "S05"
+  },
+  {
+   "start": 89.82,
+   "end": 90.82,
+   "text": "He loves me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 90.96,
+   "end": 91.08,
+   "text": "Please.",
+   "speaker": "S06"
+  },
+  {
+   "start": 91.3,
+   "end": 93.38,
+   "text": "He doesn't want me to let go of him.",
+   "speaker": "S05"
+  },
+  {
+   "start": 93.58,
+   "end": 94.54,
+   "text": "Peter, Peter, Peter.",
+   "speaker": "S13"
+  },
+  {
+   "start": 95.18,
+   "end": 96.46,
+   "text": "Oh, my God, Brendan.",
+   "speaker": "S05"
+  },
+  {
+   "start": 96.7,
+   "end": 98.08,
+   "text": "You've got to get that dog.",
+   "speaker": "S05"
+  },
+  {
+   "start": 98.48,
+   "end": 98.76,
+   "text": "Can I?",
+   "speaker": "S05"
+  },
+  {
+   "start": 98.84,
+   "end": 99.84,
+   "text": "Did he lick your neck?",
+   "speaker": "S05"
+  },
+  {
+   "start": 99.84,
+   "end": 100.92,
+   "text": "He licked me a little bit.",
+   "speaker": "S05"
+  },
+  {
+   "start": 101.04,
+   "end": 101.88,
+   "text": "It's so cute when he licks you.",
+   "speaker": "S05"
+  },
+  {
+   "start": 101.88,
+   "end": 103.72,
+   "text": "Well, I brushed up against him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 103.9,
+   "end": 105.68,
+   "text": "Did he rub his face on your cheek?",
+   "speaker": "S05"
+  },
+  {
+   "start": 105.7,
+   "end": 106.56,
+   "text": "It's so sweet.",
+   "speaker": "S05"
+  },
+  {
+   "start": 106.74,
+   "end": 107.94,
+   "text": "Hey, you guys want to see something really cool?",
+   "speaker": "S14"
+  },
+  {
+   "start": 108.12,
+   "end": 108.48,
+   "text": "What's that?",
+   "speaker": "S14"
+  },
+  {
+   "start": 108.84,
+   "end": 109.04,
+   "text": "What?",
+   "speaker": "S14"
+  },
+  {
+   "start": 109.1,
+   "end": 110.44,
+   "text": "You guys know about the ball constrictor?",
+   "speaker": "S14"
+  },
+  {
+   "start": 111.26,
+   "end": 112.54,
+   "text": "You're going to feed it a mouse?",
+   "speaker": "S06"
+  },
+  {
+   "start": 112.78,
+   "end": 112.92,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 113.2,
+   "end": 113.52,
+   "text": "Cool.",
+   "speaker": "S06"
+  },
+  {
+   "start": 113.82,
+   "end": 113.94,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 114.06,
+   "end": 114.8,
+   "text": "That's what they eat?",
+   "speaker": "S05"
+  },
+  {
+   "start": 114.86,
+   "end": 114.96,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 114.96,
+   "end": 116.86,
+   "text": "Yeah, hey, would you mind if I filmed that?",
+   "speaker": "S06"
+  },
+  {
+   "start": 117.74,
+   "end": 119.48,
+   "text": "I got a video camera. I can go get it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 119.56,
+   "end": 120.92,
+   "text": "Why would you want to film that?",
+   "speaker": "S05"
+  },
+  {
+   "start": 121.2,
+   "end": 123.5,
+   "text": "Because it's cool. It's nature. Have you ever seen those documentaries?",
+   "speaker": "S06"
+  },
+  {
+   "start": 123.76,
+   "end": 125.0,
+   "text": "It's really kind of disgusting.",
+   "speaker": "S05"
+  },
+  {
+   "start": 125.0,
+   "end": 126.04,
+   "text": "Oh my God, this is going to be great.",
+   "speaker": "S06"
+  },
+  {
+   "start": 126.22,
+   "end": 127.02,
+   "text": "What are we going to use this for?",
+   "speaker": "S05"
+  },
+  {
+   "start": 127.02,
+   "end": 129.88,
+   "text": "I see like a whole series of nature films, like in captivity.",
+   "speaker": "S06"
+  },
+  {
+   "start": 130.12,
+   "end": 131.58,
+   "text": "Of animals eating other animals?",
+   "speaker": "S05"
+  },
+  {
+   "start": 131.7,
+   "end": 134.34,
+   "text": "Yes, when animals eat other animals is what it'll be called.",
+   "speaker": "S06"
+  },
+  {
+   "start": 134.5,
+   "end": 139.32,
+   "text": "And it's about life and death and the struggle of animals and like how fragile the pet...",
+   "speaker": "S06"
+  },
+  {
+   "start": 139.32,
+   "end": 141.48,
+   "text": "Look at that dead black molly over there.",
+   "speaker": "S06"
+  },
+  {
+   "start": 141.94,
+   "end": 142.44,
+   "text": "You know what I'm saying?",
+   "speaker": "S06"
+  },
+  {
+   "start": 142.62,
+   "end": 142.94,
+   "text": "Oh, Peter.",
+   "speaker": "S06"
+  },
+  {
+   "start": 158.26,
+   "end": 159.5,
+   "text": "Have you met the cat?",
+   "speaker": "S12"
+  },
+  {
+   "start": 160.06,
+   "end": 161.74,
+   "text": "Well, no, I saw it through the window once.",
+   "speaker": "S01"
+  },
+  {
+   "start": 161.84,
+   "end": 162.94,
+   "text": "You saw it through the window.",
+   "speaker": "S12"
+  },
+  {
+   "start": 163.06,
+   "end": 164.76,
+   "text": "Yeah, but I understand that wasn't really meeting.",
+   "speaker": "S01"
+  },
+  {
+   "start": 164.9,
+   "end": 165.78,
+   "text": "Okay, I'm happy to meet the cat.",
+   "speaker": "S01"
+  },
+  {
+   "start": 165.96,
+   "end": 168.1,
+   "text": "Well, Alexandre, this is Paula.",
+   "speaker": "S12"
+  },
+  {
+   "start": 168.58,
+   "end": 169.38,
+   "text": "Let me ask you something.",
+   "speaker": "S01"
+  },
+  {
+   "start": 169.64,
+   "end": 171.88,
+   "text": "Is there something that's stopping you from saying the whole word?",
+   "speaker": "S01"
+  },
+  {
+   "start": 172.78,
+   "end": 173.1,
+   "text": "Alexandre?",
+   "speaker": "S01"
+  },
+  {
+   "start": 173.22,
+   "end": 174.38,
+   "text": "Is it Alexandre?",
+   "speaker": "S01"
+  },
+  {
+   "start": 174.38,
+   "end": 175.34,
+   "text": "But you got busy?",
+   "speaker": "S01"
+  },
+  {
+   "start": 175.88,
+   "end": 176.26,
+   "text": "Alexandre.",
+   "speaker": "S01"
+  },
+  {
+   "start": 176.9,
+   "end": 177.28,
+   "text": "Alexandre.",
+   "speaker": "S01"
+  },
+  {
+   "start": 177.54,
+   "end": 178.3,
+   "text": "Okay, and then just stop.",
+   "speaker": "S01"
+  },
+  {
+   "start": 178.4,
+   "end": 178.76,
+   "text": "Just stop.",
+   "speaker": "S01"
+  },
+  {
+   "start": 178.92,
+   "end": 179.8,
+   "text": "Do you like cats?",
+   "speaker": "S12"
+  },
+  {
+   "start": 180.0,
+   "end": 180.64,
+   "text": "I love cats.",
+   "speaker": "S01"
+  },
+  {
+   "start": 180.8,
+   "end": 181.26,
+   "text": "Oh, good.",
+   "speaker": "S01"
+  },
+  {
+   "start": 181.3,
+   "end": 182.3,
+   "text": "I used to have nine cats.",
+   "speaker": "S01"
+  },
+  {
+   "start": 182.5,
+   "end": 184.12,
+   "text": "I only liked one of them, but I had nine.",
+   "speaker": "S01"
+  },
+  {
+   "start": 184.42,
+   "end": 185.46,
+   "text": "Come here, Alexandre.",
+   "speaker": "S01"
+  },
+  {
+   "start": 185.82,
+   "end": 186.72,
+   "text": "Did I do that good?",
+   "speaker": "S01"
+  },
+  {
+   "start": 186.78,
+   "end": 187.4,
+   "text": "Very nice.",
+   "speaker": "S01"
+  },
+  {
+   "start": 187.64,
+   "end": 191.76,
+   "text": "Oh, yes, and the kitty letter needs to be changed every, you know, 20 minutes or so.",
+   "speaker": "S12"
+  },
+  {
+   "start": 192.02,
+   "end": 193.44,
+   "text": "You sift every 20 minutes?",
+   "speaker": "S01"
+  },
+  {
+   "start": 193.66,
+   "end": 195.3,
+   "text": "Yes, I have this little slotted spoon.",
+   "speaker": "S12"
+  },
+  {
+   "start": 195.3,
+   "end": 196.2,
+   "text": "Does the cat go out at all?",
+   "speaker": "S01"
+  },
+  {
+   "start": 196.78,
+   "end": 201.64,
+   "text": "No, we had the bubble for a while, but we're no longer using an indoor cat.",
+   "speaker": "S11"
+  },
+  {
+   "start": 201.64,
+   "end": 204.2,
+   "text": "All right, well, I'll do my, you know, we'll keep it indoors as well.",
+   "speaker": "S01"
+  },
+  {
+   "start": 204.56,
+   "end": 205.58,
+   "text": "Here, kitty, kitty, kitty, kitty, kitty.",
+   "speaker": "S01"
+  },
+  {
+   "start": 205.92,
+   "end": 206.54,
+   "text": "Try this.",
+   "speaker": "S11"
+  },
+  {
+   "start": 206.94,
+   "end": 208.92,
+   "text": "Zinny, zinny, zinny, zinny, boo, boo, boo, boo, boo.",
+   "speaker": "S11"
+  },
+  {
+   "start": 209.08,
+   "end": 210.74,
+   "text": "With a gun to my head, I wouldn't try that.",
+   "speaker": "S01"
+  },
+  {
+   "start": 211.38,
+   "end": 212.8,
+   "text": "Paul, I can't thank you enough.",
+   "speaker": "S12"
+  },
+  {
+   "start": 213.08,
+   "end": 214.4,
+   "text": "Um, sure, it's, you know, it's my pleasure.",
+   "speaker": "S01"
+  },
+  {
+   "start": 214.5,
+   "end": 217.32,
+   "text": "And I, I hope, I don't want to make you feel uncomfortable,",
+   "speaker": "S01"
+  },
+  {
+   "start": 217.32,
+   "end": 219.92,
+   "text": "but I hope that you will come to the next block party",
+   "speaker": "S01"
+  },
+  {
+   "start": 219.92,
+   "end": 221.54,
+   "text": "now that I'm doing the cat thing for you.",
+   "speaker": "S01"
+  },
+  {
+   "start": 221.72,
+   "end": 224.0,
+   "text": "Oh, we'll definitely consider it.",
+   "speaker": "S12"
+  },
+  {
+   "start": 224.12,
+   "end": 226.12,
+   "text": "I don't, because, you know, at the last block party,",
+   "speaker": "S01"
+  },
+  {
+   "start": 226.22,
+   "end": 228.46,
+   "text": "you had said that you were not available that night,",
+   "speaker": "S01"
+  },
+  {
+   "start": 228.58,
+   "end": 231.46,
+   "text": "but, um, we could see you through the Venetian blinds.",
+   "speaker": "S01"
+  },
+  {
+   "start": 231.64,
+   "end": 234.24,
+   "text": "So, which kind of made everybody feel a little bit uncomfortable,",
+   "speaker": "S01"
+  },
+  {
+   "start": 234.24,
+   "end": 236.16,
+   "text": "because that meant that you had not been honest.",
+   "speaker": "S01"
+  },
+  {
+   "start": 236.16,
+   "end": 238.84,
+   "text": "You know, I don't even remember what night that was,",
+   "speaker": "S12"
+  },
+  {
+   "start": 238.84,
+   "end": 240.72,
+   "text": "and I am terribly sorry if I offended you.",
+   "speaker": "S12"
+  },
+  {
+   "start": 240.98,
+   "end": 243.14,
+   "text": "Monkey, do you remember what we were doing that night?",
+   "speaker": "S12"
+  },
+  {
+   "start": 243.38,
+   "end": 243.62,
+   "text": "Yes.",
+   "speaker": "S12"
+  },
+  {
+   "start": 243.62,
+   "end": 245.18,
+   "text": "I can tell you what you were doing that night.",
+   "speaker": "S01"
+  },
+  {
+   "start": 245.28,
+   "end": 247.08,
+   "text": "We were getting the Venetian blinds fixed.",
+   "speaker": "S11"
+  },
+  {
+   "start": 247.34,
+   "end": 248.78,
+   "text": "Yeah, yeah, I guess he had a hole in them.",
+   "speaker": "S01"
+  },
+  {
+   "start": 252.5,
+   "end": 253.3,
+   "text": "And action.",
+   "speaker": "S06"
+  },
+  {
+   "start": 253.66,
+   "end": 257.74,
+   "text": "As you can see, Mr. Petroni, the pet store owner, is feeding the mouse.",
+   "speaker": "S06"
+  },
+  {
+   "start": 257.9,
+   "end": 259.64,
+   "text": "He's lowering it right now into the cage.",
+   "speaker": "S06"
+  },
+  {
+   "start": 260.24,
+   "end": 261.98,
+   "text": "The mouse is in the cage.",
+   "speaker": "S06"
+  },
+  {
+   "start": 262.8,
+   "end": 268.54,
+   "text": "The cycle of life in nature, one animal living and another one dying so that the first one",
+   "speaker": "S06"
+  },
+  {
+   "start": 268.54,
+   "end": 271.02,
+   "text": "can live, but the second one doesn't get that kind of a deal.",
+   "speaker": "S06"
+  },
+  {
+   "start": 271.56,
+   "end": 272.3,
+   "text": "It's just uh-oh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 272.94,
+   "end": 274.5,
+   "text": "Oh god, that snake really got him.",
+   "speaker": "S06"
+  },
+  {
+   "start": 275.12,
+   "end": 276.2,
+   "text": "Oh my god.",
+   "speaker": "S06"
+  },
+  {
+   "start": 277.22,
+   "end": 278.92,
+   "text": "Oh, now it's...",
+   "speaker": "S06"
+  },
+  {
+   "start": 278.92,
+   "end": 279.42,
+   "text": "Oh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 280.34,
+   "end": 280.66,
+   "text": "Oh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 281.82,
+   "end": 282.32,
+   "text": "Oh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 284.7,
+   "end": 284.9,
+   "text": "Ew.",
+   "speaker": "S06"
+  },
+  {
+   "start": 286.0,
+   "end": 286.4,
+   "text": "Again.",
+   "speaker": "S06"
+  },
+  {
+   "start": 290.18,
+   "end": 291.84,
+   "text": "Oh, Brendan, you know what?",
+   "speaker": "S01"
+  },
+  {
+   "start": 292.1,
+   "end": 292.48,
+   "text": "What?",
+   "speaker": "S01"
+  },
+  {
+   "start": 292.74,
+   "end": 292.84,
+   "text": "What?",
+   "speaker": "S01"
+  },
+  {
+   "start": 293.0,
+   "end": 294.14,
+   "text": "I've got to get the baby cleaned up.",
+   "speaker": "S01"
+  },
+  {
+   "start": 294.74,
+   "end": 295.74,
+   "text": "Will you do me a favor?",
+   "speaker": "S01"
+  },
+  {
+   "start": 295.82,
+   "end": 296.96,
+   "text": "I forgot to feed the Peabody's cat.",
+   "speaker": "S01"
+  },
+  {
+   "start": 297.32,
+   "end": 299.56,
+   "text": "Mom, I don't want to go over to the Peabody's house.",
+   "speaker": "S06"
+  },
+  {
+   "start": 300.02,
+   "end": 301.1,
+   "text": "Brendan, please help out.",
+   "speaker": "S01"
+  },
+  {
+   "start": 302.04,
+   "end": 307.78,
+   "text": "The key is under the plastic fake rock that's right beside the welcome mat.",
+   "speaker": "S01"
+  },
+  {
+   "start": 307.98,
+   "end": 308.18,
+   "text": "Right.",
+   "speaker": "S01"
+  },
+  {
+   "start": 308.48,
+   "end": 310.68,
+   "text": "Just flip that rock over, grab the key.",
+   "speaker": "S01"
+  },
+  {
+   "start": 310.9,
+   "end": 311.18,
+   "text": "Right.",
+   "speaker": "S01"
+  },
+  {
+   "start": 311.36,
+   "end": 314.1,
+   "text": "I so hope criminals are not listening to this.",
+   "speaker": "S01"
+  },
+  {
+   "start": 314.8,
+   "end": 315.26,
+   "text": "Right.",
+   "speaker": "S01"
+  },
+  {
+   "start": 315.26,
+   "end": 318.32,
+   "text": "Okay, oh, and then that's the other thing. Can you please go in and sift the litter box?",
+   "speaker": "S01"
+  },
+  {
+   "start": 318.56,
+   "end": 318.82,
+   "text": "Oh, mom.",
+   "speaker": "S01"
+  },
+  {
+   "start": 319.78,
+   "end": 322.32,
+   "text": "Brendan, I'm asking for a little bit of help here, remember?",
+   "speaker": "S01"
+  },
+  {
+   "start": 322.68,
+   "end": 325.04,
+   "text": "It'll kind of be like maybe if you had a dog, I can see.",
+   "speaker": "S01"
+  },
+  {
+   "start": 325.46,
+   "end": 326.74,
+   "text": "I'm willing to use this.",
+   "speaker": "S01"
+  },
+  {
+   "start": 327.04,
+   "end": 328.14,
+   "text": "Can we get a chocolate lab?",
+   "speaker": "S06"
+  },
+  {
+   "start": 328.38,
+   "end": 329.78,
+   "text": "Yes, chocolate lab.",
+   "speaker": "S01"
+  },
+  {
+   "start": 330.04,
+   "end": 331.34,
+   "text": "Lab is short for Labrador.",
+   "speaker": "S06"
+  },
+  {
+   "start": 332.68,
+   "end": 333.48,
+   "text": "Chocolate Labrador.",
+   "speaker": "S01"
+  },
+  {
+   "start": 334.68,
+   "end": 335.48,
+   "text": "Chocolate Labrador.",
+   "speaker": "S06"
+  },
+  {
+   "start": 336.96,
+   "end": 337.76,
+   "text": "Chocolate Labrador.",
+   "speaker": "S12"
+  },
+  {
+   "start": 338.2,
+   "end": 339.14,
+   "text": "Can I get this in writing?",
+   "speaker": "S06"
+  },
+  {
+   "start": 339.58,
+   "end": 340.94,
+   "text": "You know what? We're going to use the honor system.",
+   "speaker": "S01"
+  },
+  {
+   "start": 341.06,
+   "end": 342.94,
+   "text": "Brendan, quick like a bunny, right now.",
+   "speaker": "S01"
+  },
+  {
+   "start": 344.1,
+   "end": 347.04,
+   "text": "Should I pet the cat or anything you think?",
+   "speaker": "S06"
+  },
+  {
+   "start": 347.22,
+   "end": 348.76,
+   "text": "You know what? If you can pet the cat, go ahead.",
+   "speaker": "S01"
+  },
+  {
+   "start": 348.92,
+   "end": 349.86,
+   "text": "I find it a little snooty.",
+   "speaker": "S01"
+  },
+  {
+   "start": 350.1,
+   "end": 351.48,
+   "text": "That's what I hear about this cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 351.62,
+   "end": 352.64,
+   "text": "Yeah, Alexandre.",
+   "speaker": "S01"
+  },
+  {
+   "start": 352.72,
+   "end": 353.5,
+   "text": "Is that what it's called?",
+   "speaker": "S06"
+  },
+  {
+   "start": 353.68,
+   "end": 354.04,
+   "text": "Alexandre.",
+   "speaker": "S06"
+  },
+  {
+   "start": 354.8,
+   "end": 355.16,
+   "text": "Alexandre.",
+   "speaker": "S06"
+  },
+  {
+   "start": 355.44,
+   "end": 356.4,
+   "text": "I don't know.",
+   "speaker": "S01"
+  },
+  {
+   "start": 357.26,
+   "end": 358.48,
+   "text": "You're supposed to stop.",
+   "speaker": "S01"
+  },
+  {
+   "start": 358.96,
+   "end": 359.58,
+   "text": "You know what?",
+   "speaker": "S01"
+  },
+  {
+   "start": 359.66,
+   "end": 361.36,
+   "text": "You're a little chip off the old block there, huh?",
+   "speaker": "S01"
+  },
+  {
+   "start": 364.48,
+   "end": 367.56,
+   "text": "Okay, I've just entered the Peabody's home.",
+   "speaker": "S06"
+  },
+  {
+   "start": 368.04,
+   "end": 369.42,
+   "text": "This is what...",
+   "speaker": "S06"
+  },
+  {
+   "start": 369.42,
+   "end": 371.36,
+   "text": "Here's that. Hey, Alexandre.",
+   "speaker": "S06"
+  },
+  {
+   "start": 371.36,
+   "end": 372.88,
+   "text": "I'll let zoom through.",
+   "speaker": "S03"
+  },
+  {
+   "start": 373.6,
+   "end": 374.5,
+   "text": "Ah, cat hates me.",
+   "speaker": "S06"
+  },
+  {
+   "start": 375.4,
+   "end": 376.82,
+   "text": "Here kitty kitty kitty kitty kitty kitty.",
+   "speaker": "S03"
+  },
+  {
+   "start": 378.88,
+   "end": 384.24,
+   "text": "Here's an animal that in its normal wild habitat would probably be eating mice,",
+   "speaker": "S06"
+  },
+  {
+   "start": 384.28,
+   "end": 388.3,
+   "text": "but now we're feeding it what appears to be gravy and lard.",
+   "speaker": "S06"
+  },
+  {
+   "start": 388.88,
+   "end": 389.12,
+   "text": "Ugh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 389.86,
+   "end": 390.2,
+   "text": "Ugh.",
+   "speaker": "S06"
+  },
+  {
+   "start": 390.58,
+   "end": 395.2,
+   "text": "But we're saving a lot of mice from being killed by domesticating cats.",
+   "speaker": "S06"
+  },
+  {
+   "start": 395.2,
+   "end": 400.98,
+   "text": "Another thing is that now we've begun to clean up after animals when they use the restroom",
+   "speaker": "S06"
+  },
+  {
+   "start": 400.98,
+   "end": 407.72,
+   "text": "Which is a thing that they are not accustomed to having happen in the wild this cat. I don't know. Oh god",
+   "speaker": "S06"
+  },
+  {
+   "start": 407.72,
+   "end": 411.34,
+   "text": "I can't like it's been eating rubber bands",
+   "speaker": "S13"
+  },
+  {
+   "start": 411.34,
+   "end": 413.1,
+   "text": "and ribbons",
+   "speaker": "S13"
+  },
+  {
+   "start": 414.64,
+   "end": 420.08,
+   "text": "What a strange relationship man and animals have whoa whoa",
+   "speaker": "S06"
+  },
+  {
+   "start": 421.12,
+   "end": 424.8,
+   "text": "Here kitty here boy. Here kitty oh",
+   "speaker": "S06"
+  },
+  {
+   "start": 425.56,
+   "end": 426.44,
+   "text": "I'm in trouble.",
+   "speaker": "S03"
+  },
+  {
+   "start": 428.14,
+   "end": 429.26,
+   "text": "Here, kitty, kitty.",
+   "speaker": "S06"
+  },
+  {
+   "start": 430.72,
+   "end": 432.2,
+   "text": "Here, you stupid cat.",
+   "speaker": "S03"
+  },
+  {
+   "start": 433.54,
+   "end": 433.9,
+   "text": "Brendan.",
+   "speaker": "S03"
+  },
+  {
+   "start": 434.14,
+   "end": 434.86,
+   "text": "Here, kitty.",
+   "speaker": "S13"
+  },
+  {
+   "start": 435.24,
+   "end": 436.24,
+   "text": "Yeah, hey, Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 436.5,
+   "end": 438.98,
+   "text": "Hey, I think here, you stupid cat isn't going to cut it.",
+   "speaker": "S01"
+  },
+  {
+   "start": 439.12,
+   "end": 440.42,
+   "text": "You should have heard what I was saying before.",
+   "speaker": "S06"
+  },
+  {
+   "start": 440.82,
+   "end": 442.18,
+   "text": "Honey, it's not your fault.",
+   "speaker": "S01"
+  },
+  {
+   "start": 442.34,
+   "end": 443.24,
+   "text": "Please don't worry about me.",
+   "speaker": "S01"
+  },
+  {
+   "start": 443.26,
+   "end": 443.54,
+   "text": "Oh, Mom.",
+   "speaker": "S01"
+  },
+  {
+   "start": 443.98,
+   "end": 444.98,
+   "text": "It is my fault.",
+   "speaker": "S06"
+  },
+  {
+   "start": 445.02,
+   "end": 447.36,
+   "text": "I lost the cat, and if we don't get the cat,",
+   "speaker": "S06"
+  },
+  {
+   "start": 447.58,
+   "end": 449.84,
+   "text": "then there's no way in hell you're going to buy me a dog.",
+   "speaker": "S06"
+  },
+  {
+   "start": 450.0,
+   "end": 450.66,
+   "text": "I'll tell you something.",
+   "speaker": "S01"
+  },
+  {
+   "start": 450.8,
+   "end": 452.86,
+   "text": "These people will not be coming to the next block party.",
+   "speaker": "S01"
+  },
+  {
+   "start": 453.66,
+   "end": 455.36,
+   "text": "Mom, that's the least of our problems.",
+   "speaker": "S06"
+  },
+  {
+   "start": 455.66,
+   "end": 458.04,
+   "text": "No, it isn't, because we need somebody to bring a covered dish.",
+   "speaker": "S01"
+  },
+  {
+   "start": 458.22,
+   "end": 459.4,
+   "text": "Honey, you know I don't cook.",
+   "speaker": "S01"
+  },
+  {
+   "start": 459.52,
+   "end": 462.6,
+   "text": "All I can ever bring is chips and napkins to a potluck.",
+   "speaker": "S01"
+  },
+  {
+   "start": 463.94,
+   "end": 465.6,
+   "text": "Boy, what time is it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 465.98,
+   "end": 467.9,
+   "text": "It's five minutes after the last time you asked.",
+   "speaker": "S01"
+  },
+  {
+   "start": 468.78,
+   "end": 469.72,
+   "text": "It's 8.10.",
+   "speaker": "S01"
+  },
+  {
+   "start": 470.12,
+   "end": 470.44,
+   "text": "Okay.",
+   "speaker": "S01"
+  },
+  {
+   "start": 470.66,
+   "end": 471.68,
+   "text": "There it is over there. Do you see it?",
+   "speaker": "S01"
+  },
+  {
+   "start": 471.9,
+   "end": 472.44,
+   "text": "Where? Where?",
+   "speaker": "S01"
+  },
+  {
+   "start": 472.44,
+   "end": 473.36,
+   "text": "I was kidding.",
+   "speaker": "S01"
+  },
+  {
+   "start": 473.64,
+   "end": 474.28,
+   "text": "Oh, Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 474.54,
+   "end": 475.84,
+   "text": "I'm sorry, honey. I'm trying to...",
+   "speaker": "S01"
+  },
+  {
+   "start": 475.84,
+   "end": 476.68,
+   "text": "Oh, that's not funny.",
+   "speaker": "S06"
+  },
+  {
+   "start": 476.82,
+   "end": 477.82,
+   "text": "I'm sorry, sweetie.",
+   "speaker": "S01"
+  },
+  {
+   "start": 477.92,
+   "end": 479.98,
+   "text": "I'm trying to pick your spirits up a little bit.",
+   "speaker": "S01"
+  },
+  {
+   "start": 480.16,
+   "end": 480.62,
+   "text": "I've never...",
+   "speaker": "S01"
+  },
+  {
+   "start": 480.62,
+   "end": 482.48,
+   "text": "You know, you're so upset about this cat thing.",
+   "speaker": "S01"
+  },
+  {
+   "start": 482.48,
+   "end": 484.38,
+   "text": "and it's really not your fault.",
+   "speaker": "S01"
+  },
+  {
+   "start": 484.62,
+   "end": 485.22,
+   "text": "I am the adult.",
+   "speaker": "S01"
+  },
+  {
+   "start": 485.44,
+   "end": 486.84,
+   "text": "I am the one who should have taken care of it.",
+   "speaker": "S01"
+  },
+  {
+   "start": 487.0,
+   "end": 487.12,
+   "text": "No.",
+   "speaker": "S01"
+  },
+  {
+   "start": 487.52,
+   "end": 489.6,
+   "text": "You know, there's a place in the cat's mouth",
+   "speaker": "S01"
+  },
+  {
+   "start": 489.6,
+   "end": 490.92,
+   "text": "where it doesn't have any teeth.",
+   "speaker": "S01"
+  },
+  {
+   "start": 491.34,
+   "end": 491.64,
+   "text": "Yeah.",
+   "speaker": "S01"
+  },
+  {
+   "start": 491.84,
+   "end": 492.84,
+   "text": "Yeah, on the side,",
+   "speaker": "S01"
+  },
+  {
+   "start": 492.88,
+   "end": 494.56,
+   "text": "so that when you go to give it a pill,",
+   "speaker": "S01"
+  },
+  {
+   "start": 494.78,
+   "end": 496.88,
+   "text": "you can kind of pop your fingers through that hole",
+   "speaker": "S01"
+  },
+  {
+   "start": 496.88,
+   "end": 498.7,
+   "text": "and then pull its jaws open.",
+   "speaker": "S01"
+  },
+  {
+   "start": 498.94,
+   "end": 500.56,
+   "text": "What kind of pills are you giving cats, Mom?",
+   "speaker": "S06"
+  },
+  {
+   "start": 500.74,
+   "end": 503.86,
+   "text": "Well, when I had cats, they took antidepressants,",
+   "speaker": "S01"
+  },
+  {
+   "start": 503.96,
+   "end": 506.3,
+   "text": "and the vet never seemed to notice",
+   "speaker": "S01"
+  },
+  {
+   "start": 506.3,
+   "end": 508.42,
+   "text": "the rate at which those cat pills disappeared.",
+   "speaker": "S01"
+  },
+  {
+   "start": 508.88,
+   "end": 509.24,
+   "text": "Right.",
+   "speaker": "S01"
+  },
+  {
+   "start": 509.76,
+   "end": 510.12,
+   "text": "You know what?",
+   "speaker": "S01"
+  },
+  {
+   "start": 510.12,
+   "end": 511.36,
+   "text": "I shouldn't be talking this way with you.",
+   "speaker": "S01"
+  },
+  {
+   "start": 511.36,
+   "end": 513.34,
+   "text": "This is not appropriate mother-son talk.",
+   "speaker": "S01"
+  },
+  {
+   "start": 513.86,
+   "end": 514.9,
+   "text": "Sometimes, you know what, honey?",
+   "speaker": "S01"
+  },
+  {
+   "start": 515.06,
+   "end": 515.42,
+   "text": "What's that?",
+   "speaker": "S01"
+  },
+  {
+   "start": 515.74,
+   "end": 518.36,
+   "text": "Sometimes I forget that you're just a little kid, you know?",
+   "speaker": "S01"
+  },
+  {
+   "start": 518.58,
+   "end": 520.86,
+   "text": "Sometimes, because I think we get along so great",
+   "speaker": "S01"
+  },
+  {
+   "start": 520.86,
+   "end": 523.18,
+   "text": "that sometimes I just forget you're a kid.",
+   "speaker": "S01"
+  },
+  {
+   "start": 523.42,
+   "end": 524.28,
+   "text": "Don't let me forget.",
+   "speaker": "S01"
+  },
+  {
+   "start": 524.44,
+   "end": 524.82,
+   "text": "I know.",
+   "speaker": "S01"
+  },
+  {
+   "start": 525.0,
+   "end": 526.84,
+   "text": "Mom, can you buy me some alcohol this weekend?",
+   "speaker": "S06"
+  },
+  {
+   "start": 527.16,
+   "end": 528.22,
+   "text": "I'm happy to, sweetie.",
+   "speaker": "S01"
+  },
+  {
+   "start": 528.42,
+   "end": 529.9,
+   "text": "Let's get drunk and forget about the cat, Mom.",
+   "speaker": "S06"
+  },
+  {
+   "start": 530.18,
+   "end": 531.08,
+   "text": "Honey, I am.",
+   "speaker": "S01"
+  },
+  {
+   "start": 531.44,
+   "end": 532.38,
+   "text": "Oh, my God.",
+   "speaker": "S06"
+  },
+  {
+   "start": 532.9,
+   "end": 533.6,
+   "text": "What cat?",
+   "speaker": "S01"
+  },
+  {
+   "start": 539.16,
+   "end": 540.28,
+   "text": "Cat's name is Alexander.",
+   "speaker": "S06"
+  },
+  {
+   "start": 541.36,
+   "end": 542.04,
+   "text": "How do you say it?",
+   "speaker": "S05"
+  },
+  {
+   "start": 542.76,
+   "end": 543.16,
+   "text": "Alconge.",
+   "speaker": "S05"
+  },
+  {
+   "start": 543.86,
+   "end": 544.26,
+   "text": "Alconge.",
+   "speaker": "S05"
+  },
+  {
+   "start": 544.46,
+   "end": 544.66,
+   "text": "Alconge.",
+   "speaker": "S05"
+  },
+  {
+   "start": 544.66,
+   "end": 545.2,
+   "text": "That's French.",
+   "speaker": "S05"
+  },
+  {
+   "start": 545.58,
+   "end": 546.42,
+   "text": "It is French.",
+   "speaker": "S06"
+  },
+  {
+   "start": 547.22,
+   "end": 548.02,
+   "text": "It's Alexandre.",
+   "speaker": "S06"
+  },
+  {
+   "start": 548.08,
+   "end": 548.9,
+   "text": "It's a white cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 549.28,
+   "end": 550.38,
+   "text": "It's, yeah, it's a white cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 550.54,
+   "end": 551.22,
+   "text": "Is that it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 551.78,
+   "end": 553.56,
+   "text": "No, but that is a cat, Jason.",
+   "speaker": "S06"
+  },
+  {
+   "start": 554.16,
+   "end": 554.7,
+   "text": "Okay, good.",
+   "speaker": "S06"
+  },
+  {
+   "start": 554.98,
+   "end": 556.8,
+   "text": "Melissa, do you have the horn to blow?",
+   "speaker": "S06"
+  },
+  {
+   "start": 557.0,
+   "end": 558.72,
+   "text": "If I find the cat, I'll blow the horn.",
+   "speaker": "S05"
+  },
+  {
+   "start": 558.84,
+   "end": 559.06,
+   "text": "Okay.",
+   "speaker": "S05"
+  },
+  {
+   "start": 559.22,
+   "end": 560.82,
+   "text": "And I have a, um, a whistle.",
+   "speaker": "S06"
+  },
+  {
+   "start": 562.26,
+   "end": 564.56,
+   "text": "Uh, okay, hey, did anybody find anything?",
+   "speaker": "S06"
+  },
+  {
+   "start": 564.86,
+   "end": 566.28,
+   "text": "I still didn't find the cat.",
+   "speaker": "S05"
+  },
+  {
+   "start": 566.28,
+   "end": 566.78,
+   "text": "I didn't find anything.",
+   "speaker": "S05"
+  },
+  {
+   "start": 566.78,
+   "end": 567.76,
+   "text": "I didn't see any cats.",
+   "speaker": "S05"
+  },
+  {
+   "start": 567.76,
+   "end": 570.7,
+   "text": "I found this pair of sunglasses.",
+   "speaker": "S06"
+  },
+  {
+   "start": 571.18,
+   "end": 572.16,
+   "text": "Those are nice.",
+   "speaker": "S05"
+  },
+  {
+   "start": 572.82,
+   "end": 574.28,
+   "text": "They look good on you, Jason.",
+   "speaker": "S05"
+  },
+  {
+   "start": 574.6,
+   "end": 582.08,
+   "text": "I yelled out Alexandra's name a bunch of times, but my family had a cat, and cats don't come when you call.",
+   "speaker": "S06"
+  },
+  {
+   "start": 582.66,
+   "end": 583.5,
+   "text": "Right, they don't.",
+   "speaker": "S06"
+  },
+  {
+   "start": 583.78,
+   "end": 585.54,
+   "text": "So I don't think you'll ever find it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 586.86,
+   "end": 587.96,
+   "text": "Anybody find anything?",
+   "speaker": "S06"
+  },
+  {
+   "start": 588.46,
+   "end": 589.76,
+   "text": "Look what I found.",
+   "speaker": "S06"
+  },
+  {
+   "start": 590.12,
+   "end": 590.78,
+   "text": "What is that?",
+   "speaker": "S05"
+  },
+  {
+   "start": 590.92,
+   "end": 591.46,
+   "text": "Jason, what is that?",
+   "speaker": "S05"
+  },
+  {
+   "start": 591.94,
+   "end": 592.42,
+   "text": "Dentures.",
+   "speaker": "S05"
+  },
+  {
+   "start": 592.92,
+   "end": 593.18,
+   "text": "Ew.",
+   "speaker": "S05"
+  },
+  {
+   "start": 593.38,
+   "end": 594.9,
+   "text": "Get those out of your mouth, Jason.",
+   "speaker": "S06"
+  },
+  {
+   "start": 594.9,
+   "end": 595.18,
+   "text": "Ew.",
+   "speaker": "S06"
+  },
+  {
+   "start": 595.18,
+   "end": 596.0,
+   "text": "That's disgusting.",
+   "speaker": "S06"
+  },
+  {
+   "start": 596.0,
+   "end": 597.54,
+   "text": "I'm an old man.",
+   "speaker": "S06"
+  },
+  {
+   "start": 597.64,
+   "end": 600.9,
+   "text": "Jason, that's terribly unhealthy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 601.34,
+   "end": 602.14,
+   "text": "I'm an old man.",
+   "speaker": "S05"
+  },
+  {
+   "start": 602.14,
+   "end": 604.18,
+   "text": "Brendan, we could probably use those in one of your movies.",
+   "speaker": "S05"
+  },
+  {
+   "start": 604.32,
+   "end": 606.04,
+   "text": "What are you young kids doing?",
+   "speaker": "S06"
+  },
+  {
+   "start": 606.86,
+   "end": 608.38,
+   "text": "Right, he's an old man. I get it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 608.9,
+   "end": 609.62,
+   "text": "It's really funny.",
+   "speaker": "S06"
+  },
+  {
+   "start": 610.02,
+   "end": 612.52,
+   "text": "Wait, put the sunglasses on with the dentures.",
+   "speaker": "S05"
+  },
+  {
+   "start": 613.14,
+   "end": 615.22,
+   "text": "They taste like old man's mouth.",
+   "speaker": "S06"
+  },
+  {
+   "start": 618.06,
+   "end": 622.08,
+   "text": "We are here to study the kittens, to study their every move.",
+   "speaker": "S06"
+  },
+  {
+   "start": 622.22,
+   "end": 624.48,
+   "text": "Hopefully we can learn something from these cats.",
+   "speaker": "S06"
+  },
+  {
+   "start": 624.48,
+   "end": 627.68,
+   "text": "that can help us catch that cat that I lost.",
+   "speaker": "S06"
+  },
+  {
+   "start": 629.64,
+   "end": 630.94,
+   "text": "They're not doing too much.",
+   "speaker": "S06"
+  },
+  {
+   "start": 632.34,
+   "end": 633.8,
+   "text": "A lot of them are sleeping.",
+   "speaker": "S05"
+  },
+  {
+   "start": 634.24,
+   "end": 635.4,
+   "text": "Let's kind of get in closer.",
+   "speaker": "S06"
+  },
+  {
+   "start": 636.46,
+   "end": 637.14,
+   "text": "Cats are sleeping.",
+   "speaker": "S06"
+  },
+  {
+   "start": 637.64,
+   "end": 639.08,
+   "text": "Cats are... That one's awake.",
+   "speaker": "S06"
+  },
+  {
+   "start": 639.82,
+   "end": 640.54,
+   "text": "Now it's asleep.",
+   "speaker": "S06"
+  },
+  {
+   "start": 640.76,
+   "end": 641.74,
+   "text": "They're so cute.",
+   "speaker": "S05"
+  },
+  {
+   "start": 641.96,
+   "end": 642.06,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 642.64,
+   "end": 643.68,
+   "text": "Where's the cat?",
+   "speaker": "S03"
+  },
+  {
+   "start": 644.42,
+   "end": 646.14,
+   "text": "Don't yell at the cats, Brendan.",
+   "speaker": "S05"
+  },
+  {
+   "start": 646.46,
+   "end": 648.6,
+   "text": "Where is the cat?",
+   "speaker": "S03"
+  },
+  {
+   "start": 651.4,
+   "end": 654.36,
+   "text": "I'll hold the picture and you staple it up, okay?",
+   "speaker": "S05"
+  },
+  {
+   "start": 654.48,
+   "end": 655.88,
+   "text": "Did you draw this yourself?",
+   "speaker": "S05"
+  },
+  {
+   "start": 656.48,
+   "end": 656.84,
+   "text": "Yes.",
+   "speaker": "S05"
+  },
+  {
+   "start": 657.16,
+   "end": 657.96,
+   "text": "It looks good.",
+   "speaker": "S03"
+  },
+  {
+   "start": 658.2,
+   "end": 658.74,
+   "text": "Thank you.",
+   "speaker": "S03"
+  },
+  {
+   "start": 659.22,
+   "end": 660.9,
+   "text": "You know, I don't think this is doing anything.",
+   "speaker": "S06"
+  },
+  {
+   "start": 661.06,
+   "end": 661.82,
+   "text": "I think it's too late.",
+   "speaker": "S06"
+  },
+  {
+   "start": 661.94,
+   "end": 663.36,
+   "text": "I mean, it's two days.",
+   "speaker": "S06"
+  },
+  {
+   "start": 663.54,
+   "end": 664.88,
+   "text": "We would have found the cat by now.",
+   "speaker": "S06"
+  },
+  {
+   "start": 665.02,
+   "end": 665.7,
+   "text": "This is stupid.",
+   "speaker": "S06"
+  },
+  {
+   "start": 665.86,
+   "end": 667.42,
+   "text": "Brendan, don't take that kind of attitude.",
+   "speaker": "S05"
+  },
+  {
+   "start": 667.56,
+   "end": 669.44,
+   "text": "You've got to feel like you've done everything you can.",
+   "speaker": "S05"
+  },
+  {
+   "start": 669.68,
+   "end": 671.72,
+   "text": "It's probably got hit by a car or something.",
+   "speaker": "S06"
+  },
+  {
+   "start": 671.98,
+   "end": 673.08,
+   "text": "Don't think that way.",
+   "speaker": "S05"
+  },
+  {
+   "start": 673.88,
+   "end": 675.3,
+   "text": "These pictures will really help.",
+   "speaker": "S05"
+  },
+  {
+   "start": 675.42,
+   "end": 676.3,
+   "text": "You're doing the right thing.",
+   "speaker": "S05"
+  },
+  {
+   "start": 677.1,
+   "end": 678.46,
+   "text": "Brendan, is that the cat?",
+   "speaker": "S05"
+  },
+  {
+   "start": 678.8,
+   "end": 680.1,
+   "text": "I think that is the cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 680.2,
+   "end": 681.02,
+   "text": "Yeah, wait, wait.",
+   "speaker": "S03"
+  },
+  {
+   "start": 681.24,
+   "end": 682.02,
+   "text": "Hey, kitty.",
+   "speaker": "S03"
+  },
+  {
+   "start": 682.24,
+   "end": 683.28,
+   "text": "Hey, kitty cat.",
+   "speaker": "S03"
+  },
+  {
+   "start": 683.28,
+   "end": 685.3,
+   "text": "Brendan, that cat doesn't look so good.",
+   "speaker": "S05"
+  },
+  {
+   "start": 685.38,
+   "end": 686.94,
+   "text": "Shh, don't talk.",
+   "speaker": "S03"
+  },
+  {
+   "start": 687.36,
+   "end": 689.68,
+   "text": "You're kitty, kitty, kitty, kitty cat.",
+   "speaker": "S03"
+  },
+  {
+   "start": 692.42,
+   "end": 694.0,
+   "text": "Brendan, that doesn't sound like a cat.",
+   "speaker": "S05"
+  },
+  {
+   "start": 694.26,
+   "end": 695.96,
+   "text": "You're just a scared little kitty, aren't you?",
+   "speaker": "S03"
+  },
+  {
+   "start": 696.18,
+   "end": 697.28,
+   "text": "You're just all you...",
+   "speaker": "S03"
+  },
+  {
+   "start": 698.56,
+   "end": 701.3,
+   "text": "Brendan, that's not how a cat's supposed to sound.",
+   "speaker": "S05"
+  },
+  {
+   "start": 701.54,
+   "end": 703.1,
+   "text": "I think there's something wrong with that cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 703.44,
+   "end": 704.8,
+   "text": "I think we should just leave it alone.",
+   "speaker": "S05"
+  },
+  {
+   "start": 704.98,
+   "end": 705.28,
+   "text": "Alexandre!",
+   "speaker": "S05"
+  },
+  {
+   "start": 705.52,
+   "end": 705.72,
+   "text": "Ow!",
+   "speaker": "S05"
+  },
+  {
+   "start": 707.6,
+   "end": 708.04,
+   "text": "Melissa!",
+   "speaker": "S05"
+  },
+  {
+   "start": 708.6,
+   "end": 708.98,
+   "text": "Yeah?",
+   "speaker": "S05"
+  },
+  {
+   "start": 709.9,
+   "end": 711.32,
+   "text": "I've tackled the cat!",
+   "speaker": "S03"
+  },
+  {
+   "start": 711.32,
+   "end": 714.9,
+   "text": "Get a box or something!",
+   "speaker": "S03"
+  },
+  {
+   "start": 715.24,
+   "end": 716.02,
+   "text": "A box?",
+   "speaker": "S05"
+  },
+  {
+   "start": 716.36,
+   "end": 719.68,
+   "text": "The cat's got its teeth stuck in my arm!",
+   "speaker": "S03"
+  },
+  {
+   "start": 720.14,
+   "end": 721.12,
+   "text": "It hurts!",
+   "speaker": "S03"
+  },
+  {
+   "start": 721.32,
+   "end": 722.72,
+   "text": "Hold your arm straight out!",
+   "speaker": "S05"
+  },
+  {
+   "start": 723.06,
+   "end": 724.74,
+   "text": "But I'll lose the cat!",
+   "speaker": "S03"
+  },
+  {
+   "start": 725.32,
+   "end": 727.02,
+   "text": "Daddy looks like it's gonna let go!",
+   "speaker": "S05"
+  },
+  {
+   "start": 727.86,
+   "end": 728.82,
+   "text": "Oh wow, you're right!",
+   "speaker": "S06"
+  },
+  {
+   "start": 746.3,
+   "end": 749.22,
+   "text": "Was anybody else besides your son here bitten by the cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 749.34,
+   "end": 751.26,
+   "text": "No, no, not to the best of my knowledge.",
+   "speaker": "S01"
+  },
+  {
+   "start": 751.34,
+   "end": 752.48,
+   "text": "Did you see the cat attack?",
+   "speaker": "S06"
+  },
+  {
+   "start": 752.72,
+   "end": 753.42,
+   "text": "No, I didn't.",
+   "speaker": "S01"
+  },
+  {
+   "start": 753.56,
+   "end": 753.82,
+   "text": "They were off.",
+   "speaker": "S01"
+  },
+  {
+   "start": 753.82,
+   "end": 755.24,
+   "text": "Because those things are fun to watch.",
+   "speaker": "S06"
+  },
+  {
+   "start": 756.66,
+   "end": 760.94,
+   "text": "No, I'm seeing definitely signs here that we've got a rabid cat on our hands.",
+   "speaker": "S06"
+  },
+  {
+   "start": 761.04,
+   "end": 761.74,
+   "text": "And the first...",
+   "speaker": "S06"
+  },
+  {
+   "start": 761.74,
+   "end": 762.42,
+   "text": "Oh, my God.",
+   "speaker": "S01"
+  },
+  {
+   "start": 762.66,
+   "end": 764.46,
+   "text": "Well, there's actually no reason to panic.",
+   "speaker": "S06"
+  },
+  {
+   "start": 764.74,
+   "end": 766.0,
+   "text": "I mean, rabies does not...",
+   "speaker": "S06"
+  },
+  {
+   "start": 766.0,
+   "end": 769.6,
+   "text": "I'm not panicking, but we're not used to having rabies in the family.",
+   "speaker": "S01"
+  },
+  {
+   "start": 769.6,
+   "end": 772.38,
+   "text": "I can certainly test the cat for rabies.",
+   "speaker": "S06"
+  },
+  {
+   "start": 772.6,
+   "end": 774.3,
+   "text": "How do you do that?",
+   "speaker": "S01"
+  },
+  {
+   "start": 774.78,
+   "end": 775.96,
+   "text": "A series of questions?",
+   "speaker": "S01"
+  },
+  {
+   "start": 776.16,
+   "end": 777.02,
+   "text": "How do you test the cat for rabies?",
+   "speaker": "S01"
+  },
+  {
+   "start": 777.26,
+   "end": 780.36,
+   "text": "Well, actually, even though I can communicate with animals,",
+   "speaker": "S06"
+  },
+  {
+   "start": 781.56,
+   "end": 786.42,
+   "text": "I cannot ask the cat if he has rabies and get an honest response.",
+   "speaker": "S06"
+  },
+  {
+   "start": 786.58,
+   "end": 787.62,
+   "text": "Because the cat will fake it?",
+   "speaker": "S01"
+  },
+  {
+   "start": 787.78,
+   "end": 792.66,
+   "text": "Actually, Ms. Small, what we do is we like to euthanize the cat",
+   "speaker": "S06"
+  },
+  {
+   "start": 792.66,
+   "end": 795.26,
+   "text": "and then take a sample of brain tissue.",
+   "speaker": "S06"
+  },
+  {
+   "start": 795.56,
+   "end": 796.3,
+   "text": "Oh, man.",
+   "speaker": "S06"
+  },
+  {
+   "start": 796.3,
+   "end": 802.84,
+   "text": "But now, Ms. Small, I think what we need to do with Brendan here is get him to a doctor, a physician.",
+   "speaker": "S06"
+  },
+  {
+   "start": 802.96,
+   "end": 803.94,
+   "text": "Do you have a physician?",
+   "speaker": "S06"
+  },
+  {
+   "start": 804.16,
+   "end": 805.04,
+   "text": "Yeah, we have a physician.",
+   "speaker": "S01"
+  },
+  {
+   "start": 805.28,
+   "end": 810.44,
+   "text": "Well, you should contact him and get Brendan right over there and get him vaccinated for rabies.",
+   "speaker": "S06"
+  },
+  {
+   "start": 810.62,
+   "end": 813.4,
+   "text": "Then you and I can deal with the cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 813.64,
+   "end": 814.12,
+   "text": "Okay, okay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 814.28,
+   "end": 815.02,
+   "text": "So wait a minute.",
+   "speaker": "S06"
+  },
+  {
+   "start": 815.22,
+   "end": 816.42,
+   "text": "You're going to kill the cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 816.6,
+   "end": 819.98,
+   "text": "We don't actually call it killing the cat, Brendan.",
+   "speaker": "S06"
+  },
+  {
+   "start": 820.12,
+   "end": 822.38,
+   "text": "We call it making cotton candy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 822.66,
+   "end": 826.2,
+   "text": "We whip up a good old batch of cotton candy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 826.3,
+   "end": 828.44,
+   "text": "How about that, Brendan? Do you love cotton candy?",
+   "speaker": "S06"
+  },
+  {
+   "start": 828.58,
+   "end": 830.48,
+   "text": "Wait a minute. Just before, I have a couple of questions.",
+   "speaker": "S06"
+  },
+  {
+   "start": 830.78,
+   "end": 835.08,
+   "text": "Just please. Is there any way to keep the cat alive and just let it be rabid for a while?",
+   "speaker": "S06"
+  },
+  {
+   "start": 835.38,
+   "end": 836.48,
+   "text": "You can't just let the cat be rabid.",
+   "speaker": "S13"
+  },
+  {
+   "start": 836.64,
+   "end": 838.76,
+   "text": "Just until the Peabody's get home. Can we just keep it alive?",
+   "speaker": "S06"
+  },
+  {
+   "start": 838.84,
+   "end": 842.06,
+   "text": "Brendan, you know what? I think it's really sweet of you to want to keep the cat alive.",
+   "speaker": "S01"
+  },
+  {
+   "start": 842.24,
+   "end": 842.98,
+   "text": "This is not your cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 843.14,
+   "end": 844.74,
+   "text": "This is somebody else's cat. No.",
+   "speaker": "S06"
+  },
+  {
+   "start": 844.9,
+   "end": 846.34,
+   "text": "Where are the owners of the cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 846.56,
+   "end": 847.16,
+   "text": "They're on vacation.",
+   "speaker": "S01"
+  },
+  {
+   "start": 847.46,
+   "end": 848.74,
+   "text": "So you're taking care of the cat?",
+   "speaker": "S06"
+  },
+  {
+   "start": 848.88,
+   "end": 850.2,
+   "text": "It's the Peabody's. Well, not good care, but yeah.",
+   "speaker": "S01"
+  },
+  {
+   "start": 850.78,
+   "end": 851.4,
+   "text": "Sorry, Brendan.",
+   "speaker": "S01"
+  },
+  {
+   "start": 851.62,
+   "end": 855.06,
+   "text": "So that's going to be a sweet hello when they come home.",
+   "speaker": "S06"
+  },
+  {
+   "start": 855.92,
+   "end": 857.06,
+   "text": "You know what I'm saying?",
+   "speaker": "S06"
+  },
+  {
+   "start": 857.46,
+   "end": 863.52,
+   "text": "What I will do here is observe the cat for 24 to 48 hours to see if he is rabid.",
+   "speaker": "S06"
+  },
+  {
+   "start": 863.86,
+   "end": 864.68,
+   "text": "Yes, Brendan.",
+   "speaker": "S06"
+  },
+  {
+   "start": 865.02,
+   "end": 866.26,
+   "text": "I want you to take me, too.",
+   "speaker": "S06"
+  },
+  {
+   "start": 866.66,
+   "end": 867.3,
+   "text": "Brendan, honey.",
+   "speaker": "S01"
+  },
+  {
+   "start": 867.56,
+   "end": 868.0,
+   "text": "No, Mom, stop.",
+   "speaker": "S01"
+  },
+  {
+   "start": 868.0,
+   "end": 870.2,
+   "text": "Oh, no, that's a common reaction this fall.",
+   "speaker": "S06"
+  },
+  {
+   "start": 870.5,
+   "end": 872.34,
+   "text": "The children usually do feel very guilty.",
+   "speaker": "S06"
+  },
+  {
+   "start": 872.34,
+   "end": 873.0,
+   "text": "It's my fault.",
+   "speaker": "S06"
+  },
+  {
+   "start": 873.0,
+   "end": 874.64,
+   "text": "I should go down with the cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 874.64,
+   "end": 875.82,
+   "text": "And I'll tell you something.",
+   "speaker": "S06"
+  },
+  {
+   "start": 875.94,
+   "end": 877.38,
+   "text": "We have ways to deal with this.",
+   "speaker": "S06"
+  },
+  {
+   "start": 877.82,
+   "end": 879.46,
+   "text": "Brendan, have a lollipop.",
+   "speaker": "S06"
+  },
+  {
+   "start": 879.94,
+   "end": 880.44,
+   "text": "All right?",
+   "speaker": "S06"
+  },
+  {
+   "start": 880.52,
+   "end": 881.2,
+   "text": "That is genius.",
+   "speaker": "S01"
+  },
+  {
+   "start": 881.52,
+   "end": 882.06,
+   "text": "Thank you.",
+   "speaker": "S01"
+  },
+  {
+   "start": 882.36,
+   "end": 882.96,
+   "text": "Absolute genius.",
+   "speaker": "S13"
+  },
+  {
+   "start": 882.96,
+   "end": 884.58,
+   "text": "What's your favorite flavor, Brendan?",
+   "speaker": "S06"
+  },
+  {
+   "start": 887.28,
+   "end": 890.14,
+   "text": "Well, no, there's no cure for rabies as of yet.",
+   "speaker": "S06"
+  },
+  {
+   "start": 890.36,
+   "end": 894.62,
+   "text": "So what we do here is we have to put the cat to sleep.",
+   "speaker": "S06"
+  },
+  {
+   "start": 895.0,
+   "end": 895.62,
+   "text": "Oh, no.",
+   "speaker": "S05"
+  },
+  {
+   "start": 896.04,
+   "end": 896.28,
+   "text": "Yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 897.08,
+   "end": 898.88,
+   "text": "Put to sleep for how long?",
+   "speaker": "S11"
+  },
+  {
+   "start": 899.18,
+   "end": 901.12,
+   "text": "Are you going to kill Alexandre?",
+   "speaker": "S03"
+  },
+  {
+   "start": 901.2,
+   "end": 902.9,
+   "text": "Well, we don't like to call it kill.",
+   "speaker": "S06"
+  },
+  {
+   "start": 903.46,
+   "end": 906.02,
+   "text": "With kids, we call it making cotton candy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 906.38,
+   "end": 907.7,
+   "text": "Monkey, hold my hand.",
+   "speaker": "S12"
+  },
+  {
+   "start": 908.1,
+   "end": 908.56,
+   "text": "All right.",
+   "speaker": "S12"
+  },
+  {
+   "start": 908.76,
+   "end": 910.34,
+   "text": "I like the cotton candy thing.",
+   "speaker": "S11"
+  },
+  {
+   "start": 910.48,
+   "end": 914.2,
+   "text": "Well, in that case, then, we're going to make some cotton candy with Alexandra.",
+   "speaker": "S06"
+  },
+  {
+   "start": 915.06,
+   "end": 919.32,
+   "text": "If you'd like to be with the cat during its final moments, that is fine.",
+   "speaker": "S06"
+  },
+  {
+   "start": 919.56,
+   "end": 923.04,
+   "text": "You'll have to, of course, stay behind the glass barrier",
+   "speaker": "S06"
+  },
+  {
+   "start": 923.04,
+   "end": 926.66,
+   "text": "because, as you know, the cat is rapid, and we do have to take precautions.",
+   "speaker": "S06"
+  },
+  {
+   "start": 927.1,
+   "end": 928.04,
+   "text": "We restrain the cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 928.24,
+   "end": 931.14,
+   "text": "We have these cute little buckles that we put around it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 931.24,
+   "end": 932.08,
+   "text": "Those are cute.",
+   "speaker": "S12"
+  },
+  {
+   "start": 932.36,
+   "end": 932.64,
+   "text": "Yeah.",
+   "speaker": "S12"
+  },
+  {
+   "start": 932.84,
+   "end": 933.38,
+   "text": "It's funny.",
+   "speaker": "S12"
+  },
+  {
+   "start": 933.52,
+   "end": 936.56,
+   "text": "When everything's animal-sized, it's much cuter, isn't it?",
+   "speaker": "S06"
+  },
+  {
+   "start": 936.76,
+   "end": 937.16,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 937.82,
+   "end": 938.02,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 940.82,
+   "end": 942.16,
+   "text": "Neither of them will come to the door.",
+   "speaker": "S01"
+  },
+  {
+   "start": 942.24,
+   "end": 943.92,
+   "text": "They'll just talk on the intercom thing.",
+   "speaker": "S01"
+  },
+  {
+   "start": 945.42,
+   "end": 946.7,
+   "text": "Yeah, no, I tried to bring food.",
+   "speaker": "S01"
+  },
+  {
+   "start": 946.98,
+   "end": 950.5,
+   "text": "I brought Butterfingers one day, I brought Cracker Jacks,",
+   "speaker": "S01"
+  },
+  {
+   "start": 950.56,
+   "end": 952.78,
+   "text": "and they just, I mean, they won't even open the door, I guess.",
+   "speaker": "S01"
+  },
+  {
+   "start": 953.72,
+   "end": 955.92,
+   "text": "Okay, well, I read about a pet cemetery.",
+   "speaker": "S01"
+  },
+  {
+   "start": 955.94,
+   "end": 959.28,
+   "text": "I was thinking that I would foot the bill for a service.",
+   "speaker": "S01"
+  },
+  {
+   "start": 959.5,
+   "end": 962.2,
+   "text": "Oh, no, they have a, I think they have an urn.",
+   "speaker": "S01"
+  },
+  {
+   "start": 963.46,
+   "end": 966.62,
+   "text": "Yeah, they provide the person to say the words,",
+   "speaker": "S01"
+  },
+  {
+   "start": 966.74,
+   "end": 968.28,
+   "text": "which I can't remember what that would be called,",
+   "speaker": "S01"
+  },
+  {
+   "start": 968.36,
+   "end": 970.9,
+   "text": "and you also get some doilies.",
+   "speaker": "S01"
+  },
+  {
+   "start": 971.92,
+   "end": 973.42,
+   "text": "I'm doing this out of sheer guilt.",
+   "speaker": "S01"
+  },
+  {
+   "start": 973.42,
+   "end": 978.24,
+   "text": "Even if I never have to deal with her again, I'll know in my own heart that I did what I can do.",
+   "speaker": "S01"
+  },
+  {
+   "start": 981.18,
+   "end": 981.8,
+   "text": "Shh.",
+   "speaker": "S05"
+  },
+  {
+   "start": 985.98,
+   "end": 992.04,
+   "text": "We are here today to celebrate the memory of a truly beloved cat.",
+   "speaker": "S11"
+  },
+  {
+   "start": 992.6,
+   "end": 999.32,
+   "text": "Alexandra Peabody, son of Poopy and Kitay, a good, good kitty.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1000.04,
+   "end": 1003.22,
+   "text": "He is in the place where all cats go.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1003.42,
+   "end": 1012.7,
+   "text": "A small subdivision of animal heaven called Whiskerville, where the rivers flow with milk and the trees are filled with tuna.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1013.38,
+   "end": 1021.1,
+   "text": "Montgomery and Bunny, without this cat in your lives, you will notice yourselves ultimately buying a lot less cat food.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1021.54,
+   "end": 1025.68,
+   "text": "It is our curse as human beings to outlive our beloved feline friends.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1026.12,
+   "end": 1031.4,
+   "text": "We must say goodbye, feel sad, and finally get another kitty.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1031.4,
+   "end": 1034.84,
+   "text": "A different kitty to love and pet and clean up after.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1035.4,
+   "end": 1037.6,
+   "text": "It is the cycle of kitties.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1037.98,
+   "end": 1041.76,
+   "text": "A moment of silence, please, for Alexandra.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1044.42,
+   "end": 1048.8,
+   "text": "Everything would have happened nicely if I hadn't done anything with the cat.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1048.8,
+   "end": 1050.66,
+   "text": "That's not true. It would have happened to somebody else.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1050.82,
+   "end": 1052.74,
+   "text": "It was bound to happen one way or the other.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1052.92,
+   "end": 1054.12,
+   "text": "I don't think that's true.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1054.12,
+   "end": 1056.58,
+   "text": "I think if I had not tried to feed the cat,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1056.76,
+   "end": 1059.58,
+   "text": "then the cat would have stayed in the house and not gotten rabies",
+   "speaker": "S06"
+  },
+  {
+   "start": 1059.58,
+   "end": 1061.2,
+   "text": "and could have lived another ten years.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1061.2,
+   "end": 1063.42,
+   "text": "Now that you put it like that, I can really see that.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1063.78,
+   "end": 1064.5,
+   "text": "But it's...",
+   "speaker": "S06"
+  },
+  {
+   "start": 1065.02,
+   "end": 1066.22,
+   "text": "Oh, my mother...",
+   "speaker": "S03"
+  },
+  {
+   "start": 1066.22,
+   "end": 1067.7,
+   "text": "Oh, my goodness.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1068.02,
+   "end": 1068.68,
+   "text": "Oh, me.",
+   "speaker": "S03"
+  },
+  {
+   "start": 1069.38,
+   "end": 1070.92,
+   "text": "Oh, for Christ's sakes.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1071.44,
+   "end": 1071.98,
+   "text": "Oh, boy.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1072.38,
+   "end": 1073.78,
+   "text": "Mom, you hit the Peabody's.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1073.98,
+   "end": 1074.26,
+   "text": "Damn it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1074.62,
+   "end": 1075.1,
+   "text": "Are they dead?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1075.46,
+   "end": 1076.32,
+   "text": "They're not... No.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1076.42,
+   "end": 1077.08,
+   "text": "No, they're moving.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1077.46,
+   "end": 1078.02,
+   "text": "Oh, man.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1081.72,
+   "end": 1083.2,
+   "text": "But is everybody okay?",
+   "speaker": "S05"
+  },
+  {
+   "start": 1083.7,
+   "end": 1084.38,
+   "text": "Everyone's fine.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1084.92,
+   "end": 1086.46,
+   "text": "They're pissed off, you know.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1086.58,
+   "end": 1086.76,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1087.02,
+   "end": 1088.34,
+   "text": "Well, they know it was an accident.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1088.72,
+   "end": 1089.8,
+   "text": "Yeah, that was an accident.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1089.8,
+   "end": 1091.34,
+   "text": "I mean, the whole thing was an accident.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1092.02,
+   "end": 1092.34,
+   "text": "Yes.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1092.64,
+   "end": 1097.38,
+   "text": "You know, Brendan, you should try and do something to make them feel better and to make yourself feel better about it.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1097.64,
+   "end": 1098.74,
+   "text": "I'd like to do that.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1098.8,
+   "end": 1100.92,
+   "text": "Maybe something to help them remember Alexandre.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1101.04,
+   "end": 1102.34,
+   "text": "I had a couple of things.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1102.46,
+   "end": 1103.14,
+   "text": "Give me your ideas.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1103.28,
+   "end": 1104.2,
+   "text": "I'll tell you what you should do.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1104.48,
+   "end": 1105.58,
+   "text": "I was going to clean their car.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1106.14,
+   "end": 1106.7,
+   "text": "Not good.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1106.94,
+   "end": 1107.26,
+   "text": "Next.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1107.66,
+   "end": 1108.16,
+   "text": "Oh, wait.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1108.28,
+   "end": 1108.72,
+   "text": "I know.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1108.88,
+   "end": 1110.22,
+   "text": "I have this thing in the backyard.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1110.58,
+   "end": 1113.66,
+   "text": "I've been doing this long jump thing, and every day I get a little bit further.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1113.96,
+   "end": 1114.08,
+   "text": "Yeah.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1114.08,
+   "end": 1117.84,
+   "text": "Now, if I bring that out to the front of their yard and I start like a walk-a-thon kind of a thing,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1117.84,
+   "end": 1119.62,
+   "text": "I'll have people pledge money.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1119.94,
+   "end": 1122.06,
+   "text": "Brendan, I don't think the jump-a-thon is a good idea.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1122.06,
+   "end": 1123.52,
+   "text": "The Brendan Small Jump-a-thon.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1123.72,
+   "end": 1125.46,
+   "text": "Maybe there's something else you could do.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1125.64,
+   "end": 1125.92,
+   "text": "Okay.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1126.18,
+   "end": 1129.4,
+   "text": "Let's focus more on something that you can give them that they could keep.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1129.66,
+   "end": 1130.04,
+   "text": "Yes.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1130.24,
+   "end": 1130.84,
+   "text": "Good idea.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1131.04,
+   "end": 1131.32,
+   "text": "All right.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1131.42,
+   "end": 1132.18,
+   "text": "Focus on that.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1132.24,
+   "end": 1132.74,
+   "text": "I'm going to.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1136.32,
+   "end": 1139.46,
+   "text": "What's the one thing you've learned from treating animals over all these years?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1140.38,
+   "end": 1145.52,
+   "text": "Well, I guess the one thing I've learned is that being a vet is not great.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1146.06,
+   "end": 1153.0,
+   "text": "I guess what I learned from all this is that the search is the most important part.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1153.52,
+   "end": 1157.7,
+   "text": "Right? Like Pinto, when we found the cat, it had rabies.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1157.9,
+   "end": 1163.14,
+   "text": "So the lesson is that when you search for something, don't find it.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1163.24,
+   "end": 1165.9,
+   "text": "Because when you find it, it has rabies.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1166.3,
+   "end": 1170.44,
+   "text": "Although it is a cliché to see a kitty playing with a ball of yarn, it's cliché for a reason.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1170.72,
+   "end": 1174.12,
+   "text": "A ball of yarn is fun. It's something humans never figured out.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1174.6,
+   "end": 1180.06,
+   "text": "Humans never saw the beauty in a ball gun. They tried to make it into things. Sweaters, blankets.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1180.38,
+   "end": 1183.86,
+   "text": "But the cat knew all along that it was good as it was.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1185.06,
+   "end": 1187.12,
+   "text": "Brendan, that really was very sweet.",
+   "speaker": "S12"
+  },
+  {
+   "start": 1187.46,
+   "end": 1189.18,
+   "text": "It was awfully nice of you.",
+   "speaker": "S11"
+  },
+  {
+   "start": 1189.2,
+   "end": 1189.9,
+   "text": "Very, very nice.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1190.08,
+   "end": 1192.46,
+   "text": "You guys patronizing me or do you really like this?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1192.66,
+   "end": 1194.58,
+   "text": "No, I liked it very much.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1194.72,
+   "end": 1194.86,
+   "text": "Really?",
+   "speaker": "S01"
+  },
+  {
+   "start": 1195.12,
+   "end": 1195.78,
+   "text": "Yeah, yeah.",
+   "speaker": "S05"
+  },
+  {
+   "start": 1196.08,
+   "end": 1198.5,
+   "text": "You don't think it was a little heavy-handed with the music and everything?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1199.3,
+   "end": 1201.62,
+   "text": "No, no. It was very nice, honey.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1201.86,
+   "end": 1202.24,
+   "text": "Thank you.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1202.28,
+   "end": 1202.86,
+   "text": "You did a very lovely job.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1202.86,
+   "end": 1206.98,
+   "text": "Thanks. Mr. and Mrs. Peabody, can I get that tape back? Because it's my only copy.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1207.2,
+   "end": 1207.88,
+   "text": "Oh, sure.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1208.1,
+   "end": 1208.38,
+   "text": "Thank you.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1208.62,
+   "end": 1211.16,
+   "text": "Gee, again, I'm really, really sorry about the car.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1211.42,
+   "end": 1214.62,
+   "text": "I'm probably not going to be able to make a film about it the way that Brendan did.",
+   "speaker": "S01"
+  },
+  {
+   "start": 1217.5,
+   "end": 1219.4,
+   "text": "In my hand, I have a mouse.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1219.88,
+   "end": 1222.6,
+   "text": "It cost me $3.95.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1223.86,
+   "end": 1225.76,
+   "text": "And I'm going to eat this mouse. I'm kidding.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1225.98,
+   "end": 1226.28,
+   "text": "No.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1226.28,
+   "end": 1226.72,
+   "text": "I'm kidding, no.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1226.88,
+   "end": 1230.02,
+   "text": "The reason I have this mouse is because I want this mouse to live.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1230.66,
+   "end": 1232.5,
+   "text": "I'm saving this mouse from this snake.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1232.94,
+   "end": 1238.54,
+   "text": "This guy's gonna come home with me because this is the only thing I can do. This is what it's come down to",
+   "speaker": "S06"
+  },
+  {
+   "start": 1239.06,
+   "end": 1242.42,
+   "text": "This mouse represents everything to me that can be saved",
+   "speaker": "S06"
+  },
+  {
+   "start": 1246.92,
+   "end": 1248.72,
+   "text": "Okay, it went under the",
+   "speaker": "S05"
+  },
+  {
+   "start": 1249.98,
+   "end": 1250.98,
+   "text": "It's near the dog",
+   "speaker": "S05"
+  },
+  {
+   "start": 1250.98,
+   "end": 1252.74,
+   "text": "Hold on let me there",
+   "speaker": "S06"
+  },
+  {
+   "start": 1267.04,
+   "end": 1269.46,
+   "text": "Here we are at Patty's Plants.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1269.94,
+   "end": 1271.06,
+   "text": "I'm getting this plant here.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1271.28,
+   "end": 1273.04,
+   "text": "I was going to get that plant over there,",
+   "speaker": "S06"
+  },
+  {
+   "start": 1273.18,
+   "end": 1275.34,
+   "text": "but apparently that needs a lot of attention.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1275.66,
+   "end": 1276.98,
+   "text": "So I'm getting this cactus.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1277.34,
+   "end": 1282.24,
+   "text": "The cactus is known for its loyalty and its obedience.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1282.8,
+   "end": 1284.18,
+   "text": "Let me put this down here.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1285.1,
+   "end": 1285.46,
+   "text": "Stay.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1286.92,
+   "end": 1288.12,
+   "text": "Good cactus.",
+   "speaker": "S06"
+  },
+  {
+   "start": 1318.18,
+   "end": 1321.62,
+   "text": "Do you like the music or the lyrics first?",
+   "speaker": "S06"
+  },
+  {
+   "start": 1323.98,
+   "end": 1327.06,
+   "text": "Don't f*** that when I get any cat.",
+   "speaker": "S03"
+  }
+ ],
+ "times": {
+  "transcribe_s": 69.4,
+  "speaker_id_s": 9.6
+ }
+}
