@@ -1,0 +1,8 @@
+# data.json is regenerated in place (same filename) whenever the transcript
+# pipeline runs, so it can't be cached forever -- but a repeat visitor
+# shouldn't re-download the whole ~1.7MB payload on every single page load.
+# stale-while-revalidate serves the cached copy instantly and refreshes it
+# quietly in the background.
+
+/data.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
