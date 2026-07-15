@@ -314,6 +314,8 @@
 
 <footer>
   Fan-made, unofficial archive of Home Movies (Adult Swim, 1999–2004). Transcribed with Whisper — expect the odd mangled word. Video plays straight from YouTube.
+  <br><br>
+  Like homemoviessearch? You'll probably like <a href="https://drkatzsearch.netlify.app" target="_blank" rel="noopener">drkatzsearch</a>.
 </footer>
 
 <div id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
@@ -336,7 +338,17 @@ let LINES = null;          // flattened line objects with derived fields
 let EP_MAP = null;         // idx -> episode
 const LS_KEY = "hm_voice_names";
 
-const SUGGESTED_CHIPS = ["soccer", "guitar", "movie", "camera", "wine", "script"];
+/* Hand-picked, not algorithmic -- a "most repeated short phrase" heuristic
+   just surfaces filler ("all right", "i don't know"), not jokes. Every one
+   of these is a verbatim line pulled from the transcripts and checked to
+   actually return a result. */
+const SUGGESTED_CHIPS = [
+  "wax your ass", "it's actually mcgurk", "a real rash", "in my hand, i have a mouse",
+  "my bird, my talking bird", "you son of a bitch, you pig", "shaped like a footballer",
+  "pour me another brandy", "that's my eye", "little piece of shit, scott",
+  "cheers for brandon, for brandon", "junk shore", "eraser smells like strawberries",
+  "cat will fake it", "you'll certainly be hearing from us", "stired myself until now",
+];
 
 /* ---------- overrides / naming ---------- */
 function loadOverrides() {
@@ -669,33 +681,10 @@ function renderLanding() {
   stats.innerHTML = `<b>${DATA.lines.length.toLocaleString()}</b> lines · <b>${DATA.episodes.length}</b> episodes · <b>${seasons}</b> seasons`;
 }
 
-/* running-gag chips: short lines a named cast member repeats across more
-   than one episode make far better "try this" bait than generic nouns —
-   computed from the transcript itself rather than hand-picked, so it's
-   always grounded in what's actually there */
-function computeRunningGagChips() {
-  const seen = new Map(); // normalized text -> Set of episodes it showed up in
-  for (const item of LINES) {
-    if (!isNamed(item.sid)) continue;
-    const norm = item.text.trim().toLowerCase().replace(/[.?!,]+$/, "");
-    const wordCount = norm.split(/\s+/).length;
-    if (wordCount < 2 || wordCount > 5) continue;
-    if (!seen.has(norm)) seen.set(norm, new Set());
-    seen.get(norm).add(item.epIdx);
-  }
-  const recurring = [...seen.entries()]
-    .filter(([, eps]) => eps.size >= 2)
-    .map(([norm]) => norm)
-    .sort((a, b) => seen.get(b).size - seen.get(a).size)
-    .slice(0, 30);
-  return recurring.length >= 6 ? recurring : SUGGESTED_CHIPS;
-}
-
 function renderChips() {
   const box = document.getElementById("chips");
   box.innerHTML = "";
-  const pool = computeRunningGagChips();
-  const picks = [...pool].sort(() => Math.random() - 0.5).slice(0, 6);
+  const picks = [...SUGGESTED_CHIPS].sort(() => Math.random() - 0.5).slice(0, 6);
   picks.forEach(phrase => {
     const b = document.createElement("button");
     b.className = "chip"; b.type = "button"; b.textContent = phrase;
