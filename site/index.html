@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home Movies transcript search — every line from all 52 episodes</title>
+<title>Home Movies transcript search: every line from all 52 episodes</title>
 <meta name="description" content="Search every line of dialogue from all 52 episodes of Home Movies (Adult Swim, 1999–2004). Fan-made archive, transcribed with Whisper, plays right from YouTube.">
 <meta property="og:title" content="Home Movies transcript search">
 <meta property="og:description" content="Every line from all 52 episodes of Home Movies, searchable. Fan-made, transcribed with Whisper, plays via YouTube.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://homemoviessearch.netlify.app/">
+<link rel="canonical" href="https://homemoviessearch.netlify.app/">
 <meta name="theme-color" content="#150a04">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23150a04'/%3E%3Crect x='3' y='9' width='26' height='16' rx='2' fill='%23e3ae28'/%3E%3Ccircle cx='11' cy='17' r='3.6' fill='%23150a04'/%3E%3Ccircle cx='21' cy='17' r='3.6' fill='%23150a04'/%3E%3Crect x='3' y='6' width='26' height='3' rx='1' fill='%23c65e3d'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -313,7 +315,7 @@
 </main>
 
 <footer>
-  Fan-made, unofficial archive of Home Movies (Adult Swim, 1999–2004). Transcribed with Whisper — expect the odd mangled word. Video plays straight from YouTube.
+  Fan-made, unofficial archive of Home Movies (Adult Swim, 1999–2004). Transcribed with Whisper, so expect the odd mangled word. Video plays straight from YouTube.
   <br><br>
   Like homemoviessearch? You'll probably like <a href="https://drkatzsearch.netlify.app" target="_blank" rel="noopener">drkatzsearch</a>.
 </footer>
@@ -455,7 +457,7 @@ function populateEpisodeSelect(seasonFilter) {
     eps.forEach(e => {
       const o = document.createElement("option");
       o.value = e.idx;
-      o.textContent = `${e.code} — ${e.title}`;
+      o.textContent = `${e.code}: ${e.title}`;
       og.appendChild(o);
     });
     epSel.appendChild(og);
@@ -535,6 +537,54 @@ function relevanceScoreHM(text, sid, tokenCount) {
   return density + (isNamed(sid) ? 0.25 : 0);
 }
 
+/* ---------- typo tier: real edit-distance matching ----------
+   When the substring tiers find nothing, each query word is compared against
+   the corpus's own vocabulary with Levenshtein edit distance, so "guiter"
+   still finds "guitar". Catches both user typos and Whisper mishearings. */
+const typoTolerance = (w) => (w.length <= 4 ? 1 : w.length <= 8 ? 2 : 3);
+
+function editDistance(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = new Array(b.length + 1);
+  let curr = new Array(b.length + 1);
+  for (let j = 0; j <= b.length; j++) prev[j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    curr[0] = i;
+    let rowMin = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost);
+      if (curr[j] < rowMin) rowMin = curr[j];
+    }
+    if (rowMin > max) return max + 1;
+    [prev, curr] = [curr, prev];
+  }
+  return prev[b.length];
+}
+
+let vocabCacheHM = null;
+function corpusVocabHM() {
+  if (vocabCacheHM) return vocabCacheHM;
+  const words = new Map();
+  for (const item of LINES)
+    for (const w of item.textLower.split(/[^a-z0-9']+/))
+      if (w.length > 2) words.set(w, (words.get(w) || 0) + 1);
+  vocabCacheHM = words;
+  return words;
+}
+
+function closeSpellings(w) {
+  const tol = typoTolerance(w);
+  const found = [];
+  for (const [cand, count] of corpusVocabHM()) {
+    if (cand === w) continue;
+    const d = editDistance(w, cand, tol);
+    if (d <= tol) found.push({ cand, d, count });
+  }
+  found.sort((a, b) => a.d - b.d || b.count - a.count);
+  return found.slice(0, 8).map((x) => x.cand);
+}
+
 function runSearchHM(qRaw, pool) {
   const parsed = parseQuery(qRaw);
   const tokenCount = parsed.phrases.length + parsed.words.length || 1;
@@ -565,6 +615,34 @@ function runSearchHM(qRaw, pool) {
       for (const h of hits2) h.score = relevanceScoreHM(h.item.text, h.item.sid, tokenCount);
       hits2.sort((a, b) => b.score - a.score);
       return { hits: hits2, mode: "loose", tokens };
+    }
+  }
+
+  // typo tier: every word must appear as itself OR a close spelling (real
+  // edit distance against the corpus vocabulary). Runs before the word-drop
+  // fuzzy tier so "guiter lessons" finds "guitar lessons" instead of every
+  // line that merely contains "lessons". Quoted phrases stay verbatim.
+  if (parsed.words.length && !parsed.phrases.length) {
+    const variantMap = new Map();
+    let anyNewSpelling = false;
+    for (const w of parsed.words) {
+      const variants = [w, ...(w.length > 2 ? closeSpellings(w) : [])];
+      if (variants.length > 1) anyNewSpelling = true;
+      variantMap.set(w, variants);
+    }
+    if (anyNewSpelling) {
+      const hitsT = [];
+      for (const item of pool) {
+        if (parsed.words.every((w) => variantMap.get(w).some((v) => item.textLower.includes(v)))) {
+          const asTyped = parsed.words.filter((w) => item.textLower.includes(w)).length;
+          hitsT.push({ item, spans: false, score: asTyped * 2 + relevanceScoreHM(item.text, item.sid, tokenCount) });
+        }
+      }
+      if (hitsT.length) {
+        hitsT.sort((a, b) => b.score - a.score);
+        const usedVariants = [...new Set([].concat(...parsed.words.map((w) => variantMap.get(w))))];
+        return { hits: hitsT, mode: "typo", tokens: usedVariants };
+      }
     }
   }
 
@@ -635,7 +713,7 @@ function buildResultCard(hit) {
   const copyTextBtn = div.querySelector('[data-role="copytext"]');
   copyTextBtn.addEventListener("click", async (e) => {
     e.stopPropagation();
-    const quote = `"${displayText}" — ${displayName(item.sid)}, ${ep ? `${ep.code} ${ep.title}` : `Ep ${item.epIdx}`} ${location.origin}${location.pathname}${momentHash(item.epIdx, item.t)}`;
+    const quote = `"${displayText}" (${displayName(item.sid)}, ${ep ? `${ep.code}: ${ep.title}` : `Ep ${item.epIdx}`}) ${location.origin}${location.pathname}${momentHash(item.epIdx, item.t)}`;
     const ok = await copyToClipboard(quote);
     const fb = div.querySelector(".copy-text-feedback");
     if (ok) {
@@ -657,8 +735,9 @@ function renderResults() {
 
   results.innerHTML = "";
   const total = currentMatches.length;
-  const modeNote = currentMode === "loose" ? " (no exact match — showing lines with all your words, best matches first)"
-    : currentMode === "fuzzy" ? " (fuzzy match — showing lines with most of your words, best matches first)" : "";
+  const modeNote = currentMode === "loose" ? " (no exact match: showing lines with all your words, best matches first)"
+    : currentMode === "typo" ? " (no exact match: showing lines with close spellings of your words, best matches first)"
+    : currentMode === "fuzzy" ? " (fuzzy match: showing lines with most of your words, best matches first)" : "";
   status.textContent = `${total.toLocaleString()} match${total===1?"":"es"}${modeNote}`;
   noMatches.hidden = total !== 0;
 
@@ -728,9 +807,11 @@ function computeAndRender() {
     if (spFilter && item.sid !== spFilter) return false;
     return true;
   });
-  const { hits, mode } = runSearchHM(q, pool);
+  const { hits, mode, tokens } = runSearchHM(q, pool);
   currentMatches = hits;
   currentMode = mode;
+  // typo matches highlight the corrected spellings, not just what was typed
+  if (mode === "typo" && tokens && tokens.length) queryWords = tokens;
   visibleCount = PAGE_SIZE;
   renderResults();
   syncHash(q, epFilter, spFilter);
@@ -758,8 +839,16 @@ function debouncedSearch() {
 
 /* ---------- random line ---------- */
 function showRandomLine() {
-  const item = LINES[Math.floor(Math.random() * LINES.length)];
-  openModal(item);
+  // prefer substantial lines (a real sentence, ideally a named voice) over
+  // two-word fragments, so the dice button lands on something quotable
+  let pick = null;
+  for (let tries = 0; tries < 40; tries++) {
+    const item = LINES[Math.floor(Math.random() * LINES.length)];
+    const words = item.text.split(/\s+/).length;
+    if (words >= 6 && isNamed(item.sid)) { pick = item; break; }
+    if (words >= 6 && !pick) pick = item;
+  }
+  openModal(pick || LINES[Math.floor(Math.random() * LINES.length)]);
 }
 
 /* ---------- season pills ---------- */
@@ -864,7 +953,7 @@ function openModal(item, triggerEl) {
   modalTrigger = triggerEl || document.activeElement;
   modalCurrentItem = item;
   modalContextRadius = 2;
-  document.getElementById("modalTitle").textContent = `${ep.code} — ${ep.title}`;
+  document.getElementById("modalTitle").textContent = `${ep.code}: ${ep.title}`;
   loadModalIframe(ep.yt_start + item.t, item.epIdx);
   renderModalContext(item);
   const modal = document.getElementById("modal");
@@ -921,7 +1010,7 @@ function showLoadError(err) {
   const status = document.getElementById("status");
   status.innerHTML = `<div class="empty">
     <span class="big">Couldn't load the transcripts.</span>
-    ${escapeHtml(err.message || String(err))} — check your connection and try again.
+    ${escapeHtml(err.message || String(err))}. Check your connection and try again.
     <br><button id="retryLoad" class="dice-btn" type="button" style="margin-top:10px;">Retry</button>
   </div>`;
   document.getElementById("retryLoad").addEventListener("click", boot);
@@ -979,8 +1068,15 @@ async function boot() {
   renderLanding();
   renderChips();
   wireSeasonPills();
-  computeAndRender();
+  // restore a bookmarked search/moment BEFORE the first render — the other
+  // way round, the initial empty render's syncHash() rewrites the URL to
+  // bare #search and the shared link's query is lost
   applyHashRoute();
+  computeAndRender();
+
+  // follow hash changes after load too (pasted permalink in an open tab,
+  // browser back/forward across searches)
+  window.addEventListener("hashchange", applyHashRoute);
 
   document.getElementById("search").addEventListener("input", debouncedSearch);
   document.getElementById("epFilter").addEventListener("change", computeAndRender);
@@ -1007,7 +1103,7 @@ async function boot() {
   document.getElementById("modalCopyText")?.addEventListener("click", async () => {
     if (!modalCurrentItem) return;
     const ep = EP_MAP.get(modalCurrentItem.epIdx);
-    const quote = `"${modalCurrentItem.text}" — ${displayName(modalCurrentItem.sid)}, ${ep ? `${ep.code} ${ep.title}` : ""} ${location.origin}${location.pathname}${momentHash(modalCurrentItem.epIdx, modalCurrentSeconds)}`;
+    const quote = `"${modalCurrentItem.text}" (${displayName(modalCurrentItem.sid)}${ep ? `, ${ep.code}: ${ep.title}` : ""}) ${location.origin}${location.pathname}${momentHash(modalCurrentItem.epIdx, modalCurrentSeconds)}`;
     const ok = await copyToClipboard(quote);
     const btn = document.getElementById("modalCopyText");
     if (ok) {
