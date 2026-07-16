@@ -1,162 +1,188 @@
 {
- "S06": "Brendon",
- "S05": "Melissa",
- "S02": "Eric",
- "S04": "Coach McGuirk",
- "S08": "Lynch",
- "S09": "Shannon",
- "S12": "Paula",
- "S01": "Paula",
- "S23": "Paula",
- "S22": "Jason",
- "S78": "Linda",
- "S90": "Perry",
- "S95": "Fenton",
- "S99": "Sham",
- "_meta": {
-  "S06": {
-   "auto": true,
-   "votes": 227,
-   "runner_up": [
-    "Melissa",
-    21
-   ]
+  "S06": "Brendon",
+  "S05": "Melissa",
+  "S02": "Eric",
+  "S04": "Coach McGuirk",
+  "S08": "Lynch",
+  "S09": "Shannon",
+  "S12": "Paula",
+  "S01": "Paula",
+  "S23": "Paula",
+  "S22": "Jason",
+  "S78": "Linda",
+  "S90": "Perry",
+  "S95": "Fenton",
+  "S99": "Sham",
+  "_meta": {
+    "S06": {
+      "auto": true,
+      "votes": 227,
+      "runner_up": [
+        "Melissa",
+        21
+      ]
+    },
+    "S05": {
+      "auto": true,
+      "votes": 70,
+      "runner_up": [
+        "Brendon",
+        13
+      ]
+    },
+    "S02": {
+      "auto": true,
+      "votes": 8,
+      "runner_up": [
+        "Big",
+        1
+      ]
+    },
+    "S04": {
+      "auto": true,
+      "votes": 68,
+      "runner_up": [
+        "Sham",
+        30
+      ]
+    },
+    "S03": {
+      "auto": true,
+      "votes": 13,
+      "runner_up": [
+        "Brenda",
+        2
+      ],
+      "lost_collision_to": "S06"
+    },
+    "S08": {
+      "auto": true,
+      "votes": 10,
+      "runner_up": [
+        "Brendon",
+        2
+      ]
+    },
+    "S09": {
+      "auto": true,
+      "votes": 3,
+      "runner_up": [
+        "Ummm",
+        1
+      ]
+    },
+    "S12": {
+      "auto": true,
+      "votes": 5,
+      "runner_up": [
+        "Jason",
+        2
+      ]
+    },
+    "S01": {
+      "auto": false,
+      "note": "different voice actor, same character as Paula (S12/S23) per user confirmation; voiceprint cosine sim to S12/S23 is low (0.12/0.23) so not auto-clustered"
+    },
+    "S23": {
+      "auto": false,
+      "note": "different voice actor, same character as Paula (S01/S12) per user confirmation; voiceprint cosine sim to S01/S12 is low (0.23/0.17) so not auto-clustered"
+    },
+    "S22": {
+      "auto": true,
+      "votes": 82,
+      "runner_up": [
+        "Brendon",
+        30
+      ]
+    },
+    "S21": {
+      "auto": true,
+      "votes": 5,
+      "runner_up": [
+        "Melissa",
+        1
+      ],
+      "lost_collision_to": "S99"
+    },
+    "S78": {
+      "auto": true,
+      "votes": 7,
+      "runner_up": [
+        "Andrew",
+        3
+      ]
+    },
+    "S80": {
+      "auto": true,
+      "votes": 4,
+      "runner_up": [
+        "Fred",
+        2
+      ],
+      "lost_collision_to": "S78"
+    },
+    "S90": {
+      "auto": true,
+      "votes": 6,
+      "runner_up": [
+        "Brandon",
+        1
+      ]
+    },
+    "S95": {
+      "auto": true,
+      "votes": 7,
+      "runner_up": [
+        "Brendon",
+        3
+      ]
+    },
+    "S99": {
+      "auto": true,
+      "votes": 15,
+      "runner_up": [
+        "Paula",
+        1
+      ]
+    },
+    "S204": {
+      "auto": true,
+      "votes": 5,
+      "runner_up": [
+        "Redden",
+        1
+      ],
+      "lost_collision_to": "S99"
+    }
   },
-  "S05": {
-   "auto": true,
-   "votes": 70,
-   "runner_up": [
-    "Brendon",
-    13
-   ]
-  },
-  "S02": {
-   "auto": true,
-   "votes": 8,
-   "runner_up": [
-    "Big",
-    1
-   ]
-  },
-  "S04": {
-   "auto": true,
-   "votes": 68,
-   "runner_up": [
-    "Sham",
-    30
-   ]
-  },
-  "S03": {
-   "auto": true,
-   "votes": 13,
-   "runner_up": [
-    "Brenda",
-    2
-   ],
-   "lost_collision_to": "S06"
-  },
-  "S08": {
-   "auto": true,
-   "votes": 10,
-   "runner_up": [
-    "Brendon",
-    2
-   ]
-  },
-  "S09": {
-   "auto": true,
-   "votes": 3,
-   "runner_up": [
-    "Ummm",
-    1
-   ]
-  },
-  "S12": {
-   "auto": true,
-   "votes": 5,
-   "runner_up": [
-    "Jason",
-    2
-   ]
-  },
-  "S01": {
-   "auto": false,
-   "note": "different voice actor, same character as Paula (S12/S23) per user confirmation; voiceprint cosine sim to S12/S23 is low (0.12/0.23) so not auto-clustered"
-  },
-  "S23": {
-   "auto": false,
-   "note": "different voice actor, same character as Paula (S01/S12) per user confirmation; voiceprint cosine sim to S01/S12 is low (0.23/0.17) so not auto-clustered"
-  },
-  "S22": {
-   "auto": true,
-   "votes": 82,
-   "runner_up": [
-    "Brendon",
-    30
-   ]
-  },
-  "S21": {
-   "auto": true,
-   "votes": 5,
-   "runner_up": [
-    "Melissa",
-    1
-   ],
-   "lost_collision_to": "S99"
-  },
-  "S78": {
-   "auto": true,
-   "votes": 7,
-   "runner_up": [
-    "Andrew",
-    3
-   ]
-  },
-  "S80": {
-   "auto": true,
-   "votes": 4,
-   "runner_up": [
-    "Fred",
-    2
-   ],
-   "lost_collision_to": "S78"
-  },
-  "S90": {
-   "auto": true,
-   "votes": 6,
-   "runner_up": [
-    "Brandon",
-    1
-   ]
-  },
-  "S95": {
-   "auto": true,
-   "votes": 7,
-   "runner_up": [
-    "Brendon",
-    3
-   ]
-  },
-  "S99": {
-   "auto": true,
-   "votes": 15,
-   "runner_up": [
-    "Paula",
-    1
-   ]
-  },
-  "S204": {
-   "auto": true,
-   "votes": 5,
-   "runner_up": [
-    "Redden",
-    1
-   ],
-   "lost_collision_to": "S99"
-  }
- },
- "S41": "Stephanie",
- "S163": "Walter",
- "S165": "Simon",
- "S207": "Ping Pong von Laserstein"
+  "S41": "Stephanie",
+  "S163": "Walter",
+  "S165": "Simon",
+  "S207": "Ping Pong von Laserstein",
+  "S110": "Octavio",
+  "S117": "Fenton",
+  "S131": "Pendlehurst",
+  "S141": "Tom Wilsonberg",
+  "S149": "911 Emergency Operator",
+  "S15": "Eugene",
+  "S16": "Don",
+  "S17": "Midge",
+  "S176": "Eugene",
+  "S177": "Eugene",
+  "S178": "Marco",
+  "S18": "Mitch",
+  "S197": "Penny",
+  "S201": "Maggie McFarlane",
+  "S203": "Cho",
+  "S24": "Drew",
+  "S34": "Grandpa",
+  "S44": "Dixie Smithley",
+  "S46": "Larry",
+  "S48": "Charlie",
+  "S64": "Fenton Muley",
+  "S70": "Mrs. Adelberg",
+  "S77": "Walter",
+  "S83": "Clarice",
+  "S87": "Perry",
+  "S88": "Natasha"
 }

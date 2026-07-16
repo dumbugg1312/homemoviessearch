@@ -64,7 +64,7 @@
     {
       "start": 28.56,
       "end": 29.96,
-      "text": "声声",
+      "text": "",
       "sus": true,
       "speaker": "S03"
     },
@@ -413,7 +413,7 @@
     {
       "start": 108.5,
       "end": 110.04,
-      "text": "Honey, mommy can't deal with spells.",
+      "text": "Honey, mommy can't deal with spills.",
       "speaker": "S01"
     },
     {
@@ -701,7 +701,7 @@
     {
       "start": 181.3,
       "end": 182.74,
-      "text": "Hey, Brynn, can I tell you something?",
+      "text": "Hey, Brendon, can I tell you something?",
       "speaker": "S01"
     },
     {
@@ -2387,13 +2387,13 @@
     {
       "start": 741.04,
       "end": 743.14,
-      "text": "My pants are so good at that.",
+      "text": "My pranks are so good at that.",
       "speaker": "S02"
     },
     {
       "start": 743.5,
       "end": 745.16,
-      "text": "Dad, you have to watch the run.",
+      "text": "Dad, you have to watch the road.",
       "speaker": "S06"
     },
     {
@@ -3071,13 +3071,13 @@
     {
       "start": 1024.4,
       "end": 1025.18,
-      "text": "Brenda, get off the phone.",
+      "text": "Brendon, get off the phone.",
       "speaker": "S04"
     },
     {
       "start": 1025.22,
       "end": 1025.68,
-      "text": "Brenda, hi.",
+      "text": "Brendon, hi.",
       "speaker": "S04"
     },
     {

@@ -824,7 +824,7 @@
   {
    "start": 196.84,
    "end": 198.88,
-   "text": "I'm sound like a user.",
+   "text": "I sound like a loser.",
    "speaker": "S03"
   },
   {
@@ -836,13 +836,13 @@
   {
    "start": 201.16,
    "end": 202.58,
-   "text": "That's sound like me.",
+   "text": "That sounds like me.",
    "speaker": "S57"
   },
   {
    "start": 203.38,
    "end": 206.0,
-   "text": "Everyone thinks I'm sound like that.",
+   "text": "Everyone thinks I sound like that.",
    "speaker": "S101"
   },
   {
@@ -1094,7 +1094,7 @@
   {
    "start": 267.28,
    "end": 268.28,
-   "text": "Brandon, what's the score?",
+   "text": "Brendon, what's the score?",
    "speaker": "S04"
   },
   {
@@ -1148,7 +1148,7 @@
   {
    "start": 280.24,
    "end": 281.48,
-   "text": "Brandon, what's a yellow card?",
+   "text": "Brendon, what's a yellow card?",
    "speaker": "S04"
   },
   {
@@ -2523,21 +2523,21 @@
   {
    "start": 694.74,
    "end": 698.22,
-   "text": "I was tryin' to follow you",
+   "text": "",
    "sus": true,
    "speaker": "S06"
   },
   {
    "start": 698.22,
    "end": 698.24,
-   "text": "I was tryin' to follow you",
+   "text": "",
    "sus": true,
    "speaker": "S06"
   },
   {
    "start": 698.24,
    "end": 698.34,
-   "text": "I was tryin' to follow you",
+   "text": "",
    "sus": true,
    "speaker": "S06"
   },
@@ -2838,7 +2838,7 @@
   {
    "start": 811.32,
    "end": 812.36,
-   "text": "It's your fault, Brennan.",
+   "text": "It's your fault, Brendon.",
    "speaker": "S05"
   },
   {

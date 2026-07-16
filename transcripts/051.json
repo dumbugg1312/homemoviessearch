@@ -107,21 +107,21 @@
   {
    "start": 0.0,
    "end": 0.58,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S04"
   },
   {
    "start": 0.58,
    "end": 0.8,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S04"
   },
   {
    "start": 0.8,
    "end": 1.16,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S04"
   },
@@ -1238,13 +1238,13 @@
   {
    "start": 410.94,
    "end": 414.52,
-   "text": "And he lost in vision before it grew early",
+   "text": "And he lost his vision before it grew early",
    "speaker": "S21"
   },
   {
    "start": 414.52,
    "end": 418.58,
-   "text": "And developed a list and stopped smelling things",
+   "text": "And developed a lisp and stopped smelling things",
    "speaker": "S21"
   },
   {
@@ -2150,7 +2150,7 @@
   {
    "start": 756.04,
    "end": 758.7,
-   "text": "Yeah, you better do it quick, Brenda, and the line is getting long.",
+   "text": "Yeah, you better do it quick, Brendon, and the line is getting long.",
    "speaker": "S206"
   },
   {

@@ -493,7 +493,7 @@
   {
    "start": 131.76,
    "end": 133.6,
-   "text": "Great smoke's me head's on fire.",
+   "text": "Great Scott, me head's on fire.",
    "speaker": "S167"
   },
   {
@@ -703,7 +703,7 @@
   {
    "start": 191.06,
    "end": 192.7,
-   "text": "Beware the mighty scepter pus.",
+   "text": "Beware the mighty Septipus.",
    "speaker": "S95"
   },
   {
@@ -1915,7 +1915,7 @@
   {
    "start": 601.22,
    "end": 601.58,
-   "text": "Benton.",
+   "text": "Fenton.",
    "speaker": "S22"
   },
   {
@@ -2359,7 +2359,7 @@
   {
    "start": 768.52,
    "end": 769.1,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S06"
   }

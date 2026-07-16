@@ -114,21 +114,21 @@
   {
    "start": 1.66,
    "end": 2.62,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S21"
   },
   {
    "start": 6.06,
    "end": 6.36,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S21"
   },
   {
    "start": 10.06,
    "end": 11.02,
-   "text": ".",
+   "text": "",
    "sus": true,
    "speaker": "S22"
   },
@@ -1971,7 +1971,7 @@
   {
    "start": 393.44,
    "end": 396.12,
-   "text": "Um, I've said I have Thai food. Is that bad?",
+   "text": "Um, I've fed him Thai food. Is that bad?",
    "speaker": "S22"
   },
   {
@@ -2367,7 +2367,7 @@
   {
    "start": 483.14,
    "end": 484.86,
-   "text": "Hunky Magoo, please! Get out, Mr. Pickles!",
+   "text": "Honky Magoo, please! Get out, Mr. Pickles!",
    "speaker": "S06"
   },
   {
@@ -2403,7 +2403,7 @@
   {
    "start": 494.74,
    "end": 495.74,
-   "text": "Down, Hunky Magoo!",
+   "text": "Down, Honky Magoo!",
    "speaker": "S189"
   },
   {
@@ -3855,7 +3855,7 @@
   {
    "start": 881.22,
    "end": 883.48,
-   "text": "Mr. Nunch, that looks like a cat.",
+   "text": "Mr. Lynch, that looks like a cat.",
    "speaker": "S22"
   },
   {
@@ -4701,7 +4701,7 @@
   {
    "start": 1180.1,
    "end": 1181.0,
-   "text": "Hockey Magoo!",
+   "text": "Honky Magoo!",
    "speaker": "S08"
   },
   {

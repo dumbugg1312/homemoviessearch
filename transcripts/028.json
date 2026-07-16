@@ -2245,7 +2245,7 @@
   {
    "start": 653.88,
    "end": 654.72,
-   "text": "Book a mulligan.",
+   "text": "Book him, Mulligan.",
    "speaker": "S05"
   },
   {
@@ -2281,13 +2281,13 @@
   {
    "start": 665.7,
    "end": 668.3,
-   "text": "No, it's Detective Woonewski.",
+   "text": "No, it's Detective Winooski.",
    "speaker": "S22"
   },
   {
    "start": 668.78,
    "end": 671.78,
-   "text": "No, you're Detective Mulligan. I'm Detective Woonewski.",
+   "text": "No, you're Detective Mulligan. I'm Detective Winooski.",
    "speaker": "S05"
   },
   {
